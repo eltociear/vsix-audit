@@ -318,6 +318,13 @@ COMMENT_LINE = re.compile(r"^\s*(?://|/\*|\*|#|<!--|REM\s)")
 NO_STARTUP_ESCALATION = {"auth_bypass", "remote_installer", "obfuscation_heavy", "browser_store_read"}
 # A command rendered for the user to copy (HTML/markdown/“run:” prose), not executed.
 DISPLAY_CTX = re.compile(r"(?:<(?:code|pre|div|span|p|kbd|li|td)\b[^>]*>|\\?`|\b(?:run|paste|execute|terminal|install(?:\s+it)?)\s*(?:this|the following|:|,)?\s*[\"'`]?)\s*$", re.I)
+# Deny-rule tables: {label: "rm -rf ~"}, reason: "refuses `rm -rf ~`" ...
+DENY_CTX = re.compile(r"(?:label|reason|pattern|desc\w*|title|message|deny\w*|block\w*|danger\w*|forbid\w*|"
+                      r"refus\w*|dangerous|destructive)\W{0,4}[\"'`]?[^\"'`\n]{0,40}[\"'`]?$", re.I)
+LOG_CTX = re.compile(r"(?:\becho|\bprintf?|\blog\w*|console\.\w+|\bwarn\w*|\berror|\binfo)\s*\(?\s*[\"'][^\"'\n]{0,80}$", re.I)
+# a bundled package.json "scripts" entry ("publish:ovsx": "ovsx publish -p $OVSX_PAT")
+NPM_SCRIPT_CTX = re.compile(r"[\"'][\w:.-]*(?:publish|release|deploy|ovsx|vsce)[\w:.-]*[\"']\s*:\s*[\"'][^\"'\n]{0,120}$", re.I)
+TELEGRAM_HARDCODED = re.compile(r"api\.telegram\.org/bot\d{6,}:[A-Za-z0-9_-]{30,}")
 SHELL_FILE = (".sh", ".ps1", ".bat", ".cmd")
 LIST_ELEMENT = re.compile(r"[\[,]\s*[\"'`]$")
 LIST_LINE = re.compile(r"^\s*[\"'`][^\"'`]{0,200}[\"'`]\s*[,\]]?\s*$")
@@ -353,11 +360,18 @@ def _vendor_tokens(pkg):
 
 
 def _vendor_host(matched, vendor):
-    m = re.search(r"https://([a-z0-9.-]+)", matched, re.I)
-    if not m:
-        return False
-    labels = {t for t in re.split(r"[^a-z0-9]+", m.group(1).lower()) if len(t) >= 3}
-    return any(l in vendor or any(v in l for v in vendor) for l in labels - GENERIC_TOKENS)
+    """True if the install URL's host (or GitHub org, for raw.githubusercontent.com / github.com)
+    carries the extension's own identity."""
+    m = re.search(r"https://(?:raw\.githubusercontent\.com|github\.com)/([A-Za-z0-9-]+)/", matched)
+    host = m.group(1) if m else None
+    if not host:
+        m = re.search(r"https://([a-z0-9.-]+)", matched, re.I)
+        if not m:
+            return False
+        host = m.group(1)
+    labels = {t for t in re.split(r"[^a-z0-9]+", host.lower()) if len(t) >= 3} - GENERIC_TOKENS
+    return any(l in vendor or any(v in l for v in vendor) or (len(l) >= 5 and any(l in v for v in vendor))
+               for l in labels)
 
 
 def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
@@ -418,13 +432,20 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
         # A dangerous command as an element of a string list is a blocklist / deny-rule table
         # (auto-approve and terminal-safety extensions ship these), not code that runs.
         if f["id"] in ("destructive", "download_execute", "reverse_shell") and (
-                LIST_ELEMENT.search(text[max(0, pos - 12):pos]) or LIST_LINE.match(lines[f["line"] - 1])):
+                LIST_ELEMENT.search(text[max(0, pos - 12):pos]) or LIST_LINE.match(lines[f["line"] - 1])
+                or DENY_CTX.search(text[max(0, pos - 60):pos])):
             f["severity"] = "INFO"
             f["description"] += " [string in a command list]"
             continue
         # env dump with no network sink nearby is a debug print / a shell-command string.
         if f["id"] == "env_exfil" and not near("net", NET_RE, pos):
             f["severity"] = "INFO"
+        # Telegram integrations call api.telegram.org/bot${userToken}; a stealer hard-codes
+        # its own bot token.
+        elif (f["id"] == "exfil_host" and "telegram" in f["matched"].lower()
+              and not TELEGRAM_HARDCODED.search(text, pos, pos + 120)):
+            f["severity"] = "INFO"
+            f["description"] += " [user-configured bot token]"
         # an exfil host with no send nearby is a string in docs / config UI;
         # one inside a long list of domains is a public-suffix / blocklist table.
         elif f["id"] == "exfil_host" and (not near("net", NET_RE, pos) or
@@ -432,15 +453,17 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
             f["severity"] = "INFO"
             f["description"] += " [no nearby send / domain list]"
         # an install command rendered for the user to copy is documentation, not execution.
-        if f["id"] == "download_execute" and DISPLAY_CTX.search(text[max(0, pos - 60):pos]):
+        if f["id"] == "download_execute" and (DISPLAY_CTX.search(text[max(0, pos - 60):pos])
+                                              or LOG_CTX.search(text[max(0, pos - 100):pos])):
             f["severity"] = "INFO"
             f["description"] += " [shown to the user]"
             continue
         # a publisher's own release script shipped in the package (`ovsx publish -p $PAT` in a
         # .sh file) is CI leakage; a worm runs publish from the extension's JS.
-        if f["id"] == "worm_propagation" and path.lower().endswith(SHELL_FILE):
+        if f["id"] == "worm_propagation" and (path.lower().endswith(SHELL_FILE)
+                                               or NPM_SCRIPT_CTX.search(text[max(0, pos - 160):pos])):
             f["severity"] = "INFO"
-            f["description"] += " [release script shipped in the package]"
+            f["description"] += " [publisher's release script / npm script shipped in the package]"
             continue
         # running an official vendor installer (uv, rustup, ...) is setup, not an attack.
         if f["id"] == "download_execute" and KNOWN_INSTALLER.search(f["matched"] + f["context"]):
@@ -451,7 +474,8 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
         # decision worth showing, not an attack. Any other host, plain http, raw IPs and
         # paste/gist/tunnel/shortener hosts stay CRITICAL.
         elif (f["id"] == "download_execute" and vendor and _vendor_host(f["matched"], vendor)
-              and not SKETCHY_HOST.search(f["matched"]) and not RAWIP_RE.search(f["matched"])
+              and (not SKETCHY_HOST.search(f["matched"]) or "githubusercontent.com/" in f["matched"])
+              and "https://" in f["matched"] and not RAWIP_RE.search(f["matched"])
               and not EXFIL_RE.search(f["matched"])):
             f["severity"], f["id"], f["name"] = "MEDIUM", "remote_installer", "Remote Installer Piped to Shell"
             f["description"] = ("Pipes an HTTPS install script from the extension's own vendor domain into a "

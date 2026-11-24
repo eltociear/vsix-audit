@@ -31,9 +31,12 @@ EXPECT = {
     "mal-obfuscated": ("HIGH", "obfuscation"),
     "mal-cookie-stealer": ("HIGH", "browser_store_read"),
     "mal-chrome-key": ("HIGH", "wallet_browser_theft"),
+    "mal-telegram-stealer": ("CRITICAL", "credential_exfil"),
+    "mal-http-installer": ("CRITICAL", "download_execute"),
 }
 # reported, but deliberately below the HIGH line: an installer from the extension's own vendor
-MEDIUM = {"med-vendor-installer": "remote_installer", "med-cookie-import": "browser_store_read"}
+MEDIUM = {"med-vendor-installer": "remote_installer", "med-cookie-import": "browser_store_read",
+          "med-vendor-github-org": "remote_installer"}
 
 
 def main():
