@@ -31,6 +31,12 @@ any of them (one is built from the same template as the GlassWorm-linked themes 
 encrypted stage: a sleeper). Microsoft's removal applied to Marketplace builds we cannot
 download. It is listed so that nobody reads "0/18" as either a miss or a clean bill.
 
+**Benign control: the "Material Theme" scare.** In February 2025 `Equinusocio.vsc-material-theme`
+was pulled from the Marketplace as malware and later reinstated: the accusation rested on obfuscated
+code in a bundled dependency. Version 34.7.7 (the build current at the time) and 34.7.16 both scan
+**SAFE** with v0.1.0 and v0.2.0 (the obfuscated bundle is reported as INFO). A scanner that flags
+obfuscation alone would have repeated that false alarm.
+
 The v0.1.0 misses on real malware were not exotic:
 
 - **AES-decrypt-then-eval.** Both GlassWorm-linked themes ship `crypto.createDecipheriv('aes-256-cbc', '<hard-coded key>', …)` over an 8 KB hex blob and `eval` the plaintext. No base64, no `_0x`, no network in the first stage: v0.1.0 saw nothing. → `decrypt_eval`.
