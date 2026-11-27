@@ -1,0 +1,8133 @@
+[
+{
+"src": "openvsx",
+"id": "mistralai.mistral-vibe-code",
+"version": "1.30.0",
+"downloads": 48005,
+"rank": 946,
+"sha256": "e132a7f074ee1c65f3449fa92aefbc99c33e495b7822067d33890cbbdf2776a7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "keesschollaart.vscode-home-assistant",
+"version": "2.2.0",
+"downloads": 47236,
+"rank": 951,
+"sha256": "2c973745101e547107b0c9542abdedd6e7a20cbc5858bccfde471d1a7d3ce152",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "redhat.devspaces-remote-ssh",
+"version": "0.7.2026112508",
+"downloads": 47216,
+"rank": 952,
+"sha256": "2e8c3bef1c8afdcea22b4d123c050eab91d901aa1f8d5c41ae61763d1fa452de",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "hollowtree.vue-snippets",
+"version": "0.1.12",
+"downloads": 47180,
+"rank": 953,
+"sha256": "628510b95d861964ed00320bac0776e587aa56c235f7a78e40aa19dc5a524bb1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "uni-helper.uni-highlight-vscode",
+"version": "0.3.17",
+"downloads": 47098,
+"rank": 954,
+"sha256": "5db3c6bb710fd971b16ebee58fff431e18cdcca35a96e348b694881d19e32969",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "wesbos.theme-cobalt2",
+"version": "2.4.3",
+"downloads": 46883,
+"rank": 955,
+"sha256": "67c66ef0565389dd48035cb19ffcf2decc729541255a4e2aea8262214d8dd570",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "arifszn.seemore-vscode",
+"version": "2.4.1",
+"downloads": 46804,
+"rank": 956,
+"sha256": "e28a59276dc9804a507d2b7a156ac74256cd74310bba182fc5f7b4016e26e037",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "theqtcompany.qt-ui",
+"version": "1.17.1",
+"downloads": 46784,
+"rank": 957,
+"sha256": "b853b8bb637d3e083e3682aee0904f6878511bb025cfd9ee715bdc1484bf1cb5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Swimm.swimm",
+"version": "1.66.11",
+"downloads": 46634,
+"rank": 958,
+"sha256": "e6b2137ff5406039b691147cfcaab1817c0ad27b64174185b7a201d51503bf9a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "typefox.open-collaboration-tools",
+"version": "0.3.9",
+"downloads": 46198,
+"rank": 959,
+"sha256": "ae02b9ef1e3a98da057dca65897557d1b9a4543aa3322f17ddedf611b8249bd8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "SAPSE.vscode-cds",
+"version": "10.1.1",
+"downloads": 46191,
+"rank": 960,
+"sha256": "d5b1d76f72e45b2024ae74c87c4a18c2f959cf1e9c12b988e1d5c31a193d404d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AdaCore.ada",
+"version": "2027.0.202610121",
+"downloads": 46078,
+"rank": 961,
+"sha256": "6bb1fd9954c3c358354ffefa728a81478495236c5f11e281cfbd9219d75b335f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "FastAPILabs.fastapi-vscode",
+"version": "0.4.0",
+"downloads": 46040,
+"rank": 962,
+"sha256": "70a36750777e6447edeef32221e170e4c365a50dda59b6040eeebaeffd73bcf7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "andreas-prouza.obi",
+"version": "2.2.4",
+"downloads": 46025,
+"rank": 963,
+"sha256": "e40c1a9e94cbef4b38d37626f2b70c810f6f931ac58a6be558ac39321c6805e0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Jetify.devbox",
+"version": "0.1.9",
+"downloads": 46014,
+"rank": 964,
+"sha256": "377d0fabe35c940a268715b273e790dccf0a28768ff46a090cb022323076c38f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "swmansion.react-native-ide",
+"version": "1.21.20261104",
+"downloads": 45980,
+"rank": 965,
+"sha256": "c5831ef87cad9566285143fee8395520930c5e1f69ef7acdc7c6bb68dc1d4582",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "wharflab.tally",
+"version": "0.45.0",
+"downloads": 45850,
+"rank": 966,
+"sha256": "e23935357575e09bda89427675db066fe1d3a39af7db134c4d73cc7c076ea61e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ms-vscode.azure-account",
+"version": "0.13.0",
+"downloads": 45766,
+"rank": 967,
+"sha256": "35e47eb7b5435ff85c729ebc9ff98890b45e7c50ef5bd34a2b3ffd8314dd1f2d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "fogio.jetbrains-color-theme",
+"version": "1.0.3",
+"downloads": 45687,
+"rank": 968,
+"sha256": "52c26a39ffe38de11df160a795125fa438bac72dbedeaebcc5d1fcd5c1c632f0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "KristianShin.harvi-code",
+"version": "4.2.101",
+"downloads": 45603,
+"rank": 969,
+"sha256": "69bbeffdf8d969d5818c186c38b76542d1331be022633215a978914515933be7",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "openvsx",
+"id": "kiteco.kite",
+"version": "0.147.0",
+"downloads": 45441,
+"rank": 970,
+"sha256": "5937f6c854a81695106f646ec640f96dc9596f5123723ef185a69ac27dcbe2a9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "git-ai.git-ai-vscode",
+"version": "0.1.22",
+"downloads": 45431,
+"rank": 971,
+"sha256": "f88b4e0d10dcd740f6ab788b59ad8ae207f6f8390f9b7e37062a20310982b6df",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "solomonkinard.chromium-context",
+"version": "0.4.7",
+"downloads": 45322,
+"rank": 972,
+"sha256": "e116684dc6e22d63067a298060c39b1eb9d3b75f33cac61869889cfc0320a6e4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "pablodelucca.pixel-agents",
+"version": "1.6.0",
+"downloads": 45287,
+"rank": 973,
+"sha256": "cf0b5362564f0b1841cdba8f3138b701a80634db3399723da38a3aa099fb43b3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "OnPointEPM.codebridge-onestream",
+"version": "7.0.139",
+"downloads": 45204,
+"rank": 974,
+"sha256": "0a554b2b12776080fe89edba27ee7b2616aaaad1f793e66cc3e7e88778eb902f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "zhou491145.ai-novel-writing-system",
+"version": "5.6.21",
+"downloads": 45002,
+"rank": 975,
+"sha256": "19d82ba725abb6195ad8a3ab2efee7f21eb970f1b7d6356bf52a3a0332c2daa5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jbangdev.jbang-vscode",
+"version": "0.12.2026111659",
+"downloads": 44966,
+"rank": 976,
+"sha256": "bace3b7dbf2fc0695378d0d4312ae1ce03f868c5866bf2b105325f6c8205531d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "anseki.vscode-color",
+"version": "0.4.5",
+"downloads": 44906,
+"rank": 977,
+"sha256": "25ab5b64c11590773becba810d0c9be45dd8e1159cdb77a56fde829195918b80",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "banacorn.agda-mode",
+"version": "0.10.12",
+"downloads": 44840,
+"rank": 978,
+"sha256": "5df45cf0d10758e6660c89f0cbf5fd41eede846159535181cbdfff9947798371",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "GerhardBrueckl.fabricstudio",
+"version": "2.29.0",
+"downloads": 44800,
+"rank": 979,
+"sha256": "3aaf1c0bcba3dcdc034eda1a65f7db15e6ac32be7c14ece6b79c8810c1710b38",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "milleniumdawnmodteam.hearts-of-iron-iv-utilities-2026",
+"version": "1.3.420",
+"downloads": 44637,
+"rank": 980,
+"sha256": "f444eee82c4b0fbcaad81cda82fb77e5ffebb5d91025ab8f5b88b0b654d6cd49",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "theqtcompany.qt-python",
+"version": "1.17.1",
+"downloads": 44634,
+"rank": 981,
+"sha256": "d7f81a8dc4071e3976d9494dce896faa591dcc212504d911fdc82d6cd94f0581",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "arjun.swagger-viewer",
+"version": "3.1.2",
+"downloads": 44558,
+"rank": 982,
+"sha256": "1ae05f47e03e91be9556df6aa223355c482e39ff82d94055302b87264cd7ae51",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "knoxchat.knoxchat",
+"version": "1.5.2",
+"downloads": 44475,
+"rank": 983,
+"sha256": "dfc836e6e28647ff8eede901ff87fbdc7c357120d5094c7201d6a7f51175414b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "checkmarx.ast-results",
+"version": "2.75.0",
+"downloads": 44376,
+"rank": 984,
+"sha256": "c3f3ef467f1fb14766a6322cbd4442e3dd987644433d4c8478e1f181ede745fd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AutonomyAI.autonomy-ai",
+"version": "1.0.483",
+"downloads": 44333,
+"rank": 985,
+"sha256": "fce6fd31da70b34811a9abf3e7abbc3d3d73fe11408160ff652512d6030e5908",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "parktaesoo.ltcai",
+"version": "14.3.0",
+"downloads": 44111,
+"rank": 986,
+"sha256": "9694eced6304ff48bdffc83bf5933d6b200dd4ddc4529e46532b8327f6147807",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "richardwillis.vscode-gradle",
+"version": "3.6.1",
+"downloads": 44098,
+"rank": 987,
+"sha256": "422ff85b160cad87247ae1e6f27f92b1a16ec506ad8d8a8923972e3e5cff0d97",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "MOSAICO.mosaico-reference-client",
+"version": "0.4.1787154490",
+"downloads": 44022,
+"rank": 988,
+"sha256": "2717c46b6ac56121be33ddac024f0dc2f4cc89799bfdb23d43528903ae707c7b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "frontier-rnd.frontier-authentication",
+"version": "0.11.0",
+"downloads": 43930,
+"rank": 989,
+"sha256": "6af57be5194003d3b73c96cbef9cdf0fb2e154f8f1b1c09a831491873da3f261",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Supermaven.supermaven",
+"version": "1.1.5",
+"downloads": 43692,
+"rank": 990,
+"sha256": "e7f5efa2919b3c9c6bcc71f342cf1214ea5843f7cbb46a1dd01734c36ac6315f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "znck.vue",
+"version": "0.13.6",
+"downloads": 43675,
+"rank": 991,
+"sha256": "b2985b9493ddd22d47e83ffa833a99f752012551aa6e5c08f5df18d1e3c0aa35",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "secunit.caddyfile-syntax",
+"version": "0.4.128",
+"downloads": 43610,
+"rank": 992,
+"sha256": "79bbd96974a93c28b226ec5fcff22ad84e681ce380ea9e48f42352c05e30bf3d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Zowe.cics-extension-for-zowe",
+"version": "3.23.2",
+"downloads": 43573,
+"rank": 993,
+"sha256": "69beb18711a8b7b6d7309730eaf458e4db472061680e7d4b642b14c48b53f0a3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "bringout.f18-klijent",
+"version": "6.1.9",
+"downloads": 43458,
+"rank": 994,
+"sha256": "13dd1430857c274efb4985de9ca6b8d54a26d715d95b0e4401ce87d839743a9e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "SecurityExpertsCommunity.xp",
+"version": "3.21.7",
+"downloads": 43448,
+"rank": 995,
+"sha256": "3e1cbaf70b80e3ae188bf47db429ed5f6e724656ea638d13909d543f72cc2a3d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "uni-helper.uni-cloud-snippets-vscode",
+"version": "0.6.0",
+"downloads": 43346,
+"rank": 996,
+"sha256": "17e95dc5381254f56375a703805cb0a110f8b5ceae7309cd89cba9dcd03cf032",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "delos-so.delos-cosmos",
+"version": "15.9.95",
+"downloads": 43331,
+"rank": 997,
+"sha256": "4d0df818fe81336397cc5cbc7a0fcb0e01bdb52e6cb371fd8cc2f5611d84576d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "BroadcomMFD.explorer-for-endevor",
+"version": "1.11.7",
+"downloads": 43284,
+"rank": 998,
+"sha256": "52b98090e9826c13201be6931325c195000177eb17c822d99fc5eb3b9d7c359c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "kahole.magit",
+"version": "0.6.70",
+"downloads": 43224,
+"rank": 999,
+"sha256": "8ff0323e9f691e870cf4a5cf2b1b1d0954cd8841f067b9165f29a21e9bfe6666",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AtomicConcepts.atomicviz",
+"version": "4.2.2",
+"downloads": 43100,
+"rank": 1000,
+"sha256": "255425faf21e48861d7495670af426b4020546c1233b80aa94c1ef4904feb6a9",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "openvsx",
+"id": "leodevbro.blockman",
+"version": "1.7.10",
+"downloads": 43080,
+"rank": 1001,
+"sha256": "37c99c34d1c6d19662cada12f7c951bc771cccbaf54397f51ea3f186f44558f4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "subframe7536.custom-ui-style",
+"version": "0.7.3",
+"downloads": 43075,
+"rank": 1002,
+"sha256": "c193884ace440685470f86dcf9dcebb5ce31a8dad5e5a6cc4d57dda987007c62",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Google.gn",
+"version": "1.17.1",
+"downloads": 43069,
+"rank": 1003,
+"sha256": "50d494eabcde099f91a1af6421cdb9d0336eb51e1eb0fc786f5ff24158a4a2aa",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ashishalex.dataform-lsp-vscode",
+"version": "2.0.19",
+"downloads": 43061,
+"rank": 1004,
+"sha256": "8740f08fa2dfb66a78ee42844978076dc35d3a0ebb3a2ff31b7442b658941b96",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "adam-bender.commit-message-editor",
+"version": "0.25.0",
+"downloads": 43047,
+"rank": 1005,
+"sha256": "570e51918dd6e05a8abc25a5b1cc71a4642c7e6de0d9b649e6cba2b72437986f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "alphabotsec.vscode-eclipse-keybindings",
+"version": "0.16.1",
+"downloads": 43016,
+"rank": 1006,
+"sha256": "54ae0e4bb7efa49b07ada71f1dd0bb6e5be1eaa574209b1ee2f751b9dff24ffa",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sasjs.sasjs-for-vscode",
+"version": "3.3.1",
+"downloads": 42988,
+"rank": 1007,
+"sha256": "dc57399155ffae506f1d8d6026e78e8c8091438e584b38d00000acd9bb0f21e6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "KorbinianEckstein.niivue",
+"version": "2.11.168",
+"downloads": 42857,
+"rank": 1008,
+"sha256": "df0a0ed8a644ff07c59cb601dbd726be536facc7425886a397500c739ef8a228",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "glubean.glubean",
+"version": "0.19.0",
+"downloads": 42752,
+"rank": 1009,
+"sha256": "be28d72540c00f7f9221c7f716a8b7d11280ea8eada5a8d894c3dd0de211907b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "bufbuild.vscode-buf",
+"version": "0.8.19",
+"downloads": 42690,
+"rank": 1010,
+"sha256": "4a55ad43ee2add37d727ac9d476fe6dfd99a67ff0a29b81749812c58e2f27a70",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "xicilion.markdown-viewer-extension",
+"version": "6.1.0",
+"downloads": 42667,
+"rank": 1011,
+"sha256": "f04ce8c5a93ce81770a9c17572a4c4ff4b76648e42658f39483a43ba73830819",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ms-vscode.vscode-typescript-tslint-plugin",
+"version": "1.2.2",
+"downloads": 42607,
+"rank": 1012,
+"sha256": "8d1db407a1d44a2237d2b4862de9781895e01fc7e0ef14761df99abaf649bd84",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "SimplyDanny.modelica",
+"version": "0.0.4",
+"downloads": 42599,
+"rank": 1013,
+"sha256": "df6cb4322a19a7b4ddbdce2a78de6b51e2f8080248636ef2f8f8d6d2036c70d2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "arrterian.nix-env-selector",
+"version": "1.3.2",
+"downloads": 42512,
+"rank": 1014,
+"sha256": "c25cf37b421f2d4d6fa831f6ed28eaee62912e5c524bcab3eeb0183348d35990",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "unchase.antigravity-storage-manager",
+"version": "0.16.4",
+"downloads": 42405,
+"rank": 1015,
+"sha256": "fd923b4d667eb8d25f2abdc89e0a4b6d0dbc0e8000cc536f46b243648c5704b3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "saropa.saropa-log-capture",
+"version": "9.9.0",
+"downloads": 42205,
+"rank": 1016,
+"sha256": "88b8a510e645e4ebda85d1ec0f1b0ebdb5792eee36675e985e5d6729995ec8cf",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "zardoy.zardoy-experiments",
+"version": "0.0.137",
+"downloads": 42199,
+"rank": 1017,
+"sha256": "bbe48ee728ea47b197bbca9c3be990017a2954516e795fe358bae93eaa2f1732",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AndreasArvidsson.andreas-talon",
+"version": "3.108.0",
+"downloads": 42137,
+"rank": 1018,
+"sha256": "6e099151274bb9bb6d7df0522fa3804eb5c75f4f2e416af676aaa211be87b1c0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "TabbyML.vscode-tabby",
+"version": "1.28.0",
+"downloads": 42121,
+"rank": 1019,
+"sha256": "dacef802bb0fec225ec38ca8d58e1ed2c1657cb7f8f4bc66782caa11f2edad4b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "GitByBit.gitbybit",
+"version": "1.5.4",
+"downloads": 42114,
+"rank": 1020,
+"sha256": "04461e0a53d42f2b67e1833595a2fbe7530fd362971916aba4aee25b585ca667",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "disjukr.json-type-checker",
+"version": "0.1.3",
+"downloads": 41941,
+"rank": 1021,
+"sha256": "90ea382b625a3a33ba1448af4d851f37422e79129faa3a170d6ce3e5e92df3af",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Swellaby.vscode-rust-test-adapter",
+"version": "0.11.1",
+"downloads": 41799,
+"rank": 1022,
+"sha256": "294ca555e46ead3d1ba1cb484ac8109c3b703ee6b6c986d91fdb09d85caf9e55",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "editor-code-assistant.eca",
+"version": "0.58.1",
+"downloads": 41621,
+"rank": 1023,
+"sha256": "037a5553a4d723935b4d30fac46ecaeb7ae6bee26075c5fb078ee80d85230dc1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "arm.device-manager",
+"version": "1.22.0",
+"downloads": 41573,
+"rank": 1024,
+"sha256": "b80a37d275183a3dc4e9ededeef91f6a8135b3710add9efee66dadcb00e4babd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nextflow.nextflow",
+"version": "1.8.1",
+"downloads": 41567,
+"rank": 1025,
+"sha256": "9d00c27e5bf56a610cf2548b58be01c8beb946349305a9cbadf379059a4d3e2a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "codescene.codescene-vscode",
+"version": "0.29.2",
+"downloads": 41560,
+"rank": 1026,
+"sha256": "e4544ff33dcedd0e75e425546d470112040cd00c5fd3a42aaf4d77059c09644f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nromanov.dotnet-meteor",
+"version": "10.0.2",
+"downloads": 41536,
+"rank": 1027,
+"sha256": "0bc6213247459c5abbfbbc2ca194ee19bc5f53652296b3884d70b8f1b4447cd2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "LeonKohli.snapsource",
+"version": "2.3.0",
+"downloads": 41498,
+"rank": 1028,
+"sha256": "c35eddcbebfd7a8d2b12f0491ecc224df56d289e02f7aead194c7f5c76a7f8f1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "boygr.antigravity-account-switcher",
+"version": "1.4.18",
+"downloads": 41456,
+"rank": 1029,
+"sha256": "0a9bb87355878436a1e4ebe4cb9b0eb365504378eda39d7c01c088b9a3ba5943",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "arcanis.vscode-zipfs",
+"version": "2.4.0-rc.5",
+"downloads": 41429,
+"rank": 1030,
+"sha256": "5107dfd4cf4ce347b5d270781721aa9850eb9e5213e6cb2d6aacdde76776fe22",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mjmlio.vscode-mjml",
+"version": "3.0.5",
+"downloads": 41202,
+"rank": 1031,
+"sha256": "840ccd40a946aa33929a61b7ecda0e52074aec608111c8cbaaef406cb4b514c8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Grogg.grogg",
+"version": "0.6.5",
+"downloads": 41183,
+"rank": 1032,
+"sha256": "64eb9dfa525b531e92c637d257387469d6213a499fb420bdb34930b35e20f18f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sarumaj.depphunter",
+"version": "3.5.3",
+"downloads": 41155,
+"rank": 1033,
+"sha256": "f2ccb39269d7a62e5be3be8b0c4f46f63dfadc829217fe41e8abc2ecd22409eb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "SQLNB.sqlnb-visualizer",
+"version": "0.7.2",
+"downloads": 41120,
+"rank": 1034,
+"sha256": "6b68190dd37fa9da090807c0d168430a741b548910dfb79e7ea293b48f26cd16",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ms-vscode.Go",
+"version": "0.14.3",
+"downloads": 41081,
+"rank": 1035,
+"sha256": "d2425db8ed67362b1e47726807bfe6fc728121010cbbf62c9b322e9045f08b1c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "detachhead.dtach",
+"version": "0.35.3",
+"downloads": 41050,
+"rank": 1036,
+"sha256": "852ecd28024de2fd291c00449279d398231e6721ce44c8164adc85e97102300e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "adelphes.android-dev-ext",
+"version": "1.4.0",
+"downloads": 40793,
+"rank": 1037,
+"sha256": "7fd1a21cae930eedf6613e4603722e7950b357d211c74bb5a7acb834a3d46501",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "castwide.solargraph",
+"version": "0.24.1",
+"downloads": 40756,
+"rank": 1038,
+"sha256": "e080e4951995a54b19c14d71d4cc7d6d90e39fc7bd9ae38b225192829598a3ad",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "JuliaComputing.juliahub-vscode-auth",
+"version": "0.1.15",
+"downloads": 40732,
+"rank": 1039,
+"sha256": "1691180791dc86d3c3653d8b910a79bc23e2a855e8ba9d2c0d5b15f65a4437f7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "formulahendry.vscode-mysql",
+"version": "0.5.0",
+"downloads": 40681,
+"rank": 1040,
+"sha256": "9c4c23dff8fdee308d0e9f973460364efcd914d80e9caa6bba0f0344e8ae1cab",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "NormB.opensips-lsp",
+"version": "0.28.5",
+"downloads": 40653,
+"rank": 1041,
+"sha256": "0ef631c9d943ac2361c0e91ef7860dbebd35735680d07131b07b944c0f658569",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nordic-semiconductor.nrf-connect",
+"version": "2026.11.3027",
+"downloads": 40533,
+"rank": 1042,
+"sha256": "e1569d4fa375eae1fc339d4433a0c885af2938375070cf72d6d5ac9057d6823d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "karunamurti.haml",
+"version": "1.4.1",
+"downloads": 40427,
+"rank": 1043,
+"sha256": "c9127c3d756d0f08bdaeb96b32a7a0e7098712189cae32e9c84336fb24b99b3b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "0xtanzim.filetree-pro",
+"version": "0.2.4",
+"downloads": 40316,
+"rank": 1044,
+"sha256": "f9f3c7b611a758f130b9499fc8c9256793e62a5935a400c8e35a7b092c9b2a3a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "njqdev.vscode-python-typehint",
+"version": "1.5.1",
+"downloads": 40265,
+"rank": 1045,
+"sha256": "903271d60cf3efc08f5d5b6bf36203c6b16d0cc4c08dc95e4fd9ace02f88b478",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "apollographql.vscode-apollo",
+"version": "2.6.6",
+"downloads": 40217,
+"rank": 1046,
+"sha256": "b8578adb4cbc261eac444060ee790e560c52c218b8ab267c8e602bed6fc3e4ec",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "pokey.parse-tree",
+"version": "0.62.0",
+"downloads": 40205,
+"rank": 1047,
+"sha256": "5ab848134d4532d0fcb9af874c776a751de288591412c1ce29727c0655db5e43",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "saltcoreyan.json-format-sortcore",
+"version": "0.0.7",
+"downloads": 40203,
+"rank": 1048,
+"sha256": "2dc88e53f03ee58c305c942eb49b7131ebb60f48b9477d38ff96ef4c30dd0695",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "verdentai.verdent",
+"version": "1.6.13",
+"downloads": 40073,
+"rank": 1049,
+"sha256": "899bed681633986f5d582780ca638b5b3fbce42fd233df459cc915cfee086aae",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "asispts.neo-git-graph",
+"version": "0.6.0",
+"downloads": 40054,
+"rank": 1050,
+"sha256": "2475d9a74bf9eb94fda01e381d6e310c688c844ae3d293298aff000627748c6a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ccls-project.ccls",
+"version": "0.1.31",
+"downloads": 40023,
+"rank": 1051,
+"sha256": "a76b1489af3bac23e26bddfa2c01ce6c4f129a2e023fc4a2398f253a2192b9c9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AquaSecurityOfficial.trivy-vulnerability-scanner",
+"version": "1.8.11",
+"downloads": 40016,
+"rank": 1052,
+"sha256": "eda364242e117bd5a33114132a2ce8dce4f62a087fb6cf3af43b685c8cc4b06f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "NailyZero.vscode-naily-ets",
+"version": "1.3.10",
+"downloads": 39991,
+"rank": 1053,
+"sha256": "eb8ce07873f0b783fa21f95f53854601676fc6bc558f7b8958b6f1c5b94e8947",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "DrBlury.protobuf-vsc",
+"version": "1.6.28",
+"downloads": 39926,
+"rank": 1054,
+"sha256": "957a3d47aca81e39966088eb85801e865d91a1b600691205238f8b98a441811a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "VincentArel-Bundock.calepin",
+"version": "0.0.63",
+"downloads": 39848,
+"rank": 1055,
+"sha256": "7504fda831b6264127db97a5d2bd42fe5f176f662fe06c871351585b52da1730",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "caponetto.vscode-diff-viewer",
+"version": "1.7.0",
+"downloads": 39843,
+"rank": 1056,
+"sha256": "409854111b5ca7d177ccbb6a67e16b887b3109b96a9059a4d21823bbceb856f6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "hotic.acpira",
+"version": "2.1.10",
+"downloads": 39795,
+"rank": 1057,
+"sha256": "b41f547c52f394b9ec38ee9aab1a75579e40eef912702d91fbb55448b559c7ce",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "CasaManagementSolutions.bwat-dev",
+"version": "3.38.0",
+"downloads": 39792,
+"rank": 1058,
+"sha256": "8a37a01b38b0ee7bc019e3eed1740bd39241d440eb7f2661b600b791f5713560",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "donjayamanne.git-extension-pack",
+"version": "0.1.3",
+"downloads": 39589,
+"rank": 1059,
+"sha256": "5c710b2215dc57cb0f05548c965eab1b8142faac859f2cbdb8c254ab825cc3ce",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nadako.vshaxe",
+"version": "2.34.2",
+"downloads": 39585,
+"rank": 1060,
+"sha256": "104d785e3f7b57a7f3debf520d9751f7e7abf3a7e78d203db1a8ff3dc7ca30e2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "labring.open-remote-ssh-for-trae",
+"version": "0.0.4",
+"downloads": 39542,
+"rank": 1061,
+"sha256": "6450741c6eaa3b8ffda116726a97789d376e0861b41c3edee30e47ad9622023d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "MDFireLin.pixiu-os",
+"version": "7.15.2",
+"downloads": 39449,
+"rank": 1062,
+"sha256": "762f6f7613539f2d2a3096dff88853a4c8bca8bfc023258b80b91d0f66a90549",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "intersystems-community.vscode-objectscript",
+"version": "3.8.8",
+"downloads": 39271,
+"rank": 1063,
+"sha256": "1a55aec0f716860662e6cd42fac8079cd90d06f1832f7dc8daca76886df7d21b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "radiolevity.search-lights",
+"version": "1.10.3",
+"downloads": 39189,
+"rank": 1064,
+"sha256": "a3ee9623e33c104413fae855af1d5ffd88df3826661d38cbfb60ffd429e2a84e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "NicholasHsiang.vscode-vue3-snippets",
+"version": "2.2.4",
+"downloads": 39136,
+"rank": 1065,
+"sha256": "16c9a11215d1d9ff677959989e377cc8f90970107632e7dc48bff72cd082d482",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "codeantai.codeantai",
+"version": "0.0.203",
+"downloads": 39066,
+"rank": 1066,
+"sha256": "bf762c3bcd6eade1e73b7ac9b67cdfa91e40f22082988d44b2721d104a100778",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "halcyontechltd.vscode-ibmi-fs",
+"version": "1.0.14",
+"downloads": 39055,
+"rank": 1067,
+"sha256": "27a41b9bc1780d0fd07f02060a4899f2929ae7bc0024768c5b4534fd1d11039b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "kyntrack.python-test",
+"version": "0.0.80",
+"downloads": 39047,
+"rank": 1068,
+"sha256": "7760ed7ec1e0a04e39a30b70f21004de05121d47dccaf963db8568b9b1685b1d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "syncause.ai-debugger",
+"version": "0.5.9",
+"downloads": 38990,
+"rank": 1069,
+"sha256": "f6da71114aa8294df98722eafbe727540e7748691aece56b6cfa20f74d2d6714",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "openvsx",
+"id": "IBM.vscode-ibmi-bob",
+"version": "2.0.1",
+"downloads": 38980,
+"rank": 1070,
+"sha256": "e40119cc568485fa9598e0df8d9f207e77692aa78cf90ff29ac231cf94323122",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "NormB.kamailio-lsp",
+"version": "0.22.3",
+"downloads": 38920,
+"rank": 1071,
+"sha256": "fecec2da662d95311ce3ea43fa8324b56cc827e12a3ebf47f3896ff408452279",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "cesarandreslopez.sidekick-for-max",
+"version": "0.33.5",
+"downloads": 38917,
+"rank": 1072,
+"sha256": "75cb1736fa846dbce5fa1e6fb2d987d9db645ff9f827898d74ab8dced4af52c0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "arm.vscode-cmsis-debugger",
+"version": "1.10.1",
+"downloads": 38880,
+"rank": 1073,
+"sha256": "ab664899e9075c34d0b68cbae384cfe2960158a396ea5714531f6c9affcd86bc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sqlfluff.vscode-sqlfluff",
+"version": "4.0.2",
+"downloads": 38783,
+"rank": 1074,
+"sha256": "a0e1b00c06128e410237f8617d17cfb93e0cae78292d19715c50cc00b610dfba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "DavidGomes.platformio-ide-cursor",
+"version": "0.0.1",
+"downloads": 38581,
+"rank": 1075,
+"sha256": "b7b26739c88ba53bd41cbe9bf020e3b86ff349f4b968399e77516408b03365fc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "CRITICAL",
+"v0.2.0_ids": [
+"worm_propagation"
+]
+},
+{
+"src": "openvsx",
+"id": "tomblind.local-lua-debugger-vscode",
+"version": "0.3.3",
+"downloads": 38474,
+"rank": 1077,
+"sha256": "84cd428312459f5f511d98e9bed914fb9cff828cc132cb55ac0587225b2673ba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "stonewolfpc.swe-obey-me",
+"version": "5.3.32",
+"downloads": 38460,
+"rank": 1078,
+"sha256": "4686d51eef8cf4df70faf9ed96923a8ed9347fa3692889d60e996d7aa34921e3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "babyfox1306.pdf-forge",
+"version": "1.0.9",
+"downloads": 38443,
+"rank": 1079,
+"sha256": "b7ab148e258bde93e511b7d9ffe25296577160fc18567ff8fdfdf42956f8c4c7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "CRITICAL",
+"v0.2.0_ids": [
+"exfil_host"
+]
+},
+{
+"src": "openvsx",
+"id": "saropa.saropa-lints",
+"version": "17.10.9",
+"downloads": 38401,
+"rank": 1081,
+"sha256": "8116ad3e9b45ec1d4312d6a9a9e40deeb7621a8be1a41fd99c75b348ef04fa2a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "clinyong.vscode-css-modules",
+"version": "0.5.4",
+"downloads": 38326,
+"rank": 1082,
+"sha256": "067d099e6b583f759e108f68a3d285652bd91e038738bcb7a426d4b7dd8ea605",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ms-python.anaconda-extension-pack",
+"version": "1.0.1",
+"downloads": 38323,
+"rank": 1083,
+"sha256": "f713e4acba70cdef47f9f21f82f855507adfea529126e4d8dcc6139b6d992f1d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "lean-ai.lean-ai",
+"version": "0.24.2",
+"downloads": 38291,
+"rank": 1084,
+"sha256": "ec56f65558e8b3a140b0fff93dcae78137ed5a2d3e0fe3f5a7d00c261e8e7127",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "matthewpi.caddyfile-support",
+"version": "0.4.0",
+"downloads": 38275,
+"rank": 1085,
+"sha256": "2783b5d7654cdd4965cb2dfd64bc3d89e071542250eb20717622adbd7c8e50ba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "borkdude.clj-kondo",
+"version": "2026.5.25",
+"downloads": 38236,
+"rank": 1086,
+"sha256": "76049a87e4d375fad8ff6aa4e2e0117e23a7a1e065fdf0398c1ed4c25196d63e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "drcika.apc-extension",
+"version": "0.4.1",
+"downloads": 38124,
+"rank": 1087,
+"sha256": "7eadaa97173bf8ca7092b6950a5074146b11d0ad7fd8c4f343449850b331e0a8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mcanouil.quarto-wizard",
+"version": "3.6.3",
+"downloads": 38068,
+"rank": 1088,
+"sha256": "d612706c943aa834ff447d7b6bb6c4a0e207cdffaec9476b4960ce1728324f1e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nefrob.vscode-just-syntax",
+"version": "0.10.2",
+"downloads": 38034,
+"rank": 1089,
+"sha256": "17b1fd7f6e138c1dc9b562d52026304538f16be1933a960dec8cd2954d5ab9da",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "microchip.mplab-extensions-core",
+"version": "2.4.2",
+"downloads": 38010,
+"rank": 1090,
+"sha256": "1574cafad911ffc717ebdef35007fa4eff8522daffbd6abee81b8ddcb05581f5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "alexdauenhauer.catppuccin-noctis-icons",
+"version": "0.3.0",
+"downloads": 38009,
+"rank": 1091,
+"sha256": "7650709e109c05c21413caa080b4bb23a9bb6520bb81ef95976606825a6bbab2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "wizhut.uv-vscode",
+"version": "0.2.2",
+"downloads": 37961,
+"rank": 1092,
+"sha256": "b4804369ff3ebd3d7ea179fa40d4a76f695fb220dcbf15a99bb17b838ebab0d1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "absszero.vscode-laravel-goto",
+"version": "4.37.8",
+"downloads": 37882,
+"rank": 1093,
+"sha256": "374e7089382d878e49705d0b1421db10983a6ef9bc49b93090618c17606ef47f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "singhularity.prexplainer",
+"version": "0.11.2",
+"downloads": 37877,
+"rank": 1094,
+"sha256": "3060e49f7f18c8a147f3ab579863972e72be962a497f420313f39161c9a7f86c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ardonplay.vscode-jetbrains-icon-theme",
+"version": "0.0.4",
+"downloads": 37867,
+"rank": 1095,
+"sha256": "998d5b28669bcf41b5e3c00e46f106994856a3c2bd130b3e043dfc4faf88c60f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "webpro.vscode-knip",
+"version": "2.3.4",
+"downloads": 37836,
+"rank": 1096,
+"sha256": "97bd89a0f526b1ac80c84094da3c8e3dae55b43428d1f9e04508307ab697124d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Yukina.yukinord",
+"version": "0.0.78",
+"downloads": 37816,
+"rank": 1097,
+"sha256": "e49e07a2e9cbc451b01f49096461711b4b284ece7592ef2a441970b2487d401c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "voorjaar.windicss-intellisense",
+"version": "0.21.6",
+"downloads": 37809,
+"rank": 1098,
+"sha256": "39eb1958a170d4b914d22a93bb28febedfc4a173a018932a2ff6ad510b85143c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "medo64.render-crlf",
+"version": "1.9.11",
+"downloads": 37775,
+"rank": 1099,
+"sha256": "e529b234035f93d953d2cd789c0919260862348c11f1519c7987748692208f2f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "watson-devex.ibm-watsonx-orchestrate-agent-builder",
+"version": "1.2.3",
+"downloads": 37774,
+"rank": 1100,
+"sha256": "cfc98f261d7e7d533e1724c7b099b5d02827cca53eb56c2b17a529ed8334efd3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "VASubasRaj.flashpost",
+"version": "2.0.29",
+"downloads": 37745,
+"rank": 1101,
+"sha256": "568dc85cd17e5862f29b2f46d89801a3507c0f8f0b6665e43cdb1845eb9fba5d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ForceConfigControl.lightning-flow-scanner-vsx",
+"version": "3.5.0",
+"downloads": 37577,
+"rank": 1102,
+"sha256": "0183454c7777563792439b972f6dff2ce3b7dfcf12f109d4d9ae2693a056acd8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "postqode.postqode",
+"version": "3.0.34",
+"downloads": 37571,
+"rank": 1103,
+"sha256": "7cfb0092e744609e2329db3c4698e73fa92d03a217c301987369076b42a74991",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "openvsx",
+"id": "evaera.vscode-rojo",
+"version": "2.1.2",
+"downloads": 37551,
+"rank": 1104,
+"sha256": "6fed7d47ad8e36901d5b0f38967d6e0ace56a622ea8e3af187dd6e5248d33adc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "vmikhailov.code-explorer-vscode",
+"version": "1.106.4",
+"downloads": 37548,
+"rank": 1105,
+"sha256": "40569886b1af13713ee9cbad942311bca5eca700720b418b50d29413b7ed471b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "LegitSecurity.legit-vibeguard",
+"version": "0.1.245",
+"downloads": 37503,
+"rank": 1106,
+"sha256": "b37c27e8bcb90e7dafeed4bc991a636a80d940c7653377b948bf1eb4274e81f2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "travis.simple-dark",
+"version": "1.6.3",
+"downloads": 37430,
+"rank": 1107,
+"sha256": "ee49b9328f66f7591db8b5de27e8de0ab2c4123186f0e8f2a65ef619d37e4c3a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "unthrottled.doki-theme",
+"version": "88.1.15",
+"downloads": 37371,
+"rank": 1108,
+"sha256": "e41ba3ec0dce4bda7c42f50d817bcaeaa98a6577e82535a87f9efb26a7af18b0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "aergic.zygos-kiro",
+"version": "0.9.4",
+"downloads": 37351,
+"rank": 1109,
+"sha256": "58543db5af220ea116b0f3840a40efc27465610243b58d89b342aa82e9f1bbd6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "context-engine.context-engine-uploader",
+"version": "2.3.30",
+"downloads": 37337,
+"rank": 1110,
+"sha256": "eae55054de3dc56e401b2e99cd0289656b85df21abc7681536f14a3b8431aaf3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "HansUXdev.bootstrap5-snippets",
+"version": "1.2.5",
+"downloads": 37328,
+"rank": 1111,
+"sha256": "e2ff01a4a26a2da37fc02e799d46f161adc8f4b225cb8cfdb7cde7f33cc54aff",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "cloudstudio.github-authentication",
+"version": "0.0.15",
+"downloads": 37291,
+"rank": 1112,
+"sha256": "53c63f40b6b34e881a800cca3cea27631d7059f9bddb12afe28be2e652f23d3b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "baidusdp.sdp-dev-pack",
+"version": "1.0.111",
+"downloads": 37280,
+"rank": 1113,
+"sha256": "fb2a1df5cbb1afa20e28aad282e9d88da3e7a8712dbb39631854884ef2a4e272",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "srl-labs.vscode-containerlab",
+"version": "0.28.0",
+"downloads": 37232,
+"rank": 1114,
+"sha256": "c4cc83ead8eefb51bc0eec2ba3a9b2290114e3bfe70c7a8189e9636b07e48453",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "CRITICAL",
+"v0.2.0_ids": [
+"worm_propagation"
+]
+},
+{
+"src": "openvsx",
+"id": "AxrydeStudio.get-shit-done",
+"version": "1.7.1",
+"downloads": 37152,
+"rank": 1116,
+"sha256": "8bdfbcb571f99ddf3976b3d42b09555836c22ddaed1a76b053cf3f8756344c40",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Gydunhn.typescript-essentials",
+"version": "1.2.0",
+"downloads": 37044,
+"rank": 1117,
+"sha256": "6254b5dfcff84eaa172110ce05be0427a298fe4f686fa1d9866c2104cf8909f2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "PascalReitermann93.vscode-yaml-sort",
+"version": "6.6.4",
+"downloads": 37013,
+"rank": 1118,
+"sha256": "4105c65f0c4967eae4cf509421a56529caf0d3bda1c4e1074a8f88ed32ded3fd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "swarmify.swarm-ext",
+"version": "0.9.451",
+"downloads": 37004,
+"rank": 1119,
+"sha256": "9a468169e841bc43d70a19f746677dfe3900f67024bc498e31cc365939d67f14",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jeanp413.test-java-extension-pack",
+"version": "0.0.1",
+"downloads": 36912,
+"rank": 1120,
+"sha256": "714e3c11730d7b153174d31f7f2a03c1309313c52a2d2ecd253adeec73c5a4bc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "intellsmi.comment-translate",
+"version": "3.0.0",
+"downloads": 36886,
+"rank": 1121,
+"sha256": "7c3334b9ed5d3456ef5f64c584c2fdf6286e46e97763c132e32bf16c4bbae1e0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "astx-jp.vscode-pptx-viewer",
+"version": "0.2.0",
+"downloads": 36867,
+"rank": 1122,
+"sha256": "a272179a4799f1e6c116b996e85dda5f5b0afbcd176b3a040b5f0988ab92c093",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ZiShuo.opencode",
+"version": "0.1.0",
+"downloads": 36842,
+"rank": 1123,
+"sha256": "1aee88ff126d6013a8bf29cba0c3c80c99dd8e8aa37a95649842b6c033841df8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "redwan-hossain.auto-rename-tag-clone",
+"version": "0.1.8",
+"downloads": 36756,
+"rank": 1124,
+"sha256": "ba0348538b3a51c4b9e4f3422b5d4f2887df21ac8463b1717cf95b29f5256e0a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "CRITICAL",
+"v0.2.0_ids": [
+"download_execute"
+]
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-debug-adapter-apache-camel",
+"version": "1.10.0",
+"downloads": 36641,
+"rank": 1126,
+"sha256": "447d7d44a16cb68da0eb76d2a9023d15eeff92ef4f16ef822e8d7c78bd395ee4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "HIGH",
+"v0.2.0_ids": [
+"exfil_host"
+]
+},
+{
+"src": "openvsx",
+"id": "streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries",
+"version": "3.0.3",
+"downloads": 36532,
+"rank": 1128,
+"sha256": "fc5bc699514f3de794c12e6cb04e42d95e61993e9e556527a8a68724cc349a3b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "skillbench.skillmeter",
+"version": "0.0.108",
+"downloads": 36477,
+"rank": 1129,
+"sha256": "ab736a576b4ac476dd4dc4151c19a018fdcc19b94477de022d85ebf5a12498bd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mesonbuild.mesonbuild",
+"version": "1.28.2",
+"downloads": 36429,
+"rank": 1130,
+"sha256": "59bddc7c04def2973e2dfb662b2163deaea499d4c750cb6820794284a29e1285",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "cdervis.vscode-pi",
+"version": "0.96.1",
+"downloads": 36415,
+"rank": 1131,
+"sha256": "2ea02eeee2c6da579de2befa1b922b7fc613c6fde11179bb166a9960c4397e6e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Lianues.limcode",
+"version": "1.2.7",
+"downloads": 36279,
+"rank": 1132,
+"sha256": "d15216cbac2660c4fdc0805931ce214b33a65ad030feea9e24bfc45255233a4e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "BroadcomMFD.hlasm-language-support",
+"version": "1.23.1",
+"downloads": 36155,
+"rank": 1133,
+"sha256": "f7c50fa539031d532d937c5e6ba610470c45fdc18e1f6933bff2e3eb8b0536c1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "IBM.ibmidebug",
+"version": "3.0.5",
+"downloads": 36089,
+"rank": 1134,
+"sha256": "342d76cf54fdd95a8883301dc7d79bb5af10a12db1529e61d7607b39abb34a0c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AykutSarac.jsoncrack-vscode",
+"version": "5.1.0",
+"downloads": 36078,
+"rank": 1135,
+"sha256": "7c7bb618e8e7834b9674953206d1e44a1fcb94c10676e2c4ab97121342134753",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "loong-vsx.rust-analyzer",
+"version": "0.3.2997",
+"downloads": 36042,
+"rank": 1136,
+"sha256": "e2408a70e395b7c898443a84bc1a700392bfb6d463354eda243534ccf4d6d83e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "supermodel.supermodel",
+"version": "0.2.0",
+"downloads": 36026,
+"rank": 1137,
+"sha256": "6f6ab914c88364cb7d6e2a3a64fe7a9e8a832198350de84f03e1215745dd82b4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "TeamHub.teamhub",
+"version": "19.0.6",
+"downloads": 36013,
+"rank": 1138,
+"sha256": "5308e189270affc75124e6c30d39e884320bf4a649df6d42ffb9a58e215f7190",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "darkflows.codersinflow",
+"version": "0.0.1765",
+"downloads": 36011,
+"rank": 1139,
+"sha256": "a4a6ed36e24fa41b27c86762cf32d0dc53d185eb212c49a2c93b7e0985a8bcaf",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jeff-hykin.better-shellscript-syntax",
+"version": "1.10.0",
+"downloads": 35990,
+"rank": 1140,
+"sha256": "259094ddcdb0f22abc694fbe30688c87dd4b1fb0757def88f51ee78a1c2e72c2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "larshp.vscode-abaplint",
+"version": "0.4.178",
+"downloads": 35940,
+"rank": 1141,
+"sha256": "5680eed58bd5a8ae10f7d8177f1828f7f08b5a66582aa96a9ee19b5d89e51724",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ngSoftware.mql-clangd",
+"version": "1.4.0",
+"downloads": 35923,
+"rank": 1142,
+"sha256": "5f5d273cd78ba82332756d2e889fd02d1a725b29065c0ea390002d7beaf3009e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+"version": "3.0.2",
+"downloads": 35905,
+"rank": 1143,
+"sha256": "cc34d3b7f93099851ed3b135ba6b9b587e3558799d40104a58b409cd06a7316e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sema4ai.sema4ai",
+"version": "2.19.0",
+"downloads": 35881,
+"rank": 1144,
+"sha256": "b37822d43be681a993c00b6446bed36b21262167e62e95b0b20e9ce403b8e537",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "IBM.compiledcodecoverage",
+"version": "1.0.9",
+"downloads": 35849,
+"rank": 1145,
+"sha256": "5b26fc828dbff7034d76023aee620cc8030fb4ce6096bcdd6109105f9bd8a131",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "rioj7.command-variable",
+"version": "1.71.0",
+"downloads": 35776,
+"rank": 1146,
+"sha256": "dd36d212051de0ff1868e163201fbd22a93066e29c4d69ce7477c14c55f2dcdd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "JeronimoEkerdt.color-picker-universal",
+"version": "2.8.9",
+"downloads": 35608,
+"rank": 1147,
+"sha256": "712478238e1f4de6a51ba320676223d196948e0c7ae0a899fb9b5600da3f8472",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "bit.hope-ai",
+"version": "0.0.46",
+"downloads": 35429,
+"rank": 1148,
+"sha256": "abd4183e8801c9e39587d0b97bc398571cc8a53d1980394ef6f9be54f6f18c52",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ocet247.tf2-vscript-support",
+"version": "3.4.3",
+"downloads": 35416,
+"rank": 1149,
+"sha256": "450e282ac80afbff9c3f3a3fb143ac0e9560c7af13f17e2e403b1e6460cdf803",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "DipeshMajithia.mirror-vs",
+"version": "1.1.0",
+"downloads": 35384,
+"rank": 1150,
+"sha256": "11531fce48b428b607c688b100f287bf4251d9f952a80c20b6aa1699e704bd47",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "chrisatcursor.mssql",
+"version": "1.39.0",
+"downloads": 35361,
+"rank": 1151,
+"sha256": "c55254a60a599e9b6b23a8730ece4b1ac70b4615c08f694c66abd916ab049a59",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "auchenberg.vscode-browser-preview",
+"version": "0.7.2",
+"downloads": 35354,
+"rank": 1152,
+"sha256": "aefe1e895744e547cb57b141b5189e9b6d17500b3a0f35dd8057d19314968556",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "openvsx",
+"id": "IBM.vscode-ibmi-projectexplorer",
+"version": "2.12.7",
+"downloads": 35304,
+"rank": 1153,
+"sha256": "a25263eaf52e43f86db5f949dd1f2412f371d76fe63bdd2f2fb1467fc2b5f8fb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "eclipse-cdt.peripheral-inspector",
+"version": "1.11.0",
+"downloads": 35240,
+"rank": 1154,
+"sha256": "6c8f6546b59eb8e54058de8e20fdf7187be6398146a56338d278e31e3f68c632",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "matterai.axon-code",
+"version": "7.2.0",
+"downloads": 35219,
+"rank": 1155,
+"sha256": "cb53b6f5a7af1b3c3fe21853abe8d5b8245d6f86f05ab364c1c8f48cc6c6a7aa",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Nuxt.mdc",
+"version": "0.6.1",
+"downloads": 35216,
+"rank": 1156,
+"sha256": "d99c370aab3f1b913b0e6085daac7da9a05617703658085b38870f407eaf124e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "agent-system.agent-system",
+"version": "0.12.99",
+"downloads": 35208,
+"rank": 1157,
+"sha256": "168d8ed6d76e3a5c7cb752e75ac21fe7d790b7598bec485b68933b5c903858a2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "amishifu-beep.openubmc-studio-language-pack-zh-hans",
+"version": "0.0.2",
+"downloads": 35179,
+"rank": 1158,
+"sha256": "b448177860474ed8ede89ba32d62b33e80ab6863888cf056fb4814de150e400c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "reduckted.vscode-gitweblinks",
+"version": "2.15.1",
+"downloads": 35148,
+"rank": 1159,
+"sha256": "2aac3d16369eb410694ec165f49d2c1b932e1403bc0603fe384e9f0c2cbc30bd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "rupesh9369.htmlpreview-vscode",
+"version": "7.0.2",
+"downloads": 35090,
+"rank": 1160,
+"sha256": "198f4bafb95cd41e029b1013bf83d3bf21d5e653f01f63c93ec46077854c44e9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Revaturepro-non-prod.revature-labs-non-prod",
+"version": "0.0.79",
+"downloads": 35083,
+"rank": 1161,
+"sha256": "09486d7dfe81a0421e8163fd536e9406e2cd6a1985d53164077789a15103a970",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "deque-systems.vscode-axe-linter",
+"version": "4.14.1",
+"downloads": 35064,
+"rank": 1162,
+"sha256": "54d82148987d18e85e94ee0f3162396ab14b4cd78377f27c12d26ac38dea39ed",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "monk.vscode-monk",
+"version": "1.26.0",
+"downloads": 35015,
+"rank": 1163,
+"sha256": "ba08d549ffbc2dbe3a744ccb690b9b6681cc02f5166eef09503dba959df9a399",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "GoodData.gooddata-vscode",
+"version": "0.67.0",
+"downloads": 35009,
+"rank": 1164,
+"sha256": "54578e0d68e037507aa5800bf8c318076120d0bcea705f90bdc61f2da4257b6a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nebula-themes.nebula-aura-theme",
+"version": "0.0.8",
+"downloads": 34995,
+"rank": 1165,
+"sha256": "89e50fa6eca98a622a620bcf50d4e1b8d187d91a32f3eba1a64fffd27c5c4b04",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "imgildev.vscode-json-flow",
+"version": "2.9.0",
+"downloads": 34967,
+"rank": 1166,
+"sha256": "6d143ef83e0eed00b0c9770ededfd8d443f75b6fa55cec05c239f36701797e56",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "marcodiniz.ag-local-bridge",
+"version": "1.1.108",
+"downloads": 34950,
+"rank": 1167,
+"sha256": "880f282413895da75431514f3a2ac4dd2e199325eac8c283049761870971e7dd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "numlia-vs.git-keizu",
+"version": "1.9.0",
+"downloads": 34946,
+"rank": 1168,
+"sha256": "bbc8ff2d6453bb907f457ca4ffb6c7b51fa67b8d5827f229b61b565ed106933e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "eliostruyf.vscode-front-matter",
+"version": "10.14.0",
+"downloads": 34929,
+"rank": 1169,
+"sha256": "64e7e8ffc9c13eec72566708c66ae59cc663d3b17b2ebda6ac308764379e63f6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Semgrep.semgrep",
+"version": "1.17.1",
+"downloads": 34788,
+"rank": 1170,
+"sha256": "3cd4d9c5b258cb46f24113ff15cfe8e0ca88f5e9655e073d2fd013df01805ae2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "actboy168.tasks",
+"version": "0.16.1",
+"downloads": 34709,
+"rank": 1171,
+"sha256": "31a666c11a7f7fa01dfdac5ac8850601860c7f7fde6f108d6f259d9443fda6b9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "wso2.micro-integrator",
+"version": "4.2.3",
+"downloads": 34708,
+"rank": 1172,
+"sha256": "f601804b7e8851591afd7de0cf233c6793a10f560f0ce99b81368a103f3394da",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "uni-helper.uni-ui-snippets-vscode",
+"version": "0.8.0",
+"downloads": 34679,
+"rank": 1173,
+"sha256": "1a7843926330978292c3c9508d5e96f74a93f0e38876ec2894459dd832c8f6b5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "seatonjiang.gitmoji-vscode",
+"version": "2026.3.6",
+"downloads": 34634,
+"rank": 1174,
+"sha256": "dc8bd964b3be2e70081b29a7a54fe334b0efe28c4e7dd73d60a9bfef849f6b45",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Remisa.shellman",
+"version": "6.0.0",
+"downloads": 34626,
+"rank": 1175,
+"sha256": "80e3220ebc3385ca4cd6f50b655a6cbc1ceebf0d01299fd3ac846b2d90e293bb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "cnshenj.vscode-task-manager",
+"version": "1.3.2",
+"downloads": 34605,
+"rank": 1176,
+"sha256": "4f4f74161d2808d917b7edc4f4068104dfd628d08b9bc4af689d398e1824cbf8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "rasyid-kurniawan.live-server-extension",
+"version": "1.0.34",
+"downloads": 34470,
+"rank": 1177,
+"sha256": "79c1d37abb6a1e0d6443fb3d36aa5709b2956b4e2d2ccd36869fd6e9f3c5a5d0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "YXL.cloudmusic",
+"version": "9.22.0",
+"downloads": 34454,
+"rank": 1178,
+"sha256": "f45fee6be60b064bb059bc98c55a5eceaca6a4f82382015411fc4e82bd5f0993",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "IBM.taz-edt-extension",
+"version": "3.1.1",
+"downloads": 34433,
+"rank": 1179,
+"sha256": "4ee86010de004a1725d74eb43093a4531fd10e26229dbb5584fd5f3644b7a7d8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "whitphx.vscode-stlite",
+"version": "0.80.5",
+"downloads": 34381,
+"rank": 1180,
+"sha256": "76af6644e071c1b09f5893bf02816f4eb230169b793684ebb57b22d65e4369e5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Tyriar.sort-lines",
+"version": "1.12.0",
+"downloads": 34373,
+"rank": 1181,
+"sha256": "feecf004b40c9a9e73ba81347d61b69bb231f24df72d01b6b9a17435542deec9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "polang233.kiro-language-pack",
+"version": "1.3.0",
+"downloads": 34366,
+"rank": 1182,
+"sha256": "747ea5c9bd64e2e7d076bfcafefd31569d1a4997cae5b92d980fb9760713789f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "snyk-security.snyk-vulnerability-scanner-preview",
+"version": "2026.11.1107",
+"downloads": 34364,
+"rank": 1183,
+"sha256": "bbccc9aba59b201e2317171a6d3734a498e9e4958565967a0f1846768b32d560",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ExodiusStudios.comment-anchors",
+"version": "1.9.6",
+"downloads": 34352,
+"rank": 1184,
+"sha256": "a7b59d522c393400c75046dda74a5a1f7875357b6a5ec4b7ccaa9bc08a24d594",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "PeterBulyaki.claude-automator",
+"version": "0.1.1",
+"downloads": 34235,
+"rank": 1185,
+"sha256": "8ee42e75204afc93c0d7d8bb8d135ce824a5111002ea2c9f3b96f5f96e1e5927",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-rsp-ui",
+"version": "0.24.13",
+"downloads": 34230,
+"rank": 1186,
+"sha256": "127420dcd2cd5429d2b9eef0789a2b7318621894c63c7ba4b971ee4ac07417a7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "uni-helper.uni-helper-vscode",
+"version": "0.6.3",
+"downloads": 34174,
+"rank": 1187,
+"sha256": "6923e314db0f2010c328f9a27e106b68a3759c4bf266e3517cef7e396253d4af",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-community-server-connector",
+"version": "0.26.22",
+"downloads": 34080,
+"rank": 1188,
+"sha256": "2a8e789ec25d1aa210f8baef2c672d8723c4d1de5ddd2826c4d98a7968d2d3b4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Devfile.vscode-devfile",
+"version": "0.0.4",
+"downloads": 34068,
+"rank": 1189,
+"sha256": "c55a6c1d087e7715bfacb01c0c2b52ef0f935d85f0707265d9068cd64143744c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "antfu.vite",
+"version": "0.2.5",
+"downloads": 34055,
+"rank": 1190,
+"sha256": "264ec94e7680c31d40e40edb93cc8f1d730b20ba2e3833c299c7223c065ed5a9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Shan.code-settings-sync",
+"version": "3.4.3",
+"downloads": 34047,
+"rank": 1191,
+"sha256": "aa658bfc88cf7a85b9ed2a54d13f70d4a316b93955e964c897307abdc870b471",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jj-view.jj-view",
+"version": "3.1.0",
+"downloads": 34047,
+"rank": 1192,
+"sha256": "1bcc41449e640fa8d1a84169dcf66ecf0c8128a11d94bd6532e1f68b96fff4ce",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "aleksa-codes.one-dark-modern-pro",
+"version": "1.2.0",
+"downloads": 33980,
+"rank": 1193,
+"sha256": "4aa00af38d7ae4bba7e9acc0ea82d6bde2e6b38e82b892339c768ba4c62d1af8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "halcyontechltd.vscode-ibmi-walkthroughs",
+"version": "0.5.0",
+"downloads": 33839,
+"rank": 1194,
+"sha256": "71780307e1d879b53787e32587b0daf716c3de6e64d0db845ea50172548d024e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "supabase.postgrestools",
+"version": "1.4.0",
+"downloads": 33736,
+"rank": 1195,
+"sha256": "733e79dadb2c99ac38b62d159502775098fc9e21ffe4261a5a8c2aa10b3ad930",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "chrisatcursor.swift-vscode",
+"version": "2.16.0-dev",
+"downloads": 33713,
+"rank": 1196,
+"sha256": "b641923598539475ee1a652093a276d3ba122fe8a93ae2dac42eba9e09481529",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sentriflow.vscode-nexterminal",
+"version": "2.8.324",
+"downloads": 33671,
+"rank": 1197,
+"sha256": "cf6b002b809f42637ed68c0e90c32c20ba9c7e3ec57a70a34b212ab6e34c06b1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "eclipse-cdt.memory-inspector",
+"version": "1.3.0",
+"downloads": 33580,
+"rank": 1198,
+"sha256": "17b16ae25bee568b1f61ad9b2d64594e9918bde91a2e709ac9ee23ad66a62e2e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "NilsSoderman.batch-runner",
+"version": "1.4.0",
+"downloads": 33441,
+"rank": 1199,
+"sha256": "e4f8103ce1d3ee3294d050734155be17b120d638503a956945a963813e6bdb2a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jeppeandersen.vscode-kafka",
+"version": "0.31.0",
+"downloads": 33338,
+"rank": 1200,
+"sha256": "6099933efb66ae29ea3a81b951fd671896dda4c834ccb045ebd5321b4483eb95",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jbearak.raven-r",
+"version": "0.23.9",
+"downloads": 33284,
+"rank": 1201,
+"sha256": "f89a4b5168e218ab8ca5e2a62c01e43d3c318851186c7d74a6d83105b86c4a32",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Oznasi1.oznasi1-agent-flow",
+"version": "0.72.0",
+"downloads": 33259,
+"rank": 1202,
+"sha256": "7b7fbf54d3bdb8c3f3c7b4433f0d0cfd1f42f87387340a7dfc58804cbd4c64fb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "CRITICAL",
+"v0.2.0_ids": [
+"download_execute",
+"worm_propagation"
+]
+},
+{
+"src": "openvsx",
+"id": "Tobermory.es6-string-html",
+"version": "2.14.1",
+"downloads": 33230,
+"rank": 1204,
+"sha256": "6acbd9250826027db35d98ade0bb26ea2a495b8861102a4047af33c4a876dbfb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "vsls-contrib.codetour",
+"version": "0.0.59",
+"downloads": 33126,
+"rank": 1205,
+"sha256": "104d04ad92cbd4035b2bcc65c4d19ac8ddb7badef1a521cdc89c149547947386",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "corridor.Corridor",
+"version": "0.0.85",
+"downloads": 33052,
+"rank": 1206,
+"sha256": "d9cfe96b851b0d305afaa4fcfc850d121ad6246fafd6b875afa48afd152fef63",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "epochix.epochix",
+"version": "0.7.43",
+"downloads": 33029,
+"rank": 1207,
+"sha256": "afc4c92df78864bc65a904b44ceabff0240a5a6578b1a5989418e4ff5713713c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "azdavis.rjsonnet",
+"version": "0.9.9",
+"downloads": 32969,
+"rank": 1208,
+"sha256": "722c956b99fea94ee1c8ad512ed73b57af06f5097805595fc3002e954eae6215",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Mrakulis.opencode2-vscode-gui",
+"version": "1.24.8",
+"downloads": 32954,
+"rank": 1209,
+"sha256": "784b12d3d015ea64a5394cb31fde262f9b1b84e0b96ac505c2d1480107bb0c02",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "openvsx",
+"id": "keyfire.xbsl",
+"version": "1.0.1",
+"downloads": 32881,
+"rank": 1210,
+"sha256": "2190ac454032fa9f7cd3a974ada3fbdf12e52e3f03fb25755a3f03ec6b4d5897",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "swirlsai.vscode-swirls",
+"version": "0.0.115",
+"downloads": 32881,
+"rank": 1211,
+"sha256": "f3e382de735c5c7d77f6ac6b7cbfc4f34c95810ee93fa8ed97a41d41971d3d12",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "spej.spej-code",
+"version": "1.8.25",
+"downloads": 32857,
+"rank": 1212,
+"sha256": null,
+"v0.2.0": "skipped: over 150MB"
+},
+{
+"src": "openvsx",
+"id": "eclipse-cdt.serial-monitor",
+"version": "2.0.0",
+"downloads": 32748,
+"rank": 1213,
+"sha256": "0b26136745de936eabff44c13267450928cba3f6e7048acae04bd7d8bb72056e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "zokugun.cron-tasks",
+"version": "0.2.1",
+"downloads": 32747,
+"rank": 1214,
+"sha256": "9df010ce565f505cb50f32a1a7fab65aa9c69f331d3ee92e4dae2ab2acac22ba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "betterthantomorrow.joyride",
+"version": "0.0.90",
+"downloads": 32739,
+"rank": 1215,
+"sha256": "3c63fe782f58255ac243962c29a54236b0327ae319e9954fe0f05dcedaf5d289",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "GenieBuilder.geniebuilder-insider",
+"version": "0.4.12",
+"downloads": 32703,
+"rank": 1216,
+"sha256": "68fdfc3f61fe4838047dd80c2ccb05284f9c152e87cc58b524812ea408379d22",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jonathan-yeung.mark-sharp",
+"version": "1.13.0",
+"downloads": 32697,
+"rank": 1217,
+"sha256": "f863440fe9730cccc4f920c54ae00959aac07f9cb121aa5e2b2ab98c8ff1f3c2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "fengkx.beancount-lsp-client",
+"version": "0.0.189",
+"downloads": 32679,
+"rank": 1218,
+"sha256": "5bcb8699127655f24ef1bebd2b0446b047b5bc30179651791ad8466b37adf75d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "KylinIdeTeam.gitlens",
+"version": "0.1.10",
+"downloads": 32675,
+"rank": 1219,
+"sha256": "ddf36da5f5640296a2aa3d903e7514fcc98465116a9c172adc196a4f470fcec1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "rome.rome",
+"version": "0.28.0",
+"downloads": 32584,
+"rank": 1220,
+"sha256": "8b471d2062998cf4b7f7bc5ff0d1265b5bec8d199455d9e95f4309fe2989b6fc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "dotnetdev-kr-custom.csharp-with-netcoredbg",
+"version": "11.9.41001",
+"downloads": 32572,
+"rank": 1221,
+"sha256": "b993f84735c8145fa0bd12eff54238bddbb580e2624856c7773f31ee8990a065",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "lumyst.Lumyst",
+"version": "0.8.1",
+"downloads": 32570,
+"rank": 1222,
+"sha256": "d14bcb66b7dc16727a4d966975a11bce8303055b66c8572fe674695843bcf20f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "yellow-hammer.1c-platform-tools",
+"version": "0.9.30",
+"downloads": 32537,
+"rank": 1223,
+"sha256": "3a5f6d7871976feae0d06957282fa3dc0188b1d82b36b379b53c35d67e5bfdbc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Hiromitsu.commit-maker",
+"version": "0.18.9",
+"downloads": 32443,
+"rank": 1224,
+"sha256": "06a52d710ec5a41c4851830ac02d775a2fb72e78b89801f6a82b0a4376299bef",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AdamCaviness.theme-monokai-dark-soda",
+"version": "1.2.0",
+"downloads": 32442,
+"rank": 1225,
+"sha256": "d459753604dd4a39bcdc1e5f39a9d3bcc2fed3812ab4094a7bd37614fbaf6d8d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mehul.sql-preview",
+"version": "0.6.28",
+"downloads": 32383,
+"rank": 1226,
+"sha256": "dd736cfaac02f21d7768695a9753c1d472f4d4a475d382ef4813ba84fe639a34",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ukaisi.inspect-ai",
+"version": "0.10.2",
+"downloads": 32363,
+"rank": 1227,
+"sha256": "afcc77d1bce7dd554ba423e5baf29dfa2b76fa04d532792d8a5745a68688b2b8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "HidenobuNagai.noteeees",
+"version": "0.17.5",
+"downloads": 32359,
+"rank": 1228,
+"sha256": "a5fea03b47aa484e44c7f99c31ce8d2b4a2b16c673963e1af4dad4a449b0a1db",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "IronGeek.vscode-env",
+"version": "0.1.0",
+"downloads": 32302,
+"rank": 1229,
+"sha256": "3f0cdccb5dea5017937cc5a481bc0588c33a198aee1ca8f2d3ec8d5249059700",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "dendron.dendron-markdown-preview-enhanced",
+"version": "0.10.47",
+"downloads": 32247,
+"rank": 1230,
+"sha256": "bc87937c85588a62b848d409f10eca5d289352e7de6450d6e4ae5340331e063d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Bito.Bito",
+"version": "1.6.8",
+"downloads": 32230,
+"rank": 1231,
+"sha256": "2fd8f886b7334dc90a0ec80c13300de1a532227e426249c994f256d459709f62",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "meganrogge.template-string-converter",
+"version": "0.5.9",
+"downloads": 32219,
+"rank": 1232,
+"sha256": "b5b6cf004da352c53702591426cf05d7e8e0aa07d16540b957d7782eb240b745",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "gpsolutions.in-file-markdown-review",
+"version": "0.46.91",
+"downloads": 32182,
+"rank": 1233,
+"sha256": "8ef081b25c816f86ecd18fbdedb0ee653a99386420931970b341a93e5ebb4403",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Nimblesite.basilisk",
+"version": "0.41.2",
+"downloads": 32117,
+"rank": 1234,
+"sha256": "551520a86cae682c9c677e05db16ba368a4b1f9c129ad8e7d75b967a79f6042c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "a5hk.paper",
+"version": "3.0.2",
+"downloads": 32056,
+"rank": 1235,
+"sha256": "e3062e29a237ee7c30b7ccb3bbdef9b92a6b51d2424f3a669f99e2d03a859568",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "fengshihao.molan-markdown",
+"version": "0.1.57",
+"downloads": 32025,
+"rank": 1236,
+"sha256": "50598c3e5e3252d75528e8862406b150f2f2d436c6b92404d76edb97503880c4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nolindnaidoo.string-le",
+"version": "2.7.0",
+"downloads": 31929,
+"rank": 1237,
+"sha256": "18979e8282ebff6fa44846d76be15d8ec30bc25b79c563845fb73b944b34522d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Nogic.nogic",
+"version": "0.2.5",
+"downloads": 31909,
+"rank": 1238,
+"sha256": "345931b91732864ba7f002069ec0b8202c023d754594084d94533aaacd48e0d3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "zardoy.ts-essential-plugins",
+"version": "0.0.81",
+"downloads": 31892,
+"rank": 1239,
+"sha256": "f10a08f1e7f080d7bf8d71b51bfc740ff98b7e6b32c8296b2b01f316d8b0b242",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "JetBrains.jetbrains-ai-assistant",
+"version": "0.0.20",
+"downloads": 31887,
+"rank": 1240,
+"sha256": null,
+"v0.2.0": "skipped: over 150MB"
+},
+{
+"src": "openvsx",
+"id": "patcx.vscode-nuget-gallery",
+"version": "1.2.6",
+"downloads": 31880,
+"rank": 1241,
+"sha256": "6013a1aa80e62e52ed2d254a69d0f1a6ee3b03c10e1518735747f231d43835be",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AINX.hylo-html-preview",
+"version": "0.1.20",
+"downloads": 31810,
+"rank": 1242,
+"sha256": "54318c34f77366df4e97356db2953a980bb73ac5da2c9514689fc7bb5ba21d2d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "goodfoot.wiki-extension",
+"version": "0.5.149",
+"downloads": 31776,
+"rank": 1243,
+"sha256": "0f75497760591639442af95a39ddd140bce0b27374086631052b98c36ff02f75",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-apache-camel",
+"version": "1.14.0",
+"downloads": 31737,
+"rank": 1244,
+"sha256": "95d717c302a1503f912c317a071abc4f48e4d4bd8154952bc9412f51a8d0ec8b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "streetsidesoftware.code-spell-checker-french",
+"version": "1.0.2",
+"downloads": 31729,
+"rank": 1245,
+"sha256": "2e67ecebb92b705acd1d7b2b74194e3f9a721366b8c8a139ef4b6fdfda1fd4f4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mylonics.zephyr-ide",
+"version": "4.2.0",
+"downloads": 31714,
+"rank": 1246,
+"sha256": "c99374bb4319e7b93f224fad11892305834015cbbfab87a035f048700382e063",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "scalet.let-icons",
+"version": "2.0.4",
+"downloads": 31567,
+"rank": 1247,
+"sha256": "1897b325987b665f02a83145ec68cfbe4c4739120b9fffd9ed178d2d49917074",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "codertesla.wtf-commit",
+"version": "1.20.3",
+"downloads": 31564,
+"rank": 1248,
+"sha256": "933faee4239acbeeb158720e1486e825551e652f5d84e76d905911e15e9f8105",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Vizards.deepseek-v4-for-copilot",
+"version": "0.9.6",
+"downloads": 31531,
+"rank": 1249,
+"sha256": "403acf5d7d470724df4bc9f3df11e7553d1e8d6db9eb9bc9a13ade9ff1f8ec9b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "alexj11324.ralph-loop-for-antigravity-updated",
+"version": "0.7.43",
+"downloads": 31512,
+"rank": 1250,
+"sha256": "4ef07e70f201fcf81ef72cfc13b805a8544ca451348b2fd901fab0996cb15be3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jbro.vscode-default-keybindings",
+"version": "0.2.98",
+"downloads": 31454,
+"rank": 1251,
+"sha256": "59c85f10950f1db35c40d1c9bd2cf89f9dd4085cbf5f4c0d8059574b83ed597d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "hbenl.vscode-mocha-test-adapter",
+"version": "2.14.5",
+"downloads": 31429,
+"rank": 1252,
+"sha256": "bb8596ec4dcc385fbba6a2cbfcf3af3b6506649f64a0917353f9a3c46864682d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "GitWorktrees.git-worktrees",
+"version": "2.22.0",
+"downloads": 31372,
+"rank": 1253,
+"sha256": "ccee47bb1888c8750617c76b0771054bdec00028c5f2d356d6be67fb4b8dcbda",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "zenclabs.previewjs",
+"version": "1.28.1",
+"downloads": 31335,
+"rank": 1254,
+"sha256": "e0a7ec0decd713f614e3d8d8613928c86c430f4b1ee06d9e47274fe97e28dec8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "dirac-run.dirac",
+"version": "0.6.3",
+"downloads": 31313,
+"rank": 1255,
+"sha256": "29f83f456b68804bceba1f1bfd281e0effa470163b4dadcfa61ec88a4d677a6c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "franneck94.vscode-python-config",
+"version": "11.4.0",
+"downloads": 31283,
+"rank": 1256,
+"sha256": "c182d2beff6c0e83434ecbf14a2b33d2fdcecd2b95fb03809e167d9995aa3c96",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "AnandShah.mdreader",
+"version": "0.0.8",
+"downloads": 31276,
+"rank": 1257,
+"sha256": "1ccc61b85edc9ab34832cffd7a99a42b645d95cb5112f567606886d6e1f1e716",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "pmd.apex-pmd",
+"version": "0.11.0",
+"downloads": 31273,
+"rank": 1258,
+"sha256": "6265308d21348716dc8446bddac0d3cf8cca139773f0ac553bd44ea8166eeb24",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "voidaliot.vscode-sysml-v2",
+"version": "0.58.0",
+"downloads": 31217,
+"rank": 1259,
+"sha256": "cc93bf67420350bfdd7bee54f07301d8de13615beb699366288705c4ae031f42",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "TintedTheming.base16-tinted-themes",
+"version": "0.57.0",
+"downloads": 31210,
+"rank": 1260,
+"sha256": "79df2384b9d5c900e8aa60401477adb384a4a70ce3844c2c6892cb867cd1aed7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "python-beautifier.python-beautifier",
+"version": "0.0.2",
+"downloads": 31197,
+"rank": 1261,
+"sha256": "e8c85ca9e0c45b2448482a41c32e4b8f382986783d64e67f2ed7b679fa6d6361",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "DaltonMenezes.aura-theme",
+"version": "2.1.2",
+"downloads": 31185,
+"rank": 1262,
+"sha256": "b203b1e0337af49b222fcfb5e0a0f289c8fbbbdb5fa461e87de5f89eb6aae991",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "editorss.antigravity-language-pack-zh-hans",
+"version": "1.41.1",
+"downloads": 31160,
+"rank": 1263,
+"sha256": "9b64eff5d6fb6a5d1b5ac5d7849b13581539313f35508e5c1f7b974b3bcadfc5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "arm.embedded-debug",
+"version": "1.4.0",
+"downloads": 31155,
+"rank": 1264,
+"sha256": "926c69c6d22e189be4f8dc6b30b3bb8d42f90184922e7e565ccf6749d693d941",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "PacketAnglers.sandbox-dashboard",
+"version": "0.17.53",
+"downloads": 31149,
+"rank": 1265,
+"sha256": "1c651d680c6783f582de243e11bd21ca70e2137fb4d32018cc71a9944df894bc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "thanhtunguet.vscode-git-client",
+"version": "1.24.0",
+"downloads": 31127,
+"rank": 1266,
+"sha256": "e02659124b089dfcc0731dabf0882ba13ce79a6404cfba79170804835dcad190",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "unode.unodeai",
+"version": "0.9.110",
+"downloads": 31090,
+"rank": 1267,
+"sha256": "c5270b67b7ddaa33d54036d16197439b8f1d7e91a48c82090ad1e03c72ae74d8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "codeandstuff.package-json-upgrade",
+"version": "3.8.0",
+"downloads": 30983,
+"rank": 1268,
+"sha256": "399650f5517f28bd8c11da4a0df322bd7e69269ad316ee880dfdaf2183040aa2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "keyshout.sqlite-db-viewer",
+"version": "0.1.6",
+"downloads": 30960,
+"rank": 1269,
+"sha256": "349d2c4056f36b08f1ab27dcdcc159c9c667ae1051bab36f8d6bf8c8e98069d0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "unoplatform.vscode",
+"version": "0.26.10",
+"downloads": 30895,
+"rank": 1270,
+"sha256": "5c049d8330aae9754704e28ff2f0ffd2c58de384b68e71916fb4847e59fb4d4d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "s-nlf-fh.glassit",
+"version": "0.2.3",
+"downloads": 30856,
+"rank": 1271,
+"sha256": "793f72269b40692891c1e10063a2fecc7631b3f651a6676a75c83c7a1d0bf632",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "RaymondThurman.ravenwood",
+"version": "1.5.3",
+"downloads": 30845,
+"rank": 1272,
+"sha256": "290c12fc8df2772d9b20081d485eca391758fc8206e29b8b727652c89fb6b814",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "psudo-dev.nebula-oni-theme",
+"version": "3.0.0",
+"downloads": 30829,
+"rank": 1273,
+"sha256": "af2abcdd22f3717e6ca76c5fb63b353bcb7e0e033a2975fe9fc1e6fe3997b246",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "alefragnani.numbered-bookmarks",
+"version": "9.0.0",
+"downloads": 30559,
+"rank": 1274,
+"sha256": "f8817a2b7cc1161c305b54e1e2ef72c2d75a115c4de92464ce3739070d2f5acb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "JetBrains.intellij-server",
+"version": "1.0.162",
+"downloads": 30462,
+"rank": 1275,
+"sha256": "49f9dd02b083fb1a3a917bc49df4a6884a15ef3e9d34f5db9676b9c37fdf51b7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "FelixIcaza.andromeda",
+"version": "1.7.1",
+"downloads": 30427,
+"rank": 1276,
+"sha256": "4612d931f2cf466b3d3041a77de3f853b73bde811357bacbc3c5b13665ffe69c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "lazyvscode-theme.lazyvscode-theme",
+"version": "6.5.2",
+"downloads": 30393,
+"rank": 1277,
+"sha256": "6812904b5d50038bbcd8c0896eac634b9a07e5e6cb601fe7c9d43f079336c86d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "wdtbrchan.firebird-vscode",
+"version": "1.14.4",
+"downloads": 30365,
+"rank": 1278,
+"sha256": "48d5873b4af5e265c5ba2646ebe9e48187c1c42b9b655d036380bf861533f5e7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "itv3.zlfcode",
+"version": "7.8.2701",
+"downloads": 30356,
+"rank": 1279,
+"sha256": "ef0b2c271bac2063d4292ac1e7c84078df43c9cc2fb518f23f0045ff1d89c1e3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "slevesque.shader",
+"version": "1.1.5",
+"downloads": 30339,
+"rank": 1280,
+"sha256": "433a90ff91f4f2724f2c6c1764a59d09452a6e501ed2e9984906d4b443993728",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-commons",
+"version": "0.0.6",
+"downloads": 30230,
+"rank": 1281,
+"sha256": "b6a8c62ab43a7e18dca3bfec821da36890a98a45f2cde08e90733c9d17a416ad",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "DenysDavydov.tab-browser-ultimate",
+"version": "1.0.2",
+"downloads": 30210,
+"rank": 1282,
+"sha256": "e74acdad6f62ec22469483c4a0b17a0fab0d0c99d1e13dbcfa80dbef7f82a24e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "carrick-tools.carrick",
+"version": "0.3.188",
+"downloads": 30169,
+"rank": 1283,
+"sha256": "af9941f622160af6fd0e1e819cbd11f8257c3f82bb9d739942e7231ca3db3278",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "midudev.better-svg",
+"version": "0.5.1",
+"downloads": 30154,
+"rank": 1284,
+"sha256": "a1f70946b929ec9137701d9346cb0936268fd89eaf2c3ad4306a94c9698933bc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "FridaPlatform.frida-extension",
+"version": "3.2.1",
+"downloads": 30098,
+"rank": 1285,
+"sha256": "c25376f8d0f092e59f2a46f6049efd9c37789dc629a982d5bbfd47a6caff8c08",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Nishikanta12.live-server-lite",
+"version": "1.3.1",
+"downloads": 30056,
+"rank": 1286,
+"sha256": "38badca1d7ea834e9f973066a4187853137e0b533642a568dfe0451f0163881e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "CRITICAL",
+"v0.2.0_ids": [
+"worm_propagation"
+]
+},
+{
+"src": "openvsx",
+"id": "PCODE-pl.LiveServerPlus",
+"version": "6.2.0",
+"downloads": 29880,
+"rank": 1288,
+"sha256": "468ff5df88403fff57be2ccd9d26807308de1a8ffd0dd402a460f66e2b6b249d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nolindnaidoo.paths-le",
+"version": "2.6.2",
+"downloads": 29850,
+"rank": 1289,
+"sha256": "bb2f1b81429c7644099bc3b2539e26947ba66603304a7e936475610c21dbf7f2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Mobb.mobb-ai-tracer",
+"version": "0.3.49",
+"downloads": 29812,
+"rank": 1290,
+"sha256": "b39da8e5f001cbd92994a463f584a491cd587c56c2bff2e95b09b579b1c46cc6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "hasugoii.agent-auto-approve",
+"version": "1.9.30",
+"downloads": 29774,
+"rank": 1291,
+"sha256": "277150a935309e9dc7a6c293cabea2b74b23a0509115d0b1c895dab08d6ea731",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "castrogusttavo.symbols",
+"version": "0.0.18",
+"downloads": 29738,
+"rank": 1292,
+"sha256": "bfa8762a7164d177ce4d6b9cb6e97817ff30168265ee37ec538dfb410e01ec2b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "YuTengjing.vscode-archive",
+"version": "0.9.6",
+"downloads": 29677,
+"rank": 1293,
+"sha256": "3cd612ee7a06213a68d4e25f3c412491371dd7c45a1c3ff8bb33d03dbc253d59",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "codeatlaslive.codeatlas-live",
+"version": "9.3.0",
+"downloads": 29607,
+"rank": 1294,
+"sha256": "02025480ff4b971fed395be890084f84917cf7bd932dd494afa5de880bb3d7da",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "airizom.jenkins-workbench",
+"version": "1.68.2",
+"downloads": 29585,
+"rank": 1295,
+"sha256": "238bf8f66ef8ec0cf6ca0825e22f02211e7e9ba99f71a57004ca84366708c433",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "stagewise.stagewise-vscode-extension",
+"version": "0.11.4",
+"downloads": 29548,
+"rank": 1296,
+"sha256": "04d9246ec2b75130d150feffd76753fc72a07ef0a860d05726b38179ac923b0e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "PROxZIMA.sweetdracula",
+"version": "1.0.9",
+"downloads": 29542,
+"rank": 1297,
+"sha256": "b1f21a3bd6067c16e1e9e758965af63c9282d07c8c4b121f754c4112d2edb1dc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "SeptWong.vscode-webstorm-theme",
+"version": "1.1.4",
+"downloads": 29514,
+"rank": 1298,
+"sha256": "f146404cda2cbe35f13833587e59ec70028b186f7b7e8761dd81f35b36a296c5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sssssssh.ai-readme-vscode",
+"version": "1.8.14",
+"downloads": 29499,
+"rank": 1299,
+"sha256": "ad852851af3a02fe123fd20988368127ba4edc8dc9d8629a7452c71b20c2c3c8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "blipk.csharp",
+"version": "2.47.51",
+"downloads": 29495,
+"rank": 1300,
+"sha256": "340d669a6861d7a024937a22ee3fbdd6197be66a115c146788b2a14b2ec3ac6a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "oscarlevin.pretext-tools",
+"version": "1.6.0",
+"downloads": 29461,
+"rank": 1301,
+"sha256": "ea9a12f80f69cc5fa8c72b4ea09c576f7bcfac00e7dd79c7f37737608c5e5c80",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "clice-io.clice",
+"version": "1.1.2026112610",
+"downloads": 29388,
+"rank": 1302,
+"sha256": "1091900cf6a2366812818630c527c9b524b5927bfbd01b636dc912fac9242c13",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "oxsecurity.ox-ide",
+"version": "0.76.0",
+"downloads": 29368,
+"rank": 1303,
+"sha256": "d29580b4f726f65b704aaba1d9945590f2372d24210a58289be7a57650d8ed92",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "atlarix.atlarix",
+"version": "15.20.0",
+"downloads": 29348,
+"rank": 1304,
+"sha256": "808e2777c6f7e53d2512b118c1c19394f7176e2a7aa715a77f4ec9341154e6be",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "manasxx.background-cover",
+"version": "3.7.3",
+"downloads": 29326,
+"rank": 1305,
+"sha256": "b5cd5dcd969bf80eef1b6f3c164ecc2dd8a7f37723953f985c81839b05f1d59f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jsw.csharpextensions",
+"version": "1.7.3",
+"downloads": 29313,
+"rank": 1306,
+"sha256": "cb2a4e8aebf6862f4997074c351444e18381e2f118d9a7fc5715e55ec03bd4e2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "JeenyJAI.diff-editor",
+"version": "1.1.0",
+"downloads": 29295,
+"rank": 1307,
+"sha256": "fc48d03de538262640ea06836473d2164c81eab69b8aa5f40d1b337e09ea27d1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "johnsoncodehk.vscode-typescript-vue-plugin",
+"version": "0.34.11",
+"downloads": 29229,
+"rank": 1308,
+"sha256": "1f88c7b0d936a34f8da7420cb8be5be8a8e0652be60d3cbc4be68b6e65e378ad",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "amirnaderi.pykrete",
+"version": "0.14.0",
+"downloads": 29202,
+"rank": 1309,
+"sha256": "ac8e5082ed474e72c2fcf86ebf1ff013e55d37f01674bafddb5958685d772269",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ms-vscode.azurecli",
+"version": "0.6.0",
+"downloads": 29200,
+"rank": 1310,
+"sha256": "99fcc4f068d25864b35f9e3f7e835694942e0370cf443a8b50769ff31fcc97ef",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "reqlan.reqlan-extension",
+"version": "1.22.0",
+"downloads": 29179,
+"rank": 1311,
+"sha256": "97e6ec8189b157a27e9762e649486ba80af525da7e0e133180f6f74f0fc69a73",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "akino.i18n-gettext",
+"version": "2.5.1",
+"downloads": 29160,
+"rank": 1312,
+"sha256": "846825218681a6aa1743f84454d42268ae13b7d8f47519b783d7a2e45a06a0a4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "SixtyFPS.sixtyfps-vscode-nightly",
+"version": "2022.2.718",
+"downloads": 29127,
+"rank": 1313,
+"sha256": "ae95e092895552d8a6b270c4a080be3cf424657b16f3e73eafe23f9dd939a5bc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "FittenTech.Fitten-Code",
+"version": "0.10.143",
+"downloads": 29120,
+"rank": 1314,
+"sha256": "c801605d134779132b7d585eee103e0c15e61c82331fa87ee7c7aa4280a5b9d8",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "openvsx",
+"id": "JamieD.sysml-v2-support",
+"version": "0.62.0",
+"downloads": 29061,
+"rank": 1315,
+"sha256": "075f99496e7638e5645a4094e8b0f9871ba4ded067c7b8038d2c4be89ed8dea7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "giga-ai.giga-ai",
+"version": "1.15.1",
+"downloads": 29036,
+"rank": 1316,
+"sha256": "c62630cecca7f116fce1edd3ada041d5e036ddb0d13487eef883d5c8ed962642",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "astechlabs.cc-theme",
+"version": "0.8.15",
+"downloads": 29031,
+"rank": 1317,
+"sha256": "a2b7f53d51bf89e50415e176b879973db1ae7316e39f4da57adfda049707cd5a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "vunguyentuan.vscode-css-variables",
+"version": "2.8.3",
+"downloads": 29014,
+"rank": 1318,
+"sha256": "69b8d58f3cd69f5dac9c55578b2320c0524f742eb8231caf27ac161cc5c9cc6b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sswg.swift-lang",
+"version": "1.11.4",
+"downloads": 29000,
+"rank": 1319,
+"sha256": "0500006f70118f8a4bbb696838f41e260d2632fa76137dc869a76f223083117b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "timkmecl.chatgpt",
+"version": "0.6.0",
+"downloads": 28966,
+"rank": 1320,
+"sha256": "068356de650f5cb3da4b2cd332b60f0fb52473a73f433aae4e421f87eba981e9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "marcodelia.antigravity-auto-run-pro",
+"version": "1.9.7",
+"downloads": 28948,
+"rank": 1321,
+"sha256": "5c2c881f8414960d062b6cff2cb4b5250520b523c63f086d970f25da946afdb1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "CRITICAL",
+"v0.2.0_ids": [
+"exfil_host"
+]
+},
+{
+"src": "openvsx",
+"id": "redhat.mta-vscode-extension",
+"version": "8.3.3",
+"downloads": 28919,
+"rank": 1323,
+"sha256": "b22050cf5c1ae69bbef2bee50bc4462096a4c1a2a020638772de1b5cfe52aed9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "TestFox.testfox",
+"version": "8.3.5",
+"downloads": 28879,
+"rank": 1324,
+"sha256": "d18073d6c0528f62abe2226df5ac0ab7999838a39ed387e9d63692487819a624",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Konveyor.konveyor-javascript",
+"version": "0.9.6",
+"downloads": 28855,
+"rank": 1325,
+"sha256": "34f341293b1dd109b93d44cc3b1ae535d7b40c6b26ab73e62ede939929bf4947",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "xy-sss.slurm--extension",
+"version": "0.17.0",
+"downloads": 28837,
+"rank": 1326,
+"sha256": "7b32d4bb9c4849eaf9a2b8c1807dd7aef32ca7bb5ddee7ae15278d5e788aad4b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nullvariant.git-id-switcher",
+"version": "0.19.12",
+"downloads": 28819,
+"rank": 1327,
+"sha256": "f514aa505242365b7bee9a34b253bed85c83d64a493a91ec231137c0074149dd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "CANN-PUB.cannbot-toolkit",
+"version": "2.1.0",
+"downloads": 28774,
+"rank": 1328,
+"sha256": "0705dcf69e5a0e0b4ddb435b55f8b51933cef548fddaa6103ac406a8a1010de1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "rszyma.vscode-kanata",
+"version": "0.15.23",
+"downloads": 28761,
+"rank": 1329,
+"sha256": "03b202babe7820e98c1a22ab05c6f1757019e6a1020055849b1d43591c0d3976",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mrmlnc.vscode-scss",
+"version": "0.9.1",
+"downloads": 28761,
+"rank": 1330,
+"sha256": "1972841257f826a0b062cf11a86433a535d64394f330c1f5eb086732f95094d9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Mikael.Angular-BeastCode",
+"version": "17.0.3",
+"downloads": 28709,
+"rank": 1331,
+"sha256": "877acb26bf62168de7164a256411778c164ef27fb4667de3251ddbb6a023e012",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "maxdewald.universal-chat-provider",
+"version": "1.9.0",
+"downloads": 28686,
+"rank": 1332,
+"sha256": "71cd52c7042de0449a49adabab4689b7d795b91e61cc5c9420d8ea95458de9fd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "pinage404.rust-extension-pack",
+"version": "0.3.0",
+"downloads": 28671,
+"rank": 1333,
+"sha256": "604e50851d018ed14886607fc81963807fa58915eb6e743be5e8cf90d7a3e641",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Nightrains.robloxlsp",
+"version": "1.6.8",
+"downloads": 28668,
+"rank": 1334,
+"sha256": "06e382104a78971ace2ef5e7b7a3ab0a724f95889a8af447fee9d39fc10d8a79",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "rstack.rslint",
+"version": "0.10.0",
+"downloads": 28656,
+"rank": 1335,
+"sha256": "4d0558f2377705380dfd615fc61bfef84ef6c4df55e0bf323ddc68c6eecb50b7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "imgildev.vscode-astro-generator",
+"version": "1.6.0",
+"downloads": 28591,
+"rank": 1336,
+"sha256": "1ae3d8bcb6ecd7d9f8a29b59096d89880844e0f46fdebcd373eec9edd282e6c7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jolars.badness",
+"version": "0.30.0",
+"downloads": 28580,
+"rank": 1337,
+"sha256": "70efff32efdaccbfca02374f14ea8747b1460d604f93c21ec49d58661612f8a6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "VizzleTF.geminicommit",
+"version": "3.4.1",
+"downloads": 28579,
+"rank": 1338,
+"sha256": "8e60ede0d93e995c669d14369db62811461c7c399fe8cdefa92cbe77dd29f864",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "hearth-code.hearth-theme",
+"version": "3.7.7",
+"downloads": 28566,
+"rank": 1339,
+"sha256": "c92bab08c374beac021829e9a4d82a566bd66b12448d66307b899efdbadccba4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "CardSorting.lumi",
+"version": "27.0.0",
+"downloads": 28556,
+"rank": 1340,
+"sha256": "7b1e018048821d590ade9b5093d1fea026826112d5ef209353bafeccd5acd2ba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "evsyukov.hledger",
+"version": "0.5.63",
+"downloads": 28498,
+"rank": 1341,
+"sha256": "a3509e9ccf26222eff9b4ead7e0c6cbfaf59f4a51a67fe10091bb2cb6449b0ec",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "amazonwebservices.amazon-nova-act-extension",
+"version": "2.7.0",
+"downloads": 28470,
+"rank": 1342,
+"sha256": "b8824c36b07b213410da0c9234b820c1d34ef38ca44154ab239087ca438eb558",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "kleinicke.tiff-visualizer",
+"version": "1.11.4",
+"downloads": 28441,
+"rank": 1343,
+"sha256": "ae39f1c8c11b74cf8f3cb1212d1f63743d087f5a3541eafd3ab8e97cd0e85f8e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "pranayagarwal.vscode-hack",
+"version": "3.1.1",
+"downloads": 28354,
+"rank": 1344,
+"sha256": "38feae8268a5fc1eab9398d03e610b0fff062164339b06b1458b308123b318ed",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "DigitalBrainstem.javascript-ejs-support",
+"version": "1.3.1",
+"downloads": 28352,
+"rank": 1345,
+"sha256": "a71c01e01b623068d68b3c9c342e4a4eee106d1611eeb7606d8dbc84ea99c8ee",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "shader-slang.slang-language-extension",
+"version": "2.0.10",
+"downloads": 28284,
+"rank": 1346,
+"sha256": "8d2c3c8de2b6974c67fcd3f4889b820be057be27d347ac5b980f2a401b5a838f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "JoshMu.periscope",
+"version": "1.16.1",
+"downloads": 28274,
+"rank": 1347,
+"sha256": "8187ec639670078bd30e99565b8f68f446484d8ef809f33514eac2c49efe83a5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Vexp.vexp-vscode",
+"version": "3.5.1",
+"downloads": 28236,
+"rank": 1348,
+"sha256": "4e30c2cde65f5b9cdff726dbdcece92798cae37132207ea3f4ab84989579d59f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mindaro-dev.file-downloader",
+"version": "1.0.13",
+"downloads": 28181,
+"rank": 1349,
+"sha256": "9c9e5f35b571aec964d27781cdd4b54c425fc64c7560eca28b318fa4f5baf972",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "wongjn.php-sniffer",
+"version": "1.3.0",
+"downloads": 28125,
+"rank": 1350,
+"sha256": "7543f86afa68286587669dddad756b3c7e4509fe0bd3ee01108e515d1581a58e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "skyran.js-jsx-snippets",
+"version": "12.0.2",
+"downloads": 28048,
+"rank": 1351,
+"sha256": "b427bce92915d595450739dae85254135e813e8f35723ea6b8a5148e6f39fd8f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "iamhyc.overleaf-workshop",
+"version": "0.15.10",
+"downloads": 28027,
+"rank": 1352,
+"sha256": "528152578141cd409cee8c4754d211ace6b302d2eeca8b51f61f44c2e3288585",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "chrisatcursor.csharpextension",
+"version": "1.11.1",
+"downloads": 28003,
+"rank": 1353,
+"sha256": "040ae52814197834c589d4a5fd6199e34d20d18b997c6a23efff43456f260de7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "MS-CEINTL.vscode-language-pack-qps-ploc",
+"version": "1.131.0",
+"downloads": 27979,
+"rank": 1354,
+"sha256": "5f5a60b9e0048f9d8cc46c9306748960a6c0d37c0528b3430c8c2fcd214d44eb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "cubha.claude-code-gauge",
+"version": "0.2.6",
+"downloads": 27874,
+"rank": 1355,
+"sha256": "af23e71cf7bced1de4427cd434fcbe2451992c253439752b0b88a5b41a732776",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ZiplineAI.zipline-assistant",
+"version": "1.31.1",
+"downloads": 27868,
+"rank": 1356,
+"sha256": "093e49c5e502b56bf4dbde785727ccc3ab2efb9cc4b5b0e298bf062a3aa6dbd2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "superbased.superbased-observer",
+"version": "1.44.0",
+"downloads": 27868,
+"rank": 1357,
+"sha256": "7ce4c2ec1ef81a2738e0d1946b4b7e7ad7b4ad030e2be202cdd48d5e1bba861a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "zokugun.vsix-manager",
+"version": "0.13.0",
+"downloads": 27775,
+"rank": 1358,
+"sha256": "0265443afda1a687bf6ca8c0c64062099298c3a26676c609c5deb4b6857bff05",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Al-rimi.tomcat",
+"version": "4.2.5",
+"downloads": 27707,
+"rank": 1359,
+"sha256": "b071b2476ec2f61ee01f6c66ab3bb7907c30359e46dc6ca7118d030d4c1d8dc0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "weiboplat.wecoder",
+"version": "1.0.124",
+"downloads": 27625,
+"rank": 1360,
+"sha256": "8f988f3e1315f94cb96e4edd23b999d2520f15ef5a44ff091b778162de7e1667",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "kv9898.positron-r-package-manager",
+"version": "0.2.6",
+"downloads": 27622,
+"rank": 1361,
+"sha256": "bc878573ad4a85a1b476a689fe136702d88a0f4d6a9413d11e8bb5a400c599c3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "lyuwenhan.zipper",
+"version": "1.0.44",
+"downloads": 27615,
+"rank": 1362,
+"sha256": "122444b52788638aa7576c7298bf3b88a6edce238a9bff9111d7700bca9570d2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "dprint.dprint",
+"version": "0.19.0",
+"downloads": 27485,
+"rank": 1363,
+"sha256": "895247ba865bb2046d53ecd1bfe7268cbf00bee9cb1e7ae3061f628baae0b66f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "physicar.physicar-ext",
+"version": "2.1.0",
+"downloads": 27468,
+"rank": 1364,
+"sha256": "d27169a655c86064459d71325d69c45ee9d70a88639b37c0d48e06b183f3a059",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "vscode.testing-editor-contributions",
+"version": "1.58.2",
+"downloads": 27464,
+"rank": 1365,
+"sha256": "8c2da0972c404ecaea3ae23b452147f0a45d1c16e01484e49c0cdce42c30befd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "zhang-renyang.chat-gpt",
+"version": "1.6.62",
+"downloads": 27458,
+"rank": 1366,
+"sha256": "f724fbdac95f30203b431a09fa4e266603c0cdb379bb7e5615d77ad231058b91",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "dlsxj101.peridot-vscode",
+"version": "0.7.1",
+"downloads": 27452,
+"rank": 1367,
+"sha256": "57793b6593f0dc1e23bcd2b092904756cc8979b7d74b2dd06d3dcd6c095aba9a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "xinbo-tech.thincoder-vscode",
+"version": "0.11.3",
+"downloads": 27452,
+"rank": 1368,
+"sha256": "9977f075acf75eba92fe19e5b80331966ed4e63304f0637c61e7fca9249e2e86",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "peterekepeter.ucx",
+"version": "0.28.2",
+"downloads": 27387,
+"rank": 1369,
+"sha256": "86fb5ba64792173404d3418c7365e1c2614c13b413dffc00095563f1e928c623",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "infracost.infracost",
+"version": "0.4.21",
+"downloads": 27378,
+"rank": 1370,
+"sha256": "08b300971851e0866119e407cbef24899aca0872405c28dd9966b7f69bd0973a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "MateuszDrewniak.ruby-test-runner",
+"version": "0.3.9",
+"downloads": 27345,
+"rank": 1371,
+"sha256": "6521456825db62f38669924003b7fc6584522ce3b191890f054dcd86975e3c64",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "anweber.httpbook",
+"version": "3.2.6",
+"downloads": 27329,
+"rank": 1372,
+"sha256": "7c8b137fce2c196a05b34c7bfaa83d35c757bac44d222a27c9adc5a1b6ddf133",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "disrei.vscode-kanban-agent",
+"version": "0.7.57",
+"downloads": 27273,
+"rank": 1373,
+"sha256": "7de7e8cb284545d01b7010bc65f823a04c3ab42e300d7a2f8376c02a4a26644f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "EricSia.pythonsnippets3pro",
+"version": "3.3.2",
+"downloads": 27230,
+"rank": 1374,
+"sha256": "69eff3f19f0793cb22f4ff37040c7c868cb8bb8a6cd34b0f6d7fc4632c58f67f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sibiraj-s.vscode-scss-formatter",
+"version": "3.0.1",
+"downloads": 27223,
+"rank": 1375,
+"sha256": "e987ebdb68ca3069b20d97f1e257311b0b80461e9777b06b7630c7e7cc0a91b2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "entan-gl.cc65-vice",
+"version": "8.2.0",
+"downloads": 27217,
+"rank": 1376,
+"sha256": "d2e994438dccbc3738b7b5695cbcb739143ab4ece3775d5500aaa396211fc2b5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jangling09.antipilot",
+"version": "1.1.0",
+"downloads": 27205,
+"rank": 1377,
+"sha256": "bee7012f2987f68ca829502a07beef0cedc62c2b84c3a43b082cfd3b4e1aeeba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "semanticdiff.semanticdiff",
+"version": "0.10.0",
+"downloads": 27112,
+"rank": 1378,
+"sha256": "7dee37d475e43c3369522ed8b5a06667f4dbac4a28affdc00bd97cd022729453",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ThunderCompute.thunder-compute",
+"version": "0.5.12",
+"downloads": 27086,
+"rank": 1379,
+"sha256": "db1d21fbd0bc672ff1f2703f52a57157a54a12abbaedada052db3bff8c2c4943",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "visul.terminal-sessions",
+"version": "0.44.1",
+"downloads": 26993,
+"rank": 1380,
+"sha256": "922c528e855dc1f06e1692df065951e9d99fa71d104e54c28a23fc76f0688f1e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "LuisClementDev.npm-visual-manager",
+"version": "2.1.0",
+"downloads": 26974,
+"rank": 1381,
+"sha256": "a9603514e0ec6ef3108c0a029d909008f655291d5038e6de70b3d1540d2ab083",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "learn-pack.learnpack-vscode",
+"version": "1.0.14",
+"downloads": 26968,
+"rank": 1382,
+"sha256": "8e877b13f5ae9965147a7c214e39bd38f6826b14359c62f9750e940bb1ab2372",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "dinobot22.antigravity-ssh-proxy",
+"version": "0.0.17",
+"downloads": 26880,
+"rank": 1383,
+"sha256": "205cb7e7ab8b8cfa8499516af87898e3c8a686f691f7c9e1abf53f7804879cab",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "chuckjonas.duckdb",
+"version": "0.0.27",
+"downloads": 26847,
+"rank": 1384,
+"sha256": "9bd1e2e524a45616bc104f14805705d3184b31ab9a5c8f83f3007c1dea11ae92",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "TanishqKancharla.opencode-vscode",
+"version": "0.4.4",
+"downloads": 26714,
+"rank": 1385,
+"sha256": "b83042f3588db0810b4c0246d73a9888a892c5d3b7e44baa448fcbcfcad7fd9d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "gitpod.gitpod-remote-ssh",
+"version": "0.0.59",
+"downloads": 26713,
+"rank": 1386,
+"sha256": "7d26872c2298f8279f04f4872f024b7e5f6f50d40158a9430e0aefb325a6036c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "repetere.gpdoc",
+"version": "3.21.0",
+"downloads": 26621,
+"rank": 1387,
+"sha256": "51b6666794f8ca7e26e1fcd5699f113ab1812f9b15c3772a5ec08d4775cd39bf",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "jolars.arity",
+"version": "0.32.0",
+"downloads": 26613,
+"rank": 1388,
+"sha256": "a1eb094b6ecac24daa7a83467f900157d1c6fe47a66c65ece5fc889649c8f19c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "adamraichu.zip-viewer",
+"version": "3.18.0",
+"downloads": 26525,
+"rank": 1389,
+"sha256": "376503ca8db1f2613778b1cb668379de5ac27984e9837753364a510d5bd2fc39",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "t-codespaces.ide-data-sync",
+"version": "0.2.10",
+"downloads": 26516,
+"rank": 1390,
+"sha256": "b0289ffe21b7813e867334240d9f51ffe738186d1f971d11d19da5e1f81f839c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "hoovercj.vscode-power-mode",
+"version": "3.0.2",
+"downloads": 26484,
+"rank": 1391,
+"sha256": "7be9aa1ea541d73a11dbc9f26f85a40fcab33dd4f3c8682384a055d63da0d199",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Superfocus.superfocus",
+"version": "0.0.89",
+"downloads": 26456,
+"rank": 1392,
+"sha256": "c4c92d89bdb2dd9ab068860e1c24ede5740d6df6bac37218c9005814c09451e1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "microchip.mplab-extensions-platforms",
+"version": "2.1.1",
+"downloads": 26426,
+"rank": 1393,
+"sha256": "daa8828f64298027be273f1ee1d2d4b87048182d12a5d45c662087f0ff7be461",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "andrevops.diffchestrator",
+"version": "0.84.3",
+"downloads": 26412,
+"rank": 1394,
+"sha256": "4a0c5b9537593a58e03faf3ce414e398cad6c27a2070027dd2d0ffdff10fbeb2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "aliasadidev.nugetpackagemanagergui",
+"version": "2.1.1",
+"downloads": 26384,
+"rank": 1395,
+"sha256": "ef362329cabc02986191357214d45c09f1bb3eca4fdad8b37e89b13b0e033127",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "gabor.jsonl-gazelle",
+"version": "0.7.3",
+"downloads": 26371,
+"rank": 1396,
+"sha256": "d657a9b258f1a9f59b787a3572864a940a5a50920ecdf9e64b2ed864b1c68545",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "lntvan166.claudegate",
+"version": "1.18.0",
+"downloads": 26347,
+"rank": 1397,
+"sha256": "507c3bb78fe4750845dacf744009e3d2a567ec725abf57f1d0c795383c0b3ce6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "compassak.intellij-idea-new-ui",
+"version": "1.4.0",
+"downloads": 26292,
+"rank": 1398,
+"sha256": "3d4af31ea6b5d6698961379294fa2cbaf74ee703a483e126ad535b73c07aceaa",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ShenQingchuan.vue-vine-extension",
+"version": "1.7.28",
+"downloads": 26284,
+"rank": 1399,
+"sha256": "bb9af08fae77dfcaa03b9fe89ac60f7706ef3a40d003d6333b7a63a3052dbe9c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "wmaurer.change-case",
+"version": "1.0.0",
+"downloads": 26268,
+"rank": 1400,
+"sha256": "203d4530ee6af10846c369eb1e44fc1b5cc4c1124164ed679571b36611d49ce3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "roarpeng.graphflow",
+"version": "3.9.2",
+"downloads": 26255,
+"rank": 1401,
+"sha256": "5579f79bc9e437722d84f9f5fa7e9c2b20bfb1fd444e96934ad9a5665ade9468",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Joouis.agent-maestro",
+"version": "2.17.1",
+"downloads": 26215,
+"rank": 1402,
+"sha256": "b7b9d43ebb80cfb57ecdd598ba191bcbd77c329706fdd60f524a11782cce8065",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "k--kato.docomment",
+"version": "1.0.3",
+"downloads": 26162,
+"rank": 1403,
+"sha256": "abb8159999ee2fc0f837f21445da8a71420169e88475e40f1ee95d90290f3462",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "robin-collins.gistfs-cursor",
+"version": "0.9.7",
+"downloads": 26115,
+"rank": 1404,
+"sha256": "bba25d537f1dd4b2e507191b15006b091801c3a6bb854e73f811cad760ff404d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mrorz.language-gettext",
+"version": "0.5.0",
+"downloads": 26109,
+"rank": 1405,
+"sha256": "d61753d856a2d28e3ca2336ab235be31ca240fd373b76072defce1194b6069e0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "dmsql.dmsql",
+"version": "0.9.20",
+"downloads": 26099,
+"rank": 1406,
+"sha256": "398fb96b78df89159b5df08ed8b7afe72cbba03385206d88f5144c83a39d7fb3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "concretio.markdown-for-humans",
+"version": "0.4.8",
+"downloads": 26072,
+"rank": 1407,
+"sha256": "8270a05a4e6db58832116fa1c57fb4e2aa4fe5448c66d116c55fd2bfbb472d77",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "telesoho.vscode-markdown-paste-image",
+"version": "1.4.8",
+"downloads": 26068,
+"rank": 1408,
+"sha256": "40de14e01efd7602d12312df56c315be8426426ad2f41c0eb4350295ceb96c6e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "idleberg.applescript",
+"version": "0.32.2",
+"downloads": 26060,
+"rank": 1409,
+"sha256": "82d3b63525fa6f7b0cf841a06e1dab74bed0151f6147b5c50fd6c2eabda90b41",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "KylinIdeTeam.kylin-python",
+"version": "0.4.3",
+"downloads": 26020,
+"rank": 1410,
+"sha256": "16e11ef883631fff8bf3843229e834e6e5cc724da89159c21eae71516ea93d40",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "manuth.eslint-language-service",
+"version": "1.1.3",
+"downloads": 25990,
+"rank": 1411,
+"sha256": "09d23cfe8b7cb697723e13a3f851be78d6c9d6c6732b9a59abded7caee33d5f7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "mubaidr.vuejs-extension-pack",
+"version": "1.2.1",
+"downloads": 25909,
+"rank": 1412,
+"sha256": "2f7d640e9993a882f1aadc0d51935e7c1d8aa48d854d7c010535e683de04c622",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "PulkitGangwar.nextjs-snippets",
+"version": "1.0.2",
+"downloads": 25896,
+"rank": 1413,
+"sha256": "9c494569f46996b9407e2bb7057992b3d89733bac660e93ce7e54d09bb8983b5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "senx.warpscript-language",
+"version": "2.8.9",
+"downloads": 25885,
+"rank": 1414,
+"sha256": "1d91032b362a1f03adeddb4a6a4ce6e8d8a722d388fb08d5d5763132c3e68440",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Konveyor.konveyor-core",
+"version": "0.9.6",
+"downloads": 25878,
+"rank": 1415,
+"sha256": "e10f2a8cc8c49ac718b6363ce399511456f5712dcfb8edb41b5120a933218579",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "adhamu.history-in-sublime-merge",
+"version": "1.3.3",
+"downloads": 25867,
+"rank": 1416,
+"sha256": "7a624ebf367a45d5dceecfb6842726290c7147960d3ae0b928727cbd32547582",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "max-SS.Cyberpunk",
+"version": "1.2.14",
+"downloads": 25834,
+"rank": 1417,
+"sha256": "c8870f723788ad79c2223a3f742c42219c13a9748b7ce9f4fc52be898e4cd31b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "yogin.appmod-copilot",
+"version": "0.0.78",
+"downloads": 25801,
+"rank": 1418,
+"sha256": "29b484e703c9c3a1330db69082b7e8b08d7abbafccfdd73914a4db3c476e46f4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "sensmetry.syside-editor",
+"version": "0.11.0",
+"downloads": 25787,
+"rank": 1419,
+"sha256": "77a3b6e550a1d67f0de36308537cbde061b662fe539267b7c772a4749a613156",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "CRITICAL",
+"v0.2.0_ids": [
+"worm_propagation"
+]
+},
+{
+"src": "openvsx",
+"id": "runem.lit-plugin",
+"version": "1.2.1",
+"downloads": 25754,
+"rank": 1421,
+"sha256": "9e008c7e272459b6a5aa0e822d5375bc3b1b9d8d23a88e0913f3e2b1b771a8de",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "NeoResearchInc.heyneo",
+"version": "1.2.0",
+"downloads": 25753,
+"rank": 1422,
+"sha256": "ff0c7b9927790359b25327b384e5a8ca600b48d8dc2dab3a3b004ec9993f0738",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "puppet.puppet-vscode",
+"version": "1.5.7",
+"downloads": 25743,
+"rank": 1423,
+"sha256": "09f161afc5cb574f32ab8336b2fbded8f631c9e87c21aa376d8d38150f9d1c6d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "atopile.atopile",
+"version": "0.15.9",
+"downloads": 25712,
+"rank": 1424,
+"sha256": "9d81e9abe57d17d9cf88fe9468f08be9e3f49cdf626d6c47103d900f0c8ce691",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Anan.jetbrains-darcula-theme",
+"version": "1.3.6",
+"downloads": 25700,
+"rank": 1425,
+"sha256": "d0442ccd24bdecc3028215f7be3e5cfc505a87b714f0f0cdc89974678a629149",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "xyz.local-history",
+"version": "1.8.1",
+"downloads": 25675,
+"rank": 1426,
+"sha256": "9c61904c7f7660fba7a48e305e561fa57e5f6b3550a69f18a69a6ad7e48fcc37",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "yatki.vscode-surround",
+"version": "1.1.2",
+"downloads": 25647,
+"rank": 1427,
+"sha256": "5fab4f8d7a60a635c3e9bd3c36820442e00d4ac2ddf4f5d8e6459e9381474b85",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "gornivv.vscode-flutter-files",
+"version": "5.0.0",
+"downloads": 25635,
+"rank": 1428,
+"sha256": "7673ae2979830206e43d8f60032262c0607f78c398ca848370a5aeaec53c8beb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "JamesGoppert.rumoca-modelica",
+"version": "0.10.4",
+"downloads": 25551,
+"rank": 1429,
+"sha256": "4521b8c1beb6334c3171100e986ef2efaae3c5afe01b35be1f0e5939f8f5bad1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ComplYue.edh-vscode-syntax",
+"version": "3.10.0",
+"downloads": 25542,
+"rank": 1430,
+"sha256": "d172aaaab38f5c8013fbfa776265dae12b34d7f631093d714b1a75abb45e47a5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "antigitv.antigravity-auto-accept",
+"version": "4.2.2",
+"downloads": 25532,
+"rank": 1431,
+"sha256": "ccbcbd2b18160d3b57c0cd347182c7ddf7d140d90cea6076c9570725b902cd3d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Surendrajat.apklab",
+"version": "2.0.0",
+"downloads": 25511,
+"rank": 1432,
+"sha256": "ab3edf92dfe48c567050dccebef40dcdd42d89a1205ff03e716ada8c69c6e799",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "bradgashler.htmltagwrap",
+"version": "1.0.0",
+"downloads": 25448,
+"rank": 1433,
+"sha256": "06ddf42b305cab0ee4eb4aa10c3c0c8a726ffa48b235d66181ce329c590b04e8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nszihan.vscode-dracula-colorful",
+"version": "2.2.2",
+"downloads": 25440,
+"rank": 1434,
+"sha256": "4a6db9997f8efdca0d58ecc79624a12ea17d649fab535dc37693250115db5f89",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "BriteSnow.vscode-toggle-quotes",
+"version": "0.3.6",
+"downloads": 25411,
+"rank": 1435,
+"sha256": "14d9fcdbe60e52961bff00012fbf47531d7f2cdf4624060150a626cf83b412bf",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "wenfangdu.jump",
+"version": "0.8.1",
+"downloads": 25407,
+"rank": 1436,
+"sha256": "5853a3dd0e71a3b8488a3efc42503220fab7c859746335ff7ed4cfed87ed6e73",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "codavidgarcia.antigravity-pulse",
+"version": "1.6.0",
+"downloads": 25313,
+"rank": 1437,
+"sha256": "cdafa506533e52c064e26fe39765b2867ece64b5ac81e155e24fa63c33abe674",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "Greenplumwine.mybatis-helper-vscode",
+"version": "1.0.4",
+"downloads": 25311,
+"rank": 1438,
+"sha256": "cbc00341b42866b7798ac5217d41b8ddac776cceddc2d9ea79e64ac4319d1f22",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "serkonda7.vscode-vba",
+"version": "1.2.2",
+"downloads": 25294,
+"rank": 1439,
+"sha256": "28dc8ec02ea584e45bddd46c66e16c5ab2e1a762f2de12b70c814790a79b776c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "chouzz.vscode-better-align",
+"version": "1.4.5",
+"downloads": 25282,
+"rank": 1440,
+"sha256": "a4f019c162e7bc2abd39f9bf736eea534143231372c3b8389cbcc222674d9d41",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "GBTI.snapshots-for-ai",
+"version": "8.2.0",
+"downloads": 25271,
+"rank": 1441,
+"sha256": "ae350fc74f6e1b1346f09c3a1fae99b7d1af29c889d16ca3f547915a5de217e6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "amodio.tsl-problem-matcher",
+"version": "0.6.2",
+"downloads": 25260,
+"rank": 1442,
+"sha256": "357408f64cda6110cb8f3ade8c4e3dd601818bddbc377a91840415d147a197ef",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "shivakrishnakokkula.claude-usage-meter",
+"version": "0.4.46",
+"downloads": 25247,
+"rank": 1443,
+"sha256": "2f68ad25ae2118cab0a23efeb99d4ae3e8ac521bfb6cf868f6df8efc45c5de9f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "thebearingedge.vscode-sql-lit",
+"version": "0.7.0",
+"downloads": 25227,
+"rank": 1444,
+"sha256": "902ade06eb9e751ba408c87df378e686c58fbebdc52bae84ef09a7bd68c4201c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "ipedrazas.kubernetes-snippets",
+"version": "0.1.9",
+"downloads": 25205,
+"rank": 1445,
+"sha256": "f8ba493cc2a1b996568ed7873d28adb01f537eb032c6a1b1948b6a47d968fbd4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "gencay.vscode-chatgpt",
+"version": "4.0.3",
+"downloads": 25196,
+"rank": 1446,
+"sha256": "f58d51478f9538887cea872d4caa99ffb46b23c5f1ffedc4bbb0f697fd815882",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "nietao.smart-commit-copilot",
+"version": "0.0.77",
+"downloads": 25191,
+"rank": 1447,
+"sha256": "56469b28da48c5b77c007f230b1dfb1ebfd08179fb51bec9dd328d4bfff404d0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "overlay-studio.overlay-studio",
+"version": "0.10.2",
+"downloads": 25178,
+"rank": 1448,
+"sha256": "c18de96dd77cbe42846baea4ab0c2f79a3f0e8b2cea203b6862af8272e8735f1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "openvsx",
+"id": "DynamicEngineering.dynamic-siemens-language-support",
+"version": "2.23.0",
+"downloads": 25164,
+"rank": 1449,
+"sha256": "94d99f6ef3e5677f934f4c3fb963ff1279b2789c9e8d1d6c0379f106b2072be6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-python.vscode-pylance",
+"version": "2026.4.101",
+"downloads": 213623997.0,
+"rank": 1,
+"sha256": "8adba9fecccd4684a0968c54894f0617940f1b2685b6b59db0a8472d1cfb2520",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.cpptools",
+"version": "1.7.1",
+"downloads": 107532485.0,
+"rank": 4,
+"sha256": "daf8247e9a10080fb5078af78766230619f161fda29c2a2334315700b87d8641",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "GitHub.copilot-chat",
+"version": "0.48.1",
+"downloads": 79468279.0,
+"rank": 8,
+"sha256": "7852df60c171be0b59b66c0bb317e778c8c3e233a0f3f524d04bbfebe03aa1d6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "GitHub.copilot",
+"version": "1.388.0",
+"downloads": 74967271.0,
+"rank": 9,
+"sha256": "ed18caf3e3cd23eac8b9141f0b0a6fb30022cfdf7575a7113b6a9885cbf5be19",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "VisualStudioExptTeam.vscodeintellicode",
+"version": "1.3.2",
+"downloads": 62767832.0,
+"rank": 15,
+"sha256": "db37b1c97d58283e6382db2f0f1effcf796e87959eef5cacf9746555c372c1fb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.cpptools-extension-pack",
+"version": "1.5.1",
+"downloads": 60032338.0,
+"rank": 17,
+"sha256": "e639affc29ee00cc06f1ab2f5b6896f23f37ee57672d9deb25241b36c36f3743",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "VisualStudioExptTeam.intellicode-api-usage-examples",
+"version": "0.2.9",
+"downloads": 47242319.0,
+"rank": 28,
+"sha256": "f31043f962c16b162df2fdfef25bd5d928aa57cf621388de428776907ecb3475",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.csharp",
+"version": "2.0.251",
+"downloads": 44590150.0,
+"rank": 30,
+"sha256": "a17f68b01bb365716689b0395440054579c58ea61538416bd2305c6a0e7c917d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.remote-containers",
+"version": "0.483.0",
+"downloads": 42918402.0,
+"rank": 32,
+"sha256": "8a682e6eb05568dab30d8c8e9a0500cf9a2382418020e932ff7b385f2823ec41",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.remote-wsl",
+"version": "1.104.7",
+"downloads": 41432466.0,
+"rank": 33,
+"sha256": "859c5cce8355f262a72b4ce6b28602d2a7a7617d82f64703f3783aba4ae4bd3b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.remote-ssh",
+"version": "0.129.2026100915",
+"downloads": 38882355.0,
+"rank": 34,
+"sha256": "11b085290fea80fb486f67679802b47dc52cb1107bd1f1f91f888b5ae33287d5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.remote-ssh-edit",
+"version": "0.87.0",
+"downloads": 36696243.0,
+"rank": 36,
+"sha256": "c9e5fa440265d3b77e4ae63219014b64d714cd5280b263c5c932849fecb71ae3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.remote-explorer",
+"version": "0.6.2026100809",
+"downloads": 31279060.0,
+"rank": 39,
+"sha256": "8490f43f88ad8ab5e7b4eca560c13e95c8a441ba3586ec2036e4b8578d6ec009",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "MS-vsliveshare.vsliveshare",
+"version": "1.1.122",
+"downloads": 24523547.0,
+"rank": 48,
+"sha256": "5c3f222c6f0703dbb963808a40a2e799e00de0815fd4b183be14cababa319078",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.csdevkit",
+"version": "11.11.115",
+"downloads": 19019310.0,
+"rank": 57,
+"sha256": "e8ac6c0690a1c1930e64c57af605d53e267e915d55c402f1b3d76630f110cb89",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.cpp-devtools",
+"version": "0.8.0",
+"downloads": 9793814.0,
+"rank": 103,
+"sha256": "333fc013e98d5dcb7a0378cfd9c69ddfdd5c54bdadb09f71f6e909b2cc00ac98",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.remote-server",
+"version": "1.6.2026092109",
+"downloads": 9279423.0,
+"rank": 107,
+"sha256": "2b48819c8df2ecfe508bc508d251740c8cc815ccda7b1afaa688530d4bc27b1a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.vscode-remote-extensionpack",
+"version": "0.26.0",
+"downloads": 9167464.0,
+"rank": 110,
+"sha256": "614a3441b2482daf41cd6b9be968ba7030ff66ccbf1fc2d9f23fbd1fee695476",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "GitHub.codespaces",
+"version": "1.18.17",
+"downloads": 8658095.0,
+"rank": 113,
+"sha256": "7a3be45cf2e0f7c8c27eef46a4d8aa6bd4de72bbe0c178f3e12b65fdef21ee8b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "eg2.vscode-npm-script",
+"version": "0.3.29",
+"downloads": 7689927.0,
+"rank": 124,
+"sha256": "93a0ed9a16018fb9a0f12514de983e7b34735af862102a984158fd2c38615782",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "platformio.platformio-ide",
+"version": "3.3.4",
+"downloads": 7556225.0,
+"rank": 126,
+"sha256": "a9f373e086230a608c14bb4091b1935b9c67b154fc8839c55a3ae0926af64a59",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "GitHub.remotehub",
+"version": "0.66.2026102901",
+"downloads": 7201889.0,
+"rank": 133,
+"sha256": "bbccce78dedd0b4581f641b359330ac117fc1b38fbd10d8c2ed37e19490015ea",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.remote-repositories",
+"version": "0.45.2026102901",
+"downloads": 6867406.0,
+"rank": 138,
+"sha256": "8967fa19ef55871b12a727c270c40b20dc9a44d48015842a9d77027f838bdac9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tht13.python",
+"version": "0.2.3",
+"downloads": 6773043.0,
+"rank": 142,
+"sha256": "8807f7c03cbe19e1937239da692e360b64ef3f0dc431340c817c2ad4676f4aac",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "burkeholland.simple-react-snippets",
+"version": "1.2.8",
+"downloads": 6614472.0,
+"rank": 146,
+"sha256": "ceb4712591d1a81306564779e90fb00db09215f9785f72ad6b8b17f1e7199aef",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "xdebug.php-pack",
+"version": "1.0.3",
+"downloads": 6461416.0,
+"rank": 148,
+"sha256": "6bb2447c0b54f2569bc7436055c13d1e66a0bb5f3ef318a99dbfd5c3fd8fa51d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.azure-repos",
+"version": "0.41.2026102901",
+"downloads": 6325666.0,
+"rank": 150,
+"sha256": "8279ad90f38efb8c22f8e6b711f9e983ddc0617182d7027c010c55cd637054bd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-mssql.data-workspace-vscode",
+"version": "0.8.1",
+"downloads": 6175106.0,
+"rank": 153,
+"sha256": "e9f2ad1716d31f77b8525ecac5005292a5a6aee107ac64cf02006324f559e350",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-mssql.sql-database-projects-vscode",
+"version": "1.9.1",
+"downloads": 6034653.0,
+"rank": 159,
+"sha256": "df908d427354c3bf2d483e1ea306151341cb3580faf1041df2d3b269a80860e7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "sidthesloth.html5-boilerplate",
+"version": "1.1.1",
+"downloads": 5993645.0,
+"rank": 160,
+"sha256": "80b7e53c5c32b6167440380389728646578996abc700edf8fd549321610940da",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Equinusocio.vsc-material-theme-icons",
+"version": "3.9.2",
+"downloads": 5947201.0,
+"rank": 162,
+"sha256": "c9bb5ec964aa376f2060c320c6503690a85df7bf0b41d7b462de89853e61db2f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-mssql.sql-bindings-vscode",
+"version": "0.4.1",
+"downloads": 5713278.0,
+"rank": 165,
+"sha256": "0f56313ab177314f0e35698410aab2f2b62823a17af2281fdb90d8b5d0ee3b3e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "MS-vsliveshare.vsliveshare-audio",
+"version": "0.1.93",
+"downloads": 5532810.0,
+"rank": 170,
+"sha256": "181145207f16e638a7656fc9dae2f2d7faef9445e97bb2c3a54367940791032b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "austin.code-gnu-global",
+"version": "0.2.2",
+"downloads": 5082427.0,
+"rank": 180,
+"sha256": "a5c15f05b7042c4101ace1d221979952ed029d80e97dcd8d8baa08254d4de8bb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ziyasal.vscode-open-in-github",
+"version": "1.3.6",
+"downloads": 4581193.0,
+"rank": 189,
+"sha256": "b891820af83a7e3d877b51ed2970b65d02d7629d2f4e5e21420554f68e54cf94",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.vscodeintellicode-csharp",
+"version": "2.2.3",
+"downloads": 4325612.0,
+"rank": 196,
+"sha256": null,
+"v0.2.0": "skipped: over 150MB"
+},
+{
+"src": "marketplace",
+"id": "Equinusocio.vsc-material-theme",
+"version": "34.7.16",
+"downloads": 4303700.0,
+"rank": 198,
+"sha256": "8eb3cf1b10665993303f5f98c783ecabc56d153842ad23ce91c1f8e889eb07db",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ZainChen.json",
+"version": "2.0.2",
+"downloads": 4235680.0,
+"rank": 201,
+"sha256": "9c2dd0f0ab82b67fe38358ff35a031586be729eff292b3e6d8f5237ec273f1a2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "lonefy.vscode-JS-CSS-HTML-formatter",
+"version": "0.2.3",
+"downloads": 3985128.0,
+"rank": 205,
+"sha256": "fe293561ecc54c97a44a25b792d23dca46dc2ca2d768d319ae9fa37229db711b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "vsls-contrib.gitdoc",
+"version": "0.2.3",
+"downloads": 3961902.0,
+"rank": 206,
+"sha256": "2cebef9729b867c600bb8fe8fcb2d85c4d894b3bc49daa48f354f4915a37861b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "thekalinga.bootstrap4-vscode",
+"version": "6.1.0",
+"downloads": 3933318.0,
+"rank": 207,
+"sha256": "7ff03dcab5b190596e4d1b8a7502babbaeea177b64fc41d30e7ed7a04f5f0fc5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-cosmosdb",
+"version": "0.39.4",
+"downloads": 3704927.0,
+"rank": 216,
+"sha256": "052c840ebd6ff6e09e159edaa71d7e21b84362431ea94db3d1e555152bbcb088",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "inferrinizzard.prettier-sql-vscode",
+"version": "1.6.0",
+"downloads": 3704425.0,
+"rank": 217,
+"sha256": "97aa5fffebaff019f8b83317d026f34a3c9d4d2b6bef7b91639e7401df709bb4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "rodrigovallades.es7-react-js-snippets",
+"version": "1.9.3",
+"downloads": 3677124.0,
+"rank": 218,
+"sha256": "6c4633adf154223698d7955e9d4b2f4f942bd41a8d054bf3c985e2e3e1a238a3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "georgewfraser.vscode-javac",
+"version": "0.2.49",
+"downloads": 3629935.0,
+"rank": 221,
+"sha256": "9e82429c5bcbbab237f98fbcaf7391722e3c2622277e366f8cd68a2247190f85",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "sdras.vue-vscode-snippets",
+"version": "3.2.0",
+"downloads": 3548753.0,
+"rank": 227,
+"sha256": "1a28f5608b722066104fd4ca68df965e85ab96d5c96c5541af36b0e008bb6c15",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.js-debug-nightly",
+"version": "2026.11.2315",
+"downloads": 3540716.0,
+"rank": 228,
+"sha256": "181dd23715c5d84109da800c4b947289676fb891f40c5c31cedd841dec23b201",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "formulahendry.auto-complete-tag",
+"version": "0.1.0",
+"downloads": 3431949.0,
+"rank": 232,
+"sha256": "5fbfcb75a8cdf7cc9226ced76e74735bfd3d4db276dd9668d49ff213387db593",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "CS50.extension-uninstaller",
+"version": "1.0.10",
+"downloads": 3412023.0,
+"rank": 233,
+"sha256": "ecc6f12053a9d41d936c6b2d1266daa9f57a4c3e90b3e123f0ecd0b29afa58e3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "rifi2k.format-html-in-php",
+"version": "1.7.0",
+"downloads": 3339972.0,
+"rank": 234,
+"sha256": "da8f1b7c21f28132cbcee7288aae21f037e008a5258f453b695f2f66bd17b836",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "awwsky.csharpfixformatfixed",
+"version": "0.0.93",
+"downloads": 3327870.0,
+"rank": 235,
+"sha256": "f4ec8c5e95396794292c5c54d71f3bc95a61ca0a9ec34faa9043fff79f22d2a3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "brapifra.phpserver",
+"version": "3.0.2",
+"downloads": 3235923.0,
+"rank": 241,
+"sha256": "c90d486fb9ef086c44514f60b7acf11034c061c8445c9bc1959ad685bc0cfa18",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "dongli.python-preview",
+"version": "0.0.4",
+"downloads": 3204583.0,
+"rank": 244,
+"sha256": "e777021aed2cfa04b6eaab2e190b3f1dda56913ed710747a0d0f4e5b36cae023",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jasonnutter.search-node-modules",
+"version": "1.3.0",
+"downloads": 3156916.0,
+"rank": 246,
+"sha256": "5f60a4095178e8c7275c39404a54472a2c6503347e854e32b3c03c26c6e97d82",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "quicktype.quicktype",
+"version": "23.0.170",
+"downloads": 3088668.0,
+"rank": 247,
+"sha256": "94ae74f965cf5c782aaf2865b0c6feeb9ca879b5f4461dcf34a9a55237f094e7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tht13.html-preview-vscode",
+"version": "0.2.5",
+"downloads": 3035895.0,
+"rank": 251,
+"sha256": "db609e469fe9cf452270c82871f9a47784e4a3d02f73de8947d8c9ffe28ee54c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mohsen1.prettify-json",
+"version": "0.0.3",
+"downloads": 2993729.0,
+"rank": 253,
+"sha256": "96f76cfa5143cedd6ce918a486b9c02898a944753e0e4f3964ee3d775b00f2ea",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azurestorage",
+"version": "0.17.2",
+"downloads": 2990734.0,
+"rank": 255,
+"sha256": "9ab0ee2d5481703a8e1f710f1b95466a65eb0b637188f1c980d193622685fd1e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "azemoh.one-monokai",
+"version": "0.5.2",
+"downloads": 2971552.0,
+"rank": 256,
+"sha256": "964cbc845e61fd520811e712fb38e84cb8725b0582d1ac4d9c882790f2409ce0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "eg2.tslint",
+"version": "1.0.47",
+"downloads": 2864004.0,
+"rank": 261,
+"sha256": "b735023214899f558061f9ccf23ec33b142512c3b50e8ecc117c34290c90219e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "VisualStudioToolsForUnity.vstuc",
+"version": "1.3.2",
+"downloads": 2796530.0,
+"rank": 263,
+"sha256": "c84a64241ebb66ea2d8a84fa16084fa117ec088e327e8935e00e9a71f93eaebd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-toolsai.vscode-ai",
+"version": "1.5.2026112501",
+"downloads": 2778893.0,
+"rank": 265,
+"sha256": "6a1217d431eaadba73c92fe2c26c8d0d9868b449886dc636ea0c5a5c899db94e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "xabikos.ReactSnippets",
+"version": "2.4.0",
+"downloads": 2771128.0,
+"rank": 267,
+"sha256": "2b8ce48a8eea69ae1e0cc38e3f63f88b59155a7470aa162c5be7659ed82d7a3d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "george-alisson.html-preview-vscode",
+"version": "0.2.5",
+"downloads": 2727228.0,
+"rank": 273,
+"sha256": "d648e134b15151ab213d8928e45ee9f203707be85e4f8c0a00f66226c4ea81d8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "whizkydee.material-palenight-theme",
+"version": "2.0.5",
+"downloads": 2671927.0,
+"rank": 278,
+"sha256": "1ae1cfc9c13db98cf6042c137dfa48fe2e0fa67630a2fd9beb1f1f02bcfb9680",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-toolsai.vscode-ai-remote",
+"version": "1.7.2026112605",
+"downloads": 2631146.0,
+"rank": 281,
+"sha256": "09afdcad7d9cdc1b35efdbf6f7a7ba5e301e0e2cd7b2a0f2179b785a6935196c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ryannaddy.laravel-artisan",
+"version": "0.0.33",
+"downloads": 2626872.0,
+"rank": 283,
+"sha256": "24e58419e2fd75b2cb133f20d125c896e905e73861fbf483ea45833f99da3081",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ritwickdey.live-sass",
+"version": "3.0.0",
+"downloads": 2606788.0,
+"rank": 285,
+"sha256": "8220bd676520235c06343d0ba68e2bd17f2848a76aed2b74487a9c6ca2fbbb42",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "2gua.rainbow-brackets",
+"version": "0.0.6",
+"downloads": 2577133.0,
+"rank": 287,
+"sha256": "4d506f17fe4a415bd65f5b87c190e59afc068ce3b9fe55db815cc1dba53cacd4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azurevirtualmachines",
+"version": "0.6.11",
+"downloads": 2526201.0,
+"rank": 294,
+"sha256": "f44f1b17298fcc6bc110d7347ecdb24f01cb1fc8385156aa19aaf5bd2df77dd9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vscode-node-azure-pack",
+"version": "1.8.2",
+"downloads": 2482866.0,
+"rank": 297,
+"sha256": "3e321d2fbbb65bedae123c549775c117f0c293f225bef9801fe916f199de3be1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "alexisvt.flutter-snippets",
+"version": "3.0.0",
+"downloads": 2453716.0,
+"rank": 299,
+"sha256": "44ac46f826625f0a4aec40f2542f32c161e672ff96f45a548d0bccd9feed04ef",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-toolsai.datawrangler",
+"version": "1.24.3",
+"downloads": 2438742.0,
+"rank": 301,
+"sha256": "152cf277df1d54ebab4b9a14a8431b6e9b41ce8e984a1d9826774a5bcf7faab2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "leizongmin.node-module-intellisense",
+"version": "1.5.0",
+"downloads": 2431840.0,
+"rank": 302,
+"sha256": "ea077b2b1a3de2fddd2a94041b3412483a2846ce0d86db62d6646c0345e04e18",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "dbaeumer.jshint",
+"version": "0.11.0",
+"downloads": 2427694.0,
+"rank": 305,
+"sha256": "26996c445d85a7d1e929944de858cff1df0f1201c4d6ba7c000f8180b2935fe2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azurestaticwebapps",
+"version": "0.13.4",
+"downloads": 2392919.0,
+"rank": 308,
+"sha256": "5ee61a94656afee47cb384af9b6e447bd6b1d6b84ab4ca85e449713fd9258c39",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.azure-dev",
+"version": "0.10.0",
+"downloads": 2333668.0,
+"rank": 314,
+"sha256": "efa082b0152d2cf9ae2e6dd5065b51b1e88e83ccf58843d334934f10d59eed0c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azure-github-copilot",
+"version": "1.0.256",
+"downloads": 2318837.0,
+"rank": 315,
+"sha256": "db4561de7692580dba06fd766c1c35a5762e8d0f7936ad815416cdd8e93163db",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "donjayamanne.jquerysnippets",
+"version": "0.0.1",
+"downloads": 2274090.0,
+"rank": 321,
+"sha256": "a64e170dad0901e9c74147e08d1376882a3f1a1320e398f9e7987769877089ed",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "figma.figma-vscode-extension",
+"version": "0.4.8",
+"downloads": 2220320.0,
+"rank": 324,
+"sha256": "f8470f3726f92909ad7b4ee1a9cbebf9de8374d93e6978c9b07ff80aa9652800",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jcbuisson.vue",
+"version": "0.1.5",
+"downloads": 2216608.0,
+"rank": 325,
+"sha256": "ac0aeff64b8c8ff2c101e585a67815a1fe100416d6020458704a4bfff0ebf30d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bianxianyang.htmlplay",
+"version": "0.0.10",
+"downloads": 2208057.0,
+"rank": 326,
+"sha256": "913ed6eca11f8d7e6799c4f9b9bb5b298d4cc4794cd7cc37ca343c37b144e5bb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tushortz.python-extended-snippets",
+"version": "0.0.1",
+"downloads": 2206628.0,
+"rank": 328,
+"sha256": "acbad103e8056160ea7ba4bcc1fc00aa6d9f34b7d9818bf9068ddf384803888b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "BracketPairColorDLW.bracket-pair-color-dlw",
+"version": "0.0.6",
+"downloads": 2198737.0,
+"rank": 329,
+"sha256": "581f76f4b2567fb8db0a45a836741a4a4431113c4de31b49247c2c2e4dbe766c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vscode-serial-monitor",
+"version": "0.13.251128001",
+"downloads": 2193067.0,
+"rank": 331,
+"sha256": "79341c2f217a0ccbf30c1c8a2f0d8a47c3eb8d5c1e8ec394eb41dec3b20e998f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mohd-akram.vscode-html-format",
+"version": "0.1.6",
+"downloads": 2191575.0,
+"rank": 332,
+"sha256": "122def33bcad641a18a1a066e2f17954304f3286970b3807e32bc50b7af72367",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "aeschli.vscode-css-formatter",
+"version": "1.0.2",
+"downloads": 2178163.0,
+"rank": 334,
+"sha256": "0c534e79e4e6d77a9616191fcdca485d6c3f62359848acba6eaf986cb59c5390",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Unity.unity-debug",
+"version": "3.0.2",
+"downloads": 2058808.0,
+"rank": 339,
+"sha256": "28d0d6881d4bad1860499d3068a63a107bbc4175b7d483734932b4396ed175b9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "MarsCode.marscode-extension",
+"version": "1.7.18",
+"downloads": 2053582.0,
+"rank": 341,
+"sha256": null,
+"v0.2.0": "skipped: over 150MB"
+},
+{
+"src": "marketplace",
+"id": "michelemelluso.code-beautifier",
+"version": "2.3.3",
+"downloads": 2021475.0,
+"rank": 344,
+"sha256": "466a80c25fbacc87ed74c6efbbfdfd0a2b09f62e9c9a964e47a7a1d05e870f11",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mitaki28.vscode-clang",
+"version": "0.2.4",
+"downloads": 2019031.0,
+"rank": 345,
+"sha256": "43747bf355719f8850507c0207e09b36692d58be54002c26b556d92d0914da6b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "adpyke.vscode-sql-formatter",
+"version": "1.4.4",
+"downloads": 2009334.0,
+"rank": 347,
+"sha256": "838a2a074cd5ee307b3de03f7767bc8ca7c787e0a2faeb349cad9a832d44071b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azurecontainerapps",
+"version": "0.13.0",
+"downloads": 1989270.0,
+"rank": 351,
+"sha256": "a8ad1459899e458469c23190d354f79b17b9e040ac63f5d44b6b16b7b3719174",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.dotnet-interactive-vscode",
+"version": "1.0.7181011",
+"downloads": 1986019.0,
+"rank": 352,
+"sha256": "82ca399434250dca1757c7bd1b5196c5abe8a3c2caf8857230534f2199c46385",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "vscjava.migrate-java-to-azure",
+"version": "0.5.2025061701",
+"downloads": 1927949.0,
+"rank": 355,
+"sha256": "2d01dad5bf4fc0d2f0cfa9c14bff682f1b3279da1f6c126eee48ad9ef92d19fd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "kleber-swf.unity-code-snippets",
+"version": "2.4.0",
+"downloads": 1888258.0,
+"rank": 359,
+"sha256": "633ee034fea3111a8840541937d8700a15a81b8e432e79d1e7b03d4be961214c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jchannon.csharpextensions",
+"version": "1.3.1",
+"downloads": 1855926.0,
+"rank": 365,
+"sha256": "b6d1aa2bea914bd9bb2df67a7241372676f47352f595d3dd6d96d6c2122b6f2e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "formulahendry.terminal",
+"version": "0.0.10",
+"downloads": 1855466.0,
+"rank": 366,
+"sha256": "f611a40ff9961a1c07d00080de7503ef9fd70888ba03c0e20d56a07c7c0f473e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "EQuimper.react-native-react-redux",
+"version": "2.0.6",
+"downloads": 1847243.0,
+"rank": 368,
+"sha256": "c1eab5e19d0edc6973ebed1a3c52df2df6335ddc055444c0e8e009306194d364",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "pnp.polacode",
+"version": "0.3.4",
+"downloads": 1810203.0,
+"rank": 373,
+"sha256": "bb4ea021ef3a5b6757e1ad5d04ae26d3bfd541e40a58c0b0ce2f4b9925a92c51",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "josetr.cmake-language-support-vscode",
+"version": "0.0.9",
+"downloads": 1766720.0,
+"rank": 378,
+"sha256": "2cdb57619eb92e46b5969c5e2a8ccae8b074c9ac408c7b1f56c089f082d7f22a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azure-mcp-server",
+"version": "4.0.10",
+"downloads": 1760118.0,
+"rank": 380,
+"sha256": "6b3e11f9d586e1baa55adf227c61d759e22f5c20865a64c1b69b65c46353cfd4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "rbbit.typescript-hero",
+"version": "3.0.0",
+"downloads": 1753874.0,
+"rank": 381,
+"sha256": "2391dbc1edc4e070c6976a0c8241d806f86d140e3d50444ff56452b50e21c0c9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-bicep",
+"version": "0.49.2",
+"downloads": 1748109.0,
+"rank": 383,
+"sha256": "8302751057cb40bcbcf34dbdada30337e5d61de96f8918bfe404fe75cea08eba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "EliverLara.andromeda",
+"version": "1.10.0",
+"downloads": 1716582.0,
+"rank": 384,
+"sha256": "5bce26f5bdc3cead8b8d4a5aff48734966d5a246b123820311a0b24960c5f549",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "FallenMax.mithril-emmet",
+"version": "0.7.7",
+"downloads": 1714104.0,
+"rank": 386,
+"sha256": "ab58680b8b2bc79e8405c8da7b48160c71e01db30d320340075df5a95787074c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "negokaz.live-server-preview",
+"version": "0.1.4",
+"downloads": 1683934.0,
+"rank": 388,
+"sha256": "10b07b287377f65e5fe50649885b77429fd0793da113f8d0229803cda9bcb976",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "marketplace",
+"id": "jmrog.vscode-nuget-package-manager",
+"version": "1.1.6",
+"downloads": 1653978.0,
+"rank": 393,
+"sha256": "60c4d9ac55f579c6ae6d0a4a7fb81e9b410b568fed7d36de33ec8fc3381d546e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "AnbuselvanRocky.bootstrap5-vscode",
+"version": "0.5.0",
+"downloads": 1646787.0,
+"rank": 394,
+"sha256": "a068ca850e4a75f612d85bb1872e016417c0f9ae975da5e0080b97e0f528c69a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tal7aouy.theme",
+"version": "3.1.0",
+"downloads": 1642414.0,
+"rank": 396,
+"sha256": "2c926a4b919fd6d5772f6faa4eab252ec760381ca368caa4086c40309aa006dc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "johnpapa.angular-essentials",
+"version": "22.0.1",
+"downloads": 1638704.0,
+"rank": 397,
+"sha256": "6200d8d6bbebe744abd9e81b0ed9bb087ca0c21590ba72fab33e9bf16ee75af4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-windows-ai-studio.windows-ai-studio",
+"version": "0.25.2025110705",
+"downloads": 1610620.0,
+"rank": 400,
+"sha256": "13c31816e0c0a6ec3e278ce172a72fde7dddc9072648d8de95d5ee7971d69037",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "pmneo.tsimporter",
+"version": "2.0.1",
+"downloads": 1602035.0,
+"rank": 402,
+"sha256": "250edd0258abcaf5571f4460d6e85e4b39ce1ea6e9fc1330c2578f1fd3f49288",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "eriklynd.json-tools",
+"version": "1.0.2",
+"downloads": 1569604.0,
+"rank": 406,
+"sha256": "eed06385ca82527c0e5f08e12caf2262d5c7fe6cba013a56be0adf0cd8bcb73c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "SimonSiefke.svg-preview",
+"version": "2.8.3",
+"downloads": 1565142.0,
+"rank": 407,
+"sha256": "84855ed4c9a4cae1e80dae7a65052c48018c94a58006843414139f8196436c2c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.vscode-dotnet-pack",
+"version": "1.0.13",
+"downloads": 1560234.0,
+"rank": 408,
+"sha256": "cf7c625e05800d21dd64cffe3129aa457a838e25f83bac217af375cd2981c964",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "utsavm9.c-cpp-flag-debugging",
+"version": "0.0.1",
+"downloads": 1546795.0,
+"rank": 410,
+"sha256": "fdcaad4c56fcbbb346b224eb871d2a2240058d956b5945ad648b609a84ba3047",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "hars.CppSnippets",
+"version": "0.0.15",
+"downloads": 1535599.0,
+"rank": 412,
+"sha256": "29774429cc4f7256c3db668a18029299da550593f622941168a7dcd8b0ec2f45",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "dustypomerleau.rust-syntax",
+"version": "0.6.1",
+"downloads": 1525191.0,
+"rank": 415,
+"sha256": "a3d8973e1c248a6c6825cd5d2dd689f270722c86894a9197fe72842c2dba8c65",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "kreativ-software.csharpextensions",
+"version": "1.7.3",
+"downloads": 1524217.0,
+"rank": 416,
+"sha256": "aafd816dc4f4edca208e52d514e2a3d266ac451536f24adb4392d6705adc810c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "thebarkman.vscode-djaneiro",
+"version": "1.4.2",
+"downloads": 1514725.0,
+"rank": 419,
+"sha256": "bf2ad7766dabec1f72595677f6d9df8b6ceec3e2de325d4f9ba78eae1fe16912",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azure-devops.azure-pipelines",
+"version": "1.261.1",
+"downloads": 1509980.0,
+"rank": 421,
+"sha256": "94481615f60bc78e7b963986c1023fc63fbda7d8ed18b0c856d88ea397c73384",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "msazurermtools.azurerm-vscode-tools",
+"version": "0.15.15",
+"downloads": 1508928.0,
+"rank": 422,
+"sha256": "6b4e9c067ada7d0b2a197f218fc10eb9ef5184810dd253341d5da12d32f0f531",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Wscats.cors-browser",
+"version": "1.0.11",
+"downloads": 1493313.0,
+"rank": 424,
+"sha256": "bfdfa357cb4c1d332fb9a752e4e15fcd8ba27eeeca62d022632c41b944d52b3f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bierner.markdown-emoji",
+"version": "0.3.1",
+"downloads": 1484290.0,
+"rank": 425,
+"sha256": "81f744c0a5cb4aee78335800a4cd58d63a1f02d4dd9a0e54b814fc7ff4d40910",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ikappas.phpcs",
+"version": "1.0.5",
+"downloads": 1482291.0,
+"rank": 426,
+"sha256": "ea7142c49ca1223b3c78351f2c00e642f9eb35d2d3b9ab1aa24fe5fa7132bc48",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vscode-speech",
+"version": "0.16.0",
+"downloads": 1481966.0,
+"rank": 427,
+"sha256": null,
+"v0.2.0": "skipped: over 150MB"
+},
+{
+"src": "marketplace",
+"id": "Meezilla.json",
+"version": "0.1.2",
+"downloads": 1469427.0,
+"rank": 430,
+"sha256": "a77ff771f5c831e415679cec595de201a66121f5c4da647bf48c95d1fefd84c4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bierner.markdown-checkbox",
+"version": "0.4.0",
+"downloads": 1469306.0,
+"rank": 431,
+"sha256": "0283dc74dffaed63b36ab9c5f86231fe76a7b37f096a7f19e43d12b415886e49",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Tobiah.unity-tools",
+"version": "1.2.12",
+"downloads": 1452510.0,
+"rank": 435,
+"sha256": "4ac65b48b26d54c19bb3249e88b043d0ebbd01a6031d5bc1df4d3d926384bdf9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "caolin.java-run",
+"version": "1.1.4",
+"downloads": 1449341.0,
+"rank": 436,
+"sha256": "e0edc6a9f710bb9402662a1dbc0f68434ddff62c6dcf4a66116671571e69957d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "xirider.livecode",
+"version": "1.3.10",
+"downloads": 1425721.0,
+"rank": 439,
+"sha256": "26e941167e44c06feba7f26eb09e84425522d0e6358765edd91debc7861d098d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "peakchen90.open-html-in-browser",
+"version": "2.1.11",
+"downloads": 1414590.0,
+"rank": 440,
+"sha256": "b69b7993080b0741b59d1317700cb9825926b5524ca4581b52214e3d09779cd2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "cstrap.python-snippets",
+"version": "0.1.2",
+"downloads": 1414391.0,
+"rank": 441,
+"sha256": "cb54fb2e59305522c0cae592145f68c871bc126b1a64327d1b4835a3d476a6c6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ryu1kn.partial-diff",
+"version": "1.4.6",
+"downloads": 1407080.0,
+"rank": 443,
+"sha256": "ca9d30fdab6e6544925446912e1a675f8366ad8086c33163120ce7711a44a0d0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "dzhavat.bracket-pair-toggler",
+"version": "0.0.3",
+"downloads": 1405273.0,
+"rank": 444,
+"sha256": "9a3b21fa3c2bd7282d384899de3b9a12ec4f650c5d33740e1f13bf7b686de07a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "liviuschera.noctis",
+"version": "10.43.3",
+"downloads": 1403893.0,
+"rank": 445,
+"sha256": "44c61e5b527754d8aa6068fedbe5b30b95f8025f64e585a6c0ec9e7459ce7352",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-iot.vscode-ros",
+"version": "0.9.6",
+"downloads": 1391963.0,
+"rank": 447,
+"sha256": "66c181cdf2f3445cd25b1e2fb6d7d73dbea04ab141cbe4140f3f6190074a302c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "deerawan.vscode-dash",
+"version": "2.4.0",
+"downloads": 1372652.0,
+"rank": 449,
+"sha256": "62a9f9f69a4d59044c5866152cb5a87e881db3ee2dfd6451b5249fa263d6432e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azureterraform",
+"version": "0.3.3",
+"downloads": 1367797.0,
+"rank": 451,
+"sha256": "4e7f8b6ef7eb2389af71a5ea247f03f5534ff5a727c3bc27478becb4ec7a60d5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mathematic.vscode-latex",
+"version": "2.2.4",
+"downloads": 1365220.0,
+"rank": 452,
+"sha256": "6adcf1ec3fc107d2450f4e1097af7f883b4120cf8b115b076a9dc9247c801b9c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "onecentlin.laravel-extension-pack",
+"version": "1.3.0",
+"downloads": 1356696.0,
+"rank": 453,
+"sha256": "e32d5f49942ae5961c4264a09b48dd1a1a07eb29f85262072348df4b44117854",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "liximomo.sftp",
+"version": "1.12.10",
+"downloads": 1352162.0,
+"rank": 454,
+"sha256": "fbc3228640a59779e35808dc7f700bbf2cb0291638a526e1a1c8456a754e8f69",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bierner.color-info",
+"version": "0.7.2",
+"downloads": 1339976.0,
+"rank": 456,
+"sha256": "05fd2d85db78cb11fb3ac4612177aabdac43d6d6c74eb51ce1025c8eeec7bfdd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "vscjava.vscode-lombok",
+"version": "1.1.2024071804",
+"downloads": 1336027.0,
+"rank": 457,
+"sha256": "55a776265d0bab2cdc693abe56c2edbaee79aa580d029143624add4b349af782",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "waderyan.nodejs-extension-pack",
+"version": "0.1.9",
+"downloads": 1334162.0,
+"rank": 458,
+"sha256": "3ffb040ff937551291f2871800fb4c1ce1691c5c3f88b0a6b7c654fadac1296f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "solnurkarim.html-to-css-autocompletion",
+"version": "1.1.2",
+"downloads": 1333886.0,
+"rank": 459,
+"sha256": "96cdfa49c6a3440e4f885152f89ff3ed776766a7bc347964c7ce69aea36264f8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "kaih2o.python-resource-monitor",
+"version": "0.3.0",
+"downloads": 1332176.0,
+"rank": 460,
+"sha256": "f74469bf39bbbec707bec3a6307046efadf076d7e429dbdb8d55ef6c748ffef3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Askia.askia-qexml-generator-extension",
+"version": "1.0.1",
+"downloads": 1313656.0,
+"rank": 464,
+"sha256": "07992186f2031fad4a217cfd13261c508569f3cdc364989e45131094f472f0ca",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "LeetCode.vscode-leetcode",
+"version": "0.18.4",
+"downloads": 1302183.0,
+"rank": 468,
+"sha256": "8a218af979937fd44e692224b1def5007109b5ab62a5e6f1997238bf9afd9cff",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tinkertrain.theme-panda",
+"version": "1.4.0",
+"downloads": 1284684.0,
+"rank": 470,
+"sha256": "de208a8075630f6aa756c2ed49aecd5470479cb9768dd1caa6e41ec0ef5366e9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "be5invis.vscode-icontheme-nomo-dark",
+"version": "1.3.9",
+"downloads": 1281953.0,
+"rank": 471,
+"sha256": "d705b66210f95e96382b926fd826becc3dd3c54f256ae5f4de4a3f584f186b27",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "donjayamanne.javadebugger",
+"version": "0.1.7",
+"downloads": 1226758.0,
+"rank": 479,
+"sha256": "051c73ddf11d6927cd6d595cb30eee34abb17bed8a4bca3e584f99b9f6430e5f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mkaufman.HTMLHint",
+"version": "0.10.0",
+"downloads": 1224376.0,
+"rank": 481,
+"sha256": "422b10c2509f0cf83f489088b84dc01dfc8aec3b1c331ce616e06ba052da64ee",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "frhtylcn.pythonsnippets",
+"version": "1.0.2",
+"downloads": 1220273.0,
+"rank": 482,
+"sha256": "6f9a105119619800f00e3b8ff0a1dfaaa4f5f794cca0886d548f3bb092dfd25c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "be5invis.vscode-custom-css",
+"version": "7.5.1",
+"downloads": 1216055.0,
+"rank": 483,
+"sha256": "288784df362ac48abb93bfcf4d1b7fd4e89d78eafba87ba09be44553fce5ca28",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "076923.python-image-preview",
+"version": "1.2.0",
+"downloads": 1214729.0,
+"rank": 484,
+"sha256": "7056a0204b30f3c68a5a357ca99a58f4d5a5fa15f406098afa9297955b895742",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "humy2833.ftp-simple",
+"version": "0.7.6",
+"downloads": 1208179.0,
+"rank": 486,
+"sha256": "4ea9c6888dd711c0910ff13f662f24f14e23877b3b81abae91f778e5b184045f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "formulahendry.docker-explorer",
+"version": "0.1.7",
+"downloads": 1208048.0,
+"rank": 487,
+"sha256": "f9c940bc975aaf7840a165408e429b63d792f6a843afe526021785e4d721110a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Keploy.keployio",
+"version": "3.1.10",
+"downloads": 1194816.0,
+"rank": 490,
+"sha256": "e4523d2f704513583fc200f0b2543af00c30cf1f6183357a08a930432f7d2fad",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "kisstkondoros.vscode-codemetrics",
+"version": "1.26.1",
+"downloads": 1194032.0,
+"rank": 491,
+"sha256": "970e9e67094c5c48da4fe16186688b902078f50ec2d35e6f53bcce2cb4ed19ff",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "etmoffat.pip-packages",
+"version": "0.4.3",
+"downloads": 1190458.0,
+"rank": 492,
+"sha256": "967159b70c61ccd568077110e43ebe82bd4a060e9cbdc99ce68b877dcb7d9c87",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "naoray.laravel-goto-components",
+"version": "1.2.0",
+"downloads": 1183230.0,
+"rank": 493,
+"sha256": "d03b00bcb79f76bcc4e2db899cec0d0bedf51a5fea1d668aad497d8fc5b83f6b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.atom-keybindings",
+"version": "3.3.0",
+"downloads": 1178585.0,
+"rank": 495,
+"sha256": "bf339bfc3515e3824ccdcb90260b4307a7cea532b3ab6f7c5924b154a958138a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mrcrowl.easy-less",
+"version": "2.0.5",
+"downloads": 1175459.0,
+"rank": 497,
+"sha256": "a656a9d43e7923754aa5719ba91f1c3ae765658aca6aa86ed6466aad4c9395a3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "infeng.vscode-react-typescript",
+"version": "1.3.1",
+"downloads": 1164095.0,
+"rank": 500,
+"sha256": "79a2ad9caa8f9029bfc710b350e847779dfa9f763d3195ab55eac83b6bbfb6ba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mutantdino.resourcemonitor",
+"version": "1.0.7",
+"downloads": 1163475.0,
+"rank": 501,
+"sha256": "cf1875b2b7be79a90a495d1d097530b44fcd3452b2e8c8613fa0331cd050b80d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "stringham.move-ts",
+"version": "1.13.0",
+"downloads": 1152396.0,
+"rank": 502,
+"sha256": "d7af9109bbee5b1ab568c62a04da56421143fd0d318bfaf84656de7cb5b59d48",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "hdg.live-html-previewer",
+"version": "0.4.0",
+"downloads": 1143618.0,
+"rank": 503,
+"sha256": "5959a48121b668ed25a43df9b280943037800ca2cc5fd45102241b5b34242f22",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "IHunte.laravel-blade-wrapper",
+"version": "1.0.2",
+"downloads": 1124529.0,
+"rank": 506,
+"sha256": "a240ecd98caa2b05179f432207a8178e149aae229d12a9836138477b72cd84d5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tal7aouy.icons",
+"version": "3.8.0",
+"downloads": 1121460.0,
+"rank": 507,
+"sha256": "3dd84d17255459c39f962fd9953fba4e6b56ad5df57c13f513555de1058e63e0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "dan-c-underwood.arm",
+"version": "1.7.4",
+"downloads": 1111341.0,
+"rank": 508,
+"sha256": "81904cf7cd00a03fb4c277c75c92bdb2a0aeb8bb51634f099cedd076afd345f7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Tyriar.lorem-ipsum",
+"version": "1.3.1",
+"downloads": 1104759.0,
+"rank": 509,
+"sha256": "88139ecab2d3b39090cbfaa75bd5a858cc6dd99d375c752b709da5c878ca9999",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "CS50.ddb50",
+"version": "1.1.3",
+"downloads": 1101256.0,
+"rank": 510,
+"sha256": "8b56fd6e7dc3509aa22489fa1dfecd68438f2f25c9849a86c255f1bb1a7dd665",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "glitchbl.laravel-create-view",
+"version": "0.0.6",
+"downloads": 1099995.0,
+"rank": 512,
+"sha256": "1081e9e7107e267d29c0d07a37fca3c9abd55938089ceafd5b9af2bcddf64222",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "akamud.vscode-javascript-snippet-pack",
+"version": "0.1.6",
+"downloads": 1099049.0,
+"rank": 513,
+"sha256": "7b1c5b38090d8d2575a45938b04c93d4ec28998c024317c788a0afd1e8640463",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "McCarter.start-git-bash",
+"version": "1.2.1",
+"downloads": 1097921.0,
+"rank": 514,
+"sha256": "dac7085181e27a2cd11471b25aa9f93d12117c8b6de727b8b77889d79440b9e6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mkxml.vscode-filesize",
+"version": "3.2.2",
+"downloads": 1095567.0,
+"rank": 516,
+"sha256": "4558600adff3635e79a1e2fb11b541a2434514107dc6f18bde3df3c927631918",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "KoichiSasada.vscode-rdbg",
+"version": "0.2.2",
+"downloads": 1084149.0,
+"rank": 519,
+"sha256": "8aa53168c21ea8c0328791323a23b1ada1996696547a0b1c84ca158ed5b3ebb7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "chris-noring.node-snippets",
+"version": "1.4.0",
+"downloads": 1083305.0,
+"rank": 520,
+"sha256": "94e062afec075cb8695d0b51d935165189822351564dfd933e8fa09b4b48dae3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Oracle.sql-developer",
+"version": "26.3.1",
+"downloads": 1079678.0,
+"rank": 521,
+"sha256": null,
+"v0.2.0": "skipped: over 150MB"
+},
+{
+"src": "marketplace",
+"id": "mcright.auto-save",
+"version": "1.0.3",
+"downloads": 1067698.0,
+"rank": 522,
+"sha256": "4915da06f2bf2a13ce7d58eb3b186b02511d3e21702965ada471ff330f89b476",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jorgeserrano.vscode-csharp-snippets",
+"version": "1.1.0",
+"downloads": 1055245.0,
+"rank": 526,
+"sha256": "5d8871058778b1e978d6e921479cad698dd27fbf154daaa5f16c1da0ac5a59f3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "TeamsDevApp.vscode-ai-foundry",
+"version": "1.2.4",
+"downloads": 1054932.0,
+"rank": 527,
+"sha256": "bb8f4cd9f1af170a286d9e05642151da51de924e4a13ead5459c9cfd4e6f1cd0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jprestidge.theme-material-theme",
+"version": "1.0.1",
+"downloads": 1046513.0,
+"rank": 529,
+"sha256": "9d48ec90665fffb322de6040b3015f6e076c34d7e7e4117f9036489fcbff0470",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "traBpUkciP.wolf",
+"version": "0.4.3",
+"downloads": 1046088.0,
+"rank": 530,
+"sha256": "10021be25e7054f9a4187d8a04d64681a6ec93f6662558f4a174006cc2f06bfe",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Wscats.eno",
+"version": "2.3.53",
+"downloads": 1032305.0,
+"rank": 532,
+"sha256": "4cb097be4cb263f74e16ab36bcbd925a9fbe311e8eee4c71a5ac38f1dfc0d855",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vscode-chat-customizations-evaluations",
+"version": "1.1.2026110222",
+"downloads": 1026504.0,
+"rank": 533,
+"sha256": "4781bcc2fbda88ab5afefae0bb01c7fe2a0f33e4d24ced3f62333093120fa1d1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "infinity1207.angular2-switcher",
+"version": "0.4.0",
+"downloads": 1024773.0,
+"rank": 534,
+"sha256": "8534b21ff001c9851c37751afb5d3afc4abcfdf0f9cd03065a38fc6c6172bfd6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "rocketseat.theme-omni",
+"version": "1.0.12",
+"downloads": 1022441.0,
+"rank": 535,
+"sha256": "ad9cf231cf620958c416658288bb8aaa8841c126eaa0a118451d819f97fa75b5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "chrmarti.regex",
+"version": "0.6.0",
+"downloads": 1020866.0,
+"rank": 537,
+"sha256": "131c360ae4ac24aa618124c02bbd83c643bea07bf62382c6a3a055dcdbd8542b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "vscjava.vscode-java-upgrade",
+"version": "2.1.2",
+"downloads": 1019602.0,
+"rank": 538,
+"sha256": "9967464f1e5e479777d7814f8d2b031d0d9595479118ca1cd5c70758d5d677ae",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "nhoizey.gremlins",
+"version": "0.26.0",
+"downloads": 1012384.0,
+"rank": 541,
+"sha256": "30bd3849c7123ab8f9a98d071c9e6388d6d690f125535fb364d497da2d4adae9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "demystifying-javascript.python-extensions-pack",
+"version": "1.0.3",
+"downloads": 1012196.0,
+"rank": 542,
+"sha256": "d32915661697505b53997b74c851e0178f1adb4eebb76827e1e3dba944ae82a4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "alexiv.vscode-angular2-files",
+"version": "1.6.4",
+"downloads": 1003621.0,
+"rank": 543,
+"sha256": "22988f7da9087c51beb069aaee79fdd661cd7cf83b524894a437ed99fc044262",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bibhasdn.django-html",
+"version": "1.3.0",
+"downloads": 994972.0,
+"rank": 545,
+"sha256": "ef154955c8e6c25ebdd7b96a9136b4285c0c2e402f1e4353db054c2f5e205429",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "1YiB.rust-bundle",
+"version": "1.0.0",
+"downloads": 993407.0,
+"rank": 546,
+"sha256": "1b6bc75fd2c12a65217792b7a0a0288dc7d5216c9d8cf4b4df19015be71ea5a5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "miramac.vscode-exec-node",
+"version": "0.5.6",
+"downloads": 983855.0,
+"rank": 547,
+"sha256": "e7a122aa1acc3f4a83469088629fc8ce4fbcf1d155ebc6fa48dd250542c9e79e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "PawelBorkar.jellyfish",
+"version": "0.0.4",
+"downloads": 976697.0,
+"rank": 548,
+"sha256": "f8dec32722bdc51fa865546c0b6a0f428ab53d45dbf4139a9c8f1af0782c17d1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "huizhou.githd",
+"version": "2.5.7",
+"downloads": 971704.0,
+"rank": 550,
+"sha256": "17ebbb1e92ea757f57a9825f73fb16a26cb53bbca0c1613c2b162d9fabf3821b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "wcwhitehead.bootstrap-3-snippets",
+"version": "0.1.0",
+"downloads": 956762.0,
+"rank": 555,
+"sha256": "bff4c9800fbe3d9110ccaf3278e1054f89fa4084d73e3e1df65f44753ccafe26",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Sophisticode.php-formatter",
+"version": "0.2.4",
+"downloads": 952915.0,
+"rank": 558,
+"sha256": "1da7d9d4777392f672a9570d08f8b3fd9d1404c57d5b51367d55c7e12a28b283",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "miguelsolorio.symbols",
+"version": "0.0.26",
+"downloads": 952796.0,
+"rank": 559,
+"sha256": "52b9059b0c2a314b02bb064ddbfb7cb9e0d0059d561334c5f48aa2ae64c06595",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "austenc.laravel-blade-spacer",
+"version": "2.3.1",
+"downloads": 952416.0,
+"rank": 560,
+"sha256": "ceb754fd81ee4d20c484b3714e16b69875bb35a227f0b46475f7835a9da9d944",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "rokoroku.vscode-theme-darcula",
+"version": "1.2.3",
+"downloads": 939426.0,
+"rank": 561,
+"sha256": null,
+"v0.2.0": "skipped: download: fetch failed"
+},
+{
+"src": "marketplace",
+"id": "cweijan.vscode-postgresql-client2",
+"version": "9.0.3",
+"downloads": 936751.0,
+"rank": 562,
+"sha256": "36de8c382c1a9605603c08bd1d40bf7483490fb90efacc9a1152548cdf6c3a46",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "natewallace.angular2-inline",
+"version": "0.0.17",
+"downloads": 933571.0,
+"rank": 563,
+"sha256": "3e9f0c06a7f227c6d8487075ffd9e09a84582314271ce74989995f8cce2326fa",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "CS50.vscode-presentation-mode",
+"version": "1.0.5",
+"downloads": 932745.0,
+"rank": 564,
+"sha256": "b828adf30cd80dffe5e9f21ec738791091483d3d1a1dd5350db8e73dbd5a0511",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bierner.markdown-yaml-preamble",
+"version": "0.1.1",
+"downloads": 922451.0,
+"rank": 568,
+"sha256": "c137e1d567d795af0bf2b8b04115c1215755e3cdd3dab614a5089d65493fb8d7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ajshort.include-autocomplete",
+"version": "0.0.4",
+"downloads": 921057.0,
+"rank": 569,
+"sha256": "eac72efb31da838dde33f7171c15dc9098b105ac18f80a19fcf7439804dbba4e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jithurjacob.nbpreviewer",
+"version": "1.2.2",
+"downloads": 912324.0,
+"rank": 572,
+"sha256": "0cbece3e9dad8d5de3b2a91cd3f1031382925204540e326171a6c86afbd81dc1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bierner.markdown-footnotes",
+"version": "0.1.1",
+"downloads": 909965.0,
+"rank": 574,
+"sha256": "87f23293c08a16bd0ce542d76c46e316caa996794dec5f99be7513cb5027e6de",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "misogi.ruby-rubocop",
+"version": "0.8.6",
+"downloads": 909783.0,
+"rank": 575,
+"sha256": "ea1809cce7ab1820977290039c849aedec109d158b027ea4e8ae242c9474f542",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "shakram02.bash-beautify",
+"version": "0.1.1",
+"downloads": 908190.0,
+"rank": 577,
+"sha256": "a60d6718493e727ed596625e0e27d791779924b46b1053b25b46caf56e9519f7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "formulahendry.dotnet-test-explorer",
+"version": "0.7.8",
+"downloads": 907445.0,
+"rank": 578,
+"sha256": "a88fa63c5a2d1419da4d4c1639c59f6b8cd4cf202f4a37a12302c2ba82beb101",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "dariofuzinato.vue-peek",
+"version": "1.0.2",
+"downloads": 901535.0,
+"rank": 579,
+"sha256": "549ea5388be654639e4d4af4e44e0e268d7b17a98a7c28a3719bcf8484da72b7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "kaysonwu.cpptask",
+"version": "0.0.1",
+"downloads": 901192.0,
+"rank": 580,
+"sha256": "32f058c96ba01e1a1979728d3ed106a576cddecffc7627ad0581e08b8dc5984c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "pgl.laravel-jump-controller",
+"version": "0.2.5",
+"downloads": 894202.0,
+"rank": 584,
+"sha256": "ff7957115c6353cbb0060347028b714d41da60da0f1709b670664428c7a5e0e5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "kumar-harsh.graphql-for-vscode",
+"version": "1.15.3",
+"downloads": 886606.0,
+"rank": 588,
+"sha256": "d0097eebdaae4173dd14132c4835978c84c98aec7e3904b343b8bfa609e59bf4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "NuclleaR.vscode-extension-auto-import",
+"version": "1.4.3",
+"downloads": 878866.0,
+"rank": 590,
+"sha256": "7babf7f92674353f5f101920d8b761aecc95b27408a19b6379242cc442c4e227",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "seanwu.vscode-qt-for-python",
+"version": "7.6.0",
+"downloads": 862402.0,
+"rank": 592,
+"sha256": "98df01dcf26a543465299c8152c76b66a2cd9274b06a3d581f3b7dd8ae51dbcf",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "uctakeoff.vscode-counter",
+"version": "3.8.1",
+"downloads": 855379.0,
+"rank": 594,
+"sha256": "002e21231bf12edf5dbb57197d5a7223b2884bf7c2dc3702cbce1a3116860658",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ardenivanov.svelte-intellisense",
+"version": "0.7.1",
+"downloads": 848405.0,
+"rank": 596,
+"sha256": "fc0886320c02783f41df2f0bc537ba1e822cc0bb829cb6e6c15edfc707d648bc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "TypeScriptTeam.native-preview",
+"version": "1.0.2",
+"downloads": 846565.0,
+"rank": 598,
+"sha256": "7eb25eb8299ed32e349cd7582a271a9ca45bb3c5a8414b63e17f2a32e3e73ca7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Wscats.html-snippets",
+"version": "1.0.6",
+"downloads": 839688.0,
+"rank": 599,
+"sha256": "c9e68ec7ba12549e405c035f8f834a9e6d2940ee1419bad76bcad8f819fd79b4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "phplasma.csv-to-table",
+"version": "1.4.1",
+"downloads": 834121.0,
+"rank": 601,
+"sha256": "9e97bb710e25019afc1c2c90489995b020d425c3a11a12facb542d52da94639d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-ossdata.vscode-pgsql",
+"version": "1.30.1",
+"downloads": 832904.0,
+"rank": 602,
+"sha256": "6d47369ccebafa3d8365f5617b627c8855f66b0e8b212f3dd98efac7bf32251e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "spywhere.guides",
+"version": "0.9.3",
+"downloads": 831556.0,
+"rank": 603,
+"sha256": "163e1383c0ac6eb73488fcfe79413408e21f59907a4ff09ce9aa075e10907acf",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-azure-load-testing.microsoft-testing",
+"version": "0.2.0",
+"downloads": 830889.0,
+"rank": 605,
+"sha256": "4c04b380151c0169535069ac1ce368febe18987de2b556c43848422c9945ba2d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "cipchk.cssrem",
+"version": "4.1.1",
+"downloads": 825056.0,
+"rank": 607,
+"sha256": "7ab7ff716053b31996d63a707972bb552fd888b759e231f534893cfface6c767",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "emeraldwalk.RunOnSave",
+"version": "1.1.5",
+"downloads": 824833.0,
+"rank": 608,
+"sha256": "90dee840f78b2722bd197c6749c84a7141785c85d0f9877b76c487c13fee6ba9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "SirTori.indenticator",
+"version": "0.7.0",
+"downloads": 820930.0,
+"rank": 609,
+"sha256": "27988d3ba579512f8617236334d039bbd1f6a4a3e8cd62a341670b02197e0636",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "donjayamanne.jupyter",
+"version": "1.1.9",
+"downloads": 816808.0,
+"rank": 610,
+"sha256": "e838cf38aa1520bc1acc56af1b88e3ee1db6908d6a34f5054c222da111d4f9db",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bierner.github-markdown-preview",
+"version": "0.4.0",
+"downloads": 816588.0,
+"rank": 611,
+"sha256": "6df8f4aeb65656d80d7f29daa7dfa4769f2301e7f483da53a33109c269338605",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mrmlnc.vscode-apache",
+"version": "1.2.0",
+"downloads": 814830.0,
+"rank": 613,
+"sha256": "c17c60ad89d7ed8c4a4097f383257b9291bbc09604e0d38f49c4f8fc1782bf9b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bajdzis.vscode-database",
+"version": "2.2.3",
+"downloads": 812212.0,
+"rank": 614,
+"sha256": "77fc9df70501f40d93842a07ea6c7c32f192a8eee909f2558e10b189704162e1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "MarlinFirmware.auto-build",
+"version": "2.1.88",
+"downloads": 810859.0,
+"rank": 615,
+"sha256": "e0dc7c153f135d4bf2ce2d2038be119850b71eab739b08114c1c7f56c2a83c62",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "sburg.vscode-javascript-booster",
+"version": "14.0.1",
+"downloads": 801357.0,
+"rank": 620,
+"sha256": "88d6806dd66698a690e8d587cb454ef1bea3eb3960e119d9d9570fd5bd970905",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "cstrap.flask-snippets",
+"version": "0.1.3",
+"downloads": 801312.0,
+"rank": 621,
+"sha256": "e24afa94deaf58aadd47d51f30faf48dbf1017635c783918642ab33b815fdeed",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "oleg-shilo.cs-script",
+"version": "2.3.9",
+"downloads": 797106.0,
+"rank": 626,
+"sha256": "517347ea666c08c53c514a695c49b01bec9da08649f35e576117dce5d8fc9df5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "searKing.preview-vscode",
+"version": "2.5.1",
+"downloads": 795134.0,
+"rank": 627,
+"sha256": "2ed54f5a0ee2ab7793e0e80904a16f85e46e52e2131fc07b8928266e0a1da71b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "shengchen.vscode-checkstyle",
+"version": "1.4.2",
+"downloads": 795082.0,
+"rank": 628,
+"sha256": "21c860417f42510e77a6e2eed2597cccd97a1334a7543063eed4d4a393736630",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "benjamin-simmonds.pythoncpp-debug",
+"version": "0.3.0",
+"downloads": 795050.0,
+"rank": 629,
+"sha256": "4a0bf965ce329720934ee6b9f2a944849580bd8bc57ba4ff027a4787204f0981",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "lihui.vs-color-picker",
+"version": "1.0.0",
+"downloads": 790991.0,
+"rank": 631,
+"sha256": "adc9a2fc3810ad3080700bca497c10059b82a0c54e57daabab5fae10d5083823",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tushortz.pygame-snippets",
+"version": "0.0.1",
+"downloads": 790531.0,
+"rank": 632,
+"sha256": "85ceca4c7db68c40e7d537526f09a1a491005568aec071df134e0ef6cd6caeb4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "yinfei.luahelper",
+"version": "0.2.29",
+"downloads": 785483.0,
+"rank": 635,
+"sha256": "ff6453225ddabee41bd0345c894c0363227fbdf1e3b465b2c52b81f2cb1866ea",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "CS50.lab50",
+"version": "1.1.1",
+"downloads": 783364.0,
+"rank": 636,
+"sha256": "5e9beb900e4e6359120ef5a0a0572bf0e6d1c270ea1a8783f1bcead8b37c03c0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "PeterSteiner.pip-installer",
+"version": "0.0.4",
+"downloads": 781771.0,
+"rank": 637,
+"sha256": "05bff8a93439eab4878d3b01fe7a01d84ec06a413c43707a9067beb7d8511ec7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "flowtype.flow-for-vscode",
+"version": "3.1.5",
+"downloads": 779385.0,
+"rank": 639,
+"sha256": "fcefb89553fa80c2ec909b3fe586e608b9eebc143d5d6e52a087cd84c4b21e2d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "MariusAlchimavicius.json-to-ts",
+"version": "1.8.0",
+"downloads": 778222.0,
+"rank": 640,
+"sha256": "5a84b2715b54024557bfb043ba1fa315b9da53521d54bbd58ce62e22e529efd3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "idleberg.icon-fonts",
+"version": "2.5.4",
+"downloads": 775307.0,
+"rank": 642,
+"sha256": "24a83934e43ecb6b8303f8470c77db16217a79e7d339d0b151c8cb2727ad6979",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "standard.vscode-standard",
+"version": "2.1.3",
+"downloads": 774734.0,
+"rank": 643,
+"sha256": "13268ca43042d5e3ea37d84383ab3ccb286e2c66d95060c3aa686206c99e9dff",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "sysoev.language-stylus",
+"version": "1.16.0",
+"downloads": 773825.0,
+"rank": 644,
+"sha256": "f56c25cfa217422a9ebc54aede866429bca0fa2c7df4936960a51280e42977a9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Gimly81.matlab",
+"version": "3.0.2",
+"downloads": 773216.0,
+"rank": 645,
+"sha256": "e31d26f5d27803d12439f3c777a501ff515536e838fe214cb2cea6d607cfc652",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "SolarLiner.linux-themes",
+"version": "1.0.1",
+"downloads": 763174.0,
+"rank": 648,
+"sha256": "9a5d50a7f2fb13fb6e4ca3544d81af78e727288d6a711944ec4c00e36deeaf0c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mushan.vscode-paste-image",
+"version": "1.0.4",
+"downloads": 761219.0,
+"rank": 649,
+"sha256": "6baa6b1d667c9de35827e64313d66f03bf7ee57d1496c15ff1748761f3a677f2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "pdconsec.vscode-print",
+"version": "1.6.0",
+"downloads": 760434.0,
+"rank": 650,
+"sha256": "677e4af6bc29f255e92169c28a7785d41b28c72d86c17320560fdabc24b6fe1f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jakebathman.mysql-syntax",
+"version": "1.3.1",
+"downloads": 759184.0,
+"rank": 651,
+"sha256": "fa36008bbacea7fa53370e8036622b084b3d5e6af17d5ecb20250ae22995035d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mosapride.zenkaku",
+"version": "0.0.3",
+"downloads": 754207.0,
+"rank": 654,
+"sha256": "25d3af1a076f084a39e46e6dea96e46932291c8e9140551229de3d59c17b6b29",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "shenjiaolong.vue-helper",
+"version": "5.0.15",
+"downloads": 753716.0,
+"rank": 655,
+"sha256": "6ac3973d50d19402c9de8f85f35a93277af008df2ec726752e9e726858c5e763",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "richie5um2.vscode-sort-json",
+"version": "1.20.0",
+"downloads": 749572.0,
+"rank": 658,
+"sha256": "2686f1e4f7f8498415476238db4ed14923fd23ce6ab5563aff636fb3f56f8bfd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "fabiospampinato.vscode-diff",
+"version": "2.1.2",
+"downloads": 749439.0,
+"rank": 659,
+"sha256": "8295afbb5799f8dda3361d8fbb48e294e5b12f45c9e2f296dc5beaf8cfd61ec5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "austenc.tailwind-docs",
+"version": "2.1.0",
+"downloads": 745794.0,
+"rank": 660,
+"sha256": "101de0831a3636a887f32569b0dcc345bf9fbec77a41de5a5d133a168667e64f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "JakeBecker.elixir-ls",
+"version": "0.31.1",
+"downloads": 744826.0,
+"rank": 662,
+"sha256": "785d0e196a62bb9683885a7c3053fb8f6af6fb74023dbd6af7781683b2ff5f37",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jbenden.c-cpp-flylint",
+"version": "1.15.0",
+"downloads": 743432.0,
+"rank": 663,
+"sha256": "93ab07d11c785631a62a3bc247dc7f396af19a8efe4b66ef465662dd9f4f34fc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "formulahendry.dotnet",
+"version": "0.0.4",
+"downloads": 742044.0,
+"rank": 664,
+"sha256": "45292109fa65f3506d1a7ad267496e1c562fa0d1f8a8683ba5de31539dec5cb0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Zaczero.bootstrap-v4-snippets",
+"version": "1.1.3",
+"downloads": 740104.0,
+"rank": 665,
+"sha256": "1db51c9ad931144a6f03d0ce572a4747d5d38ee31762671a1c41f768ea78e833",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "chuckjonas.apex-pmd",
+"version": "0.11.1",
+"downloads": 734970.0,
+"rank": 666,
+"sha256": "adc1a0ed7661d6a9dadfbd3623b336144504cb2776e9cfbfa1450f4bdc16c3d8",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "AndersEAndersen.html-class-suggestions",
+"version": "1.2.1",
+"downloads": 734746.0,
+"rank": 667,
+"sha256": "2f921a8e19d1972f8c745f3b5e07a007efbb9766d9c350858023f7195d31d7cf",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "slightc.pip-manager",
+"version": "1.1.4",
+"downloads": 728412.0,
+"rank": 670,
+"sha256": "342e68cca052010914984fad59c9ccd2de06f854fdd214f3e025a1be398fa4b7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Shopify.ruby-extensions-pack",
+"version": "0.1.14",
+"downloads": 725521.0,
+"rank": 672,
+"sha256": "d7d5382a9b445516bd481923d4c1f7046e11bffdecaeab12439fb42c2555f4ca",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vs-keybindings",
+"version": "0.2.1",
+"downloads": 723045.0,
+"rank": 673,
+"sha256": "3672e3c777ca95d83a0d2038b2c52dd157af9b5c3c2a78c465320d671a8cedc0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "OBKoro1.korofileheader",
+"version": "4.9.3",
+"downloads": 719722.0,
+"rank": 674,
+"sha256": "23ba15b3aa232e4a82de750a82b45f3ae16101f0a3235d3326b05315accaf6ce",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "adashen.vscode-tomcat",
+"version": "0.12.1",
+"downloads": 716232.0,
+"rank": 676,
+"sha256": "2b402d880751167c31543b785b19d9a5f787155f3ad4134e38bc4efae23efa6d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "phproberto.vscode-php-getters-setters",
+"version": "1.2.3",
+"downloads": 715885.0,
+"rank": 677,
+"sha256": "5e8b8bc539c2340bbe6221062eb411c0c1d6a302192d7210a24d9dfc15396afd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "GregorBiswanger.json2ts",
+"version": "0.0.6",
+"downloads": 715182.0,
+"rank": 678,
+"sha256": "cf29254cc4bfe5fe9c00bc1e1ee8d6dd68733704528eed0e62a83398dcf1f1e6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mariorodeghiero.vue-theme",
+"version": "2.0.3",
+"downloads": 713846.0,
+"rank": 680,
+"sha256": "0566e30a19861ae906cd4f8200faa3ccd693c0d14d98e598eb6171363b2e100d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "fivethree.vscode-svelte-snippets",
+"version": "0.5.0",
+"downloads": 712843.0,
+"rank": 681,
+"sha256": "76a79a11092e814a34cfe09b50b4441af5b64aaff2dcc7ea28f80af5f0dddfba",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ClemensPeters.format-json",
+"version": "1.0.3",
+"downloads": 711498.0,
+"rank": 682,
+"sha256": "af8205649b2f2c6b4b4233af5e8a2d8c807f129bafb2de02b4eee569fe2ef43f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jundat95.react-native-snippet",
+"version": "0.5.6",
+"downloads": 708149.0,
+"rank": 684,
+"sha256": "69522c13d376740b7b887f39574e3cf1d4fc208dfa8c4cecfbfc30f426609961",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jawandarajbir.react-vscode-extension-pack",
+"version": "1.0.0",
+"downloads": 702286.0,
+"rank": 687,
+"sha256": "ed7cd32e1871da2fa70e9991d428e09fa360bfee6272d2d7a3e91f02036115e3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "DivyanshuAgrawal.competitive-programming-helper",
+"version": "2026.11.1795106943",
+"downloads": 692383.0,
+"rank": 692,
+"sha256": "97c082940fc57fdc6d1899ce178c325fcd051788159676e5c099cb2e3e1a1072",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "YouMayCallMeV.vscode-java-saber",
+"version": "0.1.2",
+"downloads": 691493.0,
+"rank": 693,
+"sha256": "44fdb3e047e75898dd939ae3df03904adc7a32e55be1c2e88c3cad92998145ab",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "cjhowe7.laravel-blade",
+"version": "1.1.2",
+"downloads": 690816.0,
+"rank": 694,
+"sha256": "f3267408ac0c2c6e4866a4c9776d093e38fe4918a9a5fbcbee1c081ab8ec30ed",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "funkyremi.vscode-google-translate",
+"version": "1.5.0",
+"downloads": 686228.0,
+"rank": 696,
+"sha256": "b7a512b3699913783cd36051c0fe7a787fd68ff73201c03e87f57efbe36d1e70",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Fudge.auto-using",
+"version": "0.7.15",
+"downloads": 685535.0,
+"rank": 697,
+"sha256": "3566a539eeb7cb8101c05195ab71e5e7d2ab0423cdc5bb6110892d3177294eee",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "afractal.node-essentials",
+"version": "1.1.0",
+"downloads": 684565.0,
+"rank": 698,
+"sha256": "2231fb1e91491858441f0a64a32b52b345491422dd9d1563338a82da0dab1e86",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bigonesystems.django",
+"version": "1.0.2",
+"downloads": 684074.0,
+"rank": 700,
+"sha256": "5019af68288d43ce2aa4039b0d6c852f5f13545067d33ffa4810ca59e008cd37",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Dadroit.dadroit-json-generator",
+"version": "1.2.2",
+"downloads": 683585.0,
+"rank": 702,
+"sha256": "5fc463f4cce949525f1fd89b018e963def38ff990cd343e4f53c07b94e364ac4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tintoy.msbuild-project-tools",
+"version": "0.6.7",
+"downloads": 683186.0,
+"rank": 703,
+"sha256": "003c44865697e3d1cdc15f7f5a4476cccf55690746bfe5596a1ef89dc4ba2129",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "silvenon.mdx",
+"version": "0.1.1",
+"downloads": 681371.0,
+"rank": 704,
+"sha256": "86551871bc5c626729b60f283842888ed947a934c5b02b4507f1d9b76eecccae",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "heybourn.headwind",
+"version": "1.7.0",
+"downloads": 680881.0,
+"rank": 705,
+"sha256": "c97b19a12b8941375b1cb8c41115d7db35617aa35899c3d7b3deffb9061aee88",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "william-voyek.vscode-nginx",
+"version": "0.7.2",
+"downloads": 680349.0,
+"rank": 707,
+"sha256": "9809a771ec3001e6a056ac165ab998a2c332c36013dd6d2cc7c8e5da609e8a68",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Endormi.2077-theme",
+"version": "1.5.3",
+"downloads": 679385.0,
+"rank": 708,
+"sha256": "a68cad68f2b3a94684cad46cbdf8b7ea6121cbfa2dd6b60a6359ef00dc0163a4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "walkme.Java-extension-pack",
+"version": "1.0.0",
+"downloads": 679371.0,
+"rank": 709,
+"sha256": "c1d0723341d31dd22c1974ba4d0acba684d1ad2d0b64245a53e3ba166bb770c2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "HarryHopkinson.vs-code-runner",
+"version": "2.2.5",
+"downloads": 678862.0,
+"rank": 712,
+"sha256": "4daf4582f3d9e77f43cf57a88d4a478f6ee61dd5b40034329877dd9dd3891a8a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "hnw.vscode-auto-open-markdown-preview",
+"version": "0.0.4",
+"downloads": 677164.0,
+"rank": 714,
+"sha256": "285279728104e1ad69148a114a5809e7c5d48a9e73979b6527cf22177ebde14a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "sporiley.css-auto-prefix",
+"version": "0.3.0",
+"downloads": 671459.0,
+"rank": 717,
+"sha256": "ee9192270c2ceade82f5d9e885f134e5b735093079e601b29a29cb6d981e8894",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bencoleman.armview",
+"version": "0.4.6",
+"downloads": 669563.0,
+"rank": 718,
+"sha256": "bd9f643ac8eb04353f0b08fd7678505fb04796c426d6a1eb58c5892bef3fb87a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "softwaredotcom.swdc-vscode",
+"version": "2.8.18",
+"downloads": 666974.0,
+"rank": 719,
+"sha256": "d11f21d28d03d8460bc41b8d9ae34bf75127b05671dfcfbfb3e784e80e9a02ee",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "cmstead.jsrefactor",
+"version": "3.0.1",
+"downloads": 660954.0,
+"rank": 721,
+"sha256": "d19bd85a25042f1cc56a0c4e27b94110e8e30a6dae3690f19a70cc7b8c01af48",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "CS50.markdown50",
+"version": "1.0.1",
+"downloads": 660026.0,
+"rank": 723,
+"sha256": "66d090f90240673f808c2065a92e5bf9da4b4cbd5d328e8fefac5b84d6e0d649",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "qiu8310.minapp-vscode",
+"version": "2.4.14",
+"downloads": 658127.0,
+"rank": 724,
+"sha256": "620cc495b93c1a30c7e7d07a88a63d9a5c5c05b6f8f86ecfcab138feccbc634e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "HookyQR.minify",
+"version": "0.4.3",
+"downloads": 654066.0,
+"rank": 726,
+"sha256": "8a48cf8bd75b0156d2a78d62140348ea51549020cfb9a2b1f45d7498f6ef885d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "in4margaret.compareit",
+"version": "0.0.2",
+"downloads": 649711.0,
+"rank": 727,
+"sha256": "c2990ee34e379b9f3ac9fc4f5da8cc29367bd4ba128a0c78663234def9700eff",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "fabiospampinato.vscode-monokai-night",
+"version": "1.7.1",
+"downloads": 646985.0,
+"rank": 729,
+"sha256": "1832e767fa4bf17423835a18347bc0076c604b7bd2ab8240e03be6b97715b8f0",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Atishay-Jain.All-Autocomplete",
+"version": "0.0.26",
+"downloads": 646640.0,
+"rank": 730,
+"sha256": "fa161a70661b31e1fadf150e7a91c60049c70e809e221995f13faf4ccf6691b6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "hwencc.html-tag-wrapper",
+"version": "0.2.3",
+"downloads": 646563.0,
+"rank": 731,
+"sha256": "11e7bf589e1d3e7f950ec79340aac56678bae397005d28d4bcaf136ccad6c0b4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "wordpresstoolbox.wordpress-toolbox",
+"version": "1.3.16",
+"downloads": 643917.0,
+"rank": 733,
+"sha256": "a2f9bbdefffe9608e7be0590a0b12da7f3b498e4b3e1fb154e24af44a2911425",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "p1c2u.docker-compose",
+"version": "0.5.1",
+"downloads": 641340.0,
+"rank": 734,
+"sha256": "499dca9f5e4b63d0e4e4a0f8020f155c1ac52f0b028f628bc401142a05de3895",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "miguelsolorio.min-theme",
+"version": "1.5.0",
+"downloads": 640607.0,
+"rank": 735,
+"sha256": "0c5ffd3a55a68e69d935106cda1934a8458ddfc45c81a71d565f5eef937c64c6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "MS-SarifVSCode.sarif-viewer",
+"version": "3.4.5",
+"downloads": 638102.0,
+"rank": 736,
+"sha256": "a0e6df0a753a45b23f9c3d643c56deba45fd3df94f25dc989fe13888e836dc5a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "marcelovelasquez.flutter-tree",
+"version": "1.0.0",
+"downloads": 638082.0,
+"rank": 737,
+"sha256": "fa0407eeca3d9bf1ef3b4b4329a88d4cffb6a530af35d79c24aeb4b204d8f421",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "BenjaminBenais.copilot-theme",
+"version": "1.1.0",
+"downloads": 637863.0,
+"rank": 738,
+"sha256": "eae04d94f40e1839ab9e75beb3160fd089ede64ca374f736809c3ad6e400403f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "oysun.vuehelper",
+"version": "0.1.0",
+"downloads": 636969.0,
+"rank": 739,
+"sha256": "fdd76c542f90150278eeb6822a15a2a0fa0cf11b919d672c76a232cd7eef2113",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "fortran-lang.linter-gfortran",
+"version": "4.0.2026012202",
+"downloads": 636784.0,
+"rank": 740,
+"sha256": "de3eec03be23831c4f9d607d6c742e9a7ca7049f03c9675a8bd938d7aef71c16",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "wmaurer.vscode-jumpy",
+"version": "0.3.1",
+"downloads": 635082.0,
+"rank": 741,
+"sha256": "de89f2dfab5866fc9a01ffa6d13281215705fddd645fec5a774c5fca757832d7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "TaodongWu.ejs-snippets",
+"version": "0.1.0",
+"downloads": 634180.0,
+"rank": 742,
+"sha256": "38bec56477c5dfe740499b75cc25cf4f07db52f990b968beb7b256099db09f63",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "luanpotter.dart-import",
+"version": "0.4.0",
+"downloads": 631167.0,
+"rank": 744,
+"sha256": "49eaacf154d5631a09471f6611dff9951858d167af1d8997c2f973a5c70e9bd9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "small.php-ci",
+"version": "0.4.2",
+"downloads": 628962.0,
+"rank": 746,
+"sha256": "e20df301ce3ce5ad5081e94171ac04157369335bb054b673475667dd3c72adb1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "karigari.chat",
+"version": "0.35.0",
+"downloads": 625462.0,
+"rank": 748,
+"sha256": "3d75712d1f8c1c95ab06c517ff4f6fe0554b3f6569ba196fb0f53de6bdfecbf2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-toolsai.tensorboard",
+"version": "2024.3.1003121000",
+"downloads": 619763.0,
+"rank": 750,
+"sha256": "7c48b245a61874d459a54e7ff5a897b03a894044df85f64bf00eb54eced52823",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Azurite.azurite",
+"version": "3.38.0",
+"downloads": 615402.0,
+"rank": 751,
+"sha256": "634c7939b6593e42dac4c6c6c5ac4fd3d64f5ae1f664080bc821908dddb59228",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "1tontech.angular-material",
+"version": "0.13.0",
+"downloads": 614620.0,
+"rank": 752,
+"sha256": "6b4092b8a2560404fc23337695dfe696cc50e14816b99f48d506f32f74ba37a5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mikeburgh.xml-format",
+"version": "1.1.3",
+"downloads": 614390.0,
+"rank": 753,
+"sha256": "1243efa678a14adace460edc1d3154d04aa1cb368712d3fd27ef399bdeb2db52",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "supSugam.react-native-text-watcher",
+"version": "1.0.3",
+"downloads": 614294.0,
+"rank": 754,
+"sha256": "2600e39a42a859d83dc5c165048d0c0549801ae01ecee8501f13b00d102271bc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "sianglim.slim",
+"version": "0.1.2",
+"downloads": 612128.0,
+"rank": 756,
+"sha256": "7d8826dbed7c5a60bd7a16737af8d7b95091b9f296783e7c8aac4c230f6cc34c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "(withheld)",
+"version": null,
+"downloads": null,
+"rank": null,
+"sha256": null,
+"v0.2.0": "HIGH",
+"v0.2.0_ids": [
+"exfil_host"
+]
+},
+{
+"src": "marketplace",
+"id": "AESSoft.aessoft-class-autocomplete",
+"version": "0.1.0",
+"downloads": 608880.0,
+"rank": 758,
+"sha256": "bcc66de9938274d6d9d0f0d45b25d680fb4ee1a093bcff522d0cb6634df8c031",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tal7aouy.rainbow-bracket",
+"version": "1.0.2",
+"downloads": 607042.0,
+"rank": 760,
+"sha256": "1f427d661cc7a49f7a7d6ec3ad5aa903db6a0202f670598cf56bbd493bb53146",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "torn4dom4n.latex-support",
+"version": "4.0.0",
+"downloads": 606707.0,
+"rank": 761,
+"sha256": "474944072e54427d3466202df94b3a59774f57de28b35a75e0488ea0504736ec",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ionic.ionic",
+"version": "1.105.0",
+"downloads": 604626.0,
+"rank": 762,
+"sha256": "c14617ed3982cb32863e797b2f271fc4de5ac421b3abf4f6ffe5e749d3c92442",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "adrianwilczynski.namespace",
+"version": "1.1.2",
+"downloads": 602999.0,
+"rank": 763,
+"sha256": "d4adbeced853b972e79265bcf4f6b9635bca9f129f101cb0903861f46a9a8d87",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "premparihar.gotestexplorer",
+"version": "0.3.0",
+"downloads": 602964.0,
+"rank": 764,
+"sha256": "f9d2230710caf5eb627fd095c2a9a4a336d2979ded14a568a144b40d22a63c14",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "JannisX11.batch-rename-extension",
+"version": "0.0.6",
+"downloads": 601334.0,
+"rank": 766,
+"sha256": "f2e95ec2653466dcf81215b93a4dd7a4dfc3e603372ed21356b605db58d2604c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "neikeq.godot-csharp-vscode",
+"version": "0.2.1",
+"downloads": 599372.0,
+"rank": 767,
+"sha256": "b0bb0ffb875ea3f3bc3631c619755d48e3d640f00bca95bf1f4a1938c30cf511",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.Theme-MarkdownKit",
+"version": "0.1.4",
+"downloads": 599148.0,
+"rank": 768,
+"sha256": "14d0fffabf6a840dc71d7b1f07f631a608dff011c76f2645cccc48f5c444a7c6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Wscats.vue",
+"version": "1.0.26",
+"downloads": 599090.0,
+"rank": 769,
+"sha256": "967906377ac9a22fe1f9217a40246bb7c4b56f0d2811cc5e233607194c4ce5e1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bceskavich.theme-dracula-at-night",
+"version": "2.7.1",
+"downloads": 598666.0,
+"rank": 770,
+"sha256": "776713983e80531c3542bb11b5e4f3f8df2a39ee7e6f28e0fd31cdcd75abfac6",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "anteprimorac.html-end-tag-labels",
+"version": "1.0.0",
+"downloads": 597377.0,
+"rank": 771,
+"sha256": "9947446d09f0978d5409f16485be632fd75fdd8ee57f19d3823087209c0cc5ec",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "dgileadi.java-decompiler",
+"version": "0.0.4",
+"downloads": 594447.0,
+"rank": 773,
+"sha256": "b30c8c66e5617ac12e333485ed60517530e01e1e453affa8e697e194068262c1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "mrmlnc.vscode-autoprefixer",
+"version": "3.0.1",
+"downloads": 591795.0,
+"rank": 774,
+"sha256": "853a79350a974e41d054c5cab0410518b1edbba41c1f015e56044046a25aef73",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "sohibe.java-generate-setters-getters",
+"version": "8.0.1",
+"downloads": 590451.0,
+"rank": 775,
+"sha256": "cf7cdedf005bc0e77692d379e1d21dbd28299148d6c0ccf8420a18c24e589424",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "PrimaFuture.open-php-html-js-in-browser",
+"version": "2.5.0",
+"downloads": 589003.0,
+"rank": 776,
+"sha256": "298204027cb8d78c6cfbcf77de54cbe2201476e0d77c45488dd1ff9a2b9b92f4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ahmadalli.vscode-nginx-conf",
+"version": "0.3.5",
+"downloads": 588229.0,
+"rank": 777,
+"sha256": "ea026d3101f6cda9c5b7e513683d159f5bc3ab9198f51d427de94f0a4958c581",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "emilast.LogFileHighlighter",
+"version": "4.1.0",
+"downloads": 584065.0,
+"rank": 780,
+"sha256": "637154a00e3c18e98d7290085a4254bdddadbea9f9f99c1649c4bee233e97b5d",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "brapifra.c-compiler",
+"version": "0.0.4",
+"downloads": 582759.0,
+"rank": 782,
+"sha256": "3a601aa59b3871d9d91fbc0889f09bf4c2bb7c5e71e7c0ce4d9d7d21180cf0ac",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "golang.go-nightly",
+"version": "2024.8.2217",
+"downloads": 582182.0,
+"rank": 783,
+"sha256": "280fd257876623e4b1fc08400067f8077b19e1870333c596b2246551324245d1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "akhail.save-typing",
+"version": "0.1.0",
+"downloads": 581864.0,
+"rank": 784,
+"sha256": "26d79e3ec216b88b981b78f174491084ee5817eaf2d98cdae75f392a9f894b54",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "planbcoding.vscode-react-refactor",
+"version": "1.1.3",
+"downloads": 575055.0,
+"rank": 789,
+"sha256": "4b767e6ccb7a6d6acf6b59515d2273e9801b66fa8752c9f5cfc3ba0aa06204a3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "cmstead.js-codeformer",
+"version": "2.6.1",
+"downloads": 571592.0,
+"rank": 790,
+"sha256": "567cab53e7538d052c5ca599e5f1bf39e38bfced52c94296b60bc17a29ea96f5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "starkwang.markdown",
+"version": "3.0.8",
+"downloads": 570856.0,
+"rank": 791,
+"sha256": "ef3a584eb9e09a98dc3439ae9d3c2f9991bd5d97f6d115ebf9b8550ab965ffee",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ysemeniuk.emmet-live",
+"version": "1.0.0",
+"downloads": 570832.0,
+"rank": 792,
+"sha256": "1046424dd54f58c242c63e1c137fa17478446ee3c0e6da27edd56f03e4155dcc",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "kaiwood.endwise",
+"version": "2.1.0",
+"downloads": 568221.0,
+"rank": 793,
+"sha256": "b0ab33ad942e9a7b4e060c131582e1a91b73e90e78c11283840fd6c2e6efdde5",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Gusto.packwerk-vscode",
+"version": "0.0.5",
+"downloads": 567121.0,
+"rank": 794,
+"sha256": "2b473d1b1381e1104dbf856d7e7779e8a013b032fe187225e20e59d39a99b2cb",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "VisualStudioExptTeam.vscodeintellicode-completions",
+"version": "2.0.1",
+"downloads": 565911.0,
+"rank": 795,
+"sha256": "d0b671b5cb842100b79ea0b519c383735b7d275b738c0e9b5d2048b22754af83",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tobiasalthoff.atom-material-theme",
+"version": "1.10.10",
+"downloads": 565586.0,
+"rank": 796,
+"sha256": "54f0cc4ad3a327788a813b7309ebb4394935b43e50bd656bca7e71e5db9ae04b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "natqe.reload",
+"version": "0.0.7",
+"downloads": 561301.0,
+"rank": 797,
+"sha256": "8f40e3ed889ac213c03077bcc24f0f878be8dba2277a2768189e02f4eed9ffae",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "tintinweb.graphviz-interactive-preview",
+"version": "0.3.5",
+"downloads": 557855.0,
+"rank": 799,
+"sha256": "e40f915c619517f2d8d8843d8c3be64b6fc6ebf4fd041a833c8c7eed25cd793a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "robberphex.php-debug",
+"version": "1.14.0",
+"downloads": 557005.0,
+"rank": 801,
+"sha256": "dace0050546878e00579e0d3757f56b08b293cb909a02c7ff20a4f507fc7276a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "wwm.better-align",
+"version": "1.1.6",
+"downloads": 556223.0,
+"rank": 802,
+"sha256": "909262fb423f6426d698b47cceb84c00b6342f010c30cefff098f6a4b6babbd1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ZixuanWang.linkerscript",
+"version": "1.0.4",
+"downloads": 556111.0,
+"rank": 803,
+"sha256": "f70f5fa4c79ec1f5502314658f2cb1ae3573d84509f5ef6ad6dcfdebbb51d655",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "coderfee.open-html-in-browser",
+"version": "0.1.21",
+"downloads": 553924.0,
+"rank": 804,
+"sha256": "8cac059fb4199ca56b183f7646482d2680ff2c7ce3ec687a435d6822e6b1cd15",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "danwahlin.angular2-snippets",
+"version": "1.0.22",
+"downloads": 552061.0,
+"rank": 805,
+"sha256": "d060ec8dc1f2ec2338263d54151c044d7fda208e46341a4caad80028fd9ea95a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "YclepticStudios.unity-snippets",
+"version": "0.1.2",
+"downloads": 552050.0,
+"rank": 806,
+"sha256": "d009da4a5efd2f765208d06bb211347859aaa06329df374584f0253e6dc8ee6a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ms-dynamics-smb.al",
+"version": "30.0.3128326",
+"downloads": 551395.0,
+"rank": 807,
+"sha256": "8f50b8b6601fc1cd2fb75667e93288c3dc28f54879af45cab106715ad8f9b3f3",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "daylerees.rainglow",
+"version": "1.5.2",
+"downloads": 547547.0,
+"rank": 809,
+"sha256": "d5cff14189ee277064c1faa331e4f6906d59b17ca310eca926cd2925ba2e64c4",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "jamesmaj.easy-icons",
+"version": "0.3.1",
+"downloads": 546912.0,
+"rank": 810,
+"sha256": "44a54af5b35bbfd82385b6cde203d6033cac031f01b98d870fcc1fc239686326",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "aaravb.chrome-extension-developer-tools",
+"version": "2.1.0",
+"downloads": 544511.0,
+"rank": 811,
+"sha256": "72fb2274f0215da937656e1dc5def71f502131e2e333f84714f65becce5b7f9a",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "SimonTest.simontest",
+"version": "1.9.10",
+"downloads": 540178.0,
+"rank": 813,
+"sha256": "08848aab259b4fa066c6dea41ad6372a79b51cec38fb982fc701f27a2dc8d611",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "RapidAPI.vscode-rapidapi-client",
+"version": "1.10.2",
+"downloads": 536902.0,
+"rank": 814,
+"sha256": "dbd611bd7e5a3d4434c222e71aae13629b0c4ba5832e75e1d2182c22c9cf5f4d",
+"v0.2.0": "MEDIUM"
+},
+{
+"src": "marketplace",
+"id": "mquandalle.graphql",
+"version": "0.1.2",
+"downloads": 535081.0,
+"rank": 815,
+"sha256": "d2106d1c30ffca4f84a40d00ffda2f033f1251c0284eb5c0b4753863d3221e7c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "brandonfowler.exe-runner",
+"version": "1.2.1",
+"downloads": 534821.0,
+"rank": 816,
+"sha256": "966191af9cfa67dfe258f541aeae07486d2c9f14d1d1e152d7d6bd3df1bc942b",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "uloco.theme-bluloco-dark",
+"version": "3.10.1",
+"downloads": 533579.0,
+"rank": 818,
+"sha256": "cc980d2bac94e8d1ba9e2950192fe3b2281bb3e9a2202a63def8e08d76ba9948",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Sixth.sixth-ai",
+"version": "0.5.0",
+"downloads": 532363.0,
+"rank": 819,
+"sha256": "1e1e9e37a77c7aa00deec85954889d574d98e77886c0a1e2d53899421d8db42f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Cardinal90.multi-cursor-case-preserve",
+"version": "1.0.5",
+"downloads": 531677.0,
+"rank": 820,
+"sha256": "78969f8d80f2743f035bcdd52c7f4c3c578310d5c1c777a5ed7be366abbcf09c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "naumovs.theme-oceanicnext",
+"version": "0.0.4",
+"downloads": 530698.0,
+"rank": 821,
+"sha256": "ae89a158bdecd0d559de4a6d48d4f8fd7f569206a480d35f14495a042a3a8e3e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "felipe-mendes.slack-theme",
+"version": "1.9.17",
+"downloads": 530579.0,
+"rank": 822,
+"sha256": "a86f9fa1d1ee63838ebd7ef290d9012ae7bc69cca0d1a1e25562d6f83983348e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "gamunu.vscode-yarn",
+"version": "2.3.0",
+"downloads": 530209.0,
+"rank": 823,
+"sha256": "f400523d0e255a70b0e7f2dedc6e3d4f6784c27848c075651a16e290818dc81f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "nodesource.vscode-for-node-js-development-pack",
+"version": "2.0.1",
+"downloads": 529902.0,
+"rank": 824,
+"sha256": "934268301056f8b78586941a7f04d3892cb1e4c07eec553fcc486d3463774377",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "deerawan.vscode-faker",
+"version": "2.0.0",
+"downloads": 529173.0,
+"rank": 825,
+"sha256": "7489abf1ff888d6629a062a255e38a6e4b6f074638b9ab4c29d901e4178bca02",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "msjsdiag.cordova-tools",
+"version": "2.7.0",
+"downloads": 528103.0,
+"rank": 826,
+"sha256": "903248694667ab4dff7249b2d2c4de0edce1faa67a4cdbebd7005a9a3539fae9",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "TeamsDevApp.ms-teams-vscode-extension",
+"version": "6.21.2026111105",
+"downloads": 528034.0,
+"rank": 827,
+"sha256": "8d62ba8534c91eccf0aca1d0eb68c04d6e085a4c3db42d2d6f154c5501d77c95",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Shopify.polaris-for-vscode",
+"version": "0.9.8",
+"downloads": 526724.0,
+"rank": 828,
+"sha256": "6415df31dd00e1ac427a36ac35a015d2f29134c53d86954d9fa5ce77d104be0f",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "EasyCodeAI.chatgpt-gpt4-gpt3-vscode",
+"version": "2.1.10",
+"downloads": 523149.0,
+"rank": 830,
+"sha256": "18e87b13a7d06ca232129ec149af10fbf9cda324f470aa898a965729ac9959d2",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "keyring.Lua",
+"version": "0.0.9",
+"downloads": 523058.0,
+"rank": 831,
+"sha256": "2001bda605de12ba56990da03ebe9011a75b72f704f798886fe5b787f119fbed",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "ikasann-self.vscode-chat-gpt",
+"version": "1.2.0",
+"downloads": 522435.0,
+"rank": 832,
+"sha256": "0969664d444c61317180fcea621ac70477a5b15de5bfa76c00f040a3ee4b7cdd",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "swellaby.node-pack",
+"version": "0.1.16",
+"downloads": 520996.0,
+"rank": 833,
+"sha256": "819439ae7e907d1a45ed5f435503aab397c9104b38eddbed698678073848c0a7",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Kingleo.deepseek-web",
+"version": "1.0.21",
+"downloads": 519866.0,
+"rank": 834,
+"sha256": "71118a2c21e2d4c720557e7b0229cc8410c3954e81bb26f270c2408f13f1d964",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "Percy.vscode-numpy-viewer",
+"version": "0.1.11",
+"downloads": 517076.0,
+"rank": 835,
+"sha256": "8f9cc32e8da8c4dee008b4b13bd8e02be73c41f5feb02f4eed1ee81df4295374",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "bibhasdn.django-snippets",
+"version": "1.1.1",
+"downloads": 512804.0,
+"rank": 836,
+"sha256": "cc54f1b66be963634d3686e2eb73dfe4f7af8da1d85603b71c239c09f381c501",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "adrianwilczynski.terminal-commands",
+"version": "1.0.5",
+"downloads": 511964.0,
+"rank": 837,
+"sha256": "ef91b88cd841aaed5b212952565de4b7fe8109c157bc6f580545e357422ae47c",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "docsmsft.docs-markdown",
+"version": "1.0.18",
+"downloads": 511129.0,
+"rank": 838,
+"sha256": "50462f640e040ed425b367b95a1e7b515a16b4c5d8cc58527f6cf268b6805b79",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "1YiB.svelte-bundle",
+"version": "1.0.0",
+"downloads": 510730.0,
+"rank": 839,
+"sha256": "9a00c235a15d5818218b6f20dda5beea291396c219dcfefc73d1a399ee8607cf",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "AndrewMcGoveran.react-component-generator",
+"version": "1.1.1",
+"downloads": 509290.0,
+"rank": 840,
+"sha256": "46886180e4d131b6b2f3875de24a51288ac5ec27c5fab3c50bb1c14f0387034e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "slevesque.vscode-zipexplorer",
+"version": "0.3.1",
+"downloads": 506736.0,
+"rank": 841,
+"sha256": "9418cb8ba5cf3fc49a6c069f9fcbdcac92bbe87e3febe9242d4a515a69714178",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "docsmsft.docs-yaml",
+"version": "1.0.6",
+"downloads": 506410.0,
+"rank": 842,
+"sha256": "3210c25b182d74e70e64a3079cff568c4d9c332a2b068f3e82830824740f09a1",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "uloco.theme-bluloco-light",
+"version": "3.10.0",
+"downloads": 506378.0,
+"rank": 843,
+"sha256": "770797d62f279fca9295e786ca19ebcd2517921035dc85dc1b0c1d915ed6b022",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "loiane.angular-extension-pack",
+"version": "1.2.4",
+"downloads": 506100.0,
+"rank": 844,
+"sha256": "be412b9837bb9f8424015887bc06ec580d40c91c4a4bb3245d8fb97b4230e83e",
+"v0.2.0": "SAFE"
+},
+{
+"src": "marketplace",
+"id": "xyz.plsql-language",
+"version": "1.8.2",
+"downloads": 504573.0,
+"rank": 845,
+"sha256": "39f71a72a443690c36123653763764e33998f8969579167649edf301b851bd9b",
+"v0.2.0": "SAFE"
+}
+]

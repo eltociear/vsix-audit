@@ -48,7 +48,7 @@ import urllib.parse
 import urllib.request
 import zipfile
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 SCAN_EXT = (".js", ".cjs", ".mjs", ".jsx", ".ts", ".cts", ".mts", ".sh", ".ps1", ".bat", ".cmd",
             ".py", ".html", ".htm")
@@ -141,7 +141,7 @@ PATTERNS = {
         {"id": "worm_propagation", "name": "Self-Propagation (Worm)",
          "desc": "Uses stolen registry/GitHub tokens to republish extensions or packages",
          "regexes": [
-             r"(?:ovsx|vsce)\s+publish[^\n]{0,160}(?:-p\s|--pat\b|OVSX_PAT|VSCE_PAT)",
+             r"(?:ovsx|vsce)\s+publish[^\n\"'`,;&|]{0,160}(?:-p\s|--pat\b|OVSX_PAT|VSCE_PAT)",
              r"(?:OVSX_PAT|VSCE_PAT)[^\n]{0,200}(?:ovsx|vsce)\s+publish",
              r"open-vsx\.org/api/-/publish\?token=",
              r"npm\s+publish[^\n]{0,120}(?:NPM_TOKEN|_authToken|npm_token)",
@@ -333,6 +333,12 @@ KNOWN_INSTALLER = re.compile(
     r"github\.com/block/goose/releases|qwenlm\.github\.io|cli\.kimi\.com|droid\.factory\.ai|"
     r"raw\.githubusercontent\.com/Homebrew/install/)", re.I)
 INSTALL_SCRIPT_URL = re.compile(r"https://[a-z0-9-]+(?:\.[a-z0-9-]+)*\.[a-z]{2,}(?:/[\w.-]+){0,6}/(?:(?:get-)?install(?:er)?(?:[\w-]*\.(?:sh|ps1)|\b)(?![\w.-]*\.(?:txt|bin|exe|js|dat))|[\w.-]*[-_.]install(?:er)?\.(?:sh|ps1)\b)", re.I)
+# a tool's own install script in its GitHub repo (trivy, golangci-lint, grype ... contrib/install.sh)
+RAW_GH_INSTALL = re.compile(r"https://raw\.githubusercontent\.com/[\w.-]+/[\w.-]+/[\w.-]+/(?:[\w.-]+/){0,3}(?:get-)?install(?:er)?[\w-]*(?:\.sh|\.ps1)?(?=[\s|\"'`)]|$)", re.I)
+# a domain that IS the installer: `curl -sSf https://atlasgo.sh | sh`, `https://mise.run | sh`
+INSTALLER_DOMAIN = re.compile(r"https://[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:sh|run)/?(?=\s*\|)", re.I)
+RELEASE_FILE = re.compile(r"(?:^|/)(?:scripts?|bin|tools|ci)/[^/]+$|(?:^|/)[^/]*(?:publish|release|deploy)[^/]*\.[cm]?js$", re.I)
+TUNNEL_HOST = re.compile(r"(?:ngrok(?:-free)?\.(?:io|app|dev)|localtunnel\.me|serveo\.net)$", re.I)
 DOMAIN_STR = re.compile(r"[\"'][*.]?[a-z0-9-]+(?:\.[a-z0-9-]+)+[\"']", re.I)
 NEAR = 1500  # chars: in a bundle "same file" is meaningless, so sinks must be nearby
 
@@ -346,7 +352,7 @@ DENY_CTX = re.compile(r"(?:label|reason|pattern|desc\w*|title|message|deny\w*|bl
                       r"refus\w*|dangerous|destructive)\W{0,4}[\"'`]?[^\"'`\n]{0,40}[\"'`]?$", re.I)
 LOG_CTX = re.compile(r"(?:\becho|\bprintf?|\blog\w*|console\.\w+|\bwarn\w*|\berror|\binfo)\s*\(?\s*[\"'][^\"'\n]{0,80}$", re.I)
 # a bundled package.json "scripts" entry ("publish:ovsx": "ovsx publish -p $OVSX_PAT")
-NPM_SCRIPT_CTX = re.compile(r"[\"'][\w:.-]*(?:publish|release|deploy|ovsx|vsce)[\w:.-]*[\"']\s*:\s*[\"'][^\"'\n]{0,120}$", re.I)
+NPM_SCRIPT_CTX = re.compile(r"(?:[\"'][\w:.-]*(?:publish|release|deploy|ovsx|vsce)[\w:.-]*[\"']|[{,]\s*(?:publish|release|deploy|ovsx|vsce)\w*)\s*:\s*[\"'][^\"'\n]{0,120}$", re.I)
 TELEGRAM_HARDCODED = re.compile(r"api\.telegram\.org/bot\d{6,}:[A-Za-z0-9_-]{30,}")
 SHELL_FILE = (".sh", ".ps1", ".bat", ".cmd")
 LIST_ELEMENT = re.compile(r"[\[,]\s*[\"'`]$")
@@ -397,7 +403,7 @@ def _vendor_host(matched, vendor):
                for l in labels)
 
 
-def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
+def _scan_text(text, path, findings, info, startup, vendor=frozenset(), release_files=frozenset()):
     """Line-oriented pattern pass plus file-level combination rules."""
     lines = text.split("\n")
     starts, acc = [], 0
@@ -478,6 +484,13 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
                                           len(DOMAIN_STR.findall(text, max(0, pos - 300), pos + 300)) >= 8):
             f["severity"] = "INFO"
             f["description"] += " [no nearby send / domain list]"
+        # the tunnel service's own bare domain (`host: 'https://localtunnel.me'`) is a tunnel *client*
+        # (share-your-preview features); exfil goes to a specific tunnel URL (abc123.ngrok-free.app).
+        elif (f["id"] == "exfil_host" and TUNNEL_HOST.match(f["matched"])
+              and (re.search(r"(?://|[\"'`])$", text[max(0, pos - 3):pos])
+                   or re.search(r"RegExp\s*\(|\.\*$", text[max(0, pos - 60):pos]))):
+            f["severity"] = "INFO"
+            f["description"] += " [tunnel service domain: a tunnel client, not a collector URL]"
         # an install command rendered for the user to copy is documentation, not execution.
         if f["id"] == "download_execute" and (DISPLAY_CTX.search(text[max(0, pos - 60):pos])
                                               or LOG_CTX.search(text[max(0, pos - 100):pos])):
@@ -487,7 +500,8 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
         # a publisher's own release script shipped in the package (`ovsx publish -p $PAT` in a
         # .sh file) is CI leakage; a worm runs publish from the extension's JS.
         if f["id"] == "worm_propagation" and (path.lower().endswith(SHELL_FILE)
-                                               or NPM_SCRIPT_CTX.search(text[max(0, pos - 160):pos])):
+                                               or NPM_SCRIPT_CTX.search(text[max(0, pos - 160):pos])
+                                               or RELEASE_FILE.search(path) or path in release_files):
             f["severity"] = "INFO"
             f["description"] += " [publisher's release script / npm script shipped in the package]"
             continue
@@ -511,8 +525,10 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
         # CLIs this way. The held-out sets kept surfacing new such vendors, so this is a shape
         # rule, not a domain list. Payload-shaped paths, plain http, raw IPs and
         # paste/gist/tunnel/shortener hosts stay CRITICAL.
-        elif (f["id"] == "download_execute" and INSTALL_SCRIPT_URL.search(f.get("_full", f["matched"]))
-              and not SKETCHY_HOST.search(f.get("_full", f["matched"])) and not RAWIP_RE.search(f.get("_full", f["matched"]))
+        elif (f["id"] == "download_execute"
+              and (INSTALL_SCRIPT_URL.search(f.get("_full", f["matched"])) or INSTALLER_DOMAIN.search(f.get("_full", f["matched"])))
+              and (not SKETCHY_HOST.search(f.get("_full", f["matched"])) or RAW_GH_INSTALL.search(f.get("_full", f["matched"])))
+              and not RAWIP_RE.search(f.get("_full", f["matched"]))
               and not EXFIL_RE.search(f.get("_full", f["matched"]))):
             f["severity"], f["id"], f["name"] = "MEDIUM", "remote_installer", "Remote Installer Piped to Shell"
             f["description"] = ("Pipes a published HTTPS install script into a shell (a trust decision; "
@@ -718,6 +734,10 @@ def scan_extension(files, label="", binaries=()):
     startup = _manifest(pkg, findings, info)
     entries = _entry_files(pkg)
     vendor = _vendor_tokens(pkg)
+    # files that package.json "scripts" run (`node publish.js`): the publisher's tooling, which
+    # VS Code never executes
+    release_files = frozenset(m.group(1).lstrip("./") for v in (pkg.get("scripts") or {}).values()
+                              if isinstance(v, str) for m in re.finditer(r"\bnode\s+([\w./-]+\.[cm]?js)\b", v))
     for b in sorted(binaries)[:20]:
         info.append(_item("INFO", "native_binary", "Bundled Native Binary",
                           "Ships compiled code that cannot be text-scanned", b, 0, "", ""))
@@ -730,12 +750,12 @@ def scan_extension(files, label="", binaries=()):
             info.append(_item("INFO", "truncated", "Scan Truncated",
                               "Extension exceeds %d bytes of text" % MAX_TOTAL, path, 0, "", ""))
             break
-        _scan_text(text, path, findings, info, startup and path in entries, vendor)
+        _scan_text(text, path, findings, info, startup and path in entries, vendor, release_files)
         dec = _unescape_view(text)
         if dec is not None:
             have = {f["id"] for f in findings if f["file"] == path}
             tmp, tinfo = [], []
-            _scan_text(dec, path, tmp, tinfo, startup and path in entries, vendor)
+            _scan_text(dec, path, tmp, tinfo, startup and path in entries, vendor, release_files)
             for f in tmp:
                 if f["id"] not in have:
                     f["description"] += " [inside hex/unicode-escaped strings]"

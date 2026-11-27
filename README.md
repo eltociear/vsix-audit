@@ -69,19 +69,27 @@ Deterministic: no LLM, and no network needed to score.
 
 Naive scanners flag every `child_process`, every `process.env`, every `curl … | sh` string in a
 help panel, and get muted within a day. Measured on the **936 most-downloaded Open VSX
-extensions** (7.2 GB of extension code):
+extensions** (7.2 GB of extension code), then on 893 more it had never seen:
 
 | Engine | Flagged HIGH/CRITICAL |
 | --- | --- |
 | Same signatures, context-blind (top 641) | 57 / 641 (8.9%) |
-| First held-out set, engine frozen (ranks 351-650) | 9 / 300 (3.0%) |
-| Second held-out set, engine frozen again (ranks 651-950) | 8 / 295 (2.7%) |
-| Final engine, all 936 | **3 / 936 (0.3%)**, all three kept on purpose (see FINDINGS) |
+| v0.1: first held-out set, engine frozen (Open VSX ranks 351-650) | 9 / 300 (3.0%) |
+| v0.1: second held-out set, engine frozen again (ranks 651-950) | 8 / 295 (2.7%) |
+| v0.1 final engine, all 936 | 3 / 936 (0.3%), all three kept on purpose (see FINDINGS) |
+| **v0.2: third held-out set, frozen** (500 Open VSX ranks 946-1449 + 400 VS Marketplace top) | **10 / 893 (1.1%)**: 7 false positives (**0.8%**), 3 real data leaks to a public request bin |
+| v0.2 on the 936 calibration extensions | 3 / 937 (0.3%), the same three |
 
-The two held-out rows are the honest out-of-sample estimate: on popular extensions this engine
-has never seen, expect roughly **1 in 35** to need a human look. Most of those will be a new kind of
-benign string (a deny-list, a help panel, an installer) rather than malware. The 0.3% row is after
-those classes were fixed, so it is not an independent number.
+The held-out rows are the honest out-of-sample estimate. On the Marketplace top only 1 of 395 was
+flagged; the Open VSX long tail is noisier (9 of 498), mostly publishers shipping their own
+`ovsx publish` scripts. Those classes were fixed after the run (v0.2.1), so v0.2.1's 0 known false
+positives on that set is not an independent number.
+
+**Recall** (v0.2 adds it; v0.1 was only checked on our own canaries): 4/4 real archived malicious
+extensions (v0.1: 1/4), 19/20 canaries reconstructed from published incident write-ups (v0.1: 7/20),
+and **4/17 on malicious samples written by two other projects**, held out, most of which are
+defanged demos with no executable sink. Real samples are scarce because registries delete them;
+see [FINDINGS.md](FINDINGS.md#recall-what-v010-missed) for what was missed and why.
 
 What it reports as **INFO** (never scored), because the most-installed extensions do all of it:
 `child_process`, network clients, `process.env`, `~/.ssh` / `~/.npmrc` references, SecretStorage
@@ -109,7 +117,9 @@ python vsix_audit.py -v ...                              # also print INFO conte
 `~/.windsurf`, `~/.vscodium`, `~/.positron`, `~/.kiro`, `~/.trae` and `~/.void`.
 
 Requires Python 3.9+. No dependencies. Tests: `python tests/run.py` (inert canaries for each
-attack shape, plus benign controls that copy what popular extensions really do).
+attack shape, 20 recall canaries rebuilt from public incident write-ups in `tests/recall/`, plus
+benign controls that copy what popular extensions really do). Benchmark manifests (names, versions,
+SHA-256, verdicts; no samples) are in `benchmarks/`.
 
 ## Limits
 

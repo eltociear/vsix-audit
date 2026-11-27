@@ -1,0 +1,519 @@
+{
+ "note": "Static scan only. Real samples were never committed and were deleted after the run. 'tuning' splits were used to write rules; 'heldout' was scanned once with the engine frozen in commit 5ed9763 (v0.2.0).",
+ "splits": [
+  {
+   "split": "real",
+   "role": "tuning",
+   "rows": [
+    {
+     "sample": "ahmedsleem.secure-code-1.0.31.vsix",
+     "malicious": true,
+     "v0.1.0": "HIGH",
+     "v0.2.0": "HIGH",
+     "v0.2.1": "HIGH",
+     "v0.2.1_ids": [
+      "exfil_host"
+     ],
+     "sha256": "a40cefde306286c861552348d5e647bc62ca0a171ff499df899975876cf03177",
+     "source": "github.com/packguard-dev/malicious-vscode-detection samples/"
+    },
+    {
+     "sample": "cosmic-themes.sql-formatter-4.2.6.vsix",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "decrypt_eval"
+     ],
+     "sha256": "619ae121ee33bdd2d08e5577fb0f992497612e1cfc587f0eef05cac2ba462368",
+     "source": "github.com/packguard-dev/malicious-vscode-detection samples/ (Socket: GlassWorm-linked)"
+    },
+    {
+     "sample": "lavender-studio.theme-lavender-dreams-1.0.3.vsix",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "decrypt_eval"
+     ],
+     "sha256": "cc9c71ed23d8695b100b6acd915015c8a511f9663301ae73292be0b47ec85a5f",
+     "source": "github.com/packguard-dev/malicious-vscode-detection samples/ (GlassWorm-linked theme template)"
+    },
+    {
+     "sample": "showsnowcrypto.snowshono-0.6.0.zip",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "download_execute"
+     ],
+     "sha256": "2cdaee2863396e558f17503ad290163d513acbc3c2ca2dbfa6852c2e064ca9f1",
+     "source": "github.com/0xkagema/malicious-vscode-extensions ShowSnowcrypto.SnowShoNo/"
+    }
+   ]
+  },
+  {
+   "split": "recon",
+   "role": "tuning",
+   "rows": [
+    {
+     "sample": "aes-eval-theme",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "decrypt_eval"
+     ],
+     "basis": "Socket (2025): GlassWorm-linked themes (Cosmic Nebula / Lavender) AES-256-CBC-decrypt an embedded stage and eval it"
+    },
+    {
+     "sample": "aurora-temp-batch",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "temp_dropper"
+     ],
+     "basis": "Socket (2025): Aurora Nocturne stage 2 writes %TEMP%\\temp_batch.cmd from a download and runs it hidden"
+    },
+    {
+     "sample": "aurora-zero-width",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "invisible_unicode"
+     ],
+     "basis": "Socket (2025): Aurora Nocturne theme, zero-width-Unicode encoded payload decoded and eval'd; temp_batch.cmd dropper"
+    },
+    {
+     "sample": "chatmoss-source-exfil",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "basis": "Koi (Jan 2026): ChatMoss / ChatGPT-zh extensions send every opened file's source to a remote server"
+    },
+    {
+     "sample": "darcula-webhook",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "env_exfil",
+      "exfil_host"
+     ],
+     "basis": "Check Point (2023): fake Darcula/Prettiest-java extensions sent host info to a Discord webhook"
+    },
+    {
+     "sample": "glassworm-calendar",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "calendar_c2",
+      "obfuscation"
+     ],
+     "basis": "Koi (Oct 2025): GlassWorm backup C2 in a Google Calendar event title"
+    },
+    {
+     "sample": "glassworm-solana",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "blockchain_c2",
+      "obfuscation"
+     ],
+     "basis": "Koi (Oct 2025): GlassWorm C2 pointer read from a Solana transaction memo, base64-decoded, then fetched code eval'd"
+    },
+    {
+     "sample": "glassworm-vs-loader",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "invisible_unicode"
+     ],
+     "basis": "Koi (Oct 2025): GlassWorm wave 1 loader, variation-selector stream decoded and eval'd"
+    },
+    {
+     "sample": "obf-hex-irm-iex",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "download_execute"
+     ],
+     "basis": "0xkagema tracker (Sep 2025): ShowSnowcrypto fake Solidity, javascript-obfuscator string table with \\x20-escaped `irm | iex`"
+    },
+    {
+     "sample": "prettier-plus-vbs",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "temp_dropper"
+     ],
+     "basis": "Checkmarx / Hunt.io (Nov 2025): prettier-vscode-plus impostor drops a VBScript that runs encoded PowerShell (Anivia -> OctoRAT)"
+    },
+    {
+     "sample": "ps-download-run",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "download_execute"
+     ],
+     "basis": "ExtensionTotal (Nov 2024) / ReversingLabs (2025): PowerShell downloads an EXE to %TEMP% and starts it"
+    },
+    {
+     "sample": "revshell-net",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "reverse_shell"
+     ],
+     "basis": "ReversingLabs (2025) / generic: reverse shell from extension host"
+    },
+    {
+     "sample": "shiba-ransom",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "download_execute"
+     ],
+     "basis": "ReversingLabs (Mar 2025): ahban.shiba / cychelloworld - PowerShell second stage fetched from a raw IP"
+    },
+    {
+     "sample": "sideload-vsix",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "vsix_sideload"
+     ],
+     "basis": "Socket (2026): GlassWorm loader downloads a second-stage .vsix from GitHub and installs it into every editor CLI"
+    },
+    {
+     "sample": "solidity-irm-iex",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "download_execute"
+     ],
+     "basis": "Kaspersky Securelist (Jul 2025): fake Solidity extension runs PowerShell from angelic[.]su (ScreenConnect)"
+    },
+    {
+     "sample": "susvsex-github-c2",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "github_c2"
+     ],
+     "basis": "Secure Annex (Nov 2025): susvsex ransomware PoC, GitHub repo as C2 with a hard-coded PAT"
+    },
+    {
+     "sample": "tigerjack-eval-poll",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "remote_eval"
+     ],
+     "basis": "Koi, TigerJack (2025): fetch remote JS every 20 min and eval it"
+    },
+    {
+     "sample": "tigerjack-then-eval",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "remote_eval"
+     ],
+     "basis": "Koi, TigerJack (2025): promise-chain variant of the remote-eval backdoor"
+    },
+    {
+     "sample": "token-stealer-secrets",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "credential_exfil",
+      "exfil_host"
+     ],
+     "basis": "Wiz (Oct 2025) leaked-token reports / GlassWorm: harvest editor secrets & npmrc and post them out"
+    },
+    {
+     "sample": "whitecobra-dropper",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "temp_dropper"
+     ],
+     "basis": "Koi, WhiteCobra (2025): crypto-stealer extensions download a platform payload to temp and run it"
+    }
+   ]
+  },
+  {
+   "split": "thirdparty",
+   "role": "heldout",
+   "rows": [
+    {
+     "sample": "junbjnnn_glassworm-poc/samples/clean-file.js",
+     "malicious": false,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "f7d345a87f9db9b5348a696cfb9cdd6b0158543ed054768d0071c5bf3fb84785",
+     "note": ""
+    },
+    {
+     "sample": "junbjnnn_glassworm-poc/samples/credential-reader.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "83ba71fe9960951ac6f118f3e9f5cd5692fa6e5e211c09132fd5b854221b8057",
+     "note": ""
+    },
+    {
+     "sample": "junbjnnn_glassworm-poc/samples/eval-pattern.js",
+     "malicious": true,
+     "v0.1.0": "HIGH",
+     "v0.2.0": "HIGH",
+     "v0.2.1": "HIGH",
+     "v0.2.1_ids": [
+      "obfuscation"
+     ],
+     "sha256": "f9a6a64260af14d3fac5b5ddd2539fa943be8f982d57253f5dab8aed71bce748",
+     "note": ""
+    },
+    {
+     "sample": "junbjnnn_glassworm-poc/samples/hidden-payload.js",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "invisible_unicode"
+     ],
+     "sha256": "2bdefdda7e5f322ea69401e15b58c3be034fae2eb52453a7b3a91397c232b294",
+     "note": ""
+    },
+    {
+     "sample": "junbjnnn_glassworm-poc/samples/known-marker.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "a8460590cd83eb06d193a54897f00163e7d186b1e54b57b41d1400fc643df9d8",
+     "note": ""
+    },
+    {
+     "sample": "junbjnnn_glassworm-poc/samples/solana-c2.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "9790e16c89ee5eefe0e0dca0ec7947aba78ba2345f098000df98f2269a14032b",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/benign/clean-extension/extension.js",
+     "malicious": false,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "a3c7518e4e7c69db99489b4f8f8614b15e99d635fcd76ea9375ede00954ee48f",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/silver-fox-sample/ctrl-toolkit.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "c03b8669ad210b6aab22e72308dedf1804cf5f0e8c59d158e1382fecd5578c78",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/silver-fox-sample/silverfox-rat.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "457930d26d36eb78af19a649708deaec3d84b698946dd0a62023e9887f11a1e2",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage1-initial-access/fake-npm-package/install.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "4a1309bd3c0ac3aa0ab6a0a17f0b5d2f008034633f03214e5be5b0d4ff99b3ee",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage1-initial-access/fake-npm-package/setup_bun.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "10c44c5212288615c00cc559611c012f60e175139721ad37b078406eab5f5761",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage1-initial-access/glassworm-v2-loader/extension.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "HIGH",
+     "v0.2.1": "HIGH",
+     "v0.2.1_ids": [
+      "vsix_sideload"
+     ],
+     "sha256": "070d8b908a2732c365d8950538a59ada67b945f4fe949c774ddd9d5889949baa",
+     "note": "tuning (inspected before freeze)"
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage2-backdoors/beaconing-agent/beacon.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "896b51e39f8e20bc6ba5b1edce6a627db0468a6c5c4f3fe45241039b22c6003c",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage2-backdoors/blockchain-deaddrop/extension.js",
+     "malicious": true,
+     "v0.1.0": "CRITICAL",
+     "v0.2.0": "CRITICAL",
+     "v0.2.1": "CRITICAL",
+     "v0.2.1_ids": [
+      "blockchain_c2"
+     ],
+     "sha256": "34a9f9d2d9a6a9163a137b973d47fbe8e5991b9ca36917ec14be08517fcf48b1",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage2-backdoors/invisible-ferret/ferret.py",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "f9abce0835c64601e470270cd72e1a2e55d161e313cf4024fbf29198279e405a",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage2-backdoors/ottercookie/ottercookie-v1.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "50a1a72848e37c0475974cdfc7548e8cea7f43104078662e76a26d51b088e0d0",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage2-backdoors/unicode-obfuscation/extension.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "6145c8b1171ea0ea4b42ede622605205a5998ee806498b97d48417b8fda58dd8",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage3-data-collection/crypto-wallet-scanner.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "53f82b4bb67ae81bdbad92b9c91e3bb2ae31b73171546335d15fa92f51e3d087",
+     "note": ""
+    },
+    {
+     "sample": "rodhayl_VSCodeAntivir/samples/stage3-data-collection/fake-ai-assistant/extension.js",
+     "malicious": true,
+     "v0.1.0": "SAFE",
+     "v0.2.0": "SAFE",
+     "v0.2.1": "SAFE",
+     "v0.2.1_ids": [],
+     "sha256": "0b7ae85a347d8a11c2483194aeaf032380dffa01cd8210c74b09ee7b00c83330",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "split": "marketplace-removed-live-on-openvsx",
+   "role": "heldout (weak labels)",
+   "note": "IDs listed as 'Malware' in microsoft/vsmarketplace RemovedPackages.md that still resolve on open-vsx.org (19 of 719). Names withheld because they are live. Static triage found no payload in the Open VSX builds, so they do not measure recall.",
+   "scanned": 18,
+   "skipped": 1,
+   "v0.2.0_HIGH+": 0,
+   "sha256": [
+    "081aec582384f3d724ae98588e3bcdcb66e79bf60ffbe8533fc6bb098557f94d",
+    "20f60923ebaf06002da8c6dba50b76a701d2eda37c047bf734fb430f327569a6",
+    "28514ac48e1acd1cc79cde6e2af92f244c071170d7b6112bc18cc18e234292a7",
+    "43480ea45e8711e50cf241fec332b6817053554c6b9a84373767114885b10749",
+    "4fbd363c2c5efcaa14aaca092021207be1b0ee1046cfc6dc3bec28db8ea8f826",
+    "66acaa33463b60c857883b0d4e37aff708ebf40d34340199b8fdaeab1a804e5c",
+    "86821f15297d27e0bd76f19e3f9d7cb3897fa3b36f5c1af64c81a3ef3d93cb42",
+    "88f441a7af6cc53094a088968e17cbc475508f528c53a6d72036fba57d378dc8",
+    "8c00759ec27a77f4937540d38846b3c1ca844c1b1a8e8c19e11a2efb25bb08be",
+    "b1080630b232d969bb825aaaaff3b36fb652848042cc8992a8b9db353c90aecb",
+    "b23600a07c96ba78e6826755875c35529b619a53ef0e0134cfd026d89ddae982",
+    "bd256e2979a0a9efaa5f5d07120ab04277268bc3182778a8ff9e6b281d225469",
+    "c8d6d7da694c9f6b84a31c39a1e989f3ca02fb13e92ad77f0037f0d354c3c560",
+    "ca0d21fe809050718899ecf989ddfdad5faf2dc52e045072f61f9fc588b13408",
+    "daf592d91282895e95a7b2713cb6a67cd6eece22e470e45da18a8c92b933d221",
+    "e0cb5cfad21580974fb906ad2ec1df5545cce5257a2146274547ae555efb34f6",
+    "e9b9b3713e9b6b3e309b62d4604c229d8b205c03a05d66a7895004822d9cc746",
+    "f75d45128a4ef75050fa7a1c071f85fcf8a63e2a6e5d4076c8ff8f3f5f2ad56c"
+   ]
+  }
+ ]
+}

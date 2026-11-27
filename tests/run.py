@@ -36,7 +36,8 @@ EXPECT = {
 }
 # reported, but deliberately below the HIGH line: an installer from the extension's own vendor
 MEDIUM = {"med-vendor-installer": "remote_installer", "med-cookie-import": "browser_store_read",
-          "med-vendor-github-org": "remote_installer", "med-thirdparty-installer": "remote_installer"}
+          "med-vendor-github-org": "remote_installer", "med-thirdparty-installer": "remote_installer",
+          "med-github-raw-installer": "remote_installer"}
 
 # Source-code theft to a look-alike AI endpoint cannot be told apart from a real AI assistant
 # statically (both send document text to a server on every edit).

