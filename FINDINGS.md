@@ -32,10 +32,8 @@ encrypted stage: a sleeper). Microsoft's removal applied to Marketplace builds w
 download. It is listed so that nobody reads "0/18" as either a miss or a clean bill.
 
 **Benign control: the "Material Theme" scare.** In February 2025 `Equinusocio.vsc-material-theme`
-was pulled from the Marketplace as malware and later reinstated: the accusation rested on obfuscated
-code in a bundled dependency. Version 34.7.7 (the build current at the time) and 34.7.16 both scan
-**SAFE** with v0.1.0 and v0.2.0 (the obfuscated bundle is reported as INFO). A scanner that flags
-obfuscation alone would have repeated that false alarm.
+was pulled from the Marketplace as suspected malware and later reinstated as a false alarm. Version 34.7.7 (the build current at the time) and 34.7.16 both scan
+**SAFE** with v0.1.0 and v0.2.0 (34.7.7 has 49 INFO-level context items, nothing scored).
 
 The v0.1.0 misses on real malware were not exotic:
 
