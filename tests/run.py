@@ -36,7 +36,11 @@ EXPECT = {
 }
 # reported, but deliberately below the HIGH line: an installer from the extension's own vendor
 MEDIUM = {"med-vendor-installer": "remote_installer", "med-cookie-import": "browser_store_read",
-          "med-vendor-github-org": "remote_installer"}
+          "med-vendor-github-org": "remote_installer", "med-thirdparty-installer": "remote_installer"}
+
+# Source-code theft to a look-alike AI endpoint cannot be told apart from a real AI assistant
+# statically (both send document text to a server on every edit).
+RECALL_KNOWN_GAPS = {"chatmoss-source-exfil"}
 
 
 def main():
@@ -57,6 +61,28 @@ def main():
         fails += not ok
         print("%s %-20s got=%-8s want=%-8s %-20s %s" % (
             "PASS" if ok else "FAIL", name, r["risk_level"], want, fid, ids))
+    # recall canaries reconstructed from public incident write-ups (tests/recall/MANIFEST.json):
+    # each must reach HIGH+, except the documented known gaps.
+    rroot = os.path.join(HERE, "recall")
+    for name in sorted(os.listdir(rroot)):
+        d = os.path.join(rroot, name)
+        if not os.path.isdir(d):
+            continue
+        r = va.audit_dir(d, name)
+        hit = va.SEV_ORDER[r["risk_level"]] >= va.SEV_ORDER["HIGH"]
+        ok = hit != (name in RECALL_KNOWN_GAPS)
+        fails += not ok
+        print("%s recall/%-22s got=%-8s %s%s" % ("PASS" if ok else "FAIL", name, r["risk_level"],
+              sorted({f["id"] for f in r["findings"]}), " (known gap)" if name in RECALL_KNOWN_GAPS else ""))
+    # a plain zip of an unpacked extension (no extension/ prefix) is read from its folder
+    buf2 = io.BytesIO()
+    with zipfile.ZipFile(buf2, "w") as z:
+        d = os.path.join(rroot, "solidity-irm-iex")
+        for fn in os.listdir(d):
+            z.write(os.path.join(d, fn), "some.ext-0.1.0/" + fn)
+    f2, b2 = va.files_from_vsix(buf2.getvalue())
+    fails += not ("extension.js" in f2)
+    print("%s plain-zip layout" % ("PASS" if "extension.js" in f2 else "FAIL"))
     # .vsix round trip: zip a canary the way vsce does (extension/ prefix) and scan the archive
     buf = io.BytesIO()
     with zipfile.ZipFile(buf, "w") as z:

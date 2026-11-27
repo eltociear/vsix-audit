@@ -1,0 +1,12 @@
+{
+ "name": "recall-aes-eval-theme",
+ "publisher": "canary",
+ "version": "0.0.1",
+ "main": "./extension.js",
+ "activationEvents": [
+  "onStartupFinished"
+ ],
+ "engines": {
+  "vscode": "^1.80.0"
+ }
+}

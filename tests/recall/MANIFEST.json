@@ -1,0 +1,82 @@
+[
+ {
+  "canary": "tigerjack-eval-poll",
+  "basis": "Koi, TigerJack (2025): fetch remote JS every 20 min and eval it"
+ },
+ {
+  "canary": "tigerjack-then-eval",
+  "basis": "Koi, TigerJack (2025): promise-chain variant of the remote-eval backdoor"
+ },
+ {
+  "canary": "solidity-irm-iex",
+  "basis": "Kaspersky Securelist (Jul 2025): fake Solidity extension runs PowerShell from angelic[.]su (ScreenConnect)"
+ },
+ {
+  "canary": "obf-hex-irm-iex",
+  "basis": "0xkagema tracker (Sep 2025): ShowSnowcrypto fake Solidity, javascript-obfuscator string table with \\x20-escaped `irm | iex`"
+ },
+ {
+  "canary": "ps-download-run",
+  "basis": "ExtensionTotal (Nov 2024) / ReversingLabs (2025): PowerShell downloads an EXE to %TEMP% and starts it"
+ },
+ {
+  "canary": "shiba-ransom",
+  "basis": "ReversingLabs (Mar 2025): ahban.shiba / cychelloworld - PowerShell second stage fetched from a raw IP"
+ },
+ {
+  "canary": "susvsex-github-c2",
+  "basis": "Secure Annex (Nov 2025): susvsex ransomware PoC, GitHub repo as C2 with a hard-coded PAT"
+ },
+ {
+  "canary": "whitecobra-dropper",
+  "basis": "Koi, WhiteCobra (2025): crypto-stealer extensions download a platform payload to temp and run it"
+ },
+ {
+  "canary": "aurora-zero-width",
+  "basis": "Socket (2025): Aurora Nocturne theme, zero-width-Unicode encoded payload decoded and eval'd; temp_batch.cmd dropper"
+ },
+ {
+  "canary": "aurora-temp-batch",
+  "basis": "Socket (2025): Aurora Nocturne stage 2 writes %TEMP%\\temp_batch.cmd from a download and runs it hidden"
+ },
+ {
+  "canary": "prettier-plus-vbs",
+  "basis": "Checkmarx / Hunt.io (Nov 2025): prettier-vscode-plus impostor drops a VBScript that runs encoded PowerShell (Anivia -> OctoRAT)"
+ },
+ {
+  "canary": "chatmoss-source-exfil",
+  "basis": "Koi (Jan 2026): ChatMoss / ChatGPT-zh extensions send every opened file's source to a remote server"
+ },
+ {
+  "canary": "glassworm-vs-loader",
+  "basis": "Koi (Oct 2025): GlassWorm wave 1 loader, variation-selector stream decoded and eval'd"
+ },
+ {
+  "canary": "glassworm-solana",
+  "basis": "Koi (Oct 2025): GlassWorm C2 pointer read from a Solana transaction memo, base64-decoded, then fetched code eval'd"
+ },
+ {
+  "canary": "glassworm-calendar",
+  "basis": "Koi (Oct 2025): GlassWorm backup C2 in a Google Calendar event title"
+ },
+ {
+  "canary": "darcula-webhook",
+  "basis": "Check Point (2023): fake Darcula/Prettiest-java extensions sent host info to a Discord webhook"
+ },
+ {
+  "canary": "token-stealer-secrets",
+  "basis": "Wiz (Oct 2025) leaked-token reports / GlassWorm: harvest editor secrets & npmrc and post them out"
+ },
+ {
+  "canary": "sideload-vsix",
+  "basis": "Socket (2026): GlassWorm loader downloads a second-stage .vsix from GitHub and installs it into every editor CLI"
+ },
+ {
+  "canary": "aes-eval-theme",
+  "basis": "Socket (2025): GlassWorm-linked themes (Cosmic Nebula / Lavender) AES-256-CBC-decrypt an embedded stage and eval it"
+ },
+ {
+  "canary": "revshell-net",
+  "basis": "ReversingLabs (2025) / generic: reverse shell from extension host"
+ }
+]

@@ -1,0 +1,1 @@
+{"name":"med-thirdparty-installer","publisher":"someoneelse","version":"0.0.1","main":"./extension.js","activationEvents":["onStartupFinished"]}

@@ -1,0 +1,12 @@
+{
+ "name": "recall-ps-download-run",
+ "publisher": "canary",
+ "version": "0.0.1",
+ "main": "./extension.js",
+ "activationEvents": [
+  "onStartupFinished"
+ ],
+ "engines": {
+  "vscode": "^1.80.0"
+ }
+}

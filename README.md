@@ -35,9 +35,9 @@ dump `process.env` to a webhook, open a reverse shell, pipe a remote script into
 
 | Pattern | Severity |
 | --- | --- |
-| Invisible-Unicode payload (long runs of variation selectors / tag characters / private-use code points) | HIGH, CRITICAL with a decode/eval sink |
+| Invisible-Unicode payload (long runs of variation selectors / tag characters / zero-width / private-use code points) | HIGH, CRITICAL with a decode/eval sink |
 | Blockchain-hosted C2 (Solana memo read **+** decode **+** eval in the same file) | CRITICAL |
-| Download & execute (`curl … \| sh`, `eval(fetch(…))`, `iex (iwr …)`, encoded PowerShell) | CRITICAL |
+| Download & execute (`curl … \| sh`, `eval(fetch(…))`, `iex (iwr …)` and `irm … \| iex`, `iwr -OutFile …; Start-Process`, `certutil -urlcache`, encoded PowerShell), also inside `\x41`-escaped obfuscator strings | CRITICAL |
 | Environment dump (`JSON.stringify(process.env)`) **with a network send nearby** | CRITICAL |
 | Credential / SecretStorage / auth-session read **+** exfil endpoint **+** send, within 3 KB | CRITICAL |
 | Reverse shell (`/dev/tcp/…`, socket piped into `/bin/sh`) | CRITICAL |
@@ -47,15 +47,22 @@ dump `process.env` to a webhook, open a reverse shell, pipe a remote script into
 | Crypto-wallet / browser credential theft (MetaMask & co. extension IDs, `Login Data`, Keychain) | HIGH |
 | Obfuscated payload (`eval(atob(…))`, `new Function(Buffer.from(…,'base64'))`, `_0x` obfuscator output with eval + network) | HIGH |
 | Calendar-hosted pointer (`calendar.app.google/…` **+** decode + eval) | HIGH |
+| Encrypted stage executed (`createDecipheriv` with a hard-coded key **+** an embedded blob **+** eval) | HIGH |
+| Remote code: a response body from a hard-coded host handed to `eval` / `new Function` (`fetch(url).then(r=>r.text()).then(eval)`) | HIGH |
+| Temp-file dropper (a `.cmd`/`.bat`/`.vbs`/`.ps1`/`.exe` written to the temp dir and launched, with a download or encoded PowerShell next to it) | HIGH |
+| Extension side-loading (downloads a `.vsix` and runs `--install-extension` / `installExtension(Uri.file(…))`) | HIGH (MEDIUM from the extension's own vendor host) |
+| GitHub as a command channel (hard-coded `ghp_`/`github_pat_` token + issues/comments API + process spawn) | HIGH |
 | DNS exfiltration (hostname / username encoded into a DNS lookup) | HIGH |
+| An HTTPS *install script* (`https://host/…/install.sh`, `…-installer.ps1`, or the extension's own vendor host) piped into a shell: how coding agents install other CLIs. Plain http, raw IPs, paste/gist/tunnel hosts and payload-shaped paths stay CRITICAL | MEDIUM |
 | Raw public-IP URL next to a credential/env read or eval | MEDIUM |
 | `NODE_TLS_REJECT_UNAUTHORIZED = "0"` for the whole extension host | MEDIUM (a weakness, not malice) |
 
 Any HIGH/MEDIUM finding in the entry file of an extension that activates on **every** editor start
 (`"*"` / `onStartupFinished`) is raised to CRITICAL: that code runs with no user action at all.
 
-13 scored patterns / 40 regex signatures, plus 4 file-level detectors (`invisible_unicode`,
-`blockchain_c2`, `credential_exfil`, `obfuscation_heavy`) and 8 informational patterns.
+13 scored patterns / 44 regex signatures, plus 9 file-level detectors (`invisible_unicode`,
+`blockchain_c2`, `credential_exfil`, `obfuscation_heavy`, `decrypt_eval`, `remote_eval`,
+`temp_dropper`, `vsix_sideload`, `github_c2`) and 8 informational patterns.
 Deterministic: no LLM, and no network needed to score.
 
 ## Calibrated, not noisy

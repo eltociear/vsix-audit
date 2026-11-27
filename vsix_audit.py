@@ -48,7 +48,7 @@ import urllib.parse
 import urllib.request
 import zipfile
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 SCAN_EXT = (".js", ".cjs", ".mjs", ".jsx", ".ts", ".cts", ".mts", ".sh", ".ps1", ".bat", ".cmd",
             ".py", ".html", ".htm")
@@ -73,9 +73,27 @@ NET_SEND = (r"(?:https?\.request|https?\.get|require\s*\(\s*[\"'](?:node:)?(?:ht
 # private-use area. A long unbroken run of these in source code is a hidden byte stream.
 INVISIBLE_RUN = re.compile("[\ufe00-\ufe0f\U000e0100-\U000e01ef\U000e0000-\U000e007f]{24,}")
 PUA_RUN = re.compile("[\ue000-\uf8ff]{200,}")
+ZW_RUN = re.compile("[\u200b\u200c\u200d\u2060-\u2064\ufeff]{32,}")
 EVAL_SINK = re.compile(r"\beval\s*\(|new\s+Function\s*\(|\bFunction\s*\(\s*[\"'`]|vm\.runIn\w*Context\s*\(|\.runInThisContext\s*\(", re.I)
 SOLANA_RE = re.compile(r"getSignaturesForAddress|api\.mainnet-beta\.solana\.com|solana-mainnet|\bspl-memo\b|MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr", re.I)
 CALENDAR_RE = re.compile(r"calendar\.app\.google/[A-Za-z0-9]+", re.I)
+ABS_URL_RE = re.compile(r"[\"'`]https?://[a-z0-9.-]+[^\"'`\s]*[\"'`]", re.I)
+# what gets written must come off the wire (a static helper script written to temp is common)
+DL_BODY_RE = re.compile(r"\.text\s*\(\s*\)|\.arrayBuffer\s*\(|\.buffer\s*\(\s*\)|\.pipe\s*\(|\.on\s*\(\s*[\"']data[\"']|responseType\s*:\s*[\"'](?:arraybuffer|stream)", re.I)
+ENC_PS_RE = re.compile(r"-(?:e|ec|enc|encodedcommand)\s+[A-Za-z0-9+/=]{40,}|FromBase64String\s*\(", re.I)
+FETCH_EVAL_RE = re.compile(r"(?:\beval|new\s+Function)\s*\(\s*[A-Za-z_$][\w$]*(?:\.(?:data|body|responseText))?\s*\)|\.then\s*\(\s*(?:eval\b|\(?\s*(\w+)\s*\)?\s*=>\s*eval\s*\(\s*\1\s*\))")
+BODY_RE = re.compile(r"\.text\s*\(\s*\)|\.data\b|\.on\s*\(\s*[\"']data[\"']|\.responseText\b|\.body\b")
+DROP_EXTS = {".vbs", ".vbe", ".wsf", ".bat", ".cmd", ".ps1", ".exe", ".scr", ".hta"}
+DROP_NAME_RE = re.compile(r"[\"'`\\/][\w.-]{1,40}\.(?:vbs|vbe|wsf|bat|cmd|ps1|exe|scr|hta)[\"'`]", re.I)
+WRITE_RE = re.compile(r"writeFile(?:Sync)?\s*\(|createWriteStream\s*\(|\.pipe\s*\(|Out-File|>\s*%temp%", re.I)
+LAUNCH_RE = re.compile(r"\b(?:exec|execSync|execFile|execFileSync|spawn|spawnSync)\s*\(|\b(?:wscript|cscript|mshta|cmd(?:\.exe)?\s*/c|Start-Process|open\s+-a)\b", re.I)
+GH_TOKEN_RE = re.compile(r"[\"'`](?:ghp_|github_pat_)[A-Za-z0-9_]{0,90}[\"'`]")
+GH_C2_RE = re.compile(r"/(?:issues|comments|commits|contents|gists)\b")
+EXEC_RE = re.compile(r"\b(?:exec|execSync|spawn|spawnSync|execFile)\s*\(")
+SIDELOAD_RE = re.compile(r"--install-extension\b|installExtension[\"'`]?\s*,\s*(?:\w+\.)?Uri\.(?:file|parse)\s*\(", re.I)
+VSIX_URL_RE = re.compile(r"https?://[^\s\"'`]{4,300}?\.vsix\b|https?://[^\s\"'`]{4,200}/releases/download/[^\s\"'`]{0,200}", re.I)
+DECIPHER_RE = re.compile(r"createDecipher(?:iv)?\s*\(\s*[\"'][\w-]+[\"']\s*,\s*(?:[\"'][^\"'\n]{16,}[\"']|Buffer\.from\s*\(\s*[\"'][0-9a-fA-F]{32,})", re.I)
+HEXBLOB_RE = re.compile(r"[\"'`](?:[0-9a-fA-F]{400,}|[A-Za-z0-9+/]{400,}={0,2})[\"'`]")
 DECODE_RE = re.compile(r"atob\s*\(|Buffer\.from\s*\([^)]{0,200}[\"'](?:base64|hex)[\"']|decodeURIComponent\s*\(\s*escape", re.I)
 
 PATTERNS = {
@@ -89,7 +107,11 @@ PATTERNS = {
              r"eval\s*\(\s*(?:await\s+)?\(?\s*(?:await\s+)?fetch\s*\(",
              r"(?:eval|new\s+Function)\s*\(\s*(?:await\s+)?\(?\s*(?:await\s+)?(?:\(\s*await\s+)?(?:axios\.get|fetch)\s*\([^\n]{0,200}\)\s*\)?\s*\.(?:text|data)",
              r"(?:iex|Invoke-Expression)\s*\(?\s*\(?\s*(?:New-Object\s+Net\.WebClient|iwr|Invoke-WebRequest|irm|Invoke-RestMethod)\b",
+             r"(?<![a-z])(?:irm|iwr|Invoke-RestMethod|Invoke-WebRequest|DownloadString)\b[^\n|;]{0,40}?\(?[\"']?https?://[^\n|]{0,200}\|\s*(?:iex|Invoke-Expression)\b",
              r"powershell(?:\.exe)?[\"',\s][^\n]{0,60}-(?:e|enc|encodedcommand)\s+[A-Za-z0-9+/=]{60,}",
+             r"(?:Invoke-WebRequest|\biwr)\b[^\n]{0,300}-OutFile\s+[^\n;]{1,200};\s*(?:Start-Process|saps|Invoke-Item|&\s*[\"']?\$)",
+             r"(?:Net\.WebClient\)?\s*|\$\w+)\.DownloadFile\s*\([^\n]{0,300}\)\s*;?[^\n]{0,200}(?:Start-Process|Invoke-Item|\[Diagnostics\.Process\]::Start)",
+             r"certutil(?:\.exe)?\s+-urlcache\s+(?:-split\s+)?-f\s+https?://",
          ]},
         {"id": "env_exfil", "name": "Environment Dump",
          "desc": "Serialises the whole process.env (every token/secret) - exfil when a network sink is present",
@@ -310,12 +332,13 @@ KNOWN_INSTALLER = re.compile(
     r"ampcode\.com/install|app\.factory\.ai/cli|cli\.coderabbit\.ai|kiro\.dev/install|warp\.dev/install|"
     r"github\.com/block/goose/releases|qwenlm\.github\.io|cli\.kimi\.com|droid\.factory\.ai|"
     r"raw\.githubusercontent\.com/Homebrew/install/)", re.I)
+INSTALL_SCRIPT_URL = re.compile(r"https://[a-z0-9-]+(?:\.[a-z0-9-]+)*\.[a-z]{2,}(?:/[\w.-]+){0,6}/(?:(?:get-)?install(?:er)?(?:[\w-]*\.(?:sh|ps1)|\b)(?![\w.-]*\.(?:txt|bin|exe|js|dat))|[\w.-]*[-_.]install(?:er)?\.(?:sh|ps1)\b)", re.I)
 DOMAIN_STR = re.compile(r"[\"'][*.]?[a-z0-9-]+(?:\.[a-z0-9-]+)+[\"']", re.I)
 NEAR = 1500  # chars: in a bundle "same file" is meaningless, so sinks must be nearby
 
 
 COMMENT_LINE = re.compile(r"^\s*(?://|/\*|\*|#|<!--|REM\s)")
-NO_STARTUP_ESCALATION = {"auth_bypass", "remote_installer", "obfuscation_heavy", "browser_store_read"}
+NO_STARTUP_ESCALATION = {"auth_bypass", "remote_installer", "vendor_sideload", "obfuscation_heavy", "browser_store_read"}
 # A command rendered for the user to copy (HTML/markdown/“run:” prose), not executed.
 DISPLAY_CTX = re.compile(r"(?:<(?:code|pre|div|span|p|kbd|li|td)\b[^>]*>|\\?`|\b(?:run|paste|execute|terminal|install(?:\s+it)?)\s*(?:this|the following|:|,)?\s*[\"'`]?)\s*$", re.I)
 # Deny-rule tables: {label: "rm -rf ~"}, reason: "refuses `rm -rf ~`" ...
@@ -399,6 +422,7 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
             it = _item(sev.upper(), pid, pg["name"], pg["desc"], path, n, m.group(0),
                        line[max(0, s - 60):s + 140].strip())
             it["_pos"] = m.start()
+            it["_full"] = m.group(0)[:600]
             local.append(it)
             if once:
                 seen.add(pid)
@@ -425,13 +449,15 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
         if f["id"] in COMMENT_DEMOTE and f["line"] and COMMENT_LINE.match(lines[f["line"] - 1]):
             f["severity"] = "INFO"
             f["description"] += " [in a comment]"
+    obf_file = "_0x" in low and len(OBF_IDENT.findall(text[:6000000])) >= 10
     for f in local:
         if f["severity"] == "INFO" or not f["line"]:
             continue
         pos = f.get("_pos", 0)
         # A dangerous command as an element of a string list is a blocklist / deny-rule table
         # (auto-approve and terminal-safety extensions ship these), not code that runs.
-        if f["id"] in ("destructive", "download_execute", "reverse_shell") and (
+        # (not in javascript-obfuscator output: its string table is a list of everything.)
+        if f["id"] in ("destructive", "download_execute", "reverse_shell") and not obf_file and (
                 LIST_ELEMENT.search(text[max(0, pos - 12):pos]) or LIST_LINE.match(lines[f["line"] - 1])
                 or DENY_CTX.search(text[max(0, pos - 60):pos])):
             f["severity"] = "INFO"
@@ -466,20 +492,31 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
             f["description"] += " [publisher's release script / npm script shipped in the package]"
             continue
         # running an official vendor installer (uv, rustup, ...) is setup, not an attack.
-        if f["id"] == "download_execute" and KNOWN_INSTALLER.search(f["matched"] + f["context"]):
+        if f["id"] == "download_execute" and KNOWN_INSTALLER.search(f.get("_full", f["matched"]) + f["context"]):
             f["severity"] = "INFO"
             f["description"] += " [official vendor installer]"
         # curl|sh of an HTTPS installer hosted on the extension's OWN vendor domain is how vendors
         # ship their CLIs (firebase -> firebase.tools, snowflake -> ai.snowflake.com): a trust
         # decision worth showing, not an attack. Any other host, plain http, raw IPs and
         # paste/gist/tunnel/shortener hosts stay CRITICAL.
-        elif (f["id"] == "download_execute" and vendor and _vendor_host(f["matched"], vendor)
-              and (not SKETCHY_HOST.search(f["matched"]) or "githubusercontent.com/" in f["matched"])
-              and "https://" in f["matched"] and not RAWIP_RE.search(f["matched"])
-              and not EXFIL_RE.search(f["matched"])):
+        elif (f["id"] == "download_execute" and vendor and _vendor_host(f.get("_full", f["matched"]), vendor)
+              and (not SKETCHY_HOST.search(f.get("_full", f["matched"])) or "githubusercontent.com/" in f.get("_full", f["matched"]))
+              and "https://" in f.get("_full", f["matched"]) and not RAWIP_RE.search(f.get("_full", f["matched"]))
+              and not EXFIL_RE.search(f.get("_full", f["matched"]))):
             f["severity"], f["id"], f["name"] = "MEDIUM", "remote_installer", "Remote Installer Piped to Shell"
             f["description"] = ("Pipes an HTTPS install script from the extension's own vendor domain into a "
                                 "shell (a trust decision; review the host)")
+        # The same for a published install script of any named HTTPS host (`https://x.ai/cli/install.sh`,
+        # `https://pocketshell.app/install.sh`): coding-agent extensions install other agents'
+        # CLIs this way. The held-out sets kept surfacing new such vendors, so this is a shape
+        # rule, not a domain list. Payload-shaped paths, plain http, raw IPs and
+        # paste/gist/tunnel/shortener hosts stay CRITICAL.
+        elif (f["id"] == "download_execute" and INSTALL_SCRIPT_URL.search(f.get("_full", f["matched"]))
+              and not SKETCHY_HOST.search(f.get("_full", f["matched"])) and not RAWIP_RE.search(f.get("_full", f["matched"]))
+              and not EXFIL_RE.search(f.get("_full", f["matched"]))):
+            f["severity"], f["id"], f["name"] = "MEDIUM", "remote_installer", "Remote Installer Piped to Shell"
+            f["description"] = ("Pipes a published HTTPS install script into a shell (a trust decision; "
+                                "review the host)")
         # raw-IP URLs only matter next to a credential/env read or an eval sink.
         elif f["id"] == "raw_ip_url" and not (near("cred", CRED_RE, pos) or near("eval", EVAL_SINK, pos)
                                               or "process.env" in low[max(0, pos - NEAR):pos + NEAR]):
@@ -509,7 +546,7 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
                            "Reads Solana transaction memos and evals decoded content (GlassWorm C2 pattern)",
                            path, 0, "", "file-level combination"))
     # invisible-Unicode payload (GlassWorm): a long run of variation selectors / tag chars
-    for rx, label in ((INVISIBLE_RUN, "variation-selector / tag-character"), (PUA_RUN, "private-use")):
+    for rx, label in ((INVISIBLE_RUN, "variation-selector / tag-character"), (ZW_RUN, "zero-width"), (PUA_RUN, "private-use")):
         m = rx.search(text) if not text.isascii() else None
         if m:
             n = text.count("\n", 0, m.start()) + 1
@@ -518,6 +555,71 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
                                "%d consecutive invisible %s code points (hidden byte stream)" % (len(m.group(0)), label),
                                path, n, "", "U+%04X x%d" % (ord(m.group(0)[0]), len(m.group(0)))))
             break
+    # remote code: a response body handed to eval / new Function (TigerJack 2025: fetch + eval
+    # every 20 minutes). eval(fetch(...)) itself is caught by download_execute.
+    if has_eval and has_net:
+        for m in FETCH_EVAL_RE.finditer(text):
+            lo = max(0, m.start() - 600)
+            # module loaders (monaco/AMD, webpack chunk loaders) fetch the package's own scripts
+            # by relative URL and tag them with //# sourceURL; a backdoor hard-codes its host.
+            if (BODY_RE.search(text, lo, m.end()) and near("net", NET_RE, m.start(), 600)
+                    and ABS_URL_RE.search(text, lo, m.end()) and "sourceurl" not in low[lo:m.end() + 200]):
+                local.append(_item("HIGH", "remote_eval", "Remote Code Execution (fetch + eval)",
+                                   "Evaluates code received over the network",
+                                   path, text.count("\n", 0, m.start()) + 1, m.group(0),
+                                   text[max(0, m.start() - 120):m.start() + 80]))
+                break
+    # dropper: a script / executable written to the temp dir and launched (WhiteCobra, Aurora
+    # Nocturne temp_batch.cmd, prettier-vscode-plus VBScript).
+    if ("tmpdir" in low or "temp" in low) and any(e in low for e in DROP_EXTS):
+        for m in _finditer(DROP_NAME_RE, DROP_EXTS, text, low, before=60, after=20):
+            lo, hi = max(0, m.start() - 800), m.end() + 1500
+            win = low[lo:hi]
+            if (("tmpdir" in win or "%temp%" in win or "env:temp" in win or "process.env.temp" in win)
+                    and WRITE_RE.search(text, lo, hi) and LAUNCH_RE.search(text, m.end(), hi)
+                    and ((near("net", NET_RE, m.start(), 1500) and DL_BODY_RE.search(text, lo, hi))
+                         or ENC_PS_RE.search(text, lo, hi))):
+                local.append(_item("HIGH", "temp_dropper", "Temp-File Dropper",
+                                   "Writes a script/executable into the temp directory and launches it",
+                                   path, text.count("\n", 0, m.start()) + 1, m.group(0),
+                                   text[max(0, m.start() - 100):m.start() + 100]))
+                break
+    # GitHub as a command channel (susvsex 2025): a hard-coded token, the issues/comments API and
+    # a process spawn next to each other.
+    if "api.github.com" in low and ("ghp_" in low or "github_pat_" in low):
+        for m in GH_TOKEN_RE.finditer(text):
+            lo, hi = max(0, m.start() - 1500), m.end() + 1500
+            if GH_C2_RE.search(text, lo, hi) and EXEC_RE.search(text, lo, hi):
+                local.append(_item("HIGH", "github_c2", "GitHub Command Channel",
+                                   "Hard-coded GitHub token + issues/comments API + process execution",
+                                   path, text.count("\n", 0, m.start()) + 1, m.group(0)[:12] + "...",
+                                   text[max(0, m.start() - 80):m.start() + 20]))
+                break
+    # second-stage extension dropper (GlassWorm 2026): download a .vsix and side-load it with
+    # `<editor> --install-extension <file>` / installExtension(Uri.file(...)).
+    if ("install-extension" in low or "installextension" in low) and ".vsix" in low:
+        for m in SIDELOAD_RE.finditer(text):
+            lo, hi = max(0, m.start() - 3000), m.end() + 3000
+            u = VSIX_URL_RE.search(text, lo, hi)
+            if u and near("net", NET_RE, m.start(), 3000):
+                own = vendor and _vendor_host(u.group(0), vendor) and u.group(0).startswith("https://")
+                local.append(_item("MEDIUM" if own else "HIGH", "vendor_sideload" if own else "vsix_sideload",
+                                   "Downloads and Side-Loads an Extension",
+                                   "Downloads a .vsix and installs it into the editor" +
+                                   (" (from the extension's own vendor host)" if own else ""),
+                                   path, text.count("\n", 0, m.start()) + 1, u.group(0),
+                                   text[max(0, m.start() - 60):m.start() + 140]))
+                break
+    # encrypted stage: a hard-coded key decrypts an embedded blob that is then eval'd
+    # (GlassWorm-linked theme extensions, 2025-26: AES-256-CBC + eval of the plaintext).
+    if "createdecipher" in low and has_eval:
+        for m in DECIPHER_RE.finditer(text):
+            if EVAL_SINK.search(text, m.end(), m.end() + 30000) and HEXBLOB_RE.search(text, m.end(), m.end() + 30000):
+                local.append(_item("HIGH", "decrypt_eval", "Encrypted Payload Executed",
+                                   "Decrypts an embedded blob with a hard-coded key and evals the result",
+                                   path, text.count("\n", 0, m.start()) + 1, m.group(0),
+                                   text[m.start():m.start() + 160]))
+                break
     # javascript-obfuscator output: dozens of _0x identifiers.
     obf = len(OBF_IDENT.findall(text[:6000000])) if "_0x" in low else 0
     if obf >= 25:
@@ -539,7 +641,32 @@ def _scan_text(text, path, findings, info, startup, vendor=frozenset()):
                 f["description"] += " [runs on editor startup]"
     for f in local:
         f.pop("_pos", None)
+        f.pop("_full", None)
         (info if f["severity"] == "INFO" else findings).append(f)
+
+
+_ESC = re.compile(r"\\x([2-7][0-9a-fA-F])|\\u00([2-7][0-9a-fA-F])")
+_ESC_KEYS = ("powershell", "iex", "irm ", "curl", "wget", "bash", "cmd.exe", "eval", "/dev/tcp",
+             "webhook", "telegram", "child_process", "exec", "spawn", "http", "solana", "function(")
+
+
+def _unescape_view(text):
+    """Obfuscators hide strings as \\x41 / \\u0041 escapes. Return the text with printable escapes
+    decoded when that reveals an execution / network keyword the raw text hides, else None."""
+    if "\\x" not in text and "\\u00" not in text:
+        return None
+    def rep(m):
+        c = chr(int(m.group(1) or m.group(2), 16))
+        return m.group(0) if c in "\"'`\\" else c
+    n = [0]
+    def rep_count(m):
+        n[0] += 1
+        return rep(m)
+    dec = _ESC.sub(rep_count, text)
+    if n[0] < 3:
+        return None
+    low, dlow = _lower(text), _lower(dec)
+    return dec if any(dlow.count(k) > low.count(k) for k in _ESC_KEYS) else None
 
 
 def _manifest(pkg, findings, info):
@@ -604,6 +731,15 @@ def scan_extension(files, label="", binaries=()):
                               "Extension exceeds %d bytes of text" % MAX_TOTAL, path, 0, "", ""))
             break
         _scan_text(text, path, findings, info, startup and path in entries, vendor)
+        dec = _unescape_view(text)
+        if dec is not None:
+            have = {f["id"] for f in findings if f["file"] == path}
+            tmp, tinfo = [], []
+            _scan_text(dec, path, tmp, tinfo, startup and path in entries, vendor)
+            for f in tmp:
+                if f["id"] not in have:
+                    f["description"] += " [inside hex/unicode-escaped strings]"
+                    findings.append(f)
     return _summarise(findings, info, label, pkg)
 
 
@@ -665,13 +801,20 @@ def _add(out, bins, rel, raw_size, read):
 
 
 def files_from_vsix(data):
-    """Read a .vsix (zip). Extension files live under extension/."""
+    """Read a .vsix (zip). Extension files live under extension/; a plain zip of an unpacked
+    extension (package.json under some top folder) is read from that folder."""
     out, bins = {}, []
     with zipfile.ZipFile(io.BytesIO(data)) as z:
+        names = [zi.filename for zi in z.infolist() if not zi.is_dir()]
+        prefix = "extension/"
+        if not any(n.startswith(prefix) for n in names):
+            pj = sorted((n for n in names if n == "package.json" or n.endswith("/package.json")),
+                        key=lambda n: n.count("/"))
+            prefix = pj[0][:-len("package.json")] if pj else ""
         for zi in z.infolist():
-            if zi.is_dir() or not zi.filename.startswith("extension/"):
+            if zi.is_dir() or not zi.filename.startswith(prefix):
                 continue
-            rel = zi.filename[len("extension/"):]
+            rel = zi.filename[len(prefix):]
             _add(out, bins, rel, zi.file_size, lambda zi=zi: z.read(zi))
     return out, bins
 

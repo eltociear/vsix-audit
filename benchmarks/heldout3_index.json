@@ -1,0 +1,6302 @@
+[
+{
+"src": "openvsx",
+"id": "mistralai.mistral-vibe-code",
+"version": "1.30.0",
+"downloads": 48005,
+"rank": 946
+},
+{
+"src": "openvsx",
+"id": "keesschollaart.vscode-home-assistant",
+"version": "2.2.0",
+"downloads": 47236,
+"rank": 951
+},
+{
+"src": "openvsx",
+"id": "redhat.devspaces-remote-ssh",
+"version": "0.7.2026112508",
+"downloads": 47216,
+"rank": 952
+},
+{
+"src": "openvsx",
+"id": "hollowtree.vue-snippets",
+"version": "0.1.12",
+"downloads": 47180,
+"rank": 953
+},
+{
+"src": "openvsx",
+"id": "uni-helper.uni-highlight-vscode",
+"version": "0.3.17",
+"downloads": 47098,
+"rank": 954
+},
+{
+"src": "openvsx",
+"id": "wesbos.theme-cobalt2",
+"version": "2.4.3",
+"downloads": 46883,
+"rank": 955
+},
+{
+"src": "openvsx",
+"id": "arifszn.seemore-vscode",
+"version": "2.4.1",
+"downloads": 46804,
+"rank": 956
+},
+{
+"src": "openvsx",
+"id": "theqtcompany.qt-ui",
+"version": "1.17.1",
+"downloads": 46784,
+"rank": 957
+},
+{
+"src": "openvsx",
+"id": "Swimm.swimm",
+"version": "1.66.11",
+"downloads": 46634,
+"rank": 958
+},
+{
+"src": "openvsx",
+"id": "typefox.open-collaboration-tools",
+"version": "0.3.9",
+"downloads": 46198,
+"rank": 959
+},
+{
+"src": "openvsx",
+"id": "SAPSE.vscode-cds",
+"version": "10.1.1",
+"downloads": 46191,
+"rank": 960
+},
+{
+"src": "openvsx",
+"id": "AdaCore.ada",
+"version": "2027.0.202610121",
+"downloads": 46078,
+"rank": 961
+},
+{
+"src": "openvsx",
+"id": "FastAPILabs.fastapi-vscode",
+"version": "0.4.0",
+"downloads": 46040,
+"rank": 962
+},
+{
+"src": "openvsx",
+"id": "andreas-prouza.obi",
+"version": "2.2.4",
+"downloads": 46025,
+"rank": 963
+},
+{
+"src": "openvsx",
+"id": "Jetify.devbox",
+"version": "0.1.9",
+"downloads": 46014,
+"rank": 964
+},
+{
+"src": "openvsx",
+"id": "swmansion.react-native-ide",
+"version": "1.21.20261104",
+"downloads": 45980,
+"rank": 965
+},
+{
+"src": "openvsx",
+"id": "wharflab.tally",
+"version": "0.45.0",
+"downloads": 45850,
+"rank": 966
+},
+{
+"src": "openvsx",
+"id": "ms-vscode.azure-account",
+"version": "0.13.0",
+"downloads": 45766,
+"rank": 967
+},
+{
+"src": "openvsx",
+"id": "fogio.jetbrains-color-theme",
+"version": "1.0.3",
+"downloads": 45687,
+"rank": 968
+},
+{
+"src": "openvsx",
+"id": "KristianShin.harvi-code",
+"version": "4.2.101",
+"downloads": 45603,
+"rank": 969
+},
+{
+"src": "openvsx",
+"id": "kiteco.kite",
+"version": "0.147.0",
+"downloads": 45441,
+"rank": 970
+},
+{
+"src": "openvsx",
+"id": "git-ai.git-ai-vscode",
+"version": "0.1.22",
+"downloads": 45431,
+"rank": 971
+},
+{
+"src": "openvsx",
+"id": "solomonkinard.chromium-context",
+"version": "0.4.7",
+"downloads": 45322,
+"rank": 972
+},
+{
+"src": "openvsx",
+"id": "pablodelucca.pixel-agents",
+"version": "1.6.0",
+"downloads": 45287,
+"rank": 973
+},
+{
+"src": "openvsx",
+"id": "OnPointEPM.codebridge-onestream",
+"version": "7.0.139",
+"downloads": 45204,
+"rank": 974
+},
+{
+"src": "openvsx",
+"id": "zhou491145.ai-novel-writing-system",
+"version": "5.6.21",
+"downloads": 45002,
+"rank": 975
+},
+{
+"src": "openvsx",
+"id": "jbangdev.jbang-vscode",
+"version": "0.12.2026111659",
+"downloads": 44966,
+"rank": 976
+},
+{
+"src": "openvsx",
+"id": "anseki.vscode-color",
+"version": "0.4.5",
+"downloads": 44906,
+"rank": 977
+},
+{
+"src": "openvsx",
+"id": "banacorn.agda-mode",
+"version": "0.10.12",
+"downloads": 44840,
+"rank": 978
+},
+{
+"src": "openvsx",
+"id": "GerhardBrueckl.fabricstudio",
+"version": "2.29.0",
+"downloads": 44800,
+"rank": 979
+},
+{
+"src": "openvsx",
+"id": "milleniumdawnmodteam.hearts-of-iron-iv-utilities-2026",
+"version": "1.3.420",
+"downloads": 44637,
+"rank": 980
+},
+{
+"src": "openvsx",
+"id": "theqtcompany.qt-python",
+"version": "1.17.1",
+"downloads": 44634,
+"rank": 981
+},
+{
+"src": "openvsx",
+"id": "arjun.swagger-viewer",
+"version": "3.1.2",
+"downloads": 44558,
+"rank": 982
+},
+{
+"src": "openvsx",
+"id": "knoxchat.knoxchat",
+"version": "1.5.2",
+"downloads": 44475,
+"rank": 983
+},
+{
+"src": "openvsx",
+"id": "checkmarx.ast-results",
+"version": "2.75.0",
+"downloads": 44376,
+"rank": 984
+},
+{
+"src": "openvsx",
+"id": "AutonomyAI.autonomy-ai",
+"version": "1.0.483",
+"downloads": 44333,
+"rank": 985
+},
+{
+"src": "openvsx",
+"id": "parktaesoo.ltcai",
+"version": "14.3.0",
+"downloads": 44111,
+"rank": 986
+},
+{
+"src": "openvsx",
+"id": "richardwillis.vscode-gradle",
+"version": "3.6.1",
+"downloads": 44098,
+"rank": 987
+},
+{
+"src": "openvsx",
+"id": "MOSAICO.mosaico-reference-client",
+"version": "0.4.1787154490",
+"downloads": 44022,
+"rank": 988
+},
+{
+"src": "openvsx",
+"id": "frontier-rnd.frontier-authentication",
+"version": "0.11.0",
+"downloads": 43930,
+"rank": 989
+},
+{
+"src": "openvsx",
+"id": "Supermaven.supermaven",
+"version": "1.1.5",
+"downloads": 43692,
+"rank": 990
+},
+{
+"src": "openvsx",
+"id": "znck.vue",
+"version": "0.13.6",
+"downloads": 43675,
+"rank": 991
+},
+{
+"src": "openvsx",
+"id": "secunit.caddyfile-syntax",
+"version": "0.4.128",
+"downloads": 43610,
+"rank": 992
+},
+{
+"src": "openvsx",
+"id": "Zowe.cics-extension-for-zowe",
+"version": "3.23.2",
+"downloads": 43573,
+"rank": 993
+},
+{
+"src": "openvsx",
+"id": "bringout.f18-klijent",
+"version": "6.1.9",
+"downloads": 43458,
+"rank": 994
+},
+{
+"src": "openvsx",
+"id": "SecurityExpertsCommunity.xp",
+"version": "3.21.7",
+"downloads": 43448,
+"rank": 995
+},
+{
+"src": "openvsx",
+"id": "uni-helper.uni-cloud-snippets-vscode",
+"version": "0.6.0",
+"downloads": 43346,
+"rank": 996
+},
+{
+"src": "openvsx",
+"id": "delos-so.delos-cosmos",
+"version": "15.9.95",
+"downloads": 43331,
+"rank": 997
+},
+{
+"src": "openvsx",
+"id": "BroadcomMFD.explorer-for-endevor",
+"version": "1.11.7",
+"downloads": 43284,
+"rank": 998
+},
+{
+"src": "openvsx",
+"id": "kahole.magit",
+"version": "0.6.70",
+"downloads": 43224,
+"rank": 999
+},
+{
+"src": "openvsx",
+"id": "AtomicConcepts.atomicviz",
+"version": "4.2.2",
+"downloads": 43100,
+"rank": 1000
+},
+{
+"src": "openvsx",
+"id": "leodevbro.blockman",
+"version": "1.7.10",
+"downloads": 43080,
+"rank": 1001
+},
+{
+"src": "openvsx",
+"id": "subframe7536.custom-ui-style",
+"version": "0.7.3",
+"downloads": 43075,
+"rank": 1002
+},
+{
+"src": "openvsx",
+"id": "Google.gn",
+"version": "1.17.1",
+"downloads": 43069,
+"rank": 1003
+},
+{
+"src": "openvsx",
+"id": "ashishalex.dataform-lsp-vscode",
+"version": "2.0.19",
+"downloads": 43061,
+"rank": 1004
+},
+{
+"src": "openvsx",
+"id": "adam-bender.commit-message-editor",
+"version": "0.25.0",
+"downloads": 43047,
+"rank": 1005
+},
+{
+"src": "openvsx",
+"id": "alphabotsec.vscode-eclipse-keybindings",
+"version": "0.16.1",
+"downloads": 43016,
+"rank": 1006
+},
+{
+"src": "openvsx",
+"id": "sasjs.sasjs-for-vscode",
+"version": "3.3.1",
+"downloads": 42988,
+"rank": 1007
+},
+{
+"src": "openvsx",
+"id": "KorbinianEckstein.niivue",
+"version": "2.11.168",
+"downloads": 42857,
+"rank": 1008
+},
+{
+"src": "openvsx",
+"id": "glubean.glubean",
+"version": "0.19.0",
+"downloads": 42752,
+"rank": 1009
+},
+{
+"src": "openvsx",
+"id": "bufbuild.vscode-buf",
+"version": "0.8.19",
+"downloads": 42690,
+"rank": 1010
+},
+{
+"src": "openvsx",
+"id": "xicilion.markdown-viewer-extension",
+"version": "6.1.0",
+"downloads": 42667,
+"rank": 1011
+},
+{
+"src": "openvsx",
+"id": "ms-vscode.vscode-typescript-tslint-plugin",
+"version": "1.2.2",
+"downloads": 42607,
+"rank": 1012
+},
+{
+"src": "openvsx",
+"id": "SimplyDanny.modelica",
+"version": "0.0.4",
+"downloads": 42599,
+"rank": 1013
+},
+{
+"src": "openvsx",
+"id": "arrterian.nix-env-selector",
+"version": "1.3.2",
+"downloads": 42512,
+"rank": 1014
+},
+{
+"src": "openvsx",
+"id": "unchase.antigravity-storage-manager",
+"version": "0.16.4",
+"downloads": 42405,
+"rank": 1015
+},
+{
+"src": "openvsx",
+"id": "saropa.saropa-log-capture",
+"version": "9.9.0",
+"downloads": 42205,
+"rank": 1016
+},
+{
+"src": "openvsx",
+"id": "zardoy.zardoy-experiments",
+"version": "0.0.137",
+"downloads": 42199,
+"rank": 1017
+},
+{
+"src": "openvsx",
+"id": "AndreasArvidsson.andreas-talon",
+"version": "3.108.0",
+"downloads": 42137,
+"rank": 1018
+},
+{
+"src": "openvsx",
+"id": "TabbyML.vscode-tabby",
+"version": "1.28.0",
+"downloads": 42121,
+"rank": 1019
+},
+{
+"src": "openvsx",
+"id": "GitByBit.gitbybit",
+"version": "1.5.4",
+"downloads": 42114,
+"rank": 1020
+},
+{
+"src": "openvsx",
+"id": "disjukr.json-type-checker",
+"version": "0.1.3",
+"downloads": 41941,
+"rank": 1021
+},
+{
+"src": "openvsx",
+"id": "Swellaby.vscode-rust-test-adapter",
+"version": "0.11.1",
+"downloads": 41799,
+"rank": 1022
+},
+{
+"src": "openvsx",
+"id": "editor-code-assistant.eca",
+"version": "0.58.1",
+"downloads": 41621,
+"rank": 1023
+},
+{
+"src": "openvsx",
+"id": "arm.device-manager",
+"version": "1.22.0",
+"downloads": 41573,
+"rank": 1024
+},
+{
+"src": "openvsx",
+"id": "nextflow.nextflow",
+"version": "1.8.1",
+"downloads": 41567,
+"rank": 1025
+},
+{
+"src": "openvsx",
+"id": "codescene.codescene-vscode",
+"version": "0.29.2",
+"downloads": 41560,
+"rank": 1026
+},
+{
+"src": "openvsx",
+"id": "nromanov.dotnet-meteor",
+"version": "10.0.2",
+"downloads": 41536,
+"rank": 1027
+},
+{
+"src": "openvsx",
+"id": "LeonKohli.snapsource",
+"version": "2.3.0",
+"downloads": 41498,
+"rank": 1028
+},
+{
+"src": "openvsx",
+"id": "boygr.antigravity-account-switcher",
+"version": "1.4.18",
+"downloads": 41456,
+"rank": 1029
+},
+{
+"src": "openvsx",
+"id": "arcanis.vscode-zipfs",
+"version": "2.4.0-rc.5",
+"downloads": 41429,
+"rank": 1030
+},
+{
+"src": "openvsx",
+"id": "mjmlio.vscode-mjml",
+"version": "3.0.5",
+"downloads": 41202,
+"rank": 1031
+},
+{
+"src": "openvsx",
+"id": "Grogg.grogg",
+"version": "0.6.5",
+"downloads": 41183,
+"rank": 1032
+},
+{
+"src": "openvsx",
+"id": "sarumaj.depphunter",
+"version": "3.5.3",
+"downloads": 41155,
+"rank": 1033
+},
+{
+"src": "openvsx",
+"id": "SQLNB.sqlnb-visualizer",
+"version": "0.7.2",
+"downloads": 41120,
+"rank": 1034
+},
+{
+"src": "openvsx",
+"id": "ms-vscode.Go",
+"version": "0.14.3",
+"downloads": 41081,
+"rank": 1035
+},
+{
+"src": "openvsx",
+"id": "detachhead.dtach",
+"version": "0.35.3",
+"downloads": 41050,
+"rank": 1036
+},
+{
+"src": "openvsx",
+"id": "adelphes.android-dev-ext",
+"version": "1.4.0",
+"downloads": 40793,
+"rank": 1037
+},
+{
+"src": "openvsx",
+"id": "castwide.solargraph",
+"version": "0.24.1",
+"downloads": 40756,
+"rank": 1038
+},
+{
+"src": "openvsx",
+"id": "JuliaComputing.juliahub-vscode-auth",
+"version": "0.1.15",
+"downloads": 40732,
+"rank": 1039
+},
+{
+"src": "openvsx",
+"id": "formulahendry.vscode-mysql",
+"version": "0.5.0",
+"downloads": 40681,
+"rank": 1040
+},
+{
+"src": "openvsx",
+"id": "NormB.opensips-lsp",
+"version": "0.28.5",
+"downloads": 40653,
+"rank": 1041
+},
+{
+"src": "openvsx",
+"id": "nordic-semiconductor.nrf-connect",
+"version": "2026.11.3027",
+"downloads": 40533,
+"rank": 1042
+},
+{
+"src": "openvsx",
+"id": "karunamurti.haml",
+"version": "1.4.1",
+"downloads": 40427,
+"rank": 1043
+},
+{
+"src": "openvsx",
+"id": "0xtanzim.filetree-pro",
+"version": "0.2.4",
+"downloads": 40316,
+"rank": 1044
+},
+{
+"src": "openvsx",
+"id": "njqdev.vscode-python-typehint",
+"version": "1.5.1",
+"downloads": 40265,
+"rank": 1045
+},
+{
+"src": "openvsx",
+"id": "apollographql.vscode-apollo",
+"version": "2.6.6",
+"downloads": 40217,
+"rank": 1046
+},
+{
+"src": "openvsx",
+"id": "pokey.parse-tree",
+"version": "0.62.0",
+"downloads": 40205,
+"rank": 1047
+},
+{
+"src": "openvsx",
+"id": "saltcoreyan.json-format-sortcore",
+"version": "0.0.7",
+"downloads": 40203,
+"rank": 1048
+},
+{
+"src": "openvsx",
+"id": "verdentai.verdent",
+"version": "1.6.13",
+"downloads": 40073,
+"rank": 1049
+},
+{
+"src": "openvsx",
+"id": "asispts.neo-git-graph",
+"version": "0.6.0",
+"downloads": 40054,
+"rank": 1050
+},
+{
+"src": "openvsx",
+"id": "ccls-project.ccls",
+"version": "0.1.31",
+"downloads": 40023,
+"rank": 1051
+},
+{
+"src": "openvsx",
+"id": "AquaSecurityOfficial.trivy-vulnerability-scanner",
+"version": "1.8.11",
+"downloads": 40016,
+"rank": 1052
+},
+{
+"src": "openvsx",
+"id": "NailyZero.vscode-naily-ets",
+"version": "1.3.10",
+"downloads": 39991,
+"rank": 1053
+},
+{
+"src": "openvsx",
+"id": "DrBlury.protobuf-vsc",
+"version": "1.6.28",
+"downloads": 39926,
+"rank": 1054
+},
+{
+"src": "openvsx",
+"id": "VincentArel-Bundock.calepin",
+"version": "0.0.63",
+"downloads": 39848,
+"rank": 1055
+},
+{
+"src": "openvsx",
+"id": "caponetto.vscode-diff-viewer",
+"version": "1.7.0",
+"downloads": 39843,
+"rank": 1056
+},
+{
+"src": "openvsx",
+"id": "hotic.acpira",
+"version": "2.1.10",
+"downloads": 39795,
+"rank": 1057
+},
+{
+"src": "openvsx",
+"id": "CasaManagementSolutions.bwat-dev",
+"version": "3.38.0",
+"downloads": 39792,
+"rank": 1058
+},
+{
+"src": "openvsx",
+"id": "donjayamanne.git-extension-pack",
+"version": "0.1.3",
+"downloads": 39589,
+"rank": 1059
+},
+{
+"src": "openvsx",
+"id": "nadako.vshaxe",
+"version": "2.34.2",
+"downloads": 39585,
+"rank": 1060
+},
+{
+"src": "openvsx",
+"id": "labring.open-remote-ssh-for-trae",
+"version": "0.0.4",
+"downloads": 39542,
+"rank": 1061
+},
+{
+"src": "openvsx",
+"id": "MDFireLin.pixiu-os",
+"version": "7.15.2",
+"downloads": 39449,
+"rank": 1062
+},
+{
+"src": "openvsx",
+"id": "intersystems-community.vscode-objectscript",
+"version": "3.8.8",
+"downloads": 39271,
+"rank": 1063
+},
+{
+"src": "openvsx",
+"id": "radiolevity.search-lights",
+"version": "1.10.3",
+"downloads": 39189,
+"rank": 1064
+},
+{
+"src": "openvsx",
+"id": "NicholasHsiang.vscode-vue3-snippets",
+"version": "2.2.4",
+"downloads": 39136,
+"rank": 1065
+},
+{
+"src": "openvsx",
+"id": "codeantai.codeantai",
+"version": "0.0.203",
+"downloads": 39066,
+"rank": 1066
+},
+{
+"src": "openvsx",
+"id": "halcyontechltd.vscode-ibmi-fs",
+"version": "1.0.14",
+"downloads": 39055,
+"rank": 1067
+},
+{
+"src": "openvsx",
+"id": "kyntrack.python-test",
+"version": "0.0.80",
+"downloads": 39047,
+"rank": 1068
+},
+{
+"src": "openvsx",
+"id": "syncause.ai-debugger",
+"version": "0.5.9",
+"downloads": 38990,
+"rank": 1069
+},
+{
+"src": "openvsx",
+"id": "IBM.vscode-ibmi-bob",
+"version": "2.0.1",
+"downloads": 38980,
+"rank": 1070
+},
+{
+"src": "openvsx",
+"id": "NormB.kamailio-lsp",
+"version": "0.22.3",
+"downloads": 38920,
+"rank": 1071
+},
+{
+"src": "openvsx",
+"id": "cesarandreslopez.sidekick-for-max",
+"version": "0.33.5",
+"downloads": 38917,
+"rank": 1072
+},
+{
+"src": "openvsx",
+"id": "arm.vscode-cmsis-debugger",
+"version": "1.10.1",
+"downloads": 38880,
+"rank": 1073
+},
+{
+"src": "openvsx",
+"id": "sqlfluff.vscode-sqlfluff",
+"version": "4.0.2",
+"downloads": 38783,
+"rank": 1074
+},
+{
+"src": "openvsx",
+"id": "DavidGomes.platformio-ide-cursor",
+"version": "0.0.1",
+"downloads": 38581,
+"rank": 1075
+},
+{
+"src": "openvsx",
+"id": "cloudstudio.workspace-club",
+"version": "0.0.116",
+"downloads": 38578,
+"rank": 1076
+},
+{
+"src": "openvsx",
+"id": "tomblind.local-lua-debugger-vscode",
+"version": "0.3.3",
+"downloads": 38474,
+"rank": 1077
+},
+{
+"src": "openvsx",
+"id": "stonewolfpc.swe-obey-me",
+"version": "5.3.32",
+"downloads": 38460,
+"rank": 1078
+},
+{
+"src": "openvsx",
+"id": "babyfox1306.pdf-forge",
+"version": "1.0.9",
+"downloads": 38443,
+"rank": 1079
+},
+{
+"src": "openvsx",
+"id": "kyntrack.gitpod-plugin",
+"version": "0.1.128",
+"downloads": 38415,
+"rank": 1080
+},
+{
+"src": "openvsx",
+"id": "saropa.saropa-lints",
+"version": "17.10.9",
+"downloads": 38401,
+"rank": 1081
+},
+{
+"src": "openvsx",
+"id": "clinyong.vscode-css-modules",
+"version": "0.5.4",
+"downloads": 38326,
+"rank": 1082
+},
+{
+"src": "openvsx",
+"id": "ms-python.anaconda-extension-pack",
+"version": "1.0.1",
+"downloads": 38323,
+"rank": 1083
+},
+{
+"src": "openvsx",
+"id": "lean-ai.lean-ai",
+"version": "0.24.2",
+"downloads": 38291,
+"rank": 1084
+},
+{
+"src": "openvsx",
+"id": "matthewpi.caddyfile-support",
+"version": "0.4.0",
+"downloads": 38275,
+"rank": 1085
+},
+{
+"src": "openvsx",
+"id": "borkdude.clj-kondo",
+"version": "2026.5.25",
+"downloads": 38236,
+"rank": 1086
+},
+{
+"src": "openvsx",
+"id": "drcika.apc-extension",
+"version": "0.4.1",
+"downloads": 38124,
+"rank": 1087
+},
+{
+"src": "openvsx",
+"id": "mcanouil.quarto-wizard",
+"version": "3.6.3",
+"downloads": 38068,
+"rank": 1088
+},
+{
+"src": "openvsx",
+"id": "nefrob.vscode-just-syntax",
+"version": "0.10.2",
+"downloads": 38034,
+"rank": 1089
+},
+{
+"src": "openvsx",
+"id": "microchip.mplab-extensions-core",
+"version": "2.4.2",
+"downloads": 38010,
+"rank": 1090
+},
+{
+"src": "openvsx",
+"id": "alexdauenhauer.catppuccin-noctis-icons",
+"version": "0.3.0",
+"downloads": 38009,
+"rank": 1091
+},
+{
+"src": "openvsx",
+"id": "wizhut.uv-vscode",
+"version": "0.2.2",
+"downloads": 37961,
+"rank": 1092
+},
+{
+"src": "openvsx",
+"id": "absszero.vscode-laravel-goto",
+"version": "4.37.8",
+"downloads": 37882,
+"rank": 1093
+},
+{
+"src": "openvsx",
+"id": "singhularity.prexplainer",
+"version": "0.11.2",
+"downloads": 37877,
+"rank": 1094
+},
+{
+"src": "openvsx",
+"id": "ardonplay.vscode-jetbrains-icon-theme",
+"version": "0.0.4",
+"downloads": 37867,
+"rank": 1095
+},
+{
+"src": "openvsx",
+"id": "webpro.vscode-knip",
+"version": "2.3.4",
+"downloads": 37836,
+"rank": 1096
+},
+{
+"src": "openvsx",
+"id": "Yukina.yukinord",
+"version": "0.0.78",
+"downloads": 37816,
+"rank": 1097
+},
+{
+"src": "openvsx",
+"id": "voorjaar.windicss-intellisense",
+"version": "0.21.6",
+"downloads": 37809,
+"rank": 1098
+},
+{
+"src": "openvsx",
+"id": "medo64.render-crlf",
+"version": "1.9.11",
+"downloads": 37775,
+"rank": 1099
+},
+{
+"src": "openvsx",
+"id": "watson-devex.ibm-watsonx-orchestrate-agent-builder",
+"version": "1.2.3",
+"downloads": 37774,
+"rank": 1100
+},
+{
+"src": "openvsx",
+"id": "VASubasRaj.flashpost",
+"version": "2.0.29",
+"downloads": 37745,
+"rank": 1101
+},
+{
+"src": "openvsx",
+"id": "ForceConfigControl.lightning-flow-scanner-vsx",
+"version": "3.5.0",
+"downloads": 37577,
+"rank": 1102
+},
+{
+"src": "openvsx",
+"id": "postqode.postqode",
+"version": "3.0.34",
+"downloads": 37571,
+"rank": 1103
+},
+{
+"src": "openvsx",
+"id": "evaera.vscode-rojo",
+"version": "2.1.2",
+"downloads": 37551,
+"rank": 1104
+},
+{
+"src": "openvsx",
+"id": "vmikhailov.code-explorer-vscode",
+"version": "1.106.4",
+"downloads": 37548,
+"rank": 1105
+},
+{
+"src": "openvsx",
+"id": "LegitSecurity.legit-vibeguard",
+"version": "0.1.245",
+"downloads": 37503,
+"rank": 1106
+},
+{
+"src": "openvsx",
+"id": "travis.simple-dark",
+"version": "1.6.3",
+"downloads": 37430,
+"rank": 1107
+},
+{
+"src": "openvsx",
+"id": "unthrottled.doki-theme",
+"version": "88.1.15",
+"downloads": 37371,
+"rank": 1108
+},
+{
+"src": "openvsx",
+"id": "aergic.zygos-kiro",
+"version": "0.9.4",
+"downloads": 37351,
+"rank": 1109
+},
+{
+"src": "openvsx",
+"id": "context-engine.context-engine-uploader",
+"version": "2.3.30",
+"downloads": 37337,
+"rank": 1110
+},
+{
+"src": "openvsx",
+"id": "HansUXdev.bootstrap5-snippets",
+"version": "1.2.5",
+"downloads": 37328,
+"rank": 1111
+},
+{
+"src": "openvsx",
+"id": "cloudstudio.github-authentication",
+"version": "0.0.15",
+"downloads": 37291,
+"rank": 1112
+},
+{
+"src": "openvsx",
+"id": "baidusdp.sdp-dev-pack",
+"version": "1.0.111",
+"downloads": 37280,
+"rank": 1113
+},
+{
+"src": "openvsx",
+"id": "srl-labs.vscode-containerlab",
+"version": "0.28.0",
+"downloads": 37232,
+"rank": 1114
+},
+{
+"src": "openvsx",
+"id": "hossaini.bootstrap-intellisense",
+"version": "3.2.1",
+"downloads": 37207,
+"rank": 1115
+},
+{
+"src": "openvsx",
+"id": "AxrydeStudio.get-shit-done",
+"version": "1.7.1",
+"downloads": 37152,
+"rank": 1116
+},
+{
+"src": "openvsx",
+"id": "Gydunhn.typescript-essentials",
+"version": "1.2.0",
+"downloads": 37044,
+"rank": 1117
+},
+{
+"src": "openvsx",
+"id": "PascalReitermann93.vscode-yaml-sort",
+"version": "6.6.4",
+"downloads": 37013,
+"rank": 1118
+},
+{
+"src": "openvsx",
+"id": "swarmify.swarm-ext",
+"version": "0.9.451",
+"downloads": 37004,
+"rank": 1119
+},
+{
+"src": "openvsx",
+"id": "jeanp413.test-java-extension-pack",
+"version": "0.0.1",
+"downloads": 36912,
+"rank": 1120
+},
+{
+"src": "openvsx",
+"id": "intellsmi.comment-translate",
+"version": "3.0.0",
+"downloads": 36886,
+"rank": 1121
+},
+{
+"src": "openvsx",
+"id": "astx-jp.vscode-pptx-viewer",
+"version": "0.2.0",
+"downloads": 36867,
+"rank": 1122
+},
+{
+"src": "openvsx",
+"id": "ZiShuo.opencode",
+"version": "0.1.0",
+"downloads": 36842,
+"rank": 1123
+},
+{
+"src": "openvsx",
+"id": "redwan-hossain.auto-rename-tag-clone",
+"version": "0.1.8",
+"downloads": 36756,
+"rank": 1124
+},
+{
+"src": "openvsx",
+"id": "codacy-app.codacy",
+"version": "1.16.6",
+"downloads": 36748,
+"rank": 1125
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-debug-adapter-apache-camel",
+"version": "1.10.0",
+"downloads": 36641,
+"rank": 1126
+},
+{
+"src": "openvsx",
+"id": "kyntrack.gitpod-tracker-plugin",
+"version": "0.0.100",
+"downloads": 36561,
+"rank": 1127
+},
+{
+"src": "openvsx",
+"id": "streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries",
+"version": "3.0.3",
+"downloads": 36532,
+"rank": 1128
+},
+{
+"src": "openvsx",
+"id": "skillbench.skillmeter",
+"version": "0.0.108",
+"downloads": 36477,
+"rank": 1129
+},
+{
+"src": "openvsx",
+"id": "mesonbuild.mesonbuild",
+"version": "1.28.2",
+"downloads": 36429,
+"rank": 1130
+},
+{
+"src": "openvsx",
+"id": "cdervis.vscode-pi",
+"version": "0.96.1",
+"downloads": 36415,
+"rank": 1131
+},
+{
+"src": "openvsx",
+"id": "Lianues.limcode",
+"version": "1.2.7",
+"downloads": 36279,
+"rank": 1132
+},
+{
+"src": "openvsx",
+"id": "BroadcomMFD.hlasm-language-support",
+"version": "1.23.1",
+"downloads": 36155,
+"rank": 1133
+},
+{
+"src": "openvsx",
+"id": "IBM.ibmidebug",
+"version": "3.0.5",
+"downloads": 36089,
+"rank": 1134
+},
+{
+"src": "openvsx",
+"id": "AykutSarac.jsoncrack-vscode",
+"version": "5.1.0",
+"downloads": 36078,
+"rank": 1135
+},
+{
+"src": "openvsx",
+"id": "loong-vsx.rust-analyzer",
+"version": "0.3.2997",
+"downloads": 36042,
+"rank": 1136
+},
+{
+"src": "openvsx",
+"id": "supermodel.supermodel",
+"version": "0.2.0",
+"downloads": 36026,
+"rank": 1137
+},
+{
+"src": "openvsx",
+"id": "TeamHub.teamhub",
+"version": "19.0.6",
+"downloads": 36013,
+"rank": 1138
+},
+{
+"src": "openvsx",
+"id": "darkflows.codersinflow",
+"version": "0.0.1765",
+"downloads": 36011,
+"rank": 1139
+},
+{
+"src": "openvsx",
+"id": "jeff-hykin.better-shellscript-syntax",
+"version": "1.10.0",
+"downloads": 35990,
+"rank": 1140
+},
+{
+"src": "openvsx",
+"id": "larshp.vscode-abaplint",
+"version": "0.4.178",
+"downloads": 35940,
+"rank": 1141
+},
+{
+"src": "openvsx",
+"id": "ngSoftware.mql-clangd",
+"version": "1.4.0",
+"downloads": 35923,
+"rank": 1142
+},
+{
+"src": "openvsx",
+"id": "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+"version": "3.0.2",
+"downloads": 35905,
+"rank": 1143
+},
+{
+"src": "openvsx",
+"id": "sema4ai.sema4ai",
+"version": "2.19.0",
+"downloads": 35881,
+"rank": 1144
+},
+{
+"src": "openvsx",
+"id": "IBM.compiledcodecoverage",
+"version": "1.0.9",
+"downloads": 35849,
+"rank": 1145
+},
+{
+"src": "openvsx",
+"id": "rioj7.command-variable",
+"version": "1.71.0",
+"downloads": 35776,
+"rank": 1146
+},
+{
+"src": "openvsx",
+"id": "JeronimoEkerdt.color-picker-universal",
+"version": "2.8.9",
+"downloads": 35608,
+"rank": 1147
+},
+{
+"src": "openvsx",
+"id": "bit.hope-ai",
+"version": "0.0.46",
+"downloads": 35429,
+"rank": 1148
+},
+{
+"src": "openvsx",
+"id": "ocet247.tf2-vscript-support",
+"version": "3.4.3",
+"downloads": 35416,
+"rank": 1149
+},
+{
+"src": "openvsx",
+"id": "DipeshMajithia.mirror-vs",
+"version": "1.1.0",
+"downloads": 35384,
+"rank": 1150
+},
+{
+"src": "openvsx",
+"id": "chrisatcursor.mssql",
+"version": "1.39.0",
+"downloads": 35361,
+"rank": 1151
+},
+{
+"src": "openvsx",
+"id": "auchenberg.vscode-browser-preview",
+"version": "0.7.2",
+"downloads": 35354,
+"rank": 1152
+},
+{
+"src": "openvsx",
+"id": "IBM.vscode-ibmi-projectexplorer",
+"version": "2.12.7",
+"downloads": 35304,
+"rank": 1153
+},
+{
+"src": "openvsx",
+"id": "eclipse-cdt.peripheral-inspector",
+"version": "1.11.0",
+"downloads": 35240,
+"rank": 1154
+},
+{
+"src": "openvsx",
+"id": "matterai.axon-code",
+"version": "7.2.0",
+"downloads": 35219,
+"rank": 1155
+},
+{
+"src": "openvsx",
+"id": "Nuxt.mdc",
+"version": "0.6.1",
+"downloads": 35216,
+"rank": 1156
+},
+{
+"src": "openvsx",
+"id": "agent-system.agent-system",
+"version": "0.12.99",
+"downloads": 35208,
+"rank": 1157
+},
+{
+"src": "openvsx",
+"id": "amishifu-beep.openubmc-studio-language-pack-zh-hans",
+"version": "0.0.2",
+"downloads": 35179,
+"rank": 1158
+},
+{
+"src": "openvsx",
+"id": "reduckted.vscode-gitweblinks",
+"version": "2.15.1",
+"downloads": 35148,
+"rank": 1159
+},
+{
+"src": "openvsx",
+"id": "rupesh9369.htmlpreview-vscode",
+"version": "7.0.2",
+"downloads": 35090,
+"rank": 1160
+},
+{
+"src": "openvsx",
+"id": "Revaturepro-non-prod.revature-labs-non-prod",
+"version": "0.0.79",
+"downloads": 35083,
+"rank": 1161
+},
+{
+"src": "openvsx",
+"id": "deque-systems.vscode-axe-linter",
+"version": "4.14.1",
+"downloads": 35064,
+"rank": 1162
+},
+{
+"src": "openvsx",
+"id": "monk.vscode-monk",
+"version": "1.26.0",
+"downloads": 35015,
+"rank": 1163
+},
+{
+"src": "openvsx",
+"id": "GoodData.gooddata-vscode",
+"version": "0.67.0",
+"downloads": 35009,
+"rank": 1164
+},
+{
+"src": "openvsx",
+"id": "nebula-themes.nebula-aura-theme",
+"version": "0.0.8",
+"downloads": 34995,
+"rank": 1165
+},
+{
+"src": "openvsx",
+"id": "imgildev.vscode-json-flow",
+"version": "2.9.0",
+"downloads": 34967,
+"rank": 1166
+},
+{
+"src": "openvsx",
+"id": "marcodiniz.ag-local-bridge",
+"version": "1.1.108",
+"downloads": 34950,
+"rank": 1167
+},
+{
+"src": "openvsx",
+"id": "numlia-vs.git-keizu",
+"version": "1.9.0",
+"downloads": 34946,
+"rank": 1168
+},
+{
+"src": "openvsx",
+"id": "eliostruyf.vscode-front-matter",
+"version": "10.14.0",
+"downloads": 34929,
+"rank": 1169
+},
+{
+"src": "openvsx",
+"id": "Semgrep.semgrep",
+"version": "1.17.1",
+"downloads": 34788,
+"rank": 1170
+},
+{
+"src": "openvsx",
+"id": "actboy168.tasks",
+"version": "0.16.1",
+"downloads": 34709,
+"rank": 1171
+},
+{
+"src": "openvsx",
+"id": "wso2.micro-integrator",
+"version": "4.2.3",
+"downloads": 34708,
+"rank": 1172
+},
+{
+"src": "openvsx",
+"id": "uni-helper.uni-ui-snippets-vscode",
+"version": "0.8.0",
+"downloads": 34679,
+"rank": 1173
+},
+{
+"src": "openvsx",
+"id": "seatonjiang.gitmoji-vscode",
+"version": "2026.3.6",
+"downloads": 34634,
+"rank": 1174
+},
+{
+"src": "openvsx",
+"id": "Remisa.shellman",
+"version": "6.0.0",
+"downloads": 34626,
+"rank": 1175
+},
+{
+"src": "openvsx",
+"id": "cnshenj.vscode-task-manager",
+"version": "1.3.2",
+"downloads": 34605,
+"rank": 1176
+},
+{
+"src": "openvsx",
+"id": "rasyid-kurniawan.live-server-extension",
+"version": "1.0.34",
+"downloads": 34470,
+"rank": 1177
+},
+{
+"src": "openvsx",
+"id": "YXL.cloudmusic",
+"version": "9.22.0",
+"downloads": 34454,
+"rank": 1178
+},
+{
+"src": "openvsx",
+"id": "IBM.taz-edt-extension",
+"version": "3.1.1",
+"downloads": 34433,
+"rank": 1179
+},
+{
+"src": "openvsx",
+"id": "whitphx.vscode-stlite",
+"version": "0.80.5",
+"downloads": 34381,
+"rank": 1180
+},
+{
+"src": "openvsx",
+"id": "Tyriar.sort-lines",
+"version": "1.12.0",
+"downloads": 34373,
+"rank": 1181
+},
+{
+"src": "openvsx",
+"id": "polang233.kiro-language-pack",
+"version": "1.3.0",
+"downloads": 34366,
+"rank": 1182
+},
+{
+"src": "openvsx",
+"id": "snyk-security.snyk-vulnerability-scanner-preview",
+"version": "2026.11.1107",
+"downloads": 34364,
+"rank": 1183
+},
+{
+"src": "openvsx",
+"id": "ExodiusStudios.comment-anchors",
+"version": "1.9.6",
+"downloads": 34352,
+"rank": 1184
+},
+{
+"src": "openvsx",
+"id": "PeterBulyaki.claude-automator",
+"version": "0.1.1",
+"downloads": 34235,
+"rank": 1185
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-rsp-ui",
+"version": "0.24.13",
+"downloads": 34230,
+"rank": 1186
+},
+{
+"src": "openvsx",
+"id": "uni-helper.uni-helper-vscode",
+"version": "0.6.3",
+"downloads": 34174,
+"rank": 1187
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-community-server-connector",
+"version": "0.26.22",
+"downloads": 34080,
+"rank": 1188
+},
+{
+"src": "openvsx",
+"id": "Devfile.vscode-devfile",
+"version": "0.0.4",
+"downloads": 34068,
+"rank": 1189
+},
+{
+"src": "openvsx",
+"id": "antfu.vite",
+"version": "0.2.5",
+"downloads": 34055,
+"rank": 1190
+},
+{
+"src": "openvsx",
+"id": "Shan.code-settings-sync",
+"version": "3.4.3",
+"downloads": 34047,
+"rank": 1191
+},
+{
+"src": "openvsx",
+"id": "jj-view.jj-view",
+"version": "3.1.0",
+"downloads": 34047,
+"rank": 1192
+},
+{
+"src": "openvsx",
+"id": "aleksa-codes.one-dark-modern-pro",
+"version": "1.2.0",
+"downloads": 33980,
+"rank": 1193
+},
+{
+"src": "openvsx",
+"id": "halcyontechltd.vscode-ibmi-walkthroughs",
+"version": "0.5.0",
+"downloads": 33839,
+"rank": 1194
+},
+{
+"src": "openvsx",
+"id": "supabase.postgrestools",
+"version": "1.4.0",
+"downloads": 33736,
+"rank": 1195
+},
+{
+"src": "openvsx",
+"id": "chrisatcursor.swift-vscode",
+"version": "2.16.0-dev",
+"downloads": 33713,
+"rank": 1196
+},
+{
+"src": "openvsx",
+"id": "sentriflow.vscode-nexterminal",
+"version": "2.8.324",
+"downloads": 33671,
+"rank": 1197
+},
+{
+"src": "openvsx",
+"id": "eclipse-cdt.memory-inspector",
+"version": "1.3.0",
+"downloads": 33580,
+"rank": 1198
+},
+{
+"src": "openvsx",
+"id": "NilsSoderman.batch-runner",
+"version": "1.4.0",
+"downloads": 33441,
+"rank": 1199
+},
+{
+"src": "openvsx",
+"id": "jeppeandersen.vscode-kafka",
+"version": "0.31.0",
+"downloads": 33338,
+"rank": 1200
+},
+{
+"src": "openvsx",
+"id": "jbearak.raven-r",
+"version": "0.23.9",
+"downloads": 33284,
+"rank": 1201
+},
+{
+"src": "openvsx",
+"id": "Oznasi1.oznasi1-agent-flow",
+"version": "0.72.0",
+"downloads": 33259,
+"rank": 1202
+},
+{
+"src": "openvsx",
+"id": "vaulttec-dev.snakeflow-dev-manager",
+"version": "0.6.0",
+"downloads": 33257,
+"rank": 1203
+},
+{
+"src": "openvsx",
+"id": "Tobermory.es6-string-html",
+"version": "2.14.1",
+"downloads": 33230,
+"rank": 1204
+},
+{
+"src": "openvsx",
+"id": "vsls-contrib.codetour",
+"version": "0.0.59",
+"downloads": 33126,
+"rank": 1205
+},
+{
+"src": "openvsx",
+"id": "corridor.Corridor",
+"version": "0.0.85",
+"downloads": 33052,
+"rank": 1206
+},
+{
+"src": "openvsx",
+"id": "epochix.epochix",
+"version": "0.7.43",
+"downloads": 33029,
+"rank": 1207
+},
+{
+"src": "openvsx",
+"id": "azdavis.rjsonnet",
+"version": "0.9.9",
+"downloads": 32969,
+"rank": 1208
+},
+{
+"src": "openvsx",
+"id": "Mrakulis.opencode2-vscode-gui",
+"version": "1.24.8",
+"downloads": 32954,
+"rank": 1209
+},
+{
+"src": "openvsx",
+"id": "keyfire.xbsl",
+"version": "1.0.1",
+"downloads": 32881,
+"rank": 1210
+},
+{
+"src": "openvsx",
+"id": "swirlsai.vscode-swirls",
+"version": "0.0.115",
+"downloads": 32881,
+"rank": 1211
+},
+{
+"src": "openvsx",
+"id": "spej.spej-code",
+"version": "1.8.25",
+"downloads": 32857,
+"rank": 1212
+},
+{
+"src": "openvsx",
+"id": "eclipse-cdt.serial-monitor",
+"version": "2.0.0",
+"downloads": 32748,
+"rank": 1213
+},
+{
+"src": "openvsx",
+"id": "zokugun.cron-tasks",
+"version": "0.2.1",
+"downloads": 32747,
+"rank": 1214
+},
+{
+"src": "openvsx",
+"id": "betterthantomorrow.joyride",
+"version": "0.0.90",
+"downloads": 32739,
+"rank": 1215
+},
+{
+"src": "openvsx",
+"id": "GenieBuilder.geniebuilder-insider",
+"version": "0.4.12",
+"downloads": 32703,
+"rank": 1216
+},
+{
+"src": "openvsx",
+"id": "jonathan-yeung.mark-sharp",
+"version": "1.13.0",
+"downloads": 32697,
+"rank": 1217
+},
+{
+"src": "openvsx",
+"id": "fengkx.beancount-lsp-client",
+"version": "0.0.189",
+"downloads": 32679,
+"rank": 1218
+},
+{
+"src": "openvsx",
+"id": "KylinIdeTeam.gitlens",
+"version": "0.1.10",
+"downloads": 32675,
+"rank": 1219
+},
+{
+"src": "openvsx",
+"id": "rome.rome",
+"version": "0.28.0",
+"downloads": 32584,
+"rank": 1220
+},
+{
+"src": "openvsx",
+"id": "dotnetdev-kr-custom.csharp-with-netcoredbg",
+"version": "11.9.41001",
+"downloads": 32572,
+"rank": 1221
+},
+{
+"src": "openvsx",
+"id": "lumyst.Lumyst",
+"version": "0.8.1",
+"downloads": 32570,
+"rank": 1222
+},
+{
+"src": "openvsx",
+"id": "yellow-hammer.1c-platform-tools",
+"version": "0.9.30",
+"downloads": 32537,
+"rank": 1223
+},
+{
+"src": "openvsx",
+"id": "Hiromitsu.commit-maker",
+"version": "0.18.9",
+"downloads": 32443,
+"rank": 1224
+},
+{
+"src": "openvsx",
+"id": "AdamCaviness.theme-monokai-dark-soda",
+"version": "1.2.0",
+"downloads": 32442,
+"rank": 1225
+},
+{
+"src": "openvsx",
+"id": "mehul.sql-preview",
+"version": "0.6.28",
+"downloads": 32383,
+"rank": 1226
+},
+{
+"src": "openvsx",
+"id": "ukaisi.inspect-ai",
+"version": "0.10.2",
+"downloads": 32363,
+"rank": 1227
+},
+{
+"src": "openvsx",
+"id": "HidenobuNagai.noteeees",
+"version": "0.17.5",
+"downloads": 32359,
+"rank": 1228
+},
+{
+"src": "openvsx",
+"id": "IronGeek.vscode-env",
+"version": "0.1.0",
+"downloads": 32302,
+"rank": 1229
+},
+{
+"src": "openvsx",
+"id": "dendron.dendron-markdown-preview-enhanced",
+"version": "0.10.47",
+"downloads": 32247,
+"rank": 1230
+},
+{
+"src": "openvsx",
+"id": "Bito.Bito",
+"version": "1.6.8",
+"downloads": 32230,
+"rank": 1231
+},
+{
+"src": "openvsx",
+"id": "meganrogge.template-string-converter",
+"version": "0.5.9",
+"downloads": 32219,
+"rank": 1232
+},
+{
+"src": "openvsx",
+"id": "gpsolutions.in-file-markdown-review",
+"version": "0.46.91",
+"downloads": 32182,
+"rank": 1233
+},
+{
+"src": "openvsx",
+"id": "Nimblesite.basilisk",
+"version": "0.41.2",
+"downloads": 32117,
+"rank": 1234
+},
+{
+"src": "openvsx",
+"id": "a5hk.paper",
+"version": "3.0.2",
+"downloads": 32056,
+"rank": 1235
+},
+{
+"src": "openvsx",
+"id": "fengshihao.molan-markdown",
+"version": "0.1.57",
+"downloads": 32025,
+"rank": 1236
+},
+{
+"src": "openvsx",
+"id": "nolindnaidoo.string-le",
+"version": "2.7.0",
+"downloads": 31929,
+"rank": 1237
+},
+{
+"src": "openvsx",
+"id": "Nogic.nogic",
+"version": "0.2.5",
+"downloads": 31909,
+"rank": 1238
+},
+{
+"src": "openvsx",
+"id": "zardoy.ts-essential-plugins",
+"version": "0.0.81",
+"downloads": 31892,
+"rank": 1239
+},
+{
+"src": "openvsx",
+"id": "JetBrains.jetbrains-ai-assistant",
+"version": "0.0.20",
+"downloads": 31887,
+"rank": 1240
+},
+{
+"src": "openvsx",
+"id": "patcx.vscode-nuget-gallery",
+"version": "1.2.6",
+"downloads": 31880,
+"rank": 1241
+},
+{
+"src": "openvsx",
+"id": "AINX.hylo-html-preview",
+"version": "0.1.20",
+"downloads": 31810,
+"rank": 1242
+},
+{
+"src": "openvsx",
+"id": "goodfoot.wiki-extension",
+"version": "0.5.149",
+"downloads": 31776,
+"rank": 1243
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-apache-camel",
+"version": "1.14.0",
+"downloads": 31737,
+"rank": 1244
+},
+{
+"src": "openvsx",
+"id": "streetsidesoftware.code-spell-checker-french",
+"version": "1.0.2",
+"downloads": 31729,
+"rank": 1245
+},
+{
+"src": "openvsx",
+"id": "mylonics.zephyr-ide",
+"version": "4.2.0",
+"downloads": 31714,
+"rank": 1246
+},
+{
+"src": "openvsx",
+"id": "scalet.let-icons",
+"version": "2.0.4",
+"downloads": 31567,
+"rank": 1247
+},
+{
+"src": "openvsx",
+"id": "codertesla.wtf-commit",
+"version": "1.20.3",
+"downloads": 31564,
+"rank": 1248
+},
+{
+"src": "openvsx",
+"id": "Vizards.deepseek-v4-for-copilot",
+"version": "0.9.6",
+"downloads": 31531,
+"rank": 1249
+},
+{
+"src": "openvsx",
+"id": "alexj11324.ralph-loop-for-antigravity-updated",
+"version": "0.7.43",
+"downloads": 31512,
+"rank": 1250
+},
+{
+"src": "openvsx",
+"id": "jbro.vscode-default-keybindings",
+"version": "0.2.98",
+"downloads": 31454,
+"rank": 1251
+},
+{
+"src": "openvsx",
+"id": "hbenl.vscode-mocha-test-adapter",
+"version": "2.14.5",
+"downloads": 31429,
+"rank": 1252
+},
+{
+"src": "openvsx",
+"id": "GitWorktrees.git-worktrees",
+"version": "2.22.0",
+"downloads": 31372,
+"rank": 1253
+},
+{
+"src": "openvsx",
+"id": "zenclabs.previewjs",
+"version": "1.28.1",
+"downloads": 31335,
+"rank": 1254
+},
+{
+"src": "openvsx",
+"id": "dirac-run.dirac",
+"version": "0.6.3",
+"downloads": 31313,
+"rank": 1255
+},
+{
+"src": "openvsx",
+"id": "franneck94.vscode-python-config",
+"version": "11.4.0",
+"downloads": 31283,
+"rank": 1256
+},
+{
+"src": "openvsx",
+"id": "AnandShah.mdreader",
+"version": "0.0.8",
+"downloads": 31276,
+"rank": 1257
+},
+{
+"src": "openvsx",
+"id": "pmd.apex-pmd",
+"version": "0.11.0",
+"downloads": 31273,
+"rank": 1258
+},
+{
+"src": "openvsx",
+"id": "voidaliot.vscode-sysml-v2",
+"version": "0.58.0",
+"downloads": 31217,
+"rank": 1259
+},
+{
+"src": "openvsx",
+"id": "TintedTheming.base16-tinted-themes",
+"version": "0.57.0",
+"downloads": 31210,
+"rank": 1260
+},
+{
+"src": "openvsx",
+"id": "python-beautifier.python-beautifier",
+"version": "0.0.2",
+"downloads": 31197,
+"rank": 1261
+},
+{
+"src": "openvsx",
+"id": "DaltonMenezes.aura-theme",
+"version": "2.1.2",
+"downloads": 31185,
+"rank": 1262
+},
+{
+"src": "openvsx",
+"id": "editorss.antigravity-language-pack-zh-hans",
+"version": "1.41.1",
+"downloads": 31160,
+"rank": 1263
+},
+{
+"src": "openvsx",
+"id": "arm.embedded-debug",
+"version": "1.4.0",
+"downloads": 31155,
+"rank": 1264
+},
+{
+"src": "openvsx",
+"id": "PacketAnglers.sandbox-dashboard",
+"version": "0.17.53",
+"downloads": 31149,
+"rank": 1265
+},
+{
+"src": "openvsx",
+"id": "thanhtunguet.vscode-git-client",
+"version": "1.24.0",
+"downloads": 31127,
+"rank": 1266
+},
+{
+"src": "openvsx",
+"id": "unode.unodeai",
+"version": "0.9.110",
+"downloads": 31090,
+"rank": 1267
+},
+{
+"src": "openvsx",
+"id": "codeandstuff.package-json-upgrade",
+"version": "3.8.0",
+"downloads": 30983,
+"rank": 1268
+},
+{
+"src": "openvsx",
+"id": "keyshout.sqlite-db-viewer",
+"version": "0.1.6",
+"downloads": 30960,
+"rank": 1269
+},
+{
+"src": "openvsx",
+"id": "unoplatform.vscode",
+"version": "0.26.10",
+"downloads": 30895,
+"rank": 1270
+},
+{
+"src": "openvsx",
+"id": "s-nlf-fh.glassit",
+"version": "0.2.3",
+"downloads": 30856,
+"rank": 1271
+},
+{
+"src": "openvsx",
+"id": "RaymondThurman.ravenwood",
+"version": "1.5.3",
+"downloads": 30845,
+"rank": 1272
+},
+{
+"src": "openvsx",
+"id": "psudo-dev.nebula-oni-theme",
+"version": "3.0.0",
+"downloads": 30829,
+"rank": 1273
+},
+{
+"src": "openvsx",
+"id": "alefragnani.numbered-bookmarks",
+"version": "9.0.0",
+"downloads": 30559,
+"rank": 1274
+},
+{
+"src": "openvsx",
+"id": "JetBrains.intellij-server",
+"version": "1.0.162",
+"downloads": 30462,
+"rank": 1275
+},
+{
+"src": "openvsx",
+"id": "FelixIcaza.andromeda",
+"version": "1.7.1",
+"downloads": 30427,
+"rank": 1276
+},
+{
+"src": "openvsx",
+"id": "lazyvscode-theme.lazyvscode-theme",
+"version": "6.5.2",
+"downloads": 30393,
+"rank": 1277
+},
+{
+"src": "openvsx",
+"id": "wdtbrchan.firebird-vscode",
+"version": "1.14.4",
+"downloads": 30365,
+"rank": 1278
+},
+{
+"src": "openvsx",
+"id": "itv3.zlfcode",
+"version": "7.8.2701",
+"downloads": 30356,
+"rank": 1279
+},
+{
+"src": "openvsx",
+"id": "slevesque.shader",
+"version": "1.1.5",
+"downloads": 30339,
+"rank": 1280
+},
+{
+"src": "openvsx",
+"id": "redhat.vscode-commons",
+"version": "0.0.6",
+"downloads": 30230,
+"rank": 1281
+},
+{
+"src": "openvsx",
+"id": "DenysDavydov.tab-browser-ultimate",
+"version": "1.0.2",
+"downloads": 30210,
+"rank": 1282
+},
+{
+"src": "openvsx",
+"id": "carrick-tools.carrick",
+"version": "0.3.188",
+"downloads": 30169,
+"rank": 1283
+},
+{
+"src": "openvsx",
+"id": "midudev.better-svg",
+"version": "0.5.1",
+"downloads": 30154,
+"rank": 1284
+},
+{
+"src": "openvsx",
+"id": "FridaPlatform.frida-extension",
+"version": "3.2.1",
+"downloads": 30098,
+"rank": 1285
+},
+{
+"src": "openvsx",
+"id": "Nishikanta12.live-server-lite",
+"version": "1.3.1",
+"downloads": 30056,
+"rank": 1286
+},
+{
+"src": "openvsx",
+"id": "open-southeners.laravel-pint",
+"version": "2.5.0",
+"downloads": 29992,
+"rank": 1287
+},
+{
+"src": "openvsx",
+"id": "PCODE-pl.LiveServerPlus",
+"version": "6.2.0",
+"downloads": 29880,
+"rank": 1288
+},
+{
+"src": "openvsx",
+"id": "nolindnaidoo.paths-le",
+"version": "2.6.2",
+"downloads": 29850,
+"rank": 1289
+},
+{
+"src": "openvsx",
+"id": "Mobb.mobb-ai-tracer",
+"version": "0.3.49",
+"downloads": 29812,
+"rank": 1290
+},
+{
+"src": "openvsx",
+"id": "hasugoii.agent-auto-approve",
+"version": "1.9.30",
+"downloads": 29774,
+"rank": 1291
+},
+{
+"src": "openvsx",
+"id": "castrogusttavo.symbols",
+"version": "0.0.18",
+"downloads": 29738,
+"rank": 1292
+},
+{
+"src": "openvsx",
+"id": "YuTengjing.vscode-archive",
+"version": "0.9.6",
+"downloads": 29677,
+"rank": 1293
+},
+{
+"src": "openvsx",
+"id": "codeatlaslive.codeatlas-live",
+"version": "9.3.0",
+"downloads": 29607,
+"rank": 1294
+},
+{
+"src": "openvsx",
+"id": "airizom.jenkins-workbench",
+"version": "1.68.2",
+"downloads": 29585,
+"rank": 1295
+},
+{
+"src": "openvsx",
+"id": "stagewise.stagewise-vscode-extension",
+"version": "0.11.4",
+"downloads": 29548,
+"rank": 1296
+},
+{
+"src": "openvsx",
+"id": "PROxZIMA.sweetdracula",
+"version": "1.0.9",
+"downloads": 29542,
+"rank": 1297
+},
+{
+"src": "openvsx",
+"id": "SeptWong.vscode-webstorm-theme",
+"version": "1.1.4",
+"downloads": 29514,
+"rank": 1298
+},
+{
+"src": "openvsx",
+"id": "sssssssh.ai-readme-vscode",
+"version": "1.8.14",
+"downloads": 29499,
+"rank": 1299
+},
+{
+"src": "openvsx",
+"id": "blipk.csharp",
+"version": "2.47.51",
+"downloads": 29495,
+"rank": 1300
+},
+{
+"src": "openvsx",
+"id": "oscarlevin.pretext-tools",
+"version": "1.6.0",
+"downloads": 29461,
+"rank": 1301
+},
+{
+"src": "openvsx",
+"id": "clice-io.clice",
+"version": "1.1.2026112610",
+"downloads": 29388,
+"rank": 1302
+},
+{
+"src": "openvsx",
+"id": "oxsecurity.ox-ide",
+"version": "0.76.0",
+"downloads": 29368,
+"rank": 1303
+},
+{
+"src": "openvsx",
+"id": "atlarix.atlarix",
+"version": "15.20.0",
+"downloads": 29348,
+"rank": 1304
+},
+{
+"src": "openvsx",
+"id": "manasxx.background-cover",
+"version": "3.7.3",
+"downloads": 29326,
+"rank": 1305
+},
+{
+"src": "openvsx",
+"id": "jsw.csharpextensions",
+"version": "1.7.3",
+"downloads": 29313,
+"rank": 1306
+},
+{
+"src": "openvsx",
+"id": "JeenyJAI.diff-editor",
+"version": "1.1.0",
+"downloads": 29295,
+"rank": 1307
+},
+{
+"src": "openvsx",
+"id": "johnsoncodehk.vscode-typescript-vue-plugin",
+"version": "0.34.11",
+"downloads": 29229,
+"rank": 1308
+},
+{
+"src": "openvsx",
+"id": "amirnaderi.pykrete",
+"version": "0.14.0",
+"downloads": 29202,
+"rank": 1309
+},
+{
+"src": "openvsx",
+"id": "ms-vscode.azurecli",
+"version": "0.6.0",
+"downloads": 29200,
+"rank": 1310
+},
+{
+"src": "openvsx",
+"id": "reqlan.reqlan-extension",
+"version": "1.22.0",
+"downloads": 29179,
+"rank": 1311
+},
+{
+"src": "openvsx",
+"id": "akino.i18n-gettext",
+"version": "2.5.1",
+"downloads": 29160,
+"rank": 1312
+},
+{
+"src": "openvsx",
+"id": "SixtyFPS.sixtyfps-vscode-nightly",
+"version": "2022.2.718",
+"downloads": 29127,
+"rank": 1313
+},
+{
+"src": "openvsx",
+"id": "FittenTech.Fitten-Code",
+"version": "0.10.143",
+"downloads": 29120,
+"rank": 1314
+},
+{
+"src": "openvsx",
+"id": "JamieD.sysml-v2-support",
+"version": "0.62.0",
+"downloads": 29061,
+"rank": 1315
+},
+{
+"src": "openvsx",
+"id": "giga-ai.giga-ai",
+"version": "1.15.1",
+"downloads": 29036,
+"rank": 1316
+},
+{
+"src": "openvsx",
+"id": "astechlabs.cc-theme",
+"version": "0.8.15",
+"downloads": 29031,
+"rank": 1317
+},
+{
+"src": "openvsx",
+"id": "vunguyentuan.vscode-css-variables",
+"version": "2.8.3",
+"downloads": 29014,
+"rank": 1318
+},
+{
+"src": "openvsx",
+"id": "sswg.swift-lang",
+"version": "1.11.4",
+"downloads": 29000,
+"rank": 1319
+},
+{
+"src": "openvsx",
+"id": "timkmecl.chatgpt",
+"version": "0.6.0",
+"downloads": 28966,
+"rank": 1320
+},
+{
+"src": "openvsx",
+"id": "marcodelia.antigravity-auto-run-pro",
+"version": "1.9.7",
+"downloads": 28948,
+"rank": 1321
+},
+{
+"src": "openvsx",
+"id": "kyntrack.revpro-karma-test-explorer",
+"version": "0.0.64",
+"downloads": 28932,
+"rank": 1322
+},
+{
+"src": "openvsx",
+"id": "redhat.mta-vscode-extension",
+"version": "8.3.3",
+"downloads": 28919,
+"rank": 1323
+},
+{
+"src": "openvsx",
+"id": "TestFox.testfox",
+"version": "8.3.5",
+"downloads": 28879,
+"rank": 1324
+},
+{
+"src": "openvsx",
+"id": "Konveyor.konveyor-javascript",
+"version": "0.9.6",
+"downloads": 28855,
+"rank": 1325
+},
+{
+"src": "openvsx",
+"id": "xy-sss.slurm--extension",
+"version": "0.17.0",
+"downloads": 28837,
+"rank": 1326
+},
+{
+"src": "openvsx",
+"id": "nullvariant.git-id-switcher",
+"version": "0.19.12",
+"downloads": 28819,
+"rank": 1327
+},
+{
+"src": "openvsx",
+"id": "CANN-PUB.cannbot-toolkit",
+"version": "2.1.0",
+"downloads": 28774,
+"rank": 1328
+},
+{
+"src": "openvsx",
+"id": "rszyma.vscode-kanata",
+"version": "0.15.23",
+"downloads": 28761,
+"rank": 1329
+},
+{
+"src": "openvsx",
+"id": "mrmlnc.vscode-scss",
+"version": "0.9.1",
+"downloads": 28761,
+"rank": 1330
+},
+{
+"src": "openvsx",
+"id": "Mikael.Angular-BeastCode",
+"version": "17.0.3",
+"downloads": 28709,
+"rank": 1331
+},
+{
+"src": "openvsx",
+"id": "maxdewald.universal-chat-provider",
+"version": "1.9.0",
+"downloads": 28686,
+"rank": 1332
+},
+{
+"src": "openvsx",
+"id": "pinage404.rust-extension-pack",
+"version": "0.3.0",
+"downloads": 28671,
+"rank": 1333
+},
+{
+"src": "openvsx",
+"id": "Nightrains.robloxlsp",
+"version": "1.6.8",
+"downloads": 28668,
+"rank": 1334
+},
+{
+"src": "openvsx",
+"id": "rstack.rslint",
+"version": "0.10.0",
+"downloads": 28656,
+"rank": 1335
+},
+{
+"src": "openvsx",
+"id": "imgildev.vscode-astro-generator",
+"version": "1.6.0",
+"downloads": 28591,
+"rank": 1336
+},
+{
+"src": "openvsx",
+"id": "jolars.badness",
+"version": "0.30.0",
+"downloads": 28580,
+"rank": 1337
+},
+{
+"src": "openvsx",
+"id": "VizzleTF.geminicommit",
+"version": "3.4.1",
+"downloads": 28579,
+"rank": 1338
+},
+{
+"src": "openvsx",
+"id": "hearth-code.hearth-theme",
+"version": "3.7.7",
+"downloads": 28566,
+"rank": 1339
+},
+{
+"src": "openvsx",
+"id": "CardSorting.lumi",
+"version": "27.0.0",
+"downloads": 28556,
+"rank": 1340
+},
+{
+"src": "openvsx",
+"id": "evsyukov.hledger",
+"version": "0.5.63",
+"downloads": 28498,
+"rank": 1341
+},
+{
+"src": "openvsx",
+"id": "amazonwebservices.amazon-nova-act-extension",
+"version": "2.7.0",
+"downloads": 28470,
+"rank": 1342
+},
+{
+"src": "openvsx",
+"id": "kleinicke.tiff-visualizer",
+"version": "1.11.4",
+"downloads": 28441,
+"rank": 1343
+},
+{
+"src": "openvsx",
+"id": "pranayagarwal.vscode-hack",
+"version": "3.1.1",
+"downloads": 28354,
+"rank": 1344
+},
+{
+"src": "openvsx",
+"id": "DigitalBrainstem.javascript-ejs-support",
+"version": "1.3.1",
+"downloads": 28352,
+"rank": 1345
+},
+{
+"src": "openvsx",
+"id": "shader-slang.slang-language-extension",
+"version": "2.0.10",
+"downloads": 28284,
+"rank": 1346
+},
+{
+"src": "openvsx",
+"id": "JoshMu.periscope",
+"version": "1.16.1",
+"downloads": 28274,
+"rank": 1347
+},
+{
+"src": "openvsx",
+"id": "Vexp.vexp-vscode",
+"version": "3.5.1",
+"downloads": 28236,
+"rank": 1348
+},
+{
+"src": "openvsx",
+"id": "mindaro-dev.file-downloader",
+"version": "1.0.13",
+"downloads": 28181,
+"rank": 1349
+},
+{
+"src": "openvsx",
+"id": "wongjn.php-sniffer",
+"version": "1.3.0",
+"downloads": 28125,
+"rank": 1350
+},
+{
+"src": "openvsx",
+"id": "skyran.js-jsx-snippets",
+"version": "12.0.2",
+"downloads": 28048,
+"rank": 1351
+},
+{
+"src": "openvsx",
+"id": "iamhyc.overleaf-workshop",
+"version": "0.15.10",
+"downloads": 28027,
+"rank": 1352
+},
+{
+"src": "openvsx",
+"id": "chrisatcursor.csharpextension",
+"version": "1.11.1",
+"downloads": 28003,
+"rank": 1353
+},
+{
+"src": "openvsx",
+"id": "MS-CEINTL.vscode-language-pack-qps-ploc",
+"version": "1.131.0",
+"downloads": 27979,
+"rank": 1354
+},
+{
+"src": "openvsx",
+"id": "cubha.claude-code-gauge",
+"version": "0.2.6",
+"downloads": 27874,
+"rank": 1355
+},
+{
+"src": "openvsx",
+"id": "ZiplineAI.zipline-assistant",
+"version": "1.31.1",
+"downloads": 27868,
+"rank": 1356
+},
+{
+"src": "openvsx",
+"id": "superbased.superbased-observer",
+"version": "1.44.0",
+"downloads": 27868,
+"rank": 1357
+},
+{
+"src": "openvsx",
+"id": "zokugun.vsix-manager",
+"version": "0.13.0",
+"downloads": 27775,
+"rank": 1358
+},
+{
+"src": "openvsx",
+"id": "Al-rimi.tomcat",
+"version": "4.2.5",
+"downloads": 27707,
+"rank": 1359
+},
+{
+"src": "openvsx",
+"id": "weiboplat.wecoder",
+"version": "1.0.124",
+"downloads": 27625,
+"rank": 1360
+},
+{
+"src": "openvsx",
+"id": "kv9898.positron-r-package-manager",
+"version": "0.2.6",
+"downloads": 27622,
+"rank": 1361
+},
+{
+"src": "openvsx",
+"id": "lyuwenhan.zipper",
+"version": "1.0.44",
+"downloads": 27615,
+"rank": 1362
+},
+{
+"src": "openvsx",
+"id": "dprint.dprint",
+"version": "0.19.0",
+"downloads": 27485,
+"rank": 1363
+},
+{
+"src": "openvsx",
+"id": "physicar.physicar-ext",
+"version": "2.1.0",
+"downloads": 27468,
+"rank": 1364
+},
+{
+"src": "openvsx",
+"id": "vscode.testing-editor-contributions",
+"version": "1.58.2",
+"downloads": 27464,
+"rank": 1365
+},
+{
+"src": "openvsx",
+"id": "zhang-renyang.chat-gpt",
+"version": "1.6.62",
+"downloads": 27458,
+"rank": 1366
+},
+{
+"src": "openvsx",
+"id": "dlsxj101.peridot-vscode",
+"version": "0.7.1",
+"downloads": 27452,
+"rank": 1367
+},
+{
+"src": "openvsx",
+"id": "xinbo-tech.thincoder-vscode",
+"version": "0.11.3",
+"downloads": 27452,
+"rank": 1368
+},
+{
+"src": "openvsx",
+"id": "peterekepeter.ucx",
+"version": "0.28.2",
+"downloads": 27387,
+"rank": 1369
+},
+{
+"src": "openvsx",
+"id": "infracost.infracost",
+"version": "0.4.21",
+"downloads": 27378,
+"rank": 1370
+},
+{
+"src": "openvsx",
+"id": "MateuszDrewniak.ruby-test-runner",
+"version": "0.3.9",
+"downloads": 27345,
+"rank": 1371
+},
+{
+"src": "openvsx",
+"id": "anweber.httpbook",
+"version": "3.2.6",
+"downloads": 27329,
+"rank": 1372
+},
+{
+"src": "openvsx",
+"id": "disrei.vscode-kanban-agent",
+"version": "0.7.57",
+"downloads": 27273,
+"rank": 1373
+},
+{
+"src": "openvsx",
+"id": "EricSia.pythonsnippets3pro",
+"version": "3.3.2",
+"downloads": 27230,
+"rank": 1374
+},
+{
+"src": "openvsx",
+"id": "sibiraj-s.vscode-scss-formatter",
+"version": "3.0.1",
+"downloads": 27223,
+"rank": 1375
+},
+{
+"src": "openvsx",
+"id": "entan-gl.cc65-vice",
+"version": "8.2.0",
+"downloads": 27217,
+"rank": 1376
+},
+{
+"src": "openvsx",
+"id": "jangling09.antipilot",
+"version": "1.1.0",
+"downloads": 27205,
+"rank": 1377
+},
+{
+"src": "openvsx",
+"id": "semanticdiff.semanticdiff",
+"version": "0.10.0",
+"downloads": 27112,
+"rank": 1378
+},
+{
+"src": "openvsx",
+"id": "ThunderCompute.thunder-compute",
+"version": "0.5.12",
+"downloads": 27086,
+"rank": 1379
+},
+{
+"src": "openvsx",
+"id": "visul.terminal-sessions",
+"version": "0.44.1",
+"downloads": 26993,
+"rank": 1380
+},
+{
+"src": "openvsx",
+"id": "LuisClementDev.npm-visual-manager",
+"version": "2.1.0",
+"downloads": 26974,
+"rank": 1381
+},
+{
+"src": "openvsx",
+"id": "learn-pack.learnpack-vscode",
+"version": "1.0.14",
+"downloads": 26968,
+"rank": 1382
+},
+{
+"src": "openvsx",
+"id": "dinobot22.antigravity-ssh-proxy",
+"version": "0.0.17",
+"downloads": 26880,
+"rank": 1383
+},
+{
+"src": "openvsx",
+"id": "chuckjonas.duckdb",
+"version": "0.0.27",
+"downloads": 26847,
+"rank": 1384
+},
+{
+"src": "openvsx",
+"id": "TanishqKancharla.opencode-vscode",
+"version": "0.4.4",
+"downloads": 26714,
+"rank": 1385
+},
+{
+"src": "openvsx",
+"id": "gitpod.gitpod-remote-ssh",
+"version": "0.0.59",
+"downloads": 26713,
+"rank": 1386
+},
+{
+"src": "openvsx",
+"id": "repetere.gpdoc",
+"version": "3.21.0",
+"downloads": 26621,
+"rank": 1387
+},
+{
+"src": "openvsx",
+"id": "jolars.arity",
+"version": "0.32.0",
+"downloads": 26613,
+"rank": 1388
+},
+{
+"src": "openvsx",
+"id": "adamraichu.zip-viewer",
+"version": "3.18.0",
+"downloads": 26525,
+"rank": 1389
+},
+{
+"src": "openvsx",
+"id": "t-codespaces.ide-data-sync",
+"version": "0.2.10",
+"downloads": 26516,
+"rank": 1390
+},
+{
+"src": "openvsx",
+"id": "hoovercj.vscode-power-mode",
+"version": "3.0.2",
+"downloads": 26484,
+"rank": 1391
+},
+{
+"src": "openvsx",
+"id": "Superfocus.superfocus",
+"version": "0.0.89",
+"downloads": 26456,
+"rank": 1392
+},
+{
+"src": "openvsx",
+"id": "microchip.mplab-extensions-platforms",
+"version": "2.1.1",
+"downloads": 26426,
+"rank": 1393
+},
+{
+"src": "openvsx",
+"id": "andrevops.diffchestrator",
+"version": "0.84.3",
+"downloads": 26412,
+"rank": 1394
+},
+{
+"src": "openvsx",
+"id": "aliasadidev.nugetpackagemanagergui",
+"version": "2.1.1",
+"downloads": 26384,
+"rank": 1395
+},
+{
+"src": "openvsx",
+"id": "gabor.jsonl-gazelle",
+"version": "0.7.3",
+"downloads": 26371,
+"rank": 1396
+},
+{
+"src": "openvsx",
+"id": "lntvan166.claudegate",
+"version": "1.18.0",
+"downloads": 26347,
+"rank": 1397
+},
+{
+"src": "openvsx",
+"id": "compassak.intellij-idea-new-ui",
+"version": "1.4.0",
+"downloads": 26292,
+"rank": 1398
+},
+{
+"src": "openvsx",
+"id": "ShenQingchuan.vue-vine-extension",
+"version": "1.7.28",
+"downloads": 26284,
+"rank": 1399
+},
+{
+"src": "openvsx",
+"id": "wmaurer.change-case",
+"version": "1.0.0",
+"downloads": 26268,
+"rank": 1400
+},
+{
+"src": "openvsx",
+"id": "roarpeng.graphflow",
+"version": "3.9.2",
+"downloads": 26255,
+"rank": 1401
+},
+{
+"src": "openvsx",
+"id": "Joouis.agent-maestro",
+"version": "2.17.1",
+"downloads": 26215,
+"rank": 1402
+},
+{
+"src": "openvsx",
+"id": "k--kato.docomment",
+"version": "1.0.3",
+"downloads": 26162,
+"rank": 1403
+},
+{
+"src": "openvsx",
+"id": "robin-collins.gistfs-cursor",
+"version": "0.9.7",
+"downloads": 26115,
+"rank": 1404
+},
+{
+"src": "openvsx",
+"id": "mrorz.language-gettext",
+"version": "0.5.0",
+"downloads": 26109,
+"rank": 1405
+},
+{
+"src": "openvsx",
+"id": "dmsql.dmsql",
+"version": "0.9.20",
+"downloads": 26099,
+"rank": 1406
+},
+{
+"src": "openvsx",
+"id": "concretio.markdown-for-humans",
+"version": "0.4.8",
+"downloads": 26072,
+"rank": 1407
+},
+{
+"src": "openvsx",
+"id": "telesoho.vscode-markdown-paste-image",
+"version": "1.4.8",
+"downloads": 26068,
+"rank": 1408
+},
+{
+"src": "openvsx",
+"id": "idleberg.applescript",
+"version": "0.32.2",
+"downloads": 26060,
+"rank": 1409
+},
+{
+"src": "openvsx",
+"id": "KylinIdeTeam.kylin-python",
+"version": "0.4.3",
+"downloads": 26020,
+"rank": 1410
+},
+{
+"src": "openvsx",
+"id": "manuth.eslint-language-service",
+"version": "1.1.3",
+"downloads": 25990,
+"rank": 1411
+},
+{
+"src": "openvsx",
+"id": "mubaidr.vuejs-extension-pack",
+"version": "1.2.1",
+"downloads": 25909,
+"rank": 1412
+},
+{
+"src": "openvsx",
+"id": "PulkitGangwar.nextjs-snippets",
+"version": "1.0.2",
+"downloads": 25896,
+"rank": 1413
+},
+{
+"src": "openvsx",
+"id": "senx.warpscript-language",
+"version": "2.8.9",
+"downloads": 25885,
+"rank": 1414
+},
+{
+"src": "openvsx",
+"id": "Konveyor.konveyor-core",
+"version": "0.9.6",
+"downloads": 25878,
+"rank": 1415
+},
+{
+"src": "openvsx",
+"id": "adhamu.history-in-sublime-merge",
+"version": "1.3.3",
+"downloads": 25867,
+"rank": 1416
+},
+{
+"src": "openvsx",
+"id": "max-SS.Cyberpunk",
+"version": "1.2.14",
+"downloads": 25834,
+"rank": 1417
+},
+{
+"src": "openvsx",
+"id": "yogin.appmod-copilot",
+"version": "0.0.78",
+"downloads": 25801,
+"rank": 1418
+},
+{
+"src": "openvsx",
+"id": "sensmetry.syside-editor",
+"version": "0.11.0",
+"downloads": 25787,
+"rank": 1419
+},
+{
+"src": "openvsx",
+"id": "Zezombye.overpy",
+"version": "9.7.21",
+"downloads": 25780,
+"rank": 1420
+},
+{
+"src": "openvsx",
+"id": "runem.lit-plugin",
+"version": "1.2.1",
+"downloads": 25754,
+"rank": 1421
+},
+{
+"src": "openvsx",
+"id": "NeoResearchInc.heyneo",
+"version": "1.2.0",
+"downloads": 25753,
+"rank": 1422
+},
+{
+"src": "openvsx",
+"id": "puppet.puppet-vscode",
+"version": "1.5.7",
+"downloads": 25743,
+"rank": 1423
+},
+{
+"src": "openvsx",
+"id": "atopile.atopile",
+"version": "0.15.9",
+"downloads": 25712,
+"rank": 1424
+},
+{
+"src": "openvsx",
+"id": "Anan.jetbrains-darcula-theme",
+"version": "1.3.6",
+"downloads": 25700,
+"rank": 1425
+},
+{
+"src": "openvsx",
+"id": "xyz.local-history",
+"version": "1.8.1",
+"downloads": 25675,
+"rank": 1426
+},
+{
+"src": "openvsx",
+"id": "yatki.vscode-surround",
+"version": "1.1.2",
+"downloads": 25647,
+"rank": 1427
+},
+{
+"src": "openvsx",
+"id": "gornivv.vscode-flutter-files",
+"version": "5.0.0",
+"downloads": 25635,
+"rank": 1428
+},
+{
+"src": "openvsx",
+"id": "JamesGoppert.rumoca-modelica",
+"version": "0.10.4",
+"downloads": 25551,
+"rank": 1429
+},
+{
+"src": "openvsx",
+"id": "ComplYue.edh-vscode-syntax",
+"version": "3.10.0",
+"downloads": 25542,
+"rank": 1430
+},
+{
+"src": "openvsx",
+"id": "antigitv.antigravity-auto-accept",
+"version": "4.2.2",
+"downloads": 25532,
+"rank": 1431
+},
+{
+"src": "openvsx",
+"id": "Surendrajat.apklab",
+"version": "2.0.0",
+"downloads": 25511,
+"rank": 1432
+},
+{
+"src": "openvsx",
+"id": "bradgashler.htmltagwrap",
+"version": "1.0.0",
+"downloads": 25448,
+"rank": 1433
+},
+{
+"src": "openvsx",
+"id": "nszihan.vscode-dracula-colorful",
+"version": "2.2.2",
+"downloads": 25440,
+"rank": 1434
+},
+{
+"src": "openvsx",
+"id": "BriteSnow.vscode-toggle-quotes",
+"version": "0.3.6",
+"downloads": 25411,
+"rank": 1435
+},
+{
+"src": "openvsx",
+"id": "wenfangdu.jump",
+"version": "0.8.1",
+"downloads": 25407,
+"rank": 1436
+},
+{
+"src": "openvsx",
+"id": "codavidgarcia.antigravity-pulse",
+"version": "1.6.0",
+"downloads": 25313,
+"rank": 1437
+},
+{
+"src": "openvsx",
+"id": "Greenplumwine.mybatis-helper-vscode",
+"version": "1.0.4",
+"downloads": 25311,
+"rank": 1438
+},
+{
+"src": "openvsx",
+"id": "serkonda7.vscode-vba",
+"version": "1.2.2",
+"downloads": 25294,
+"rank": 1439
+},
+{
+"src": "openvsx",
+"id": "chouzz.vscode-better-align",
+"version": "1.4.5",
+"downloads": 25282,
+"rank": 1440
+},
+{
+"src": "openvsx",
+"id": "GBTI.snapshots-for-ai",
+"version": "8.2.0",
+"downloads": 25271,
+"rank": 1441
+},
+{
+"src": "openvsx",
+"id": "amodio.tsl-problem-matcher",
+"version": "0.6.2",
+"downloads": 25260,
+"rank": 1442
+},
+{
+"src": "openvsx",
+"id": "shivakrishnakokkula.claude-usage-meter",
+"version": "0.4.46",
+"downloads": 25247,
+"rank": 1443
+},
+{
+"src": "openvsx",
+"id": "thebearingedge.vscode-sql-lit",
+"version": "0.7.0",
+"downloads": 25227,
+"rank": 1444
+},
+{
+"src": "openvsx",
+"id": "ipedrazas.kubernetes-snippets",
+"version": "0.1.9",
+"downloads": 25205,
+"rank": 1445
+},
+{
+"src": "openvsx",
+"id": "gencay.vscode-chatgpt",
+"version": "4.0.3",
+"downloads": 25196,
+"rank": 1446
+},
+{
+"src": "openvsx",
+"id": "nietao.smart-commit-copilot",
+"version": "0.0.77",
+"downloads": 25191,
+"rank": 1447
+},
+{
+"src": "openvsx",
+"id": "overlay-studio.overlay-studio",
+"version": "0.10.2",
+"downloads": 25178,
+"rank": 1448
+},
+{
+"src": "openvsx",
+"id": "DynamicEngineering.dynamic-siemens-language-support",
+"version": "2.23.0",
+"downloads": 25164,
+"rank": 1449
+},
+{
+"src": "marketplace",
+"id": "ms-python.vscode-pylance",
+"version": "2026.4.101",
+"downloads": 213623997.0,
+"rank": 1
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.cpptools",
+"version": "1.7.1",
+"downloads": 107532485.0,
+"rank": 4
+},
+{
+"src": "marketplace",
+"id": "GitHub.copilot-chat",
+"version": "0.48.1",
+"downloads": 79468279.0,
+"rank": 8
+},
+{
+"src": "marketplace",
+"id": "GitHub.copilot",
+"version": "1.388.0",
+"downloads": 74967271.0,
+"rank": 9
+},
+{
+"src": "marketplace",
+"id": "VisualStudioExptTeam.vscodeintellicode",
+"version": "1.3.2",
+"downloads": 62767832.0,
+"rank": 15
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.cpptools-extension-pack",
+"version": "1.5.1",
+"downloads": 60032338.0,
+"rank": 17
+},
+{
+"src": "marketplace",
+"id": "VisualStudioExptTeam.intellicode-api-usage-examples",
+"version": "0.2.9",
+"downloads": 47242319.0,
+"rank": 28
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.csharp",
+"version": "2.0.251",
+"downloads": 44590150.0,
+"rank": 30
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.remote-containers",
+"version": "0.483.0",
+"downloads": 42918402.0,
+"rank": 32
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.remote-wsl",
+"version": "1.104.7",
+"downloads": 41432466.0,
+"rank": 33
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.remote-ssh",
+"version": "0.129.2026100915",
+"downloads": 38882355.0,
+"rank": 34
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.remote-ssh-edit",
+"version": "0.87.0",
+"downloads": 36696243.0,
+"rank": 36
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.remote-explorer",
+"version": "0.6.2026100809",
+"downloads": 31279060.0,
+"rank": 39
+},
+{
+"src": "marketplace",
+"id": "MS-vsliveshare.vsliveshare",
+"version": "1.1.122",
+"downloads": 24523547.0,
+"rank": 48
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.csdevkit",
+"version": "11.11.115",
+"downloads": 19019310.0,
+"rank": 57
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.cpp-devtools",
+"version": "0.8.0",
+"downloads": 9793814.0,
+"rank": 103
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.remote-server",
+"version": "1.6.2026092109",
+"downloads": 9279423.0,
+"rank": 107
+},
+{
+"src": "marketplace",
+"id": "ms-vscode-remote.vscode-remote-extensionpack",
+"version": "0.26.0",
+"downloads": 9167464.0,
+"rank": 110
+},
+{
+"src": "marketplace",
+"id": "GitHub.codespaces",
+"version": "1.18.17",
+"downloads": 8658095.0,
+"rank": 113
+},
+{
+"src": "marketplace",
+"id": "eg2.vscode-npm-script",
+"version": "0.3.29",
+"downloads": 7689927.0,
+"rank": 124
+},
+{
+"src": "marketplace",
+"id": "platformio.platformio-ide",
+"version": "3.3.4",
+"downloads": 7556225.0,
+"rank": 126
+},
+{
+"src": "marketplace",
+"id": "GitHub.remotehub",
+"version": "0.66.2026102901",
+"downloads": 7201889.0,
+"rank": 133
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.remote-repositories",
+"version": "0.45.2026102901",
+"downloads": 6867406.0,
+"rank": 138
+},
+{
+"src": "marketplace",
+"id": "tht13.python",
+"version": "0.2.3",
+"downloads": 6773043.0,
+"rank": 142
+},
+{
+"src": "marketplace",
+"id": "burkeholland.simple-react-snippets",
+"version": "1.2.8",
+"downloads": 6614472.0,
+"rank": 146
+},
+{
+"src": "marketplace",
+"id": "xdebug.php-pack",
+"version": "1.0.3",
+"downloads": 6461416.0,
+"rank": 148
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.azure-repos",
+"version": "0.41.2026102901",
+"downloads": 6325666.0,
+"rank": 150
+},
+{
+"src": "marketplace",
+"id": "ms-mssql.data-workspace-vscode",
+"version": "0.8.1",
+"downloads": 6175106.0,
+"rank": 153
+},
+{
+"src": "marketplace",
+"id": "ms-mssql.sql-database-projects-vscode",
+"version": "1.9.1",
+"downloads": 6034653.0,
+"rank": 159
+},
+{
+"src": "marketplace",
+"id": "sidthesloth.html5-boilerplate",
+"version": "1.1.1",
+"downloads": 5993645.0,
+"rank": 160
+},
+{
+"src": "marketplace",
+"id": "Equinusocio.vsc-material-theme-icons",
+"version": "3.9.2",
+"downloads": 5947201.0,
+"rank": 162
+},
+{
+"src": "marketplace",
+"id": "ms-mssql.sql-bindings-vscode",
+"version": "0.4.1",
+"downloads": 5713278.0,
+"rank": 165
+},
+{
+"src": "marketplace",
+"id": "MS-vsliveshare.vsliveshare-audio",
+"version": "0.1.93",
+"downloads": 5532810.0,
+"rank": 170
+},
+{
+"src": "marketplace",
+"id": "austin.code-gnu-global",
+"version": "0.2.2",
+"downloads": 5082427.0,
+"rank": 180
+},
+{
+"src": "marketplace",
+"id": "ziyasal.vscode-open-in-github",
+"version": "1.3.6",
+"downloads": 4581193.0,
+"rank": 189
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.vscodeintellicode-csharp",
+"version": "2.2.3",
+"downloads": 4325612.0,
+"rank": 196
+},
+{
+"src": "marketplace",
+"id": "Equinusocio.vsc-material-theme",
+"version": "34.7.16",
+"downloads": 4303700.0,
+"rank": 198
+},
+{
+"src": "marketplace",
+"id": "ZainChen.json",
+"version": "2.0.2",
+"downloads": 4235680.0,
+"rank": 201
+},
+{
+"src": "marketplace",
+"id": "lonefy.vscode-JS-CSS-HTML-formatter",
+"version": "0.2.3",
+"downloads": 3985128.0,
+"rank": 205
+},
+{
+"src": "marketplace",
+"id": "vsls-contrib.gitdoc",
+"version": "0.2.3",
+"downloads": 3961902.0,
+"rank": 206
+},
+{
+"src": "marketplace",
+"id": "thekalinga.bootstrap4-vscode",
+"version": "6.1.0",
+"downloads": 3933318.0,
+"rank": 207
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-cosmosdb",
+"version": "0.39.4",
+"downloads": 3704927.0,
+"rank": 216
+},
+{
+"src": "marketplace",
+"id": "inferrinizzard.prettier-sql-vscode",
+"version": "1.6.0",
+"downloads": 3704425.0,
+"rank": 217
+},
+{
+"src": "marketplace",
+"id": "rodrigovallades.es7-react-js-snippets",
+"version": "1.9.3",
+"downloads": 3677124.0,
+"rank": 218
+},
+{
+"src": "marketplace",
+"id": "georgewfraser.vscode-javac",
+"version": "0.2.49",
+"downloads": 3629935.0,
+"rank": 221
+},
+{
+"src": "marketplace",
+"id": "sdras.vue-vscode-snippets",
+"version": "3.2.0",
+"downloads": 3548753.0,
+"rank": 227
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.js-debug-nightly",
+"version": "2026.11.2315",
+"downloads": 3540716.0,
+"rank": 228
+},
+{
+"src": "marketplace",
+"id": "formulahendry.auto-complete-tag",
+"version": "0.1.0",
+"downloads": 3431949.0,
+"rank": 232
+},
+{
+"src": "marketplace",
+"id": "CS50.extension-uninstaller",
+"version": "1.0.10",
+"downloads": 3412023.0,
+"rank": 233
+},
+{
+"src": "marketplace",
+"id": "rifi2k.format-html-in-php",
+"version": "1.7.0",
+"downloads": 3339972.0,
+"rank": 234
+},
+{
+"src": "marketplace",
+"id": "awwsky.csharpfixformatfixed",
+"version": "0.0.93",
+"downloads": 3327870.0,
+"rank": 235
+},
+{
+"src": "marketplace",
+"id": "brapifra.phpserver",
+"version": "3.0.2",
+"downloads": 3235923.0,
+"rank": 241
+},
+{
+"src": "marketplace",
+"id": "dongli.python-preview",
+"version": "0.0.4",
+"downloads": 3204583.0,
+"rank": 244
+},
+{
+"src": "marketplace",
+"id": "jasonnutter.search-node-modules",
+"version": "1.3.0",
+"downloads": 3156916.0,
+"rank": 246
+},
+{
+"src": "marketplace",
+"id": "quicktype.quicktype",
+"version": "23.0.170",
+"downloads": 3088668.0,
+"rank": 247
+},
+{
+"src": "marketplace",
+"id": "tht13.html-preview-vscode",
+"version": "0.2.5",
+"downloads": 3035895.0,
+"rank": 251
+},
+{
+"src": "marketplace",
+"id": "mohsen1.prettify-json",
+"version": "0.0.3",
+"downloads": 2993729.0,
+"rank": 253
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azurestorage",
+"version": "0.17.2",
+"downloads": 2990734.0,
+"rank": 255
+},
+{
+"src": "marketplace",
+"id": "azemoh.one-monokai",
+"version": "0.5.2",
+"downloads": 2971552.0,
+"rank": 256
+},
+{
+"src": "marketplace",
+"id": "eg2.tslint",
+"version": "1.0.47",
+"downloads": 2864004.0,
+"rank": 261
+},
+{
+"src": "marketplace",
+"id": "VisualStudioToolsForUnity.vstuc",
+"version": "1.3.2",
+"downloads": 2796530.0,
+"rank": 263
+},
+{
+"src": "marketplace",
+"id": "ms-toolsai.vscode-ai",
+"version": "1.5.2026112501",
+"downloads": 2778893.0,
+"rank": 265
+},
+{
+"src": "marketplace",
+"id": "xabikos.ReactSnippets",
+"version": "2.4.0",
+"downloads": 2771128.0,
+"rank": 267
+},
+{
+"src": "marketplace",
+"id": "george-alisson.html-preview-vscode",
+"version": "0.2.5",
+"downloads": 2727228.0,
+"rank": 273
+},
+{
+"src": "marketplace",
+"id": "whizkydee.material-palenight-theme",
+"version": "2.0.5",
+"downloads": 2671927.0,
+"rank": 278
+},
+{
+"src": "marketplace",
+"id": "ms-toolsai.vscode-ai-remote",
+"version": "1.7.2026112605",
+"downloads": 2631146.0,
+"rank": 281
+},
+{
+"src": "marketplace",
+"id": "ryannaddy.laravel-artisan",
+"version": "0.0.33",
+"downloads": 2626872.0,
+"rank": 283
+},
+{
+"src": "marketplace",
+"id": "ritwickdey.live-sass",
+"version": "3.0.0",
+"downloads": 2606788.0,
+"rank": 285
+},
+{
+"src": "marketplace",
+"id": "2gua.rainbow-brackets",
+"version": "0.0.6",
+"downloads": 2577133.0,
+"rank": 287
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azurevirtualmachines",
+"version": "0.6.11",
+"downloads": 2526201.0,
+"rank": 294
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vscode-node-azure-pack",
+"version": "1.8.2",
+"downloads": 2482866.0,
+"rank": 297
+},
+{
+"src": "marketplace",
+"id": "alexisvt.flutter-snippets",
+"version": "3.0.0",
+"downloads": 2453716.0,
+"rank": 299
+},
+{
+"src": "marketplace",
+"id": "ms-toolsai.datawrangler",
+"version": "1.24.3",
+"downloads": 2438742.0,
+"rank": 301
+},
+{
+"src": "marketplace",
+"id": "leizongmin.node-module-intellisense",
+"version": "1.5.0",
+"downloads": 2431840.0,
+"rank": 302
+},
+{
+"src": "marketplace",
+"id": "dbaeumer.jshint",
+"version": "0.11.0",
+"downloads": 2427694.0,
+"rank": 305
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azurestaticwebapps",
+"version": "0.13.4",
+"downloads": 2392919.0,
+"rank": 308
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.azure-dev",
+"version": "0.10.0",
+"downloads": 2333668.0,
+"rank": 314
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azure-github-copilot",
+"version": "1.0.256",
+"downloads": 2318837.0,
+"rank": 315
+},
+{
+"src": "marketplace",
+"id": "donjayamanne.jquerysnippets",
+"version": "0.0.1",
+"downloads": 2274090.0,
+"rank": 321
+},
+{
+"src": "marketplace",
+"id": "figma.figma-vscode-extension",
+"version": "0.4.8",
+"downloads": 2220320.0,
+"rank": 324
+},
+{
+"src": "marketplace",
+"id": "jcbuisson.vue",
+"version": "0.1.5",
+"downloads": 2216608.0,
+"rank": 325
+},
+{
+"src": "marketplace",
+"id": "bianxianyang.htmlplay",
+"version": "0.0.10",
+"downloads": 2208057.0,
+"rank": 326
+},
+{
+"src": "marketplace",
+"id": "tushortz.python-extended-snippets",
+"version": "0.0.1",
+"downloads": 2206628.0,
+"rank": 328
+},
+{
+"src": "marketplace",
+"id": "BracketPairColorDLW.bracket-pair-color-dlw",
+"version": "0.0.6",
+"downloads": 2198737.0,
+"rank": 329
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vscode-serial-monitor",
+"version": "0.13.251128001",
+"downloads": 2193067.0,
+"rank": 331
+},
+{
+"src": "marketplace",
+"id": "mohd-akram.vscode-html-format",
+"version": "0.1.6",
+"downloads": 2191575.0,
+"rank": 332
+},
+{
+"src": "marketplace",
+"id": "aeschli.vscode-css-formatter",
+"version": "1.0.2",
+"downloads": 2178163.0,
+"rank": 334
+},
+{
+"src": "marketplace",
+"id": "Unity.unity-debug",
+"version": "3.0.2",
+"downloads": 2058808.0,
+"rank": 339
+},
+{
+"src": "marketplace",
+"id": "MarsCode.marscode-extension",
+"version": "1.7.18",
+"downloads": 2053582.0,
+"rank": 341
+},
+{
+"src": "marketplace",
+"id": "michelemelluso.code-beautifier",
+"version": "2.3.3",
+"downloads": 2021475.0,
+"rank": 344
+},
+{
+"src": "marketplace",
+"id": "mitaki28.vscode-clang",
+"version": "0.2.4",
+"downloads": 2019031.0,
+"rank": 345
+},
+{
+"src": "marketplace",
+"id": "adpyke.vscode-sql-formatter",
+"version": "1.4.4",
+"downloads": 2009334.0,
+"rank": 347
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azurecontainerapps",
+"version": "0.13.0",
+"downloads": 1989270.0,
+"rank": 351
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.dotnet-interactive-vscode",
+"version": "1.0.7181011",
+"downloads": 1986019.0,
+"rank": 352
+},
+{
+"src": "marketplace",
+"id": "vscjava.migrate-java-to-azure",
+"version": "0.5.2025061701",
+"downloads": 1927949.0,
+"rank": 355
+},
+{
+"src": "marketplace",
+"id": "kleber-swf.unity-code-snippets",
+"version": "2.4.0",
+"downloads": 1888258.0,
+"rank": 359
+},
+{
+"src": "marketplace",
+"id": "jchannon.csharpextensions",
+"version": "1.3.1",
+"downloads": 1855926.0,
+"rank": 365
+},
+{
+"src": "marketplace",
+"id": "formulahendry.terminal",
+"version": "0.0.10",
+"downloads": 1855466.0,
+"rank": 366
+},
+{
+"src": "marketplace",
+"id": "EQuimper.react-native-react-redux",
+"version": "2.0.6",
+"downloads": 1847243.0,
+"rank": 368
+},
+{
+"src": "marketplace",
+"id": "pnp.polacode",
+"version": "0.3.4",
+"downloads": 1810203.0,
+"rank": 373
+},
+{
+"src": "marketplace",
+"id": "josetr.cmake-language-support-vscode",
+"version": "0.0.9",
+"downloads": 1766720.0,
+"rank": 378
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azure-mcp-server",
+"version": "4.0.10",
+"downloads": 1760118.0,
+"rank": 380
+},
+{
+"src": "marketplace",
+"id": "rbbit.typescript-hero",
+"version": "3.0.0",
+"downloads": 1753874.0,
+"rank": 381
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-bicep",
+"version": "0.49.2",
+"downloads": 1748109.0,
+"rank": 383
+},
+{
+"src": "marketplace",
+"id": "EliverLara.andromeda",
+"version": "1.10.0",
+"downloads": 1716582.0,
+"rank": 384
+},
+{
+"src": "marketplace",
+"id": "FallenMax.mithril-emmet",
+"version": "0.7.7",
+"downloads": 1714104.0,
+"rank": 386
+},
+{
+"src": "marketplace",
+"id": "negokaz.live-server-preview",
+"version": "0.1.4",
+"downloads": 1683934.0,
+"rank": 388
+},
+{
+"src": "marketplace",
+"id": "jmrog.vscode-nuget-package-manager",
+"version": "1.1.6",
+"downloads": 1653978.0,
+"rank": 393
+},
+{
+"src": "marketplace",
+"id": "AnbuselvanRocky.bootstrap5-vscode",
+"version": "0.5.0",
+"downloads": 1646787.0,
+"rank": 394
+},
+{
+"src": "marketplace",
+"id": "tal7aouy.theme",
+"version": "3.1.0",
+"downloads": 1642414.0,
+"rank": 396
+},
+{
+"src": "marketplace",
+"id": "johnpapa.angular-essentials",
+"version": "22.0.1",
+"downloads": 1638704.0,
+"rank": 397
+},
+{
+"src": "marketplace",
+"id": "ms-windows-ai-studio.windows-ai-studio",
+"version": "0.25.2025110705",
+"downloads": 1610620.0,
+"rank": 400
+},
+{
+"src": "marketplace",
+"id": "pmneo.tsimporter",
+"version": "2.0.1",
+"downloads": 1602035.0,
+"rank": 402
+},
+{
+"src": "marketplace",
+"id": "eriklynd.json-tools",
+"version": "1.0.2",
+"downloads": 1569604.0,
+"rank": 406
+},
+{
+"src": "marketplace",
+"id": "SimonSiefke.svg-preview",
+"version": "2.8.3",
+"downloads": 1565142.0,
+"rank": 407
+},
+{
+"src": "marketplace",
+"id": "ms-dotnettools.vscode-dotnet-pack",
+"version": "1.0.13",
+"downloads": 1560234.0,
+"rank": 408
+},
+{
+"src": "marketplace",
+"id": "utsavm9.c-cpp-flag-debugging",
+"version": "0.0.1",
+"downloads": 1546795.0,
+"rank": 410
+},
+{
+"src": "marketplace",
+"id": "hars.CppSnippets",
+"version": "0.0.15",
+"downloads": 1535599.0,
+"rank": 412
+},
+{
+"src": "marketplace",
+"id": "dustypomerleau.rust-syntax",
+"version": "0.6.1",
+"downloads": 1525191.0,
+"rank": 415
+},
+{
+"src": "marketplace",
+"id": "kreativ-software.csharpextensions",
+"version": "1.7.3",
+"downloads": 1524217.0,
+"rank": 416
+},
+{
+"src": "marketplace",
+"id": "thebarkman.vscode-djaneiro",
+"version": "1.4.2",
+"downloads": 1514725.0,
+"rank": 419
+},
+{
+"src": "marketplace",
+"id": "ms-azure-devops.azure-pipelines",
+"version": "1.261.1",
+"downloads": 1509980.0,
+"rank": 421
+},
+{
+"src": "marketplace",
+"id": "msazurermtools.azurerm-vscode-tools",
+"version": "0.15.15",
+"downloads": 1508928.0,
+"rank": 422
+},
+{
+"src": "marketplace",
+"id": "Wscats.cors-browser",
+"version": "1.0.11",
+"downloads": 1493313.0,
+"rank": 424
+},
+{
+"src": "marketplace",
+"id": "bierner.markdown-emoji",
+"version": "0.3.1",
+"downloads": 1484290.0,
+"rank": 425
+},
+{
+"src": "marketplace",
+"id": "ikappas.phpcs",
+"version": "1.0.5",
+"downloads": 1482291.0,
+"rank": 426
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vscode-speech",
+"version": "0.16.0",
+"downloads": 1481966.0,
+"rank": 427
+},
+{
+"src": "marketplace",
+"id": "Meezilla.json",
+"version": "0.1.2",
+"downloads": 1469427.0,
+"rank": 430
+},
+{
+"src": "marketplace",
+"id": "bierner.markdown-checkbox",
+"version": "0.4.0",
+"downloads": 1469306.0,
+"rank": 431
+},
+{
+"src": "marketplace",
+"id": "Tobiah.unity-tools",
+"version": "1.2.12",
+"downloads": 1452510.0,
+"rank": 435
+},
+{
+"src": "marketplace",
+"id": "caolin.java-run",
+"version": "1.1.4",
+"downloads": 1449341.0,
+"rank": 436
+},
+{
+"src": "marketplace",
+"id": "xirider.livecode",
+"version": "1.3.10",
+"downloads": 1425721.0,
+"rank": 439
+},
+{
+"src": "marketplace",
+"id": "peakchen90.open-html-in-browser",
+"version": "2.1.11",
+"downloads": 1414590.0,
+"rank": 440
+},
+{
+"src": "marketplace",
+"id": "cstrap.python-snippets",
+"version": "0.1.2",
+"downloads": 1414391.0,
+"rank": 441
+},
+{
+"src": "marketplace",
+"id": "ryu1kn.partial-diff",
+"version": "1.4.6",
+"downloads": 1407080.0,
+"rank": 443
+},
+{
+"src": "marketplace",
+"id": "dzhavat.bracket-pair-toggler",
+"version": "0.0.3",
+"downloads": 1405273.0,
+"rank": 444
+},
+{
+"src": "marketplace",
+"id": "liviuschera.noctis",
+"version": "10.43.3",
+"downloads": 1403893.0,
+"rank": 445
+},
+{
+"src": "marketplace",
+"id": "ms-iot.vscode-ros",
+"version": "0.9.6",
+"downloads": 1391963.0,
+"rank": 447
+},
+{
+"src": "marketplace",
+"id": "deerawan.vscode-dash",
+"version": "2.4.0",
+"downloads": 1372652.0,
+"rank": 449
+},
+{
+"src": "marketplace",
+"id": "ms-azuretools.vscode-azureterraform",
+"version": "0.3.3",
+"downloads": 1367797.0,
+"rank": 451
+},
+{
+"src": "marketplace",
+"id": "mathematic.vscode-latex",
+"version": "2.2.4",
+"downloads": 1365220.0,
+"rank": 452
+},
+{
+"src": "marketplace",
+"id": "onecentlin.laravel-extension-pack",
+"version": "1.3.0",
+"downloads": 1356696.0,
+"rank": 453
+},
+{
+"src": "marketplace",
+"id": "liximomo.sftp",
+"version": "1.12.10",
+"downloads": 1352162.0,
+"rank": 454
+},
+{
+"src": "marketplace",
+"id": "bierner.color-info",
+"version": "0.7.2",
+"downloads": 1339976.0,
+"rank": 456
+},
+{
+"src": "marketplace",
+"id": "vscjava.vscode-lombok",
+"version": "1.1.2024071804",
+"downloads": 1336027.0,
+"rank": 457
+},
+{
+"src": "marketplace",
+"id": "waderyan.nodejs-extension-pack",
+"version": "0.1.9",
+"downloads": 1334162.0,
+"rank": 458
+},
+{
+"src": "marketplace",
+"id": "solnurkarim.html-to-css-autocompletion",
+"version": "1.1.2",
+"downloads": 1333886.0,
+"rank": 459
+},
+{
+"src": "marketplace",
+"id": "kaih2o.python-resource-monitor",
+"version": "0.3.0",
+"downloads": 1332176.0,
+"rank": 460
+},
+{
+"src": "marketplace",
+"id": "Askia.askia-qexml-generator-extension",
+"version": "1.0.1",
+"downloads": 1313656.0,
+"rank": 464
+},
+{
+"src": "marketplace",
+"id": "LeetCode.vscode-leetcode",
+"version": "0.18.4",
+"downloads": 1302183.0,
+"rank": 468
+},
+{
+"src": "marketplace",
+"id": "tinkertrain.theme-panda",
+"version": "1.4.0",
+"downloads": 1284684.0,
+"rank": 470
+},
+{
+"src": "marketplace",
+"id": "be5invis.vscode-icontheme-nomo-dark",
+"version": "1.3.9",
+"downloads": 1281953.0,
+"rank": 471
+},
+{
+"src": "marketplace",
+"id": "donjayamanne.javadebugger",
+"version": "0.1.7",
+"downloads": 1226758.0,
+"rank": 479
+},
+{
+"src": "marketplace",
+"id": "mkaufman.HTMLHint",
+"version": "0.10.0",
+"downloads": 1224376.0,
+"rank": 481
+},
+{
+"src": "marketplace",
+"id": "frhtylcn.pythonsnippets",
+"version": "1.0.2",
+"downloads": 1220273.0,
+"rank": 482
+},
+{
+"src": "marketplace",
+"id": "be5invis.vscode-custom-css",
+"version": "7.5.1",
+"downloads": 1216055.0,
+"rank": 483
+},
+{
+"src": "marketplace",
+"id": "076923.python-image-preview",
+"version": "1.2.0",
+"downloads": 1214729.0,
+"rank": 484
+},
+{
+"src": "marketplace",
+"id": "humy2833.ftp-simple",
+"version": "0.7.6",
+"downloads": 1208179.0,
+"rank": 486
+},
+{
+"src": "marketplace",
+"id": "formulahendry.docker-explorer",
+"version": "0.1.7",
+"downloads": 1208048.0,
+"rank": 487
+},
+{
+"src": "marketplace",
+"id": "Keploy.keployio",
+"version": "3.1.10",
+"downloads": 1194816.0,
+"rank": 490
+},
+{
+"src": "marketplace",
+"id": "kisstkondoros.vscode-codemetrics",
+"version": "1.26.1",
+"downloads": 1194032.0,
+"rank": 491
+},
+{
+"src": "marketplace",
+"id": "etmoffat.pip-packages",
+"version": "0.4.3",
+"downloads": 1190458.0,
+"rank": 492
+},
+{
+"src": "marketplace",
+"id": "naoray.laravel-goto-components",
+"version": "1.2.0",
+"downloads": 1183230.0,
+"rank": 493
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.atom-keybindings",
+"version": "3.3.0",
+"downloads": 1178585.0,
+"rank": 495
+},
+{
+"src": "marketplace",
+"id": "mrcrowl.easy-less",
+"version": "2.0.5",
+"downloads": 1175459.0,
+"rank": 497
+},
+{
+"src": "marketplace",
+"id": "infeng.vscode-react-typescript",
+"version": "1.3.1",
+"downloads": 1164095.0,
+"rank": 500
+},
+{
+"src": "marketplace",
+"id": "mutantdino.resourcemonitor",
+"version": "1.0.7",
+"downloads": 1163475.0,
+"rank": 501
+},
+{
+"src": "marketplace",
+"id": "stringham.move-ts",
+"version": "1.13.0",
+"downloads": 1152396.0,
+"rank": 502
+},
+{
+"src": "marketplace",
+"id": "hdg.live-html-previewer",
+"version": "0.4.0",
+"downloads": 1143618.0,
+"rank": 503
+},
+{
+"src": "marketplace",
+"id": "IHunte.laravel-blade-wrapper",
+"version": "1.0.2",
+"downloads": 1124529.0,
+"rank": 506
+},
+{
+"src": "marketplace",
+"id": "tal7aouy.icons",
+"version": "3.8.0",
+"downloads": 1121460.0,
+"rank": 507
+},
+{
+"src": "marketplace",
+"id": "dan-c-underwood.arm",
+"version": "1.7.4",
+"downloads": 1111341.0,
+"rank": 508
+},
+{
+"src": "marketplace",
+"id": "Tyriar.lorem-ipsum",
+"version": "1.3.1",
+"downloads": 1104759.0,
+"rank": 509
+},
+{
+"src": "marketplace",
+"id": "CS50.ddb50",
+"version": "1.1.3",
+"downloads": 1101256.0,
+"rank": 510
+},
+{
+"src": "marketplace",
+"id": "glitchbl.laravel-create-view",
+"version": "0.0.6",
+"downloads": 1099995.0,
+"rank": 512
+},
+{
+"src": "marketplace",
+"id": "akamud.vscode-javascript-snippet-pack",
+"version": "0.1.6",
+"downloads": 1099049.0,
+"rank": 513
+},
+{
+"src": "marketplace",
+"id": "McCarter.start-git-bash",
+"version": "1.2.1",
+"downloads": 1097921.0,
+"rank": 514
+},
+{
+"src": "marketplace",
+"id": "mkxml.vscode-filesize",
+"version": "3.2.2",
+"downloads": 1095567.0,
+"rank": 516
+},
+{
+"src": "marketplace",
+"id": "KoichiSasada.vscode-rdbg",
+"version": "0.2.2",
+"downloads": 1084149.0,
+"rank": 519
+},
+{
+"src": "marketplace",
+"id": "chris-noring.node-snippets",
+"version": "1.4.0",
+"downloads": 1083305.0,
+"rank": 520
+},
+{
+"src": "marketplace",
+"id": "Oracle.sql-developer",
+"version": "26.3.1",
+"downloads": 1079678.0,
+"rank": 521
+},
+{
+"src": "marketplace",
+"id": "mcright.auto-save",
+"version": "1.0.3",
+"downloads": 1067698.0,
+"rank": 522
+},
+{
+"src": "marketplace",
+"id": "jorgeserrano.vscode-csharp-snippets",
+"version": "1.1.0",
+"downloads": 1055245.0,
+"rank": 526
+},
+{
+"src": "marketplace",
+"id": "TeamsDevApp.vscode-ai-foundry",
+"version": "1.2.4",
+"downloads": 1054932.0,
+"rank": 527
+},
+{
+"src": "marketplace",
+"id": "jprestidge.theme-material-theme",
+"version": "1.0.1",
+"downloads": 1046513.0,
+"rank": 529
+},
+{
+"src": "marketplace",
+"id": "traBpUkciP.wolf",
+"version": "0.4.3",
+"downloads": 1046088.0,
+"rank": 530
+},
+{
+"src": "marketplace",
+"id": "Wscats.eno",
+"version": "2.3.53",
+"downloads": 1032305.0,
+"rank": 532
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vscode-chat-customizations-evaluations",
+"version": "1.1.2026110222",
+"downloads": 1026504.0,
+"rank": 533
+},
+{
+"src": "marketplace",
+"id": "infinity1207.angular2-switcher",
+"version": "0.4.0",
+"downloads": 1024773.0,
+"rank": 534
+},
+{
+"src": "marketplace",
+"id": "rocketseat.theme-omni",
+"version": "1.0.12",
+"downloads": 1022441.0,
+"rank": 535
+},
+{
+"src": "marketplace",
+"id": "chrmarti.regex",
+"version": "0.6.0",
+"downloads": 1020866.0,
+"rank": 537
+},
+{
+"src": "marketplace",
+"id": "vscjava.vscode-java-upgrade",
+"version": "2.1.2",
+"downloads": 1019602.0,
+"rank": 538
+},
+{
+"src": "marketplace",
+"id": "nhoizey.gremlins",
+"version": "0.26.0",
+"downloads": 1012384.0,
+"rank": 541
+},
+{
+"src": "marketplace",
+"id": "demystifying-javascript.python-extensions-pack",
+"version": "1.0.3",
+"downloads": 1012196.0,
+"rank": 542
+},
+{
+"src": "marketplace",
+"id": "alexiv.vscode-angular2-files",
+"version": "1.6.4",
+"downloads": 1003621.0,
+"rank": 543
+},
+{
+"src": "marketplace",
+"id": "bibhasdn.django-html",
+"version": "1.3.0",
+"downloads": 994972.0,
+"rank": 545
+},
+{
+"src": "marketplace",
+"id": "1YiB.rust-bundle",
+"version": "1.0.0",
+"downloads": 993407.0,
+"rank": 546
+},
+{
+"src": "marketplace",
+"id": "miramac.vscode-exec-node",
+"version": "0.5.6",
+"downloads": 983855.0,
+"rank": 547
+},
+{
+"src": "marketplace",
+"id": "PawelBorkar.jellyfish",
+"version": "0.0.4",
+"downloads": 976697.0,
+"rank": 548
+},
+{
+"src": "marketplace",
+"id": "huizhou.githd",
+"version": "2.5.7",
+"downloads": 971704.0,
+"rank": 550
+},
+{
+"src": "marketplace",
+"id": "wcwhitehead.bootstrap-3-snippets",
+"version": "0.1.0",
+"downloads": 956762.0,
+"rank": 555
+},
+{
+"src": "marketplace",
+"id": "Sophisticode.php-formatter",
+"version": "0.2.4",
+"downloads": 952915.0,
+"rank": 558
+},
+{
+"src": "marketplace",
+"id": "miguelsolorio.symbols",
+"version": "0.0.26",
+"downloads": 952796.0,
+"rank": 559
+},
+{
+"src": "marketplace",
+"id": "austenc.laravel-blade-spacer",
+"version": "2.3.1",
+"downloads": 952416.0,
+"rank": 560
+},
+{
+"src": "marketplace",
+"id": "rokoroku.vscode-theme-darcula",
+"version": "1.2.3",
+"downloads": 939426.0,
+"rank": 561
+},
+{
+"src": "marketplace",
+"id": "cweijan.vscode-postgresql-client2",
+"version": "9.0.3",
+"downloads": 936751.0,
+"rank": 562
+},
+{
+"src": "marketplace",
+"id": "natewallace.angular2-inline",
+"version": "0.0.17",
+"downloads": 933571.0,
+"rank": 563
+},
+{
+"src": "marketplace",
+"id": "CS50.vscode-presentation-mode",
+"version": "1.0.5",
+"downloads": 932745.0,
+"rank": 564
+},
+{
+"src": "marketplace",
+"id": "bierner.markdown-yaml-preamble",
+"version": "0.1.1",
+"downloads": 922451.0,
+"rank": 568
+},
+{
+"src": "marketplace",
+"id": "ajshort.include-autocomplete",
+"version": "0.0.4",
+"downloads": 921057.0,
+"rank": 569
+},
+{
+"src": "marketplace",
+"id": "jithurjacob.nbpreviewer",
+"version": "1.2.2",
+"downloads": 912324.0,
+"rank": 572
+},
+{
+"src": "marketplace",
+"id": "bierner.markdown-footnotes",
+"version": "0.1.1",
+"downloads": 909965.0,
+"rank": 574
+},
+{
+"src": "marketplace",
+"id": "misogi.ruby-rubocop",
+"version": "0.8.6",
+"downloads": 909783.0,
+"rank": 575
+},
+{
+"src": "marketplace",
+"id": "shakram02.bash-beautify",
+"version": "0.1.1",
+"downloads": 908190.0,
+"rank": 577
+},
+{
+"src": "marketplace",
+"id": "formulahendry.dotnet-test-explorer",
+"version": "0.7.8",
+"downloads": 907445.0,
+"rank": 578
+},
+{
+"src": "marketplace",
+"id": "dariofuzinato.vue-peek",
+"version": "1.0.2",
+"downloads": 901535.0,
+"rank": 579
+},
+{
+"src": "marketplace",
+"id": "kaysonwu.cpptask",
+"version": "0.0.1",
+"downloads": 901192.0,
+"rank": 580
+},
+{
+"src": "marketplace",
+"id": "pgl.laravel-jump-controller",
+"version": "0.2.5",
+"downloads": 894202.0,
+"rank": 584
+},
+{
+"src": "marketplace",
+"id": "kumar-harsh.graphql-for-vscode",
+"version": "1.15.3",
+"downloads": 886606.0,
+"rank": 588
+},
+{
+"src": "marketplace",
+"id": "NuclleaR.vscode-extension-auto-import",
+"version": "1.4.3",
+"downloads": 878866.0,
+"rank": 590
+},
+{
+"src": "marketplace",
+"id": "seanwu.vscode-qt-for-python",
+"version": "7.6.0",
+"downloads": 862402.0,
+"rank": 592
+},
+{
+"src": "marketplace",
+"id": "uctakeoff.vscode-counter",
+"version": "3.8.1",
+"downloads": 855379.0,
+"rank": 594
+},
+{
+"src": "marketplace",
+"id": "ardenivanov.svelte-intellisense",
+"version": "0.7.1",
+"downloads": 848405.0,
+"rank": 596
+},
+{
+"src": "marketplace",
+"id": "TypeScriptTeam.native-preview",
+"version": "1.0.2",
+"downloads": 846565.0,
+"rank": 598
+},
+{
+"src": "marketplace",
+"id": "Wscats.html-snippets",
+"version": "1.0.6",
+"downloads": 839688.0,
+"rank": 599
+},
+{
+"src": "marketplace",
+"id": "phplasma.csv-to-table",
+"version": "1.4.1",
+"downloads": 834121.0,
+"rank": 601
+},
+{
+"src": "marketplace",
+"id": "ms-ossdata.vscode-pgsql",
+"version": "1.30.1",
+"downloads": 832904.0,
+"rank": 602
+},
+{
+"src": "marketplace",
+"id": "spywhere.guides",
+"version": "0.9.3",
+"downloads": 831556.0,
+"rank": 603
+},
+{
+"src": "marketplace",
+"id": "ms-azure-load-testing.microsoft-testing",
+"version": "0.2.0",
+"downloads": 830889.0,
+"rank": 605
+},
+{
+"src": "marketplace",
+"id": "cipchk.cssrem",
+"version": "4.1.1",
+"downloads": 825056.0,
+"rank": 607
+},
+{
+"src": "marketplace",
+"id": "emeraldwalk.RunOnSave",
+"version": "1.1.5",
+"downloads": 824833.0,
+"rank": 608
+},
+{
+"src": "marketplace",
+"id": "SirTori.indenticator",
+"version": "0.7.0",
+"downloads": 820930.0,
+"rank": 609
+},
+{
+"src": "marketplace",
+"id": "donjayamanne.jupyter",
+"version": "1.1.9",
+"downloads": 816808.0,
+"rank": 610
+},
+{
+"src": "marketplace",
+"id": "bierner.github-markdown-preview",
+"version": "0.4.0",
+"downloads": 816588.0,
+"rank": 611
+},
+{
+"src": "marketplace",
+"id": "mrmlnc.vscode-apache",
+"version": "1.2.0",
+"downloads": 814830.0,
+"rank": 613
+},
+{
+"src": "marketplace",
+"id": "bajdzis.vscode-database",
+"version": "2.2.3",
+"downloads": 812212.0,
+"rank": 614
+},
+{
+"src": "marketplace",
+"id": "MarlinFirmware.auto-build",
+"version": "2.1.88",
+"downloads": 810859.0,
+"rank": 615
+},
+{
+"src": "marketplace",
+"id": "sburg.vscode-javascript-booster",
+"version": "14.0.1",
+"downloads": 801357.0,
+"rank": 620
+},
+{
+"src": "marketplace",
+"id": "cstrap.flask-snippets",
+"version": "0.1.3",
+"downloads": 801312.0,
+"rank": 621
+},
+{
+"src": "marketplace",
+"id": "oleg-shilo.cs-script",
+"version": "2.3.9",
+"downloads": 797106.0,
+"rank": 626
+},
+{
+"src": "marketplace",
+"id": "searKing.preview-vscode",
+"version": "2.5.1",
+"downloads": 795134.0,
+"rank": 627
+},
+{
+"src": "marketplace",
+"id": "shengchen.vscode-checkstyle",
+"version": "1.4.2",
+"downloads": 795082.0,
+"rank": 628
+},
+{
+"src": "marketplace",
+"id": "benjamin-simmonds.pythoncpp-debug",
+"version": "0.3.0",
+"downloads": 795050.0,
+"rank": 629
+},
+{
+"src": "marketplace",
+"id": "lihui.vs-color-picker",
+"version": "1.0.0",
+"downloads": 790991.0,
+"rank": 631
+},
+{
+"src": "marketplace",
+"id": "tushortz.pygame-snippets",
+"version": "0.0.1",
+"downloads": 790531.0,
+"rank": 632
+},
+{
+"src": "marketplace",
+"id": "yinfei.luahelper",
+"version": "0.2.29",
+"downloads": 785483.0,
+"rank": 635
+},
+{
+"src": "marketplace",
+"id": "CS50.lab50",
+"version": "1.1.1",
+"downloads": 783364.0,
+"rank": 636
+},
+{
+"src": "marketplace",
+"id": "PeterSteiner.pip-installer",
+"version": "0.0.4",
+"downloads": 781771.0,
+"rank": 637
+},
+{
+"src": "marketplace",
+"id": "flowtype.flow-for-vscode",
+"version": "3.1.5",
+"downloads": 779385.0,
+"rank": 639
+},
+{
+"src": "marketplace",
+"id": "MariusAlchimavicius.json-to-ts",
+"version": "1.8.0",
+"downloads": 778222.0,
+"rank": 640
+},
+{
+"src": "marketplace",
+"id": "idleberg.icon-fonts",
+"version": "2.5.4",
+"downloads": 775307.0,
+"rank": 642
+},
+{
+"src": "marketplace",
+"id": "standard.vscode-standard",
+"version": "2.1.3",
+"downloads": 774734.0,
+"rank": 643
+},
+{
+"src": "marketplace",
+"id": "sysoev.language-stylus",
+"version": "1.16.0",
+"downloads": 773825.0,
+"rank": 644
+},
+{
+"src": "marketplace",
+"id": "Gimly81.matlab",
+"version": "3.0.2",
+"downloads": 773216.0,
+"rank": 645
+},
+{
+"src": "marketplace",
+"id": "SolarLiner.linux-themes",
+"version": "1.0.1",
+"downloads": 763174.0,
+"rank": 648
+},
+{
+"src": "marketplace",
+"id": "mushan.vscode-paste-image",
+"version": "1.0.4",
+"downloads": 761219.0,
+"rank": 649
+},
+{
+"src": "marketplace",
+"id": "pdconsec.vscode-print",
+"version": "1.6.0",
+"downloads": 760434.0,
+"rank": 650
+},
+{
+"src": "marketplace",
+"id": "jakebathman.mysql-syntax",
+"version": "1.3.1",
+"downloads": 759184.0,
+"rank": 651
+},
+{
+"src": "marketplace",
+"id": "mosapride.zenkaku",
+"version": "0.0.3",
+"downloads": 754207.0,
+"rank": 654
+},
+{
+"src": "marketplace",
+"id": "shenjiaolong.vue-helper",
+"version": "5.0.15",
+"downloads": 753716.0,
+"rank": 655
+},
+{
+"src": "marketplace",
+"id": "richie5um2.vscode-sort-json",
+"version": "1.20.0",
+"downloads": 749572.0,
+"rank": 658
+},
+{
+"src": "marketplace",
+"id": "fabiospampinato.vscode-diff",
+"version": "2.1.2",
+"downloads": 749439.0,
+"rank": 659
+},
+{
+"src": "marketplace",
+"id": "austenc.tailwind-docs",
+"version": "2.1.0",
+"downloads": 745794.0,
+"rank": 660
+},
+{
+"src": "marketplace",
+"id": "JakeBecker.elixir-ls",
+"version": "0.31.1",
+"downloads": 744826.0,
+"rank": 662
+},
+{
+"src": "marketplace",
+"id": "jbenden.c-cpp-flylint",
+"version": "1.15.0",
+"downloads": 743432.0,
+"rank": 663
+},
+{
+"src": "marketplace",
+"id": "formulahendry.dotnet",
+"version": "0.0.4",
+"downloads": 742044.0,
+"rank": 664
+},
+{
+"src": "marketplace",
+"id": "Zaczero.bootstrap-v4-snippets",
+"version": "1.1.3",
+"downloads": 740104.0,
+"rank": 665
+},
+{
+"src": "marketplace",
+"id": "chuckjonas.apex-pmd",
+"version": "0.11.1",
+"downloads": 734970.0,
+"rank": 666
+},
+{
+"src": "marketplace",
+"id": "AndersEAndersen.html-class-suggestions",
+"version": "1.2.1",
+"downloads": 734746.0,
+"rank": 667
+},
+{
+"src": "marketplace",
+"id": "slightc.pip-manager",
+"version": "1.1.4",
+"downloads": 728412.0,
+"rank": 670
+},
+{
+"src": "marketplace",
+"id": "Shopify.ruby-extensions-pack",
+"version": "0.1.14",
+"downloads": 725521.0,
+"rank": 672
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.vs-keybindings",
+"version": "0.2.1",
+"downloads": 723045.0,
+"rank": 673
+},
+{
+"src": "marketplace",
+"id": "OBKoro1.korofileheader",
+"version": "4.9.3",
+"downloads": 719722.0,
+"rank": 674
+},
+{
+"src": "marketplace",
+"id": "adashen.vscode-tomcat",
+"version": "0.12.1",
+"downloads": 716232.0,
+"rank": 676
+},
+{
+"src": "marketplace",
+"id": "phproberto.vscode-php-getters-setters",
+"version": "1.2.3",
+"downloads": 715885.0,
+"rank": 677
+},
+{
+"src": "marketplace",
+"id": "GregorBiswanger.json2ts",
+"version": "0.0.6",
+"downloads": 715182.0,
+"rank": 678
+},
+{
+"src": "marketplace",
+"id": "mariorodeghiero.vue-theme",
+"version": "2.0.3",
+"downloads": 713846.0,
+"rank": 680
+},
+{
+"src": "marketplace",
+"id": "fivethree.vscode-svelte-snippets",
+"version": "0.5.0",
+"downloads": 712843.0,
+"rank": 681
+},
+{
+"src": "marketplace",
+"id": "ClemensPeters.format-json",
+"version": "1.0.3",
+"downloads": 711498.0,
+"rank": 682
+},
+{
+"src": "marketplace",
+"id": "jundat95.react-native-snippet",
+"version": "0.5.6",
+"downloads": 708149.0,
+"rank": 684
+},
+{
+"src": "marketplace",
+"id": "jawandarajbir.react-vscode-extension-pack",
+"version": "1.0.0",
+"downloads": 702286.0,
+"rank": 687
+},
+{
+"src": "marketplace",
+"id": "DivyanshuAgrawal.competitive-programming-helper",
+"version": "2026.11.1795106943",
+"downloads": 692383.0,
+"rank": 692
+},
+{
+"src": "marketplace",
+"id": "YouMayCallMeV.vscode-java-saber",
+"version": "0.1.2",
+"downloads": 691493.0,
+"rank": 693
+},
+{
+"src": "marketplace",
+"id": "cjhowe7.laravel-blade",
+"version": "1.1.2",
+"downloads": 690816.0,
+"rank": 694
+},
+{
+"src": "marketplace",
+"id": "funkyremi.vscode-google-translate",
+"version": "1.5.0",
+"downloads": 686228.0,
+"rank": 696
+},
+{
+"src": "marketplace",
+"id": "Fudge.auto-using",
+"version": "0.7.15",
+"downloads": 685535.0,
+"rank": 697
+},
+{
+"src": "marketplace",
+"id": "afractal.node-essentials",
+"version": "1.1.0",
+"downloads": 684565.0,
+"rank": 698
+},
+{
+"src": "marketplace",
+"id": "bigonesystems.django",
+"version": "1.0.2",
+"downloads": 684074.0,
+"rank": 700
+},
+{
+"src": "marketplace",
+"id": "Dadroit.dadroit-json-generator",
+"version": "1.2.2",
+"downloads": 683585.0,
+"rank": 702
+},
+{
+"src": "marketplace",
+"id": "tintoy.msbuild-project-tools",
+"version": "0.6.7",
+"downloads": 683186.0,
+"rank": 703
+},
+{
+"src": "marketplace",
+"id": "silvenon.mdx",
+"version": "0.1.1",
+"downloads": 681371.0,
+"rank": 704
+},
+{
+"src": "marketplace",
+"id": "heybourn.headwind",
+"version": "1.7.0",
+"downloads": 680881.0,
+"rank": 705
+},
+{
+"src": "marketplace",
+"id": "william-voyek.vscode-nginx",
+"version": "0.7.2",
+"downloads": 680349.0,
+"rank": 707
+},
+{
+"src": "marketplace",
+"id": "Endormi.2077-theme",
+"version": "1.5.3",
+"downloads": 679385.0,
+"rank": 708
+},
+{
+"src": "marketplace",
+"id": "walkme.Java-extension-pack",
+"version": "1.0.0",
+"downloads": 679371.0,
+"rank": 709
+},
+{
+"src": "marketplace",
+"id": "HarryHopkinson.vs-code-runner",
+"version": "2.2.5",
+"downloads": 678862.0,
+"rank": 712
+},
+{
+"src": "marketplace",
+"id": "hnw.vscode-auto-open-markdown-preview",
+"version": "0.0.4",
+"downloads": 677164.0,
+"rank": 714
+},
+{
+"src": "marketplace",
+"id": "sporiley.css-auto-prefix",
+"version": "0.3.0",
+"downloads": 671459.0,
+"rank": 717
+},
+{
+"src": "marketplace",
+"id": "bencoleman.armview",
+"version": "0.4.6",
+"downloads": 669563.0,
+"rank": 718
+},
+{
+"src": "marketplace",
+"id": "softwaredotcom.swdc-vscode",
+"version": "2.8.18",
+"downloads": 666974.0,
+"rank": 719
+},
+{
+"src": "marketplace",
+"id": "cmstead.jsrefactor",
+"version": "3.0.1",
+"downloads": 660954.0,
+"rank": 721
+},
+{
+"src": "marketplace",
+"id": "CS50.markdown50",
+"version": "1.0.1",
+"downloads": 660026.0,
+"rank": 723
+},
+{
+"src": "marketplace",
+"id": "qiu8310.minapp-vscode",
+"version": "2.4.14",
+"downloads": 658127.0,
+"rank": 724
+},
+{
+"src": "marketplace",
+"id": "HookyQR.minify",
+"version": "0.4.3",
+"downloads": 654066.0,
+"rank": 726
+},
+{
+"src": "marketplace",
+"id": "in4margaret.compareit",
+"version": "0.0.2",
+"downloads": 649711.0,
+"rank": 727
+},
+{
+"src": "marketplace",
+"id": "fabiospampinato.vscode-monokai-night",
+"version": "1.7.1",
+"downloads": 646985.0,
+"rank": 729
+},
+{
+"src": "marketplace",
+"id": "Atishay-Jain.All-Autocomplete",
+"version": "0.0.26",
+"downloads": 646640.0,
+"rank": 730
+},
+{
+"src": "marketplace",
+"id": "hwencc.html-tag-wrapper",
+"version": "0.2.3",
+"downloads": 646563.0,
+"rank": 731
+},
+{
+"src": "marketplace",
+"id": "wordpresstoolbox.wordpress-toolbox",
+"version": "1.3.16",
+"downloads": 643917.0,
+"rank": 733
+},
+{
+"src": "marketplace",
+"id": "p1c2u.docker-compose",
+"version": "0.5.1",
+"downloads": 641340.0,
+"rank": 734
+},
+{
+"src": "marketplace",
+"id": "miguelsolorio.min-theme",
+"version": "1.5.0",
+"downloads": 640607.0,
+"rank": 735
+},
+{
+"src": "marketplace",
+"id": "MS-SarifVSCode.sarif-viewer",
+"version": "3.4.5",
+"downloads": 638102.0,
+"rank": 736
+},
+{
+"src": "marketplace",
+"id": "marcelovelasquez.flutter-tree",
+"version": "1.0.0",
+"downloads": 638082.0,
+"rank": 737
+},
+{
+"src": "marketplace",
+"id": "BenjaminBenais.copilot-theme",
+"version": "1.1.0",
+"downloads": 637863.0,
+"rank": 738
+},
+{
+"src": "marketplace",
+"id": "oysun.vuehelper",
+"version": "0.1.0",
+"downloads": 636969.0,
+"rank": 739
+},
+{
+"src": "marketplace",
+"id": "fortran-lang.linter-gfortran",
+"version": "4.0.2026012202",
+"downloads": 636784.0,
+"rank": 740
+},
+{
+"src": "marketplace",
+"id": "wmaurer.vscode-jumpy",
+"version": "0.3.1",
+"downloads": 635082.0,
+"rank": 741
+},
+{
+"src": "marketplace",
+"id": "TaodongWu.ejs-snippets",
+"version": "0.1.0",
+"downloads": 634180.0,
+"rank": 742
+},
+{
+"src": "marketplace",
+"id": "luanpotter.dart-import",
+"version": "0.4.0",
+"downloads": 631167.0,
+"rank": 744
+},
+{
+"src": "marketplace",
+"id": "small.php-ci",
+"version": "0.4.2",
+"downloads": 628962.0,
+"rank": 746
+},
+{
+"src": "marketplace",
+"id": "karigari.chat",
+"version": "0.35.0",
+"downloads": 625462.0,
+"rank": 748
+},
+{
+"src": "marketplace",
+"id": "ms-toolsai.tensorboard",
+"version": "2024.3.1003121000",
+"downloads": 619763.0,
+"rank": 750
+},
+{
+"src": "marketplace",
+"id": "Azurite.azurite",
+"version": "3.38.0",
+"downloads": 615402.0,
+"rank": 751
+},
+{
+"src": "marketplace",
+"id": "1tontech.angular-material",
+"version": "0.13.0",
+"downloads": 614620.0,
+"rank": 752
+},
+{
+"src": "marketplace",
+"id": "mikeburgh.xml-format",
+"version": "1.1.3",
+"downloads": 614390.0,
+"rank": 753
+},
+{
+"src": "marketplace",
+"id": "supSugam.react-native-text-watcher",
+"version": "1.0.3",
+"downloads": 614294.0,
+"rank": 754
+},
+{
+"src": "marketplace",
+"id": "sianglim.slim",
+"version": "0.1.2",
+"downloads": 612128.0,
+"rank": 756
+},
+{
+"src": "marketplace",
+"id": "yuichinukiyama.vscode-preview-server",
+"version": "1.3.0",
+"downloads": 612032.0,
+"rank": 757
+},
+{
+"src": "marketplace",
+"id": "AESSoft.aessoft-class-autocomplete",
+"version": "0.1.0",
+"downloads": 608880.0,
+"rank": 758
+},
+{
+"src": "marketplace",
+"id": "tal7aouy.rainbow-bracket",
+"version": "1.0.2",
+"downloads": 607042.0,
+"rank": 760
+},
+{
+"src": "marketplace",
+"id": "torn4dom4n.latex-support",
+"version": "4.0.0",
+"downloads": 606707.0,
+"rank": 761
+},
+{
+"src": "marketplace",
+"id": "ionic.ionic",
+"version": "1.105.0",
+"downloads": 604626.0,
+"rank": 762
+},
+{
+"src": "marketplace",
+"id": "adrianwilczynski.namespace",
+"version": "1.1.2",
+"downloads": 602999.0,
+"rank": 763
+},
+{
+"src": "marketplace",
+"id": "premparihar.gotestexplorer",
+"version": "0.3.0",
+"downloads": 602964.0,
+"rank": 764
+},
+{
+"src": "marketplace",
+"id": "JannisX11.batch-rename-extension",
+"version": "0.0.6",
+"downloads": 601334.0,
+"rank": 766
+},
+{
+"src": "marketplace",
+"id": "neikeq.godot-csharp-vscode",
+"version": "0.2.1",
+"downloads": 599372.0,
+"rank": 767
+},
+{
+"src": "marketplace",
+"id": "ms-vscode.Theme-MarkdownKit",
+"version": "0.1.4",
+"downloads": 599148.0,
+"rank": 768
+},
+{
+"src": "marketplace",
+"id": "Wscats.vue",
+"version": "1.0.26",
+"downloads": 599090.0,
+"rank": 769
+},
+{
+"src": "marketplace",
+"id": "bceskavich.theme-dracula-at-night",
+"version": "2.7.1",
+"downloads": 598666.0,
+"rank": 770
+},
+{
+"src": "marketplace",
+"id": "anteprimorac.html-end-tag-labels",
+"version": "1.0.0",
+"downloads": 597377.0,
+"rank": 771
+},
+{
+"src": "marketplace",
+"id": "dgileadi.java-decompiler",
+"version": "0.0.4",
+"downloads": 594447.0,
+"rank": 773
+},
+{
+"src": "marketplace",
+"id": "mrmlnc.vscode-autoprefixer",
+"version": "3.0.1",
+"downloads": 591795.0,
+"rank": 774
+},
+{
+"src": "marketplace",
+"id": "sohibe.java-generate-setters-getters",
+"version": "8.0.1",
+"downloads": 590451.0,
+"rank": 775
+},
+{
+"src": "marketplace",
+"id": "PrimaFuture.open-php-html-js-in-browser",
+"version": "2.5.0",
+"downloads": 589003.0,
+"rank": 776
+},
+{
+"src": "marketplace",
+"id": "ahmadalli.vscode-nginx-conf",
+"version": "0.3.5",
+"downloads": 588229.0,
+"rank": 777
+},
+{
+"src": "marketplace",
+"id": "emilast.LogFileHighlighter",
+"version": "4.1.0",
+"downloads": 584065.0,
+"rank": 780
+},
+{
+"src": "marketplace",
+"id": "brapifra.c-compiler",
+"version": "0.0.4",
+"downloads": 582759.0,
+"rank": 782
+},
+{
+"src": "marketplace",
+"id": "golang.go-nightly",
+"version": "2024.8.2217",
+"downloads": 582182.0,
+"rank": 783
+},
+{
+"src": "marketplace",
+"id": "akhail.save-typing",
+"version": "0.1.0",
+"downloads": 581864.0,
+"rank": 784
+},
+{
+"src": "marketplace",
+"id": "planbcoding.vscode-react-refactor",
+"version": "1.1.3",
+"downloads": 575055.0,
+"rank": 789
+},
+{
+"src": "marketplace",
+"id": "cmstead.js-codeformer",
+"version": "2.6.1",
+"downloads": 571592.0,
+"rank": 790
+},
+{
+"src": "marketplace",
+"id": "starkwang.markdown",
+"version": "3.0.8",
+"downloads": 570856.0,
+"rank": 791
+},
+{
+"src": "marketplace",
+"id": "ysemeniuk.emmet-live",
+"version": "1.0.0",
+"downloads": 570832.0,
+"rank": 792
+},
+{
+"src": "marketplace",
+"id": "kaiwood.endwise",
+"version": "2.1.0",
+"downloads": 568221.0,
+"rank": 793
+},
+{
+"src": "marketplace",
+"id": "Gusto.packwerk-vscode",
+"version": "0.0.5",
+"downloads": 567121.0,
+"rank": 794
+},
+{
+"src": "marketplace",
+"id": "VisualStudioExptTeam.vscodeintellicode-completions",
+"version": "2.0.1",
+"downloads": 565911.0,
+"rank": 795
+},
+{
+"src": "marketplace",
+"id": "tobiasalthoff.atom-material-theme",
+"version": "1.10.10",
+"downloads": 565586.0,
+"rank": 796
+},
+{
+"src": "marketplace",
+"id": "natqe.reload",
+"version": "0.0.7",
+"downloads": 561301.0,
+"rank": 797
+},
+{
+"src": "marketplace",
+"id": "tintinweb.graphviz-interactive-preview",
+"version": "0.3.5",
+"downloads": 557855.0,
+"rank": 799
+},
+{
+"src": "marketplace",
+"id": "robberphex.php-debug",
+"version": "1.14.0",
+"downloads": 557005.0,
+"rank": 801
+},
+{
+"src": "marketplace",
+"id": "wwm.better-align",
+"version": "1.1.6",
+"downloads": 556223.0,
+"rank": 802
+},
+{
+"src": "marketplace",
+"id": "ZixuanWang.linkerscript",
+"version": "1.0.4",
+"downloads": 556111.0,
+"rank": 803
+},
+{
+"src": "marketplace",
+"id": "coderfee.open-html-in-browser",
+"version": "0.1.21",
+"downloads": 553924.0,
+"rank": 804
+},
+{
+"src": "marketplace",
+"id": "danwahlin.angular2-snippets",
+"version": "1.0.22",
+"downloads": 552061.0,
+"rank": 805
+},
+{
+"src": "marketplace",
+"id": "YclepticStudios.unity-snippets",
+"version": "0.1.2",
+"downloads": 552050.0,
+"rank": 806
+},
+{
+"src": "marketplace",
+"id": "ms-dynamics-smb.al",
+"version": "30.0.3128326",
+"downloads": 551395.0,
+"rank": 807
+},
+{
+"src": "marketplace",
+"id": "daylerees.rainglow",
+"version": "1.5.2",
+"downloads": 547547.0,
+"rank": 809
+},
+{
+"src": "marketplace",
+"id": "jamesmaj.easy-icons",
+"version": "0.3.1",
+"downloads": 546912.0,
+"rank": 810
+},
+{
+"src": "marketplace",
+"id": "aaravb.chrome-extension-developer-tools",
+"version": "2.1.0",
+"downloads": 544511.0,
+"rank": 811
+},
+{
+"src": "marketplace",
+"id": "SimonTest.simontest",
+"version": "1.9.10",
+"downloads": 540178.0,
+"rank": 813
+},
+{
+"src": "marketplace",
+"id": "RapidAPI.vscode-rapidapi-client",
+"version": "1.10.2",
+"downloads": 536902.0,
+"rank": 814
+},
+{
+"src": "marketplace",
+"id": "mquandalle.graphql",
+"version": "0.1.2",
+"downloads": 535081.0,
+"rank": 815
+},
+{
+"src": "marketplace",
+"id": "brandonfowler.exe-runner",
+"version": "1.2.1",
+"downloads": 534821.0,
+"rank": 816
+},
+{
+"src": "marketplace",
+"id": "uloco.theme-bluloco-dark",
+"version": "3.10.1",
+"downloads": 533579.0,
+"rank": 818
+},
+{
+"src": "marketplace",
+"id": "Sixth.sixth-ai",
+"version": "0.5.0",
+"downloads": 532363.0,
+"rank": 819
+},
+{
+"src": "marketplace",
+"id": "Cardinal90.multi-cursor-case-preserve",
+"version": "1.0.5",
+"downloads": 531677.0,
+"rank": 820
+},
+{
+"src": "marketplace",
+"id": "naumovs.theme-oceanicnext",
+"version": "0.0.4",
+"downloads": 530698.0,
+"rank": 821
+},
+{
+"src": "marketplace",
+"id": "felipe-mendes.slack-theme",
+"version": "1.9.17",
+"downloads": 530579.0,
+"rank": 822
+},
+{
+"src": "marketplace",
+"id": "gamunu.vscode-yarn",
+"version": "2.3.0",
+"downloads": 530209.0,
+"rank": 823
+},
+{
+"src": "marketplace",
+"id": "nodesource.vscode-for-node-js-development-pack",
+"version": "2.0.1",
+"downloads": 529902.0,
+"rank": 824
+},
+{
+"src": "marketplace",
+"id": "deerawan.vscode-faker",
+"version": "2.0.0",
+"downloads": 529173.0,
+"rank": 825
+},
+{
+"src": "marketplace",
+"id": "msjsdiag.cordova-tools",
+"version": "2.7.0",
+"downloads": 528103.0,
+"rank": 826
+},
+{
+"src": "marketplace",
+"id": "TeamsDevApp.ms-teams-vscode-extension",
+"version": "6.21.2026111105",
+"downloads": 528034.0,
+"rank": 827
+},
+{
+"src": "marketplace",
+"id": "Shopify.polaris-for-vscode",
+"version": "0.9.8",
+"downloads": 526724.0,
+"rank": 828
+},
+{
+"src": "marketplace",
+"id": "EasyCodeAI.chatgpt-gpt4-gpt3-vscode",
+"version": "2.1.10",
+"downloads": 523149.0,
+"rank": 830
+},
+{
+"src": "marketplace",
+"id": "keyring.Lua",
+"version": "0.0.9",
+"downloads": 523058.0,
+"rank": 831
+},
+{
+"src": "marketplace",
+"id": "ikasann-self.vscode-chat-gpt",
+"version": "1.2.0",
+"downloads": 522435.0,
+"rank": 832
+},
+{
+"src": "marketplace",
+"id": "swellaby.node-pack",
+"version": "0.1.16",
+"downloads": 520996.0,
+"rank": 833
+},
+{
+"src": "marketplace",
+"id": "Kingleo.deepseek-web",
+"version": "1.0.21",
+"downloads": 519866.0,
+"rank": 834
+},
+{
+"src": "marketplace",
+"id": "Percy.vscode-numpy-viewer",
+"version": "0.1.11",
+"downloads": 517076.0,
+"rank": 835
+},
+{
+"src": "marketplace",
+"id": "bibhasdn.django-snippets",
+"version": "1.1.1",
+"downloads": 512804.0,
+"rank": 836
+},
+{
+"src": "marketplace",
+"id": "adrianwilczynski.terminal-commands",
+"version": "1.0.5",
+"downloads": 511964.0,
+"rank": 837
+},
+{
+"src": "marketplace",
+"id": "docsmsft.docs-markdown",
+"version": "1.0.18",
+"downloads": 511129.0,
+"rank": 838
+},
+{
+"src": "marketplace",
+"id": "1YiB.svelte-bundle",
+"version": "1.0.0",
+"downloads": 510730.0,
+"rank": 839
+},
+{
+"src": "marketplace",
+"id": "AndrewMcGoveran.react-component-generator",
+"version": "1.1.1",
+"downloads": 509290.0,
+"rank": 840
+},
+{
+"src": "marketplace",
+"id": "slevesque.vscode-zipexplorer",
+"version": "0.3.1",
+"downloads": 506736.0,
+"rank": 841
+},
+{
+"src": "marketplace",
+"id": "docsmsft.docs-yaml",
+"version": "1.0.6",
+"downloads": 506410.0,
+"rank": 842
+},
+{
+"src": "marketplace",
+"id": "uloco.theme-bluloco-light",
+"version": "3.10.0",
+"downloads": 506378.0,
+"rank": 843
+},
+{
+"src": "marketplace",
+"id": "loiane.angular-extension-pack",
+"version": "1.2.4",
+"downloads": 506100.0,
+"rank": 844
+},
+{
+"src": "marketplace",
+"id": "xyz.plsql-language",
+"version": "1.8.2",
+"downloads": 504573.0,
+"rank": 845
+}
+]
